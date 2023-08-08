@@ -1,0 +1,5 @@
+Marisa's Shooting Event
+
+Value 1: The amount of health to take away (0-100%)
+
+Value 2: unused

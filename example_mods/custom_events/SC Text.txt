@@ -1,0 +1,3 @@
+Makes the spell text appear at the top
+
+Value 1: Image to use: "images/Spell Cards/Value 1 Text.png"

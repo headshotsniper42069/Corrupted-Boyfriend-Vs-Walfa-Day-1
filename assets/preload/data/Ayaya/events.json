@@ -1,0 +1,511 @@
+{
+	"song": {
+		"events": [
+			[
+				8322.58064516129,
+				[
+					[
+						"Opponent Fade",
+						"0",
+						"0"
+					]
+				]
+			],
+			[
+				10258.064516129,
+				[
+					[
+						"Change Character",
+						"1",
+						"shamei_stare"
+					]
+				]
+			],
+			[
+				10618.5483870968,
+				[
+					[
+						"Opponent Fade",
+						"2",
+						"10"
+					]
+				]
+			],
+			[
+				49548.3870967742,
+				[
+					[
+						"Set Song Length",
+						"default",
+						"6, expoOut"
+					]
+				]
+			],
+			[
+				49548.3870967742,
+				[
+					[
+						"Fading",
+						"5",
+						"off"
+					]
+				]
+			],
+			[
+				52645.1612903226,
+				[
+					[
+						"Change Scroll Speed",
+						"1.3",
+						"1"
+					]
+				]
+			],
+			[
+				55645.1612903226,
+				[
+					[
+						"Flash Camera",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				55741.935483871,
+				[
+					[
+						"Change Character",
+						"1",
+						"shamei-bbm"
+					],
+					[
+						"Change Character",
+						"0",
+						"bf"
+					]
+				]
+			],
+			[
+				55741.935483871,
+				[
+					[
+						"Change Character",
+						"GF",
+						"deadgf"
+					]
+				]
+			],
+			[
+				55838.7096774194,
+				[
+					[
+						"Fading",
+						"0.1",
+						"on"
+					]
+				]
+			],
+			[
+				104516.129032258,
+				[
+					[
+						"Change Scroll Speed",
+						"1",
+						"0.5"
+					]
+				]
+			],
+			[
+				111483.870967742,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.5"
+					]
+				]
+			],
+			[
+				117677.419354839,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"0.5"
+					]
+				]
+			],
+			[
+				117677.419354839,
+				[
+					[
+						"Change Scroll Speed",
+						"1.3",
+						"0.5"
+					]
+				]
+			],
+			[
+				120774.193548387,
+				[
+					[
+						"Change Scroll Speed",
+						"1.4",
+						"0.5"
+					]
+				]
+			],
+			[
+				122322.580645161,
+				[
+					[
+						"Change Scroll Speed",
+						"1.4",
+						"0.5"
+					]
+				]
+			],
+			[
+				126537.634408602,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.5"
+					]
+				]
+			],
+			[
+				126537.634408602,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				126704.301075269,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				126870.967741936,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				127037.634408602,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				127204.301075269,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				127370.967741936,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				127537.634408602,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				133370.967741936,
+				[
+					[
+						"Add Camera Zoom",
+						"0.25",
+						"0.25"
+					]
+				]
+			],
+			[
+				133454.301075269,
+				[
+					[
+						"Add Camera Zoom",
+						"0.35",
+						"0.35"
+					]
+				]
+			],
+			[
+				133537.634408602,
+				[
+					[
+						"Add Camera Zoom",
+						"0.45",
+						"0.45"
+					]
+				]
+			],
+			[
+				177204.301075269,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				177704.301075269,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				178037.634408603,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				178370.967741936,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				178704.301075269,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				179037.634408603,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				179454.301075269,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				179870.967741936,
+				[
+					[
+						"Change Scroll Speed",
+						"1.6",
+						"1"
+					]
+				]
+			],
+			[
+				181704.301075269,
+				[
+					[
+						"Play Animation",
+						"dies",
+						"GF"
+					]
+				]
+			],
+			[
+				182704.301075269,
+				[
+					[
+						"Change Character",
+						"GF",
+						"nogf"
+					]
+				]
+			],
+			[
+				223870.967741936,
+				[
+					[
+						"Change Scroll Speed",
+						"1.2",
+						"1"
+					]
+				]
+			],
+			[
+				230537.634408603,
+				[
+					[
+						"Change Scroll Speed",
+						"1.3",
+						"0.5"
+					]
+				]
+			],
+			[
+				233204.30107527,
+				[
+					[
+						"Change Scroll Speed",
+						"1.4",
+						"0.5"
+					]
+				]
+			],
+			[
+				235870.967741936,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"0.5"
+					]
+				]
+			],
+			[
+				238537.634408603,
+				[
+					[
+						"Change Scroll Speed",
+						"1.6",
+						"0.5"
+					]
+				]
+			],
+			[
+				241204.30107527,
+				[
+					[
+						"Fading",
+						"5",
+						"off"
+					]
+				]
+			],
+			[
+				243870.967741936,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				244037.634408603,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				244204.30107527,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				244370.967741936,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				244537.634408603,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				244704.30107527,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			],
+			[
+				244870.967741936,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"shamei-bbm"
+					]
+				]
+			]
+		]
+	}
+}

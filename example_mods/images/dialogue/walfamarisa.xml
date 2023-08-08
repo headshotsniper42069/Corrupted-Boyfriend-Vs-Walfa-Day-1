@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="walfa.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Marisa_Happy0000" x="50" y="50" width="462" height="433" frameX="0" frameY="0" frameWidth="470" frameHeight="439"/>
+	<SubTexture name="Marisa_Happy0001" x="50" y="50" width="462" height="433" frameX="0" frameY="0" frameWidth="470" frameHeight="439"/>
+	<SubTexture name="Marisa_Happy0002" x="562" y="50" width="465" height="435" frameX="0" frameY="-1" frameWidth="470" frameHeight="439"/>
+	<SubTexture name="Marisa_Happy0003" x="562" y="50" width="465" height="435" frameX="0" frameY="-1" frameWidth="470" frameHeight="439"/>
+	<SubTexture name="Marisa_Happy0004" x="1077" y="50" width="470" height="438" frameX="0" frameY="-1" frameWidth="470" frameHeight="439"/>
+	<SubTexture name="Marisa_Happy0005" x="1077" y="50" width="470" height="438" frameX="0" frameY="-1" frameWidth="470" frameHeight="439"/>
+	<SubTexture name="Marisa_Happy_Done0000" x="1077" y="50" width="470" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="439"/>
+	<SubTexture name="Marisa_Mic0000" x="1597" y="50" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic0001" x="1597" y="50" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic0002" x="2109" y="50" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic0003" x="2109" y="50" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic0004" x="2623" y="50" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic0005" x="2623" y="50" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Done0000" x="2623" y="50" width="470" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Happy0000" x="3143" y="50" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Happy0001" x="3143" y="50" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Happy0002" x="50" y="538" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Happy0003" x="50" y="538" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Happy0004" x="564" y="538" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Happy0005" x="564" y="538" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Mic_Happy_Done0000" x="564" y="538" width="470" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Normal0000" x="1084" y="538" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Normal0001" x="1084" y="538" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Normal0002" x="1596" y="538" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Normal0003" x="1596" y="538" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Normal0004" x="2110" y="538" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Normal0005" x="2110" y="538" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Normal_Done0000" x="2110" y="538" width="470" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Sad0000" x="2630" y="538" width="463" height="437" frameX="0" frameY="0" frameWidth="470" frameHeight="443"/>
+	<SubTexture name="Marisa_Sad0001" x="2630" y="538" width="463" height="437" frameX="0" frameY="0" frameWidth="470" frameHeight="443"/>
+	<SubTexture name="Marisa_Sad0002" x="3143" y="538" width="464" height="436" frameX="0" frameY="-4" frameWidth="470" frameHeight="443"/>
+	<SubTexture name="Marisa_Sad0003" x="3143" y="538" width="464" height="436" frameX="0" frameY="-4" frameWidth="470" frameHeight="443"/>
+	<SubTexture name="Marisa_Sad0004" x="50" y="1026" width="470" height="438" frameX="0" frameY="-5" frameWidth="470" frameHeight="443"/>
+	<SubTexture name="Marisa_Sad0005" x="50" y="1026" width="470" height="438" frameX="0" frameY="-5" frameWidth="470" frameHeight="443"/>
+	<SubTexture name="Marisa_Sad_Done0000" x="50" y="1026" width="470" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="443"/>
+	<SubTexture name="Marisa_Thinking0000" x="570" y="1026" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Thinking0001" x="570" y="1026" width="462" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Thinking0002" x="1082" y="1026" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Thinking0003" x="1082" y="1026" width="464" height="436" frameX="0" frameY="-5" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Thinking0004" x="1596" y="1026" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Thinking0005" x="1596" y="1026" width="470" height="438" frameX="0" frameY="-6" frameWidth="470" frameHeight="444"/>
+	<SubTexture name="Marisa_Thinking_Done0000" x="1596" y="1026" width="470" height="438" frameX="0" frameY="0" frameWidth="470" frameHeight="444"/>
+</TextureAtlas>

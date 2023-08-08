@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="walfa.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF_Mic0000" x="50" y="50" width="335" height="463" frameX="-8" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Mic0001" x="50" y="50" width="335" height="463" frameX="-8" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Mic0002" x="435" y="50" width="336" height="461" frameX="-3" frameY="-2" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Mic0003" x="435" y="50" width="336" height="461" frameX="-3" frameY="-2" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Mic0004" x="821" y="50" width="336" height="458" frameX="0" frameY="-5" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Mic0005" x="821" y="50" width="336" height="458" frameX="0" frameY="-5" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Mic_Done0000" x="821" y="50" width="336" height="458" frameX="0" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Normal0000" x="1207" y="50" width="335" height="463" frameX="-8" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Normal0001" x="1207" y="50" width="335" height="463" frameX="-8" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Normal0002" x="1592" y="50" width="336" height="461" frameX="-3" frameY="-2" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Normal0003" x="1592" y="50" width="336" height="461" frameX="-3" frameY="-2" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Normal0004" x="50" y="563" width="336" height="458" frameX="0" frameY="-5" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Normal0005" x="50" y="563" width="336" height="458" frameX="0" frameY="-5" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Normal_Done0000" x="50" y="563" width="336" height="458" frameX="0" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Pose0000" x="436" y="563" width="335" height="461" frameX="-6" frameY="0" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="BF_Pose0001" x="436" y="563" width="335" height="461" frameX="-6" frameY="0" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="BF_Pose0002" x="821" y="563" width="336" height="460" frameX="-2" frameY="-1" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="BF_Pose0003" x="821" y="563" width="336" height="460" frameX="-2" frameY="-1" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="BF_Pose0004" x="1207" y="563" width="336" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="BF_Pose0005" x="1207" y="563" width="336" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="BF_Pose_Done0000" x="1207" y="563" width="336" height="458" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="BF_Worried0000" x="1593" y="563" width="335" height="463" frameX="-8" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Worried0001" x="1593" y="563" width="335" height="463" frameX="-8" frameY="0" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Worried0002" x="50" y="1076" width="336" height="461" frameX="-3" frameY="-2" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Worried0003" x="50" y="1076" width="336" height="461" frameX="-3" frameY="-2" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Worried0004" x="436" y="1076" width="336" height="458" frameX="0" frameY="-5" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Worried0005" x="436" y="1076" width="336" height="458" frameX="0" frameY="-5" frameWidth="343" frameHeight="463"/>
+	<SubTexture name="BF_Worried_Done0000" x="436" y="1076" width="336" height="458" frameX="0" frameY="0" frameWidth="343" frameHeight="463"/>
+</TextureAtlas>

@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				195,
+				223
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Remilia_Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-47,
+				46
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Remilia_Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-55,
+				381
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Remilia_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				228
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Remilia_Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				68,
+				248
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Remilia_Ide_Alt"
+		},
+		{
+			"offsets": [
+				1741,
+				315
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "boom",
+			"indices": [],
+			"name": "Remilia_Boom"
+		},
+		{
+			"offsets": [
+				150,
+				390
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "spin",
+			"indices": [],
+			"name": "Remilia_Spin"
+		},
+		{
+			"offsets": [
+				70,
+				250
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "appear",
+			"indices": [],
+			"name": "Remilia_Appears"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-28,
+				260
+			],
+			"anim": "disappear",
+			"fps": 24,
+			"name": "Remilia_Dissapears",
+			"indices": []
+		},
+		{
+			"offsets": [
+				55,
+				260
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Mistr00s_Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mistr00s-flipped",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mistr00s",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		300,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

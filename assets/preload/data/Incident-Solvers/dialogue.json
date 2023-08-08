@@ -1,0 +1,140 @@
+{
+	"dialogue": [
+		{
+			"expression": "Normal",
+			"text": "Wow, I have to give it to ya kid... This was sick da ze~",
+			"boxState": "normal",
+			"sound": "MarisaV",
+			"speed": 0.05,
+			"portrait": "walfamarisa"
+		},
+		{
+			"expression": "Pose",
+			"text": "Beep.",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		},
+		{
+			"expression": "Normal",
+			"text": "Looks like you guys attracted a crowd as well. Good job!",
+			"boxState": "normal",
+			"sound": "GFV",
+			"speed": 0.05,
+			"portrait": "walfagf"
+		},
+		{
+			"expression": "Hating",
+			"text": ". . . ",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.005,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Hating",
+			"text": "All I'm seeing is more dirt in the Shrine...",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Thinking",
+			"text": "Oh, come on Rei, this is fun!",
+			"boxState": "normal",
+			"sound": "MarisaV",
+			"speed": 0.05,
+			"portrait": "walfamarisa"
+		},
+		{
+			"expression": "Hating",
+			"text": "Fun?",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Angry",
+			"text": "You're not the one who has to clean up this mess, you know.",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Normal",
+			"text": "Be-",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		},
+		{
+			"expression": "Angry",
+			"text": "And you be quiet. No one understands you except for your Girlfriend.",
+			"boxState": "angry",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Sad",
+			"text": "Yo, Reimu. Is everything alright?",
+			"boxState": "normal",
+			"sound": "MarisaV",
+			"speed": 0.05,
+			"portrait": "walfamarisa"
+		},
+		{
+			"expression": "Angry",
+			"text": "This whole day is-",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Thinking",
+			"text": "Wait... he only needs one more song.",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Angry",
+			"text": "That is correct.",
+			"boxState": "normal",
+			"sound": "GFV",
+			"speed": 0.05,
+			"portrait": "walfagf"
+		},
+		{
+			"expression": "Sarcastic",
+			"text": "Marisa, you and me are gonna make him regret to have ever fallen here.",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Normal",
+			"text": "Alright, da ze~",
+			"boxState": "normal",
+			"sound": "MarisaV",
+			"speed": 0.05,
+			"portrait": "walfamarisa"
+		},
+		{
+			"expression": "Pose",
+			"text": "Beep!",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		}
+	]
+}

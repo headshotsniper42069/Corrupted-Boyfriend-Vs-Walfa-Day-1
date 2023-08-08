@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-41,
+				-263
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Reimu_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				131,
+				-256
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Reimu_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				-297
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Reimu_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-22,
+				-236
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Reimu_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-57,
+				-269
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Reimu_Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-38,
+				-265
+			],
+			"loop": false,
+			"fps": 45,
+			"anim": "card",
+			"indices": [],
+			"name": "Reimu_Card"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/reimu_walfa",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "walfareimu",
+	"flip_x": false,
+	"healthbar_colors": [
+		233,
+		30,
+		87
+	],
+	"camera_position": [
+		-50,
+		390
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

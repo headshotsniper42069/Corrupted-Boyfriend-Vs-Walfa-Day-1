@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ripper.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ripper0000" x="48" y="48" width="338" height="265" frameX="0" frameY="-22" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0001" x="434" y="48" width="328" height="276" frameX="-5" frameY="-11" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0002" x="810" y="48" width="324" height="280" frameX="-7" frameY="-7" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0003" x="1182" y="48" width="322" height="283" frameX="-8" frameY="-4" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0004" x="1552" y="48" width="320" height="285" frameX="-9" frameY="-2" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0005" x="48" y="381" width="318" height="286" frameX="-10" frameY="-1" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0006" x="414" y="381" width="318" height="287" frameX="-10" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0007" x="780" y="381" width="318" height="287" frameX="-10" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0008" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0009" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0010" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0011" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0012" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0013" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0014" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0015" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+	<SubTexture name="ripper0016" x="780" y="381" width="318" height="287" frameX="-11" frameY="0" frameWidth="338" frameHeight="287"/>
+</TextureAtlas>

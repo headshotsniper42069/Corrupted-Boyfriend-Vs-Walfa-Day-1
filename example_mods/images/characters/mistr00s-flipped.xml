@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Unbenannt-1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mistr00s_Idle0000" x="51" y="51" width="569" height="592" frameX="-30" frameY="-152" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0001" x="51" y="51" width="569" height="592" frameX="-30" frameY="-152" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0002" x="671" y="51" width="538" height="643" frameX="-20" frameY="-72" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0003" x="671" y="51" width="538" height="643" frameX="-20" frameY="-72" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0004" x="1260" y="51" width="545" height="683" frameX="-13" frameY="-17" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0005" x="1260" y="51" width="545" height="683" frameX="-13" frameY="-17" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0006" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0007" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0008" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0009" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0010" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0011" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0012" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0013" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+	<SubTexture name="Mistr00s_Idle0014" x="51" y="785" width="536" height="706" frameX="0" frameY="0" frameWidth="599" frameHeight="744"/>
+</TextureAtlas>

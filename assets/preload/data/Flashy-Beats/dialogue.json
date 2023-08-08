@@ -1,0 +1,212 @@
+{
+	"dialogue": [
+		{
+			"expression": "Shocked",
+			"text": "Are you two ok? You just fell out of the sk-",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Angry",
+			"text": "...wait a minute.",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Hating",
+			"text": "You two didn't just appear because of any incident, right?",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Worried",
+			"text": "Beep",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		},
+		{
+			"expression": "Thinking",
+			"text": "What?",
+			"boxState": "normal",
+			"portrait": "walfareimu",
+			"speed": 0.05,
+			"sound": "ReimuV"
+		},
+		{
+			"expression": "Normal",
+			"text": "Oh, sorry, he can only speak in beeps and boops.",
+			"boxState": "normal",
+			"portrait": "walfagf",
+			"speed": 0.05,
+			"sound": "GFV"
+		},
+		{
+			"expression": "Thinking",
+			"text": "Alright...?",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Normal",
+			"text": "My name is Girlfriend, and this is Boyfriend... An-",
+			"boxState": "normal",
+			"sound": "GFV",
+			"speed": 0.05,
+			"portrait": "walfagf"
+		},
+		{
+			"expression": "Shocked",
+			"text": "Wait, wait, wait!",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Hating",
+			"text": "Your names are actually Boyfriend and Girlfriend?!?",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Angry",
+			"text": "Any problem with that?",
+			"boxState": "normal",
+			"sound": "GFV",
+			"speed": 0.05,
+			"portrait": "walfagf"
+		},
+		{
+			"expression": "Hating",
+			"text": "Continue...",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Normal",
+			"text": "Anyway... What I wanted to say was that a portal sucked us in, and brought us here.",
+			"boxState": "normal",
+			"sound": "GFV",
+			"speed": 0.05,
+			"portrait": "walfagf"
+		},
+		{
+			"expression": "Pose",
+			"text": "Beep.",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		},
+		{
+			"expression": "Hating",
+			"text": "Great...",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Hating",
+			"text": "And let me guess, you two need help finding a way home...",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Worried",
+			"text": "Correct...",
+			"boxState": "normal",
+			"sound": "GFV",
+			"speed": 0.05,
+			"portrait": "walfagf"
+		},
+		{
+			"expression": "Pose",
+			"text": "Bap.",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		},
+		{
+			"expression": "Sigh",
+			"text": "......",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "pissed",
+			"text": "What do I have to do?",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "normal",
+			"text": "Well, rapping solved every problem we had so far.",
+			"boxState": "normal",
+			"sound": "GFV",
+			"speed": 0.05,
+			"portrait": "walfagf"
+		},
+		{
+			"expression": "Thinking",
+			"text": "Rapping?",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Mic",
+			"text": "Beep!",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		},
+		{
+			"expression": "Mic",
+			"text": "Of course, during the one day I have time to clean the Shrine...",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		},
+		{
+			"expression": "Pose",
+			"text": "Ba-",
+			"boxState": "normal",
+			"sound": "BFV",
+			"speed": 0.05,
+			"portrait": "walfabf"
+		},
+		{
+			"expression": "Pissed",
+			"text": "Let's just get this over with...",
+			"boxState": "normal",
+			"sound": "ReimuV",
+			"speed": 0.05,
+			"portrait": "walfareimu"
+		}
+	]
+}

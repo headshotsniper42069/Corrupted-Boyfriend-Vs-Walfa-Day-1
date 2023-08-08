@@ -1,0 +1,177 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				260
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Remilia_Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				150,
+				390
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "spin",
+			"indices": [],
+			"name": "Remilia_Spin"
+		},
+		{
+			"offsets": [
+				-28,
+				260
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "disappear",
+			"indices": [],
+			"name": "Remilia_Dissapears"
+		},
+		{
+			"offsets": [
+				70,
+				250
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "appear",
+			"indices": [],
+			"name": "Remilia_Appears"
+		},
+		{
+			"offsets": [
+				69,
+				249
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Remilia_Ide_Alt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1741,
+				315
+			],
+			"anim": "boom",
+			"fps": 12,
+			"name": "Remilia_Boom",
+			"indices": []
+		},
+		{
+			"offsets": [
+				195,
+				223
+			],
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Remilia_Left0"
+		},
+		{
+			"offsets": [
+				-47,
+				46
+			],
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Remilia_Down0"
+		},
+		{
+			"offsets": [
+				-55,
+				381
+			],
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Remilia_Up0"
+		},
+		{
+			"offsets": [
+				-30,
+				228
+			],
+			"indices": [
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Remilia_Right0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mistr00s",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mistr00s",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		300,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

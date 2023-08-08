@@ -1,0 +1,43 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "Hard, Lunatic",
+	"hideFreeplay": false,
+	"storyNameSettings": [
+		10,
+		10,
+		24
+	],
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Ayaya",
+			"aya",
+			[
+				60,
+				60,
+				60
+			],
+			null,
+			[
+				100,
+				50,
+				62
+			],
+			"ayaya",
+			[
+				300,
+				100,
+				0.6
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
+}

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kkhtakoishi.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Koishi_Down0000" x="12" y="12" width="506" height="630" frameX="0" frameY="-11" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0001" x="12" y="12" width="506" height="630" frameX="0" frameY="-11" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0002" x="550" y="12" width="496" height="639" frameX="-4" frameY="-2" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0003" x="550" y="12" width="496" height="639" frameX="-4" frameY="-2" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0004" x="1078" y="12" width="484" height="641" frameX="-6" frameY="0" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0005" x="1078" y="12" width="484" height="641" frameX="-6" frameY="0" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0006" x="1078" y="12" width="484" height="641" frameX="-6" frameY="0" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0007" x="1078" y="12" width="484" height="641" frameX="-6" frameY="0" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0008" x="1078" y="12" width="484" height="641" frameX="-6" frameY="0" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Down0009" x="1078" y="12" width="484" height="641" frameX="-6" frameY="0" frameWidth="506" frameHeight="641"/>
+	<SubTexture name="Koishi_Idle0000" x="1594" y="12" width="497" height="729" frameX="0" frameY="-6" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0001" x="1594" y="12" width="497" height="729" frameX="0" frameY="-6" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0002" x="2123" y="12" width="489" height="729" frameX="-8" frameY="-6" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0003" x="2123" y="12" width="489" height="729" frameX="-8" frameY="-6" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0004" x="2644" y="12" width="486" height="733" frameX="-11" frameY="-2" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0005" x="2644" y="12" width="486" height="733" frameX="-11" frameY="-2" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0006" x="3162" y="12" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0007" x="3162" y="12" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0008" x="12" y="779" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0009" x="12" y="779" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0010" x="529" y="779" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0011" x="529" y="779" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0012" x="529" y="779" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0013" x="529" y="779" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Idle0014" x="529" y="779" width="485" height="735" frameX="-12" frameY="0" frameWidth="497" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0000" x="1046" y="779" width="577" height="735" frameX="0" frameY="0" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0001" x="1046" y="779" width="577" height="735" frameX="0" frameY="0" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0002" x="1655" y="779" width="549" height="725" frameX="-32" frameY="-10" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0003" x="1655" y="779" width="549" height="725" frameX="-32" frameY="-10" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0004" x="2236" y="779" width="538" height="721" frameX="-47" frameY="-14" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0005" x="2236" y="779" width="538" height="721" frameX="-47" frameY="-14" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0006" x="2236" y="779" width="538" height="721" frameX="-47" frameY="-14" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0007" x="2236" y="779" width="538" height="721" frameX="-47" frameY="-14" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0008" x="2236" y="779" width="538" height="721" frameX="-47" frameY="-14" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Left0009" x="2236" y="779" width="538" height="721" frameX="-47" frameY="-14" frameWidth="585" frameHeight="735"/>
+	<SubTexture name="Koishi_Right0000" x="2806" y="779" width="523" height="705" frameX="-15" frameY="-10" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0001" x="2806" y="779" width="523" height="705" frameX="-15" frameY="-10" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0002" x="3361" y="779" width="515" height="714" frameX="-6" frameY="-1" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0003" x="3361" y="779" width="515" height="714" frameX="-6" frameY="-1" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0004" x="12" y="1546" width="514" height="715" frameX="0" frameY="0" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0005" x="12" y="1546" width="514" height="715" frameX="0" frameY="0" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0006" x="12" y="1546" width="514" height="715" frameX="0" frameY="0" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0007" x="12" y="1546" width="514" height="715" frameX="0" frameY="0" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0008" x="12" y="1546" width="514" height="715" frameX="0" frameY="0" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Right0009" x="12" y="1546" width="514" height="715" frameX="0" frameY="0" frameWidth="538" frameHeight="715"/>
+	<SubTexture name="Koishi_Up0000" x="558" y="1546" width="544" height="853" frameX="-5" frameY="0" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0001" x="558" y="1546" width="544" height="853" frameX="-5" frameY="0" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0002" x="1134" y="1546" width="546" height="827" frameX="-2" frameY="-26" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0003" x="1134" y="1546" width="546" height="827" frameX="-2" frameY="-26" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0004" x="1712" y="1546" width="546" height="811" frameX="0" frameY="-42" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0005" x="1712" y="1546" width="546" height="811" frameX="0" frameY="-42" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0006" x="1712" y="1546" width="546" height="811" frameX="0" frameY="-42" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0007" x="1712" y="1546" width="546" height="811" frameX="0" frameY="-42" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0008" x="1712" y="1546" width="546" height="811" frameX="0" frameY="-42" frameWidth="549" frameHeight="853"/>
+	<SubTexture name="Koishi_Up0009" x="1712" y="1546" width="546" height="811" frameX="0" frameY="-42" frameWidth="549" frameHeight="853"/>
+</TextureAtlas>
