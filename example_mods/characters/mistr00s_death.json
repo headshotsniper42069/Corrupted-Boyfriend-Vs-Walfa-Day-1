@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				55,
+				260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Remilia_Idle"
+		},
+		{
+			"offsets": [
+				195,
+				173
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Remilia_Left0"
+		},
+		{
+			"offsets": [
+				-37,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Remilia_Down0"
+		},
+		{
+			"offsets": [
+				-45,
+				331
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Remilia_Up0"
+		},
+		{
+			"offsets": [
+				0,
+				190
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Remilia_Right0"
+		},
+		{
+			"offsets": [
+				90,
+				200
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "Remilia_Dies"
+		},
+		{
+			"offsets": [
+				-50,
+				240
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": false,
+			"name": "Remilia_Loop"
+		},
+		{
+			"offsets": [
+				90,
+				200
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "Remilia_Accept"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mistr00s_death",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mistr00s",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		300,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

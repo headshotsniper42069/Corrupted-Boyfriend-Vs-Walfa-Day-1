@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jackvscir.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ice0000" x="51" y="51" width="212" height="236" frameX="-182" frameY="0" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0001" x="51" y="51" width="212" height="236" frameX="-182" frameY="0" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0002" x="314" y="51" width="243" height="236" frameX="-167" frameY="-62" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0003" x="314" y="51" width="243" height="236" frameX="-167" frameY="-62" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0004" x="608" y="51" width="243" height="236" frameX="-167" frameY="-188" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0005" x="608" y="51" width="243" height="236" frameX="-167" frameY="-188" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0006" x="902" y="51" width="243" height="236" frameX="-167" frameY="-382" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0007" x="902" y="51" width="243" height="236" frameX="-167" frameY="-382" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0008" x="1196" y="51" width="243" height="236" frameX="-167" frameY="-625" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0009" x="1196" y="51" width="243" height="236" frameX="-167" frameY="-625" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0010" x="1490" y="51" width="243" height="238" frameX="-167" frameY="-845" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0011" x="1490" y="51" width="243" height="238" frameX="-167" frameY="-845" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0012" x="51" y="340" width="460" height="261" frameX="-73" frameY="-814" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0013" x="51" y="340" width="460" height="261" frameX="-73" frameY="-814" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0014" x="562" y="340" width="668" height="356" frameX="0" frameY="-766" frameWidth="668" frameHeight="1122"/>
+	<SubTexture name="Ice0015" x="562" y="340" width="668" height="356" frameX="0" frameY="-766" frameWidth="668" frameHeight="1122"/>
+</TextureAtlas>

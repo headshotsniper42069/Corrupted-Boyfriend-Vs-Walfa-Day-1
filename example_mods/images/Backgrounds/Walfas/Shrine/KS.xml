@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="walfa.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Koishi_Bounce0000" x="51" y="51" width="387" height="440" frameX="0" frameY="-6" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0001" x="51" y="51" width="387" height="440" frameX="0" frameY="-6" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0002" x="489" y="51" width="383" height="442" frameX="-4" frameY="-4" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0003" x="489" y="51" width="383" height="442" frameX="-4" frameY="-4" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0004" x="923" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0005" x="923" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0006" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0007" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0008" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0009" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0010" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0011" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0012" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0013" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Koishi_Bounce0014" x="1353" y="51" width="379" height="446" frameX="-8" frameY="0" frameWidth="387" frameHeight="446"/>
+	<SubTexture name="Sanae_Bounce0000" x="51" y="548" width="257" height="424" frameX="-8" frameY="-6" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0001" x="51" y="548" width="257" height="424" frameX="-8" frameY="-6" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0002" x="359" y="548" width="253" height="429" frameX="-9" frameY="-1" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0003" x="359" y="548" width="253" height="429" frameX="-9" frameY="-1" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0004" x="663" y="548" width="263" height="429" frameX="0" frameY="-1" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0005" x="663" y="548" width="263" height="429" frameX="0" frameY="-1" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0006" x="977" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0007" x="977" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0008" x="1288" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0009" x="1288" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0010" x="1288" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0011" x="1288" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0012" x="1288" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0013" x="1288" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+	<SubTexture name="Sanae_Bounce0014" x="1288" y="548" width="260" height="430" frameX="-2" frameY="0" frameWidth="265" frameHeight="430"/>
+</TextureAtlas>

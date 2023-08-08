@@ -1,0 +1,128 @@
+{
+	"position": [
+		100,
+		50
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "walfareimu",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Angry",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Angry0",
+			"idle_name": "Reimu_Angry_Done"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Hating",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Hating0",
+			"idle_name": "Reimu_Hating_Done"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Mic",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Mic0",
+			"idle_name": "Reimu_Mic_Done"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Pissed",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Pissed_Mic0",
+			"idle_name": "Reimu_Pissed_Mic_Done"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Sarcastic",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Sarcastic0",
+			"idle_name": "Reimu_Sarcastic_Done"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Shocked",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Shocked0",
+			"idle_name": "Reimu_Shocked_Done"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Sigh",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Sigh0",
+			"idle_name": "Reimu_Sigh_Done"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Thinking",
+			"idle_offsets": [
+				0,
+				-6
+			],
+			"loop_name": "Reimu_Thinking0",
+			"idle_name": "Reimu_Thinking_Done"
+		},
+		{
+			"loop_name": "",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "",
+			"anim": "",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

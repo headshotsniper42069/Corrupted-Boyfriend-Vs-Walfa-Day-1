@@ -1,0 +1,89 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "Marisa_Normal0",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"idle_name": "Marisa_Normal_Done",
+			"anim": "Normal",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Marisa_Happy0",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"idle_name": "Marisa_Happy_Done",
+			"anim": "Happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Marisa_Sad0",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"idle_name": "Marisa_Sad_Done",
+			"anim": "Sad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Marisa_Thinking0",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"idle_name": "Marisa_Thinking_Done",
+			"anim": "Thinking",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Marisa_Mic0",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"idle_name": "Marisa_Mic_Done",
+			"anim": "Mic",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Marisa_Mic_Happy0",
+			"idle_offsets": [
+				0,
+				-3
+			],
+			"idle_name": "Marisa_Mic_Happy_Done",
+			"anim": "Mic_Happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "walfamarisa"
+}

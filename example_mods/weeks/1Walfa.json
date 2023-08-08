@@ -1,0 +1,85 @@
+{
+	"storyName": "Walfa Stories",
+	"difficulties": "Easy, Normal, Hard, Lunatic",
+	"hideFreeplay": false,
+	"storyNameSettings": [
+		10,
+		25,
+		48
+	],
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Flashy Beats",
+			"walfareimu",
+			[
+				233,
+				30,
+				87
+			],
+			"Walfa_Cutscene",
+			[
+				35,
+				60,
+				48
+			],
+			"Reimu",
+			[
+				410,
+				30,
+				0.5
+			]
+		],
+		[
+			"Da Ze",
+			"walfamarisa",
+			[
+				123,
+				123,
+				123
+			],
+			"",
+			[
+				100,
+				50,
+				70
+			],
+			"Marisa",
+			[
+				340,
+				20,
+				0.5
+			]
+		],
+		[
+			"Incident Solvers",
+			"duo",
+			[
+				109,
+				53,
+				73
+			],
+			"",
+			[
+				40,
+				70,
+				38
+			],
+			"Both",
+			[
+				260,
+				40,
+				0.45
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Walfa",
+	"hiddenUntilUnlocked": false
+}

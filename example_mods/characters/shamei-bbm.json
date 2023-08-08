@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				140
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Aya_Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				30,
+				127
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Aya_Left"
+		},
+		{
+			"offsets": [
+				0,
+				89
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Aya_Down"
+		},
+		{
+			"offsets": [
+				-22,
+				155
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Aya_Up"
+		},
+		{
+			"offsets": [
+				40,
+				117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Aya_Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				130
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "Aya_Laugh",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aya.EXE",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "aya",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		60,
+		60
+	],
+	"camera_position": [
+		200,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

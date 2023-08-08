@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-50,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Jack_Idle"
+		},
+		{
+			"offsets": [
+				59,
+				-163
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Jack_Left"
+		},
+		{
+			"offsets": [
+				-48,
+				-280
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Jack_Down"
+		},
+		{
+			"offsets": [
+				10,
+				-108
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Jack_Up"
+		},
+		{
+			"offsets": [
+				-80,
+				-136
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Jack_Right"
+		},
+		{
+			"offsets": [
+				-7,
+				-130
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "shot",
+			"loop": false,
+			"name": "Jack_Hit"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jackfrost",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "jack",
+	"flip_x": false,
+	"healthbar_colors": [
+		10,
+		32,
+		244
+	],
+	"camera_position": [
+		150,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

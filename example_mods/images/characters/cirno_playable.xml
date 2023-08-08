@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jackvscir.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cirno_Down0000" x="12" y="12" width="448" height="478" frameX="0" frameY="-22" frameWidth="448" frameHeight="500"/>
+	<SubTexture name="Cirno_Down0001" x="492" y="12" width="448" height="493" frameX="0" frameY="-7" frameWidth="448" frameHeight="500"/>
+	<SubTexture name="Cirno_Down0002" x="972" y="12" width="448" height="497" frameX="0" frameY="-3" frameWidth="448" frameHeight="500"/>
+	<SubTexture name="Cirno_Down0003" x="972" y="12" width="448" height="497" frameX="0" frameY="-3" frameWidth="448" frameHeight="500"/>
+	<SubTexture name="Cirno_Down0004" x="1452" y="12" width="448" height="500"/>
+	<SubTexture name="Cirno_Down0005" x="1452" y="12" width="448" height="500"/>
+	<SubTexture name="Cirno_Down0006" x="1932" y="12" width="448" height="500"/>
+	<SubTexture name="Cirno_Down0007" x="1932" y="12" width="448" height="500"/>
+	<SubTexture name="Cirno_Down0008" x="2412" y="12" width="448" height="500"/>
+	<SubTexture name="Cirno_Down0009" x="2412" y="12" width="448" height="500"/>
+	<SubTexture name="Cirno_Down_Miss0000" x="2892" y="12" width="448" height="493" frameX="0" frameY="-20" frameWidth="448" frameHeight="513"/>
+	<SubTexture name="Cirno_Down_Miss0001" x="3372" y="12" width="448" height="500" frameX="0" frameY="-13" frameWidth="448" frameHeight="513"/>
+	<SubTexture name="Cirno_Down_Miss0002" x="3372" y="12" width="448" height="500" frameX="0" frameY="-13" frameWidth="448" frameHeight="513"/>
+	<SubTexture name="Cirno_Down_Miss0003" x="12" y="544" width="448" height="513"/>
+	<SubTexture name="Cirno_Down_Miss0004" x="12" y="544" width="448" height="513"/>
+	<SubTexture name="Cirno_Down_Miss0005" x="12" y="544" width="448" height="513"/>
+	<SubTexture name="Cirno_Down_Miss0006" x="12" y="544" width="448" height="513"/>
+	<SubTexture name="Cirno_Down_Miss0007" x="12" y="544" width="448" height="513"/>
+	<SubTexture name="Cirno_Down_Miss0008" x="12" y="544" width="448" height="513"/>
+	<SubTexture name="Cirno_Down_Miss0009" x="12" y="544" width="448" height="513"/>
+	<SubTexture name="Cirno_Hit0000" x="492" y="544" width="487" height="520" frameX="0" frameY="-15" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Hit0001" x="492" y="544" width="487" height="520" frameX="0" frameY="-15" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Hit0002" x="1011" y="544" width="487" height="527" frameX="0" frameY="-8" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Hit0003" x="1011" y="544" width="487" height="527" frameX="0" frameY="-8" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Hit0004" x="1530" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Hit0005" x="1530" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Hit0006" x="1530" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Hit0007" x="1530" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Hit0008" x="1530" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Hit0009" x="1530" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0000" x="2049" y="544" width="455" height="535" frameX="-18" frameY="0" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Idle0001" x="2049" y="544" width="455" height="535" frameX="-18" frameY="0" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Idle0002" x="2536" y="544" width="470" height="535" frameX="-9" frameY="0" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Idle0003" x="2536" y="544" width="470" height="535" frameX="-9" frameY="0" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Idle0004" x="3038" y="544" width="480" height="533" frameX="-3" frameY="-2" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Idle0005" x="3038" y="544" width="480" height="533" frameX="-3" frameY="-2" frameWidth="487" frameHeight="535"/>
+	<SubTexture name="Cirno_Idle0006" x="3550" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0007" x="3550" y="544" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0008" x="12" y="1111" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0009" x="12" y="1111" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0010" x="531" y="1111" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0011" x="531" y="1111" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0012" x="531" y="1111" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0013" x="531" y="1111" width="487" height="535"/>
+	<SubTexture name="Cirno_Idle0014" x="531" y="1111" width="487" height="535"/>
+	<SubTexture name="Cirno_Left0000" x="1050" y="1111" width="496" height="541" frameX="0" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0001" x="1578" y="1111" width="496" height="541" frameX="-5" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0002" x="2106" y="1111" width="496" height="541" frameX="-7" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0003" x="2106" y="1111" width="496" height="541" frameX="-7" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0004" x="2634" y="1111" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0005" x="2634" y="1111" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0006" x="3162" y="1111" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0007" x="3162" y="1111" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0008" x="12" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left0009" x="12" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0000" x="540" y="1684" width="496" height="541" frameX="0" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0001" x="1068" y="1684" width="496" height="541" frameX="-5" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0002" x="1068" y="1684" width="496" height="541" frameX="-5" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0003" x="1596" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0004" x="1596" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0005" x="1596" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0006" x="1596" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0007" x="1596" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0008" x="1596" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Left_Miss0009" x="1596" y="1684" width="496" height="541" frameX="-10" frameY="0" frameWidth="506" frameHeight="541"/>
+	<SubTexture name="Cirno_Right0000" x="2124" y="1684" width="484" height="502" frameX="-13" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0001" x="2640" y="1684" width="485" height="502" frameX="-6" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0002" x="3157" y="1684" width="485" height="502" frameX="-3" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0003" x="3157" y="1684" width="485" height="502" frameX="-3" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0004" x="12" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0005" x="12" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0006" x="529" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0007" x="529" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0008" x="1046" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right0009" x="1046" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="497" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0000" x="1563" y="2257" width="485" height="502" frameX="-10" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0001" x="2080" y="2257" width="485" height="502" frameX="-4" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0002" x="2080" y="2257" width="485" height="502" frameX="-4" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0003" x="2597" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0004" x="2597" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0005" x="2597" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0006" x="2597" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0007" x="2597" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0008" x="2597" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Right_Miss0009" x="2597" y="2257" width="485" height="502" frameX="0" frameY="0" frameWidth="495" frameHeight="502"/>
+	<SubTexture name="Cirno_Up0000" x="3114" y="2257" width="498" height="572"/>
+	<SubTexture name="Cirno_Up0001" x="12" y="2861" width="498" height="562" frameX="0" frameY="-10" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0002" x="542" y="2861" width="498" height="560" frameX="0" frameY="-12" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0003" x="542" y="2861" width="498" height="560" frameX="0" frameY="-12" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0004" x="1072" y="2861" width="498" height="556" frameX="0" frameY="-15" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0005" x="1072" y="2861" width="498" height="556" frameX="0" frameY="-15" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0006" x="1602" y="2861" width="498" height="556" frameX="0" frameY="-15" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0007" x="1602" y="2861" width="498" height="556" frameX="0" frameY="-15" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0008" x="2132" y="2861" width="498" height="556" frameX="0" frameY="-15" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up0009" x="2132" y="2861" width="498" height="556" frameX="0" frameY="-15" frameWidth="498" frameHeight="572"/>
+	<SubTexture name="Cirno_Up_Miss0000" x="2662" y="2861" width="498" height="562"/>
+	<SubTexture name="Cirno_Up_Miss0001" x="3192" y="2861" width="498" height="556" frameX="0" frameY="-5" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0002" x="3192" y="2861" width="498" height="556" frameX="0" frameY="-5" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0003" x="12" y="3455" width="498" height="548" frameX="0" frameY="-14" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0004" x="12" y="3455" width="498" height="548" frameX="0" frameY="-14" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0005" x="12" y="3455" width="498" height="548" frameX="0" frameY="-14" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0006" x="12" y="3455" width="498" height="548" frameX="0" frameY="-14" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0007" x="12" y="3455" width="498" height="548" frameX="0" frameY="-14" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0008" x="12" y="3455" width="498" height="548" frameX="0" frameY="-14" frameWidth="498" frameHeight="562"/>
+	<SubTexture name="Cirno_Up_Miss0009" x="12" y="3455" width="498" height="548" frameX="0" frameY="-14" frameWidth="498" frameHeight="562"/>
+</TextureAtlas>

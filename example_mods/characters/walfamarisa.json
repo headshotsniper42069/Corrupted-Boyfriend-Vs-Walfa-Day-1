@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Marisa_Idle"
+		},
+		{
+			"offsets": [
+				20,
+				-220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Marisa_Left"
+		},
+		{
+			"offsets": [
+				0,
+				-241
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Marisa_Down"
+		},
+		{
+			"offsets": [
+				0,
+				-170
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Marisa_Up"
+		},
+		{
+			"offsets": [
+				-20,
+				-210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Marisa_Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-220
+			],
+			"anim": "beam",
+			"fps": 35,
+			"name": "Marisa_Beam",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/marisa_walfa",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "walfamarisa",
+	"flip_x": false,
+	"healthbar_colors": [
+		123,
+		123,
+		123
+	],
+	"camera_position": [
+		-350,
+		400
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
