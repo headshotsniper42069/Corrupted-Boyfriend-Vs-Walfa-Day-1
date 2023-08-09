@@ -1,5 +1,7 @@
 package;
 
+import flixel.addons.transition.FlxTransitionableState;
+import flixel.input.keyboard.FlxKey;
 import sys.FileSystem;
 import flixel.tweens.FlxEase;
 import lime.app.Application;
@@ -74,6 +76,8 @@ class StoryMenuState extends MusicBeatState
 	var rightTransparent:FlxSprite;
 
 	var explanationText:FlxText;
+
+	var ayayaIntensifiesBuffer:String = '';
 
 	override function create()
 	{
@@ -212,6 +216,37 @@ class StoryMenuState extends MusicBeatState
 
 		if (!movedBack && !selectedWeek)
 		{
+			if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya == 'Sent Link')
+			{
+				var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+				var keyPressed:FlxKey = FlxG.keys.firstJustPressed();
+				var keyName:String = Std.string(keyPressed);
+				if (allowedKeys.contains(keyName))
+				{
+					ayayaIntensifiesBuffer += keyName;
+					trace(ayayaIntensifiesBuffer.toLowerCase());
+					if (ayayaIntensifiesBuffer.toLowerCase().contains("ayaya"))
+					{
+						trace("oh shit it says the name oh no");
+						FlxG.camera.alpha = 0;
+						FlxTransitionableState.skipNextTransIn = true;
+						Main.fpsVar.visible = false;
+						FlxG.sound.music.volume = 0;
+						try {
+							FreeplayState.vocals.pause();
+						}
+						catch (e)
+						{
+							trace("freeplay vocals doesnt exist: ");
+						}
+						CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
+						PlayState.SONG = Song.loadFromJson(Highscore.formatSong('Ayaya', 2), 'Ayaya');
+						PlayState.storyDifficulty = 2;
+						PlayState.alreadySeenClass = false;
+						LoadingState.loadAndSwitchState(new PlayState());
+					}
+				}
+			}
 			var upP = controls.UI_UP_P;
 			var downP = controls.UI_DOWN_P;
 			if (upP)
