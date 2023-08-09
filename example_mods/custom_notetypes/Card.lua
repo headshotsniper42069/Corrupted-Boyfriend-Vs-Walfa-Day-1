@@ -14,13 +14,14 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 		playAnim('dad', 'card', true)
 		setProperty('dad.specialAnim', true)
 		for i = 0, getProperty('notes.length')-1 do
-			if getPropertyFromGroup('notes', i, 'mustPress') == false then
+			if getPropertyFromGroup('notes', i, 'mustPress') == false and (getPropertyFromGroup('notes', i, 'noteType') == "GF Sing") == false then
 				setPropertyFromGroup('notes', i, 'noAnimation', true)
 			end
 		end
 		runTimer("makereimudanceagain", 0.375, 1)
 	end
 end
+
 function noteMiss(id, noteData, noteType, isSustainNote)
 	if noteType == 'Card' then
 		playSound('Card', 0.7);
@@ -29,7 +30,7 @@ function noteMiss(id, noteData, noteType, isSustainNote)
 		playAnim('dad', 'card', true)
 		setProperty('dad.specialAnim', true)
 		for i = 0, getProperty('notes.length')-1 do
-			if getPropertyFromGroup('notes', i, 'mustPress') == false then
+			if getPropertyFromGroup('notes', i, 'mustPress') == false and (getPropertyFromGroup('notes', i, 'noteType') == "GF Sing") == false then
 				setPropertyFromGroup('notes', i, 'noAnimation', true)
 			end
 		end
