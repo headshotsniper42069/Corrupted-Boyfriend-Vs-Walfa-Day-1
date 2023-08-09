@@ -3346,6 +3346,7 @@ class PlayState extends MusicBeatState
 						if (ayayaIntensifiesBuffer.toLowerCase().contains("ayaya"))
 						{
 							trace("oh shit it says the name oh no");
+							FlxTransitionableState.skipNextTransIn = true;
 							Main.fpsVar.visible = false;
 							camGame.alpha = 0;
 							camHUD.alpha = 0;

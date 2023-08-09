@@ -65,6 +65,8 @@ class MainMenuState extends MusicBeatState
 
 	var resetTimer:Float = 0;
 
+	var ayayaIntensifiesBuffer:String = '';
+
 	override function create()
 	{
 		#if MODS_ALLOWED
@@ -258,6 +260,37 @@ class MainMenuState extends MusicBeatState
 		{
 			if (!selectedSomethin)
 			{
+				if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya == 'Sent Link')
+				{
+					var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+					var keyPressed:FlxKey = FlxG.keys.firstJustPressed();
+					var keyName:String = Std.string(keyPressed);
+					if (allowedKeys.contains(keyName))
+					{
+						ayayaIntensifiesBuffer += keyName;
+						trace(ayayaIntensifiesBuffer.toLowerCase());
+						if (ayayaIntensifiesBuffer.toLowerCase().contains("ayaya"))
+						{
+							trace("oh shit it says the name oh no");
+							FlxG.camera.alpha = 0;
+							FlxTransitionableState.skipNextTransIn = true;
+							Main.fpsVar.visible = false;
+							FlxG.sound.music.volume = 0;
+							try {
+								FreeplayState.vocals.pause();
+							}
+							catch (e)
+							{
+								trace("freeplay vocals doesnt exist: ");
+							}
+							CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
+							PlayState.SONG = Song.loadFromJson(Highscore.formatSong('Ayaya', 2), 'Ayaya');
+							PlayState.storyDifficulty = 2;
+							PlayState.alreadySeenClass = false;
+							LoadingState.loadAndSwitchState(new PlayState());
+						}
+					}
+				}
 				if (controls.UI_UP_P)
 				{
 					FlxG.sound.play(Paths.sound('scrollMenu'));

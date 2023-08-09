@@ -1,5 +1,6 @@
 package;
 
+import flixel.input.keyboard.FlxKey;
 import lime.app.Application;
 import flixel.tweens.FlxEase;
 import flixel.addons.display.FlxBackdrop;
@@ -55,6 +56,8 @@ class FreeplayState extends MusicBeatState
 	var intendedColor:Int;
 	var colorTween:FlxTween;
 	var backdropColorTween:FlxTween;
+
+	var ayayaIntensifiesBuffer:String = '';
 
 	override function create()
 	{
@@ -439,6 +442,37 @@ class FreeplayState extends MusicBeatState
 			persistentUpdate = false;
 			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
 			FlxG.sound.play(Paths.sound('scrollMenu'));
+		}
+		if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya == 'Sent Link')
+		{
+			var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+			var keyPressed:FlxKey = FlxG.keys.firstJustPressed();
+			var keyName:String = Std.string(keyPressed);
+			if (allowedKeys.contains(keyName))
+			{
+				ayayaIntensifiesBuffer += keyName;
+				trace(ayayaIntensifiesBuffer.toLowerCase());
+				if (ayayaIntensifiesBuffer.toLowerCase().contains("ayaya"))
+				{
+					trace("oh shit it says the name oh no");
+					FlxG.camera.alpha = 0;
+					FlxTransitionableState.skipNextTransIn = true;
+					Main.fpsVar.visible = false;
+					FlxG.sound.music.volume = 0;
+					try {
+						vocals.pause();
+					}
+					catch (e)
+					{
+						trace("freeplay vocals doesnt exist: ");
+					}
+					CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
+					PlayState.SONG = Song.loadFromJson(Highscore.formatSong('Ayaya', 2), 'Ayaya');
+					PlayState.storyDifficulty = 2;
+					PlayState.alreadySeenClass = false;
+					LoadingState.loadAndSwitchState(new PlayState());
+				}
+			}
 		}
 		super.update(elapsed);
 	}
