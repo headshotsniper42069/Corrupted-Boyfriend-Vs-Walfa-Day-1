@@ -2,7 +2,7 @@
 
 Currently the whole mod was programmed by me, with a few expections being the stage Lua files and whatnot.
 
-This mod uses Psych Engine, with a few quality of life features, like playing cutscenes in game without a lua file
+This mod uses Psych Engine, with a few quality of life features, like playing cutscenes in game without a Lua file.
 
 There is also launch options added into the demos of the game that you can use with Command Prompt on Windows. They might not serve any purpose outside of testing, except for the second option.
 
