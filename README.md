@@ -1,12 +1,10 @@
 # Friday Night Funkin' - Touhou Echoes of Cyberscape Public Source Code
 
-Currently, the whole mod was programmed by me, with a few expections being the stage Lua files and whatnot.
+Currently the whole mod was programmed by me, with a few expections being the stage Lua files and whatnot.
 
-This mod uses Psych Engine, with a few quality of life features, like Exception Catching, and Native Cutscene Playback
+This mod uses Psych Engine, with a few quality of life features, like playing cutscenes in game without a lua file
 
-(i just capitalized them cause it looked cool)
-
-There is also launch options added into the demos of the game, you can use them with Command Prompt on Windows. They might not serve any purpose outside of testing, except for the second option.
+There is also launch options added into the demos of the game that you can use with Command Prompt on Windows. They might not serve any purpose outside of testing, except for the second option.
 
 | Launch Option | Effect |
 | ------------- | ------ |
