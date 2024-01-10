@@ -31,13 +31,14 @@ function onCreate()
 
 	makeAnimatedLuaSprite('Pyro', 'Backgrounds/Frostbite/pyro', 300, -750);
 	addAnimationByPrefix("Pyro", "bounce", "pyro", 24, false)
-	addLuaSprite('Pyro');
+	addLuaSprite('Pyro', true);
 	setProperty('Pyro.antialiasing', true)
 
 	makeAnimatedLuaSprite('Ripper', 'Backgrounds/Frostbite/ripper', -450, -80);
 	addAnimationByPrefix("Ripper", "bounce", "ripper", 24, false)
-	addLuaSprite('Ripper');
+	addLuaSprite('Ripper', true);
 	setProperty('Ripper.antialiasing', true)
+	setObjectOrder('Ripper', getObjectOrder('Ripper') - 4)
 
 	makeAnimatedLuaSprite("diamondtester", "Backgrounds/Frostbite/Cirno Attacking", 300, 0, "sparrow")
 	addAnimationByPrefix("diamondtester", "bounce", "Crystal_Idle", 24, false)
@@ -57,7 +58,7 @@ function onCreate()
 
 	for particle=1,amountOfTwitterUsers do
 		makeLuaSprite('particle'..particle, "", getRandomInt(-1280, 1280), getRandomInt(-720, 720))
-		makeGraphic("particle"..particle, 20, 20, 'ffffff')
+		makeGraphic("particle"..particle, 10, 10, 'ffffff')
 		addLuaSprite('particle'..particle, true)
 	end
 
@@ -76,8 +77,8 @@ function onUpdate(elapsed)
 	setProperty("Pyro.y", -750 + (math.sin(elapsedTime * 3) * 16))
 	setProperty("diamondtester.y", -100 + (math.sin(elapsedTime * 4.5) * 16) + cirnocrystaloffset)
 	for particle=1,amountOfTwitterUsers do
-		setProperty('particle'..particle..'.x', getProperty('particle'..particle..'.x') + (elapsed / 1.5) * 1050)
-		setProperty('particle'..particle..'.y', getProperty('particle'..particle..'.y') + (elapsed / 1.5) * 950)
+		setProperty('particle'..particle..'.x', getProperty('particle'..particle..'.x') + (elapsed) * 1050)
+		setProperty('particle'..particle..'.y', getProperty('particle'..particle..'.y') + (elapsed) * 550)
 		if getProperty('particle'..particle..'.x') >= 1650 then
 			setProperty('particle'..particle..'.x', getRandomInt(-1950, -550))
 		end

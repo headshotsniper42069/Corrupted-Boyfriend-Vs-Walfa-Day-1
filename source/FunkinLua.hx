@@ -1574,6 +1574,8 @@ class FunkinLua {
 				MusicBeatState.switchState(new FreeplayState());
 
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			FlxG.sound.music.loopTime = 9410;
+			FlxG.sound.music.time = 9410;
 			PlayState.changedDifficulty = false;
 			PlayState.chartingMode = false;
 			PlayState.instance.transitioning = true;

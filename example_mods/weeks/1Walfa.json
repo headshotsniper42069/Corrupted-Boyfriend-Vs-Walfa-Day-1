@@ -25,8 +25,8 @@
 			],
 			"Walfa_Cutscene",
 			[
-				35,
-				60,
+				10,
+				0,
 				48
 			],
 			"Reimu",
@@ -34,7 +34,10 @@
 				410,
 				30,
 				0.5
-			]
+			],
+			"",
+			"This is based on the virtual paper doll program called Walfas or Create.swf.\nWith a bit of Fanon personalities thrown in aswell",
+			"Walfa"
 		],
 		[
 			"Da Ze",
@@ -46,8 +49,8 @@
 			],
 			"",
 			[
-				100,
-				50,
+				120,
+				-2,
 				70
 			],
 			"Marisa",
@@ -55,7 +58,10 @@
 				340,
 				20,
 				0.5
-			]
+			],
+			"",
+			"This is based on the virtual paper doll program called Walfas or Create.swf.\nWith a bit of Fanon personalities thrown in aswell",
+			"Walfa"
 		],
 		[
 			"Incident Solvers",
@@ -67,8 +73,8 @@
 			],
 			"",
 			[
-				40,
-				70,
+				-50,
+				0,
 				38
 			],
 			"Both",
@@ -76,7 +82,10 @@
 				260,
 				40,
 				0.45
-			]
+			],
+			"",
+			"This is based on the virtual paper doll program called Walfas or Create.swf.\nWith a bit of Fanon personalities thrown in aswell",
+			"Walfa"
 		]
 	],
 	"hideStoryMode": false,

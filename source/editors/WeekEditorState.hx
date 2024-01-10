@@ -323,7 +323,7 @@ class WeekEditorState extends MusicBeatState
 			}
 			if (weekSong[4] == null)
 			{
-				weekSong[4] = [0, 0, 16];
+				weekSong[4] = [0, 0];
 				trace("freeplay shrine array for " + weekSong[0] + " is null, setting valid values");
 			}
 			if (weekSong[5] == null)
@@ -496,6 +496,8 @@ class WeekEditorState extends MusicBeatState
 				}
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.music.loopTime = 9410;
+				FlxG.sound.music.time = 9410;
 			}
 		}
 
@@ -642,6 +644,10 @@ class WeekEditorFreeplayState extends MusicBeatState
 
 	var curSelected = 0;
 
+	var descriptionBG:FlxSprite;
+
+	var descriptionText:FlxText;
+
 	override function create() {
 		bg = new FlxSprite().loadGraphic(Paths.image('freeplay/Background'));
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
@@ -661,7 +667,7 @@ class WeekEditorFreeplayState extends MusicBeatState
 		{
 			if (weekFile.songs[i][4] == null)
 			{
-				weekFile.songs[i][4] = [0, 0, 16];
+				weekFile.songs[i][4] = [0, 0];
 				trace("freeplay shrine array for " + weekFile.songs[i][0] + " is null, setting valid values");
 			}
 			if (weekFile.songs[i][5] == null)
@@ -671,13 +677,28 @@ class WeekEditorFreeplayState extends MusicBeatState
 				weekFile.songs[i][6][2] = 1; // then put it back to 1 so it still identifies as a number with decimals
 				trace("freeplay art stuff for " + weekFile.songs[i][0] + " is null, setting valid values");
 			}
-			var songText:FreeplayItem = new FreeplayItem(90, 320, weekFile.songs[i][0], weekFile.songs[i][4][0], weekFile.songs[i][4][1], weekFile.songs[i][4][2]);
+			if (weekFile.songs[i][7] == null) // Freeplay seperate difficulties
+			{
+				weekFile.songs[i][7] = '';
+				trace("freeplay seperate difficulty stuff for " + weekFile.songs[i][0] + " is null, setting as blank");
+			}
+			if (weekFile.songs[i][8] == null) // Freeplay description
+			{
+				weekFile.songs[i][8] = 'Description goes here';
+				trace("freeplay description for " + weekFile.songs[i][0] + " is null, setting valid values");
+			}
+			if (weekFile.songs[i][9] == null) // Suika custom intro type, this time we got 10 song values now LOL
+			{
+				weekFile.songs[i][9] = '';
+				trace("Suika custom intro type for " + weekFile.songs[i][9] + " is null, setting as blank");
+			}
+			var songText:FreeplayItem = new FreeplayItem(90, 320, weekFile.songs[i][0], weekFile.songs[i][4][0], weekFile.songs[i][4][1]);
 			songText.targetY = i;
 			grpSongs.add(songText);
 			songText.snapToPosition();
 
 			var icon:HealthIcon = new HealthIcon(weekFile.songs[i][1], false, true);
-			icon.sprTracker = songText;
+			icon.freeplayTracker = songText;
 
 			// using a FlxGroup is too much fuss!
 			iconArray.push(icon);
@@ -687,6 +708,14 @@ class WeekEditorFreeplayState extends MusicBeatState
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
 			// songText.screenCenter(X);
 		}
+
+		descriptionBG = new FlxSprite(0, FlxG.height - 125).makeGraphic(FlxG.width, 125, 0xFF000000);
+		descriptionBG.alpha = 0.6;
+		add(descriptionBG);
+
+		descriptionText = new FlxText(10, 600, 0, "If you can see this, something is wrong", 32);
+		descriptionText.setFormat("PC-9800", 32);
+		add(descriptionText);
 
 		addEditorBox();
 		changeSelection();
@@ -700,9 +729,9 @@ class WeekEditorFreeplayState extends MusicBeatState
 			{name: 'Freeplay', label: 'Freeplay'},
 		];
 		UI_box = new FlxUITabMenu(null, tabs, true);
-		UI_box.resize(250, 350);
+		UI_box.resize(250, 500);
 		UI_box.x = FlxG.width - UI_box.width - 100;
-		UI_box.y = FlxG.height - UI_box.height - 60;
+		UI_box.y = FlxG.height - UI_box.height;
 		UI_box.scrollFactor.set();
 		
 		UI_box.selected_tab_id = 'Week';
@@ -749,12 +778,14 @@ class WeekEditorFreeplayState extends MusicBeatState
 	var bgColorStepperB:FlxUINumericStepper;
 	var shrineTextX:FlxUINumericStepper;
 	var shrineTextY:FlxUINumericStepper;
-	var shrineTextSize:FlxUINumericStepper;
 	var iconInputText:FlxUIInputText;
 	var freeplayArtInput:FlxUIInputText;
 	var freeplayArtX:FlxUINumericStepper;
 	var freeplayArtY:FlxUINumericStepper;
 	var freeplayArtSize:FlxUINumericStepper;
+	var seperateDifficultyInputText:FlxUIInputText;
+	var descriptionInputText:FlxUIInputText;
+	var suikaCustomInputText:FlxUIInputText;
 	function addFreeplayUI() {
 		var tab_group = new FlxUI(null, UI_box);
 		tab_group.name = "Freeplay";
@@ -798,36 +829,50 @@ class WeekEditorFreeplayState extends MusicBeatState
 		};
 
 		shrineTextX = new FlxUINumericStepper(10, hideFreeplayCheckbox.y + 40, 10, 24, -1280, 1280, 0);
-		shrineTextY = new FlxUINumericStepper(80, hideFreeplayCheckbox.y + 40, 10, 24, -720, 720, 0);
-		shrineTextSize = new FlxUINumericStepper(150, hideFreeplayCheckbox.y + 40, 2, 24, 0, 96, 0);
+		shrineTextY = new FlxUINumericStepper(10, shrineTextX.y + 40, 2, 24, -720, 720, 0);
 
-		freeplayArtInput = new FlxUIInputText(10, shrineTextX.y + 40, 100, '', 8);
+		freeplayArtInput = new FlxUIInputText(10, shrineTextY.y + 40, 100, '', 8);
 		freeplayArtX = new FlxUINumericStepper(10, freeplayArtInput.y + 40, 10, 0, -1280, 1280, 0);
 		freeplayArtY = new FlxUINumericStepper(80, freeplayArtInput.y + 40, 10, 0, -720, 720, 0);
 		freeplayArtSize = new FlxUINumericStepper(150, freeplayArtInput.y + 40, 0.05, 1, 0.05, 5, 3);
+		seperateDifficultyInputText = new FlxUIInputText(10, freeplayArtSize.y + 40, 175, '', 8);
+
+		descriptionInputText = new FlxUIInputText(10, seperateDifficultyInputText.y + 40, 175, '', 8);
+
+		suikaCustomInputText = new FlxUIInputText(10, descriptionInputText.y + 40, 175, '', 8);
 		
 		tab_group.add(new FlxText(10, bgColorStepperR.y - 18, 0, 'Selected background Color R/G/B:'));
 		tab_group.add(new FlxText(10, iconInputText.y - 18, 0, 'Selected icon:'));
-		tab_group.add(new FlxText(10, shrineTextX.y - 18, 0, 'Selected Shrine Text X/Y/Size:'));
+		tab_group.add(new FlxText(10, shrineTextX.y - 18, 0, 'Selected Text X Offset:'));
+		tab_group.add(new FlxText(10, shrineTextY.y - 18, 0, 'Rectangle X Offset:'));
 		tab_group.add(new FlxText(10, freeplayArtInput.y - 18, 0, 'Freeplay Art Image Name:'));
 		tab_group.add(new FlxText(10, freeplayArtX.y - 18, 0, 'Freeplay Art X/Y Offset/Size Multiplier:'));
+		tab_group.add(new FlxText(10, seperateDifficultyInputText.y - 18, 0, 'Difficulties (only works in freeplay):'));
+		tab_group.add(new FlxText(10, descriptionInputText.y - 18, 0, 'Freeplay description:'));
+		tab_group.add(new FlxText(10, suikaCustomInputText.y - 18, 0, 'Suika intro filename:'));
 		tab_group.add(bgColorStepperR);
 		tab_group.add(bgColorStepperG);
 		tab_group.add(bgColorStepperB);
 		tab_group.add(shrineTextX);
 		tab_group.add(shrineTextY);
-		tab_group.add(shrineTextSize);
 		tab_group.add(freeplayArtInput);
 		tab_group.add(freeplayArtX);
 		tab_group.add(freeplayArtY);
 		tab_group.add(freeplayArtSize);
+		tab_group.add(seperateDifficultyInputText);
+		tab_group.add(descriptionInputText);
 		tab_group.add(copyColor);
 		tab_group.add(pasteColor);
 		tab_group.add(iconInputText);
 		tab_group.add(hideFreeplayCheckbox);
+		tab_group.add(suikaCustomInputText);
 		UI_box.addGroup(tab_group);
 
 		blockPressWhileTypingOn.push(freeplayArtInput);
+		blockPressWhileTypingOn.push(seperateDifficultyInputText);
+		blockPressWhileTypingOn.push(iconInputText);
+		blockPressWhileTypingOn.push(descriptionInputText);
+		blockPressWhileTypingOn.push(suikaCustomInputText);
 		inputTextBackgrounds.push(iconInputText.backgroundSprite); // what the hell am i looking at below me?
 		inputTextBackgrounds.push(iconInputText.fieldBorderSprite);
 		inputTextBackgrounds.push(bgColorStepperR.getBackgroundSprites()[0]);
@@ -840,8 +885,6 @@ class WeekEditorFreeplayState extends MusicBeatState
 		inputTextBackgrounds.push(shrineTextX.getBackgroundSprites()[1]);
 		inputTextBackgrounds.push(shrineTextY.getBackgroundSprites()[0]);
 		inputTextBackgrounds.push(shrineTextY.getBackgroundSprites()[1]);
-		inputTextBackgrounds.push(shrineTextSize.getBackgroundSprites()[0]);
-		inputTextBackgrounds.push(shrineTextSize.getBackgroundSprites()[1]);
 		inputTextBackgrounds.push(freeplayArtInput.backgroundSprite);
 		inputTextBackgrounds.push(freeplayArtInput.fieldBorderSprite);
 		inputTextBackgrounds.push(freeplayArtX.getBackgroundSprites()[0]);
@@ -850,6 +893,12 @@ class WeekEditorFreeplayState extends MusicBeatState
 		inputTextBackgrounds.push(freeplayArtY.getBackgroundSprites()[1]);
 		inputTextBackgrounds.push(freeplayArtSize.getBackgroundSprites()[0]);
 		inputTextBackgrounds.push(freeplayArtSize.getBackgroundSprites()[1]);
+		inputTextBackgrounds.push(seperateDifficultyInputText.backgroundSprite);
+		inputTextBackgrounds.push(seperateDifficultyInputText.fieldBorderSprite);
+		inputTextBackgrounds.push(descriptionInputText.backgroundSprite); // ill fix these one day, trust me
+		inputTextBackgrounds.push(descriptionInputText.fieldBorderSprite);
+		inputTextBackgrounds.push(suikaCustomInputText.backgroundSprite);
+		inputTextBackgrounds.push(suikaCustomInputText.fieldBorderSprite);
 	}
 
 	function updateFreeplayValues() {
@@ -858,14 +907,16 @@ class WeekEditorFreeplayState extends MusicBeatState
 		weekFile.songs[curSelected][2][2] = Math.round(bgColorStepperB.value);
 		weekFile.songs[curSelected][4][0] = Math.round(shrineTextX.value);
 		weekFile.songs[curSelected][4][1] = Math.round(shrineTextY.value);
-		weekFile.songs[curSelected][4][2] = Math.round(shrineTextSize.value);
 		weekFile.songs[curSelected][5] = freeplayArtInput.text;
 		weekFile.songs[curSelected][6][0] = Math.round(freeplayArtX.value);
 		weekFile.songs[curSelected][6][1] = Math.round(freeplayArtY.value);
 		weekFile.songs[curSelected][6][2] = freeplayArtSize.value;
+		weekFile.songs[curSelected][7] = seperateDifficultyInputText.text;
+		weekFile.songs[curSelected][8] =  descriptionInputText.text;
+		weekFile.songs[curSelected][9] =  suikaCustomInputText.text;
 		trace(freeplayArtSize.value);
-		grpSongs.members[curSelected].textPosition.set(shrineTextX.value, shrineTextY.value);
-		grpSongs.members[curSelected].textsprite.size = Std.int(shrineTextSize.value);
+		grpSongs.members[curSelected].textPosition = 500 + shrineTextX.value;
+		grpSongs.members[curSelected].rectanglePosition = shrineTextY.value;
 		bg.color = FlxColor.fromRGB(weekFile.songs[curSelected][2][0], weekFile.songs[curSelected][2][1], weekFile.songs[curSelected][2][2]);
 
 		if (Paths.image("Freeplay Art/" + freeplayArtInput.text) != null)
@@ -880,12 +931,12 @@ class WeekEditorFreeplayState extends MusicBeatState
 		{
 			freeplayActualArt.alpha = 0;
 		}
+
+		descriptionText.text = weekFile.songs[curSelected][8];
 	}
 
 	function changeSelection(change:Int = 0) {
 		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
-
-		trace(freeplayArtSize.value);
 		
 		curSelected += change;
 
@@ -897,39 +948,40 @@ class WeekEditorFreeplayState extends MusicBeatState
 		var bullShit:Int = 0;
 		for (i in 0...iconArray.length)
 		{
-			iconArray[i].alpha = 0.6;
+		//	iconArray[i].alpha = 0.6;
 		}
 
-		iconArray[curSelected].alpha = 1;
+	//	iconArray[curSelected].alpha = 1;
 
 		for (item in grpSongs.members)
 		{
 			item.targetY = bullShit - curSelected;
 			bullShit++;
 
-			item.alpha = 0.6;
+			item.textsprite.alpha = 0.75;
+			item.backgroundshrine.alpha = 0.15;
 			// item.setGraphicSize(Std.int(item.width * 0.8));
 
 			if (item.targetY == 0)
 			{
-				item.alpha = 1;
+				item.textsprite.alpha = 1;
+				item.backgroundshrine.alpha = 0.3;
 				// item.setGraphicSize(Std.int(item.width));
 			}
 		}
-		trace(freeplayArtSize.value);
-		trace(weekFile.songs[curSelected]);
 		iconInputText.text = weekFile.songs[curSelected][1];
 		bgColorStepperR.value = Math.round(weekFile.songs[curSelected][2][0]);
 		bgColorStepperG.value = Math.round(weekFile.songs[curSelected][2][1]);
 		bgColorStepperB.value = Math.round(weekFile.songs[curSelected][2][2]);
 		shrineTextX.value = Math.round(weekFile.songs[curSelected][4][0]);
 		shrineTextY.value = Math.round(weekFile.songs[curSelected][4][1]);
-		shrineTextSize.value = Math.round(weekFile.songs[curSelected][4][2]);
-		trace(freeplayArtSize.value);
 		freeplayArtInput.text = weekFile.songs[curSelected][5];
 		freeplayArtX.value = Math.round(weekFile.songs[curSelected][6][0]);
 		freeplayArtY.value = Math.round(weekFile.songs[curSelected][6][1]);
 		freeplayArtSize.value = weekFile.songs[curSelected][6][2];
+		seperateDifficultyInputText.text = weekFile.songs[curSelected][7];
+		descriptionInputText.text = weekFile.songs[curSelected][8];
+		suikaCustomInputText.text = weekFile.songs[curSelected][9];
 		updateFreeplayValues();
 	}
 
@@ -963,6 +1015,8 @@ class WeekEditorFreeplayState extends MusicBeatState
 			if(FlxG.keys.justPressed.ESCAPE) {
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.music.loopTime = 9410;
+				FlxG.sound.music.time = 9410;
 			}
 
 			if(controls.UI_UP_P) changeSelection(-1);

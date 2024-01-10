@@ -38,7 +38,11 @@ class StoryMenuState extends MusicBeatState
 
 	private static var curWeek:Int = 0;
 
-	public static var currentSongs:Array<String> = ['Flashy Beats', 'Da Ze', 'Incident Solvers', 'Mistr00s', 'Brainfreeze'];
+	public static var currentSongs:Array<String> = ['Flashy Beats', 'Da Ze', 'Incident Solvers', 'Mistr00s', 'Brainfreeze', 'Atomic', 'Baddest Bitpch', 
+	'Brreasy Scarer', 'Calling in Red', 'China', 'Easy Taker', 'Lacking', 'Mlem', 'My Memories', 'Perfectionism', 'Scarlet Dance', 'Smol', 'Stubborness'];
+
+	public static var currentFreeplaySongs:Array<String> = ['Mistr00s', 'Brainfreeze','Baddest Bitpch', 'Brreasy Scarer', 
+	'Calling in Red', 'Easy Taker', 'Lacking', 'My Memories', 'Over10', 'Smol']; // for freeplay lunatic achievement
 
 	public var explanationOfDifficulties:Array<String> = ['
 		For people getting used to the Controls.
@@ -51,7 +55,7 @@ class StoryMenuState extends MusicBeatState
 		','
 		A Difficulty worthy of boasting about.
 
-		Normal chart with Gimmicks
+		Normal chart
 		','
 		The Usual.
 		'
@@ -216,7 +220,7 @@ class StoryMenuState extends MusicBeatState
 
 		if (!movedBack && !selectedWeek)
 		{
-			if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya == 'Sent Link')
+			if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya != 'Completed')
 			{
 				var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 				var keyPressed:FlxKey = FlxG.keys.firstJustPressed();
@@ -487,6 +491,9 @@ class StoryMenuState extends MusicBeatState
 		{
 			curDifficulty = newPos;
 		}
+
+		FlxG.sound.play(Paths.sound('scrollMenu'));
+		
 		updateText();
 	}
 

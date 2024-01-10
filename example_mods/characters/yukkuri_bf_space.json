@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-32,
+				-123
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF_Down0"
+		},
+		{
+			"offsets": [
+				-29,
+				-82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF_Up0"
+		},
+		{
+			"offsets": [
+				-30,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF_Right0"
+		},
+		{
+			"offsets": [
+				-2,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF_Left_Miss"
+		},
+		{
+			"offsets": [
+				-28,
+				-82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF_Up_Miss"
+		},
+		{
+			"offsets": [
+				-31,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF_Right_Miss"
+		},
+		{
+			"offsets": [
+				-25,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF_Idle"
+		},
+		{
+			"offsets": [
+				0,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF_Left0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-33,
+				-116
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF_Down_Miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/yukkuri_bf_space",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		70,
+		-500
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

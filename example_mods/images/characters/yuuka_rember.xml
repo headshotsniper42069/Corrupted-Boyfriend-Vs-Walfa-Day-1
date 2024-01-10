@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="yuuka_rember.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Yuuka_Down0000" x="100" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0001" x="1909" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0002" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0003" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0004" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0005" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0006" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0007" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0008" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Down0009" x="3718" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0000" x="5527" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0001" x="5527" y="100" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0002" x="100" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0003" x="100" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0004" x="1909" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0005" x="1909" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0006" x="3718" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0007" x="3718" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0008" x="5527" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0009" x="5527" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0010" x="5527" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0011" x="5527" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0012" x="5527" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0013" x="5527" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Idle0014" x="5527" y="810" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0000" x="100" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0001" x="1909" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0002" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0003" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0004" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0005" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0006" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0007" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0008" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Left0009" x="3718" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0000" x="5527" y="1520" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0001" x="100" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0002" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0003" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0004" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0005" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0006" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0007" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0008" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Right0009" x="1909" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0000" x="3718" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0001" x="5527" y="2230" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0002" x="100" y="2940" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0003" x="100" y="2940" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0004" x="100" y="2940" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0005" x="100" y="2940" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0006" x="100" y="2940" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0007" x="100" y="2940" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0008" x="100" y="2940" width="1709" height="610"/>
+	<SubTexture name="Yuuka_Up0009" x="100" y="2940" width="1709" height="610"/>
+</TextureAtlas>

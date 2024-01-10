@@ -1,0 +1,6 @@
+Makes a warning screen for a set duration
+
+Made for Atomic
+
+Value 1: Duration
+Value 2: unused

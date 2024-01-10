@@ -1,5 +1,6 @@
 package editors;
 
+import openfl.utils.Assets;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -60,6 +61,7 @@ class DialogueEditorState extends MusicBeatState
 		};
 
 		dialogueFile = {
+			font: "DFPPOPCorn-W12",
 			dialogue: [
 				copyDefaultLine()
 			]
@@ -100,7 +102,7 @@ class DialogueEditorState extends MusicBeatState
 		animText.scrollFactor.set();
 		add(animText);
 		
-		daText = new TypedAlphabet(DialogueBoxPsych.DEFAULT_TEXT_X, DialogueBoxPsych.DEFAULT_TEXT_Y, DEFAULT_TEXT);
+		daText = new TypedAlphabet(DialogueBoxPsych.DEFAULT_TEXT_X, DialogueBoxPsych.DEFAULT_TEXT_Y, DEFAULT_TEXT, 0.05, false, dialogueFile.font);
 		daText.scaleX = 0.7;
 		daText.scaleY = 0.7;
 		add(daText);
@@ -114,7 +116,7 @@ class DialogueEditorState extends MusicBeatState
 			{name: 'Dialogue Line', label: 'Dialogue Line'},
 		];
 		UI_box = new FlxUITabMenu(null, tabs, true);
-		UI_box.resize(250, 210);
+		UI_box.resize(250, 245);
 		UI_box.x = FlxG.width - UI_box.width - 10;
 		UI_box.y = 10;
 		UI_box.scrollFactor.set();
@@ -125,6 +127,7 @@ class DialogueEditorState extends MusicBeatState
 
 	var characterInputText:FlxUIInputText;
 	var lineInputText:FlxUIInputText;
+	var fontInputText:FlxUIInputText;
 	var angryCheckbox:FlxUICheckBox;
 	var speedStepper:FlxUINumericStepper;
 	var soundInputText:FlxUIInputText;
@@ -146,8 +149,11 @@ class DialogueEditorState extends MusicBeatState
 
 		soundInputText = new FlxUIInputText(10, speedStepper.y + 40, 150, '', 8);
 		blockPressWhileTypingOn.push(soundInputText);
+
+		fontInputText = new FlxUIInputText(10, soundInputText.y + 35, 200, "DFPPOPCorn-W12", 8);
+		blockPressWhileTypingOn.push(fontInputText);
 		
-		lineInputText = new FlxUIInputText(10, soundInputText.y + 35, 200, DEFAULT_TEXT, 8);
+		lineInputText = new FlxUIInputText(10, fontInputText.y + 35, 200, DEFAULT_TEXT, 8);
 		blockPressWhileTypingOn.push(lineInputText);
 
 		var loadButton:FlxButton = new FlxButton(20, lineInputText.y + 25, "Load Dialogue", function() {
@@ -160,11 +166,13 @@ class DialogueEditorState extends MusicBeatState
 		tab_group.add(new FlxText(10, speedStepper.y - 18, 0, 'Interval/Speed (ms):'));
 		tab_group.add(new FlxText(10, characterInputText.y - 18, 0, 'Character:'));
 		tab_group.add(new FlxText(10, soundInputText.y - 18, 0, 'Sound file name:'));
+		tab_group.add(new FlxText(10, fontInputText.y - 18, 0, 'Font to use (filename, or the font name):'));
 		tab_group.add(new FlxText(10, lineInputText.y - 18, 0, 'Text:'));
 		tab_group.add(characterInputText);
 		tab_group.add(angryCheckbox);
 		tab_group.add(speedStepper);
 		tab_group.add(soundInputText);
+		tab_group.add(fontInputText);
 		tab_group.add(lineInputText);
 		tab_group.add(loadButton);
 		tab_group.add(saveButton);
@@ -298,6 +306,14 @@ class DialogueEditorState extends MusicBeatState
 				daText.sound = soundInputText.text;
 				if(daText.sound == null) daText.sound = '';
 			}
+			else if(sender == fontInputText)
+			{
+				if (fontInputText.text != '')
+				{
+					daText.font = fontInputText.text;
+					reloadText(true);
+				}
+			}
 		} else if(id == FlxUINumericStepper.CHANGE_EVENT && (sender == speedStepper)) {
 			dialogueFile.dialogue[curSelected].speed = speedStepper.value;
 			if(Math.isNaN(dialogueFile.dialogue[curSelected].speed) || dialogueFile.dialogue[curSelected].speed == null || dialogueFile.dialogue[curSelected].speed < 0.001) {
@@ -358,6 +374,8 @@ class DialogueEditorState extends MusicBeatState
 			if(FlxG.keys.justPressed.ESCAPE) {
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'), 1);
+				FlxG.sound.music.loopTime = 9410;
+				FlxG.sound.music.time = 9410;
 				transitioning = true;
 			}
 			var negaMult:Array<Int> = [1, -1];
@@ -480,6 +498,8 @@ class DialogueEditorState extends MusicBeatState
 				{
 					var cutName:String = _file.name.substr(0, _file.name.length - 5);
 					trace("Successfully loaded file: " + cutName);
+					if (loadedDialog.font == null)
+						loadedDialog.font = "DFPPOPCorn-W12";
 					dialogueFile = loadedDialog;
 					changeText();
 					_file = null;

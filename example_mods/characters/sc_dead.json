@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				260
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Remilia_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				195,
+				173
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Remilia_Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-37,
+				6
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Remilia_Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-45,
+				331
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Remilia_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				190
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Remilia_Right0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				260,
+				180
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "Cirno_Dies"
+		},
+		{
+			"offsets": [
+				-126,
+				33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "Cirno_Accept"
+		},
+		{
+			"offsets": [
+				-95,
+				-37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "Cirno_Loop"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sc_death",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mistr00s",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		150,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

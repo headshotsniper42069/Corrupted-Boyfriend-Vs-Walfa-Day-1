@@ -27,28 +27,29 @@ class FreeplayItem extends FlxSpriteGroup // loosely based off of class Alphabet
 
 	public var distancePerItem:FlxPoint = new FlxPoint(20, 155);
 	public var startPosition:FlxPoint = new FlxPoint(0, 0);
-	public var textPosition:FlxPoint = new FlxPoint(0, 0); // for freeplay editor, it went wack without this
+	public var textPosition:Float = 0; // for freeplay editor, it went wack without this
+	public var rectanglePosition:Float = 0;
 
-    var backgroundshrine:FlxSprite;
+    public var backgroundshrine:FlxSprite;
 
-	public function new(x:Float, y:Float, text:String = "", textX:Float, textY:Float, textSize:Int)
+	public function new(x:Float, y:Float, text:String = "", textX:Float, rectX:Float)
 	{
 		super(x, y);
 
 		this.text = text;
 		this.startPosition.x = x;
 		this.startPosition.y = y;
-		this.textPosition.x = textX;
-		this.textPosition.y = textY;
+		this.textPosition = 500 + textX;
+		this.rectanglePosition = rectX;
 
-        backgroundshrine = new FlxSprite(0, 0, Paths.image("freeplay/Shrine"));
-        backgroundshrine.setGraphicSize(Std.int(backgroundshrine.width * 0.5));
+        backgroundshrine = new FlxSprite(0, 0).makeGraphic(920, 75);
         backgroundshrine.updateHitbox();
+		backgroundshrine.alpha = 0.15;
         add(backgroundshrine);
 
-        textsprite = new FlxText(textX, textY, 0, text);
-        textsprite.setFormat("Topsicle", textSize);
-		textsprite.color = 0xFF000000;
+        textsprite = new FlxText(textX, 0, 0, text);
+        textsprite.setFormat("PC-9800", 48);
+		textsprite.color = 0xFFFFFFFF;
         add(textsprite);
 	}
 
@@ -57,15 +58,15 @@ class FreeplayItem extends FlxSpriteGroup // loosely based off of class Alphabet
 		if(changeX)
 		{
 			var scaledY = FlxMath.remapToRange(targetY, 0, 1, 0, 1.3);
-			x = FlxMath.lerp(x, Math.exp(Math.abs(scaledY * 0.6)) * -40 + (FlxG.width * 0.075), GlobalFreeplayStuff.lerpVal);
+			x = FlxMath.lerp(x, Math.exp(Math.abs(scaledY * 0.6)) * -40 + (FlxG.width * 0.03) - 400 + rectanglePosition, GlobalFreeplayStuff.lerpVal);
 			if (x < -900)
 				x = -900;
 		}
 		if(changeY)
 			y = FlxMath.lerp(y, (targetY * 1.3 * distancePerItem.y) + startPosition.y, GlobalFreeplayStuff.lerpVal);
 
-		textsprite.text = text;
-		textsprite.setPosition(getPosition().x + textPosition.x, getPosition().y + textPosition.y);
+		textsprite.text = text.toUpperCase();
+		textsprite.setPosition(getPosition().x + textPosition, getPosition().y + 10);
 
 		super.update(elapsed);
 	}
@@ -76,9 +77,8 @@ class FreeplayItem extends FlxSpriteGroup // loosely based off of class Alphabet
 		if(changeY)
 			y = (targetY * 1.3 * distancePerItem.y) + startPosition.y;
 	}
-	function setTextPosition(x:Float, y:Float)
+	function setTextPosition(x:Float)
 	{
-		this.textPosition.x = x;
-		this.textPosition.y = y;
+		this.textPosition = x;
 	}
 }

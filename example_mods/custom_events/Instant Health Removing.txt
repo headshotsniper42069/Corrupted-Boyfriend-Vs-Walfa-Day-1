@@ -1,0 +1,5 @@
+Instantly removes the health by a percentage, from 0 to 100%
+
+Value 1: percent to remove
+
+Value 2: unused

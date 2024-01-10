@@ -1,0 +1,7 @@
+Turns the camera black and fades in visibility
+
+Value 1: how long the black screen should stay
+
+Value 2: duration of visibility tween
+
+Made for Easy Taker

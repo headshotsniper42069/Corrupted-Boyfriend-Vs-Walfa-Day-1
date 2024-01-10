@@ -1,5 +1,6 @@
 package;
 
+import flixel.util.FlxGradient;
 import sys.FileSystem;
 import flixel.math.FlxPoint;
 #if desktop
@@ -27,8 +28,8 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '0.6.3'; //This is used for Discord RPC
-	public static var cyberScapeVersion:String = 'Demo Version'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '0.6.3'; //This was used for Discord RPC
+	public static var cyberScapeVersion:String = 'Version 1'; //This is used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -38,7 +39,8 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
+		'awards',
+		'gallery',
 		'credits',
 		'options'
 	];
@@ -48,16 +50,28 @@ class MainMenuState extends MusicBeatState
 	var randomCharacters:FlxSprite;
 	var rightSideBar:FlxSprite;
 
-	var randomCharacterAnimations:Array<String> = ["Aya_Bounce", "Cirno_Bounce", "Koishi_Bounce", "Mistr00s_Bounce", "Reimu_Bounce", "Tsukasa_Bounce"];
+	var randomCharacterAnimations:Array<String> = ["Aya_Idle", "Meiling_Bounce", "Mistr00s_Bounce", "Reimu_Bounce", "Tsukasa_Bounce", "Jack_Idle", "Pelo_Reimu_Idle", "Pelo_R_Idle", "Remilia_idle"];
+	var randomCharacterAnimations2:Array<String> = ["Koishi_Bounce", "Yukari_Idle", "Yukkuri_Bounce"];
 
 	var attributes:Array<Array<Float>> = [ // 0 = x, 1 = y, 2 = scale
-	[125.5, 20, 0.8], // Aya, holy shit she's tall
-	[-215, 20, 0.7], // Cirno
-	[120, 100, 0.675], // Koishi
+	[240, 60, 1.420], // Ayayas
+	[-10, 5, 0.78], // Meling
 	[120, 70, 0.785], // Mistress
-	[140, 100, 0.69], // Reimu, nice scaling
-	[30, 155, 0.6] // Catgirl
+	[140, 100, 0.69], // Reimu, cool number dude
+	[30, 155, 0.6], // Catgirl
+	[-115, 90, 1.3], // Jack
+	[15, 105, 1.456], // Stubbornness
+	[-175, 95, 1.48], // Scarlet Dance
+	[-190, -5, 1.455] // Scarlet Dance...on Ghetto Patrol
 	];
+
+	var attributes2:Array<Array<Float>> = [ // 0 = x, 1 = y, 2 = scale
+	[120, 100, 0.675], // Coarse Salt
+	[-80, -35, 0.735], // https://www.youtube.com/watch?v=4ZX9T0kWb4Y
+	[-40, 225, 0.61], // Easy Taker
+	];
+
+	var characterSet:Int = 0; // 0 = Set 1, 1 = Set 2
 
 	var whichone:Int = 0;
 
@@ -67,8 +81,12 @@ class MainMenuState extends MusicBeatState
 
 	var ayayaIntensifiesBuffer:String = '';
 
+	var gradientOverlays:Array<FlxSprite> = [];
+
 	override function create()
 	{
+		Main.fpsVar.visible = ClientPrefs.showFPS;
+		
 		#if MODS_ALLOWED
 		Paths.pushGlobalMods();
 		#end
@@ -116,9 +134,19 @@ class MainMenuState extends MusicBeatState
 		bg.screenCenter();
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
+
+		characterSet = FlxG.random.int(1, 2);
+		if (characterSet != 1)
+		{
+			attributes = attributes2;
+			randomCharacterAnimations = randomCharacterAnimations2;
+		}
+
+		trace('Character set $characterSet loaded!');
+
 		randomizeCharacter();
 		randomCharacters = new FlxSprite();
-		randomCharacters.frames = Paths.getSparrowAtlas('mainmenu/characters');
+		randomCharacters.frames = Paths.getSparrowAtlas('mainmenu/characters$characterSet');
 		if (Sys.args().contains("--mainmenu"))
 		{
 			for (number in 0...randomCharacterAnimations.length)
@@ -136,6 +164,7 @@ class MainMenuState extends MusicBeatState
 			randomCharacters.setPosition(attributes[character][0], attributes[character][1]);
 			randomCharacters.scale.set(attributes[character][2], attributes[character][2]);
 		}
+		randomCharacters.antialiasing = ClientPrefs.globalAntialiasing;
 		randomCharacters.updateHitbox();
 		add(randomCharacters);
 		rightSideBar = new FlxSprite(680, -195).loadGraphic(Paths.image('mainmenu/bar'));
@@ -180,6 +209,32 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
+		
+		if (character == 0 && characterSet == 1)
+		{
+			for (i in 0...4)
+			{
+				var gradientOverlay:FlxSprite = new FlxSprite();
+				switch (i)
+				{
+					case 0:
+						gradientOverlay = FlxGradient.createGradientFlxSprite(1280, 480, [0xFF000000, 0x00000000], 1, 90);
+					case 1:
+						gradientOverlay = FlxGradient.createGradientFlxSprite(1280, 480, [0x00000000, 0xFF000000], 1, 90);
+						gradientOverlay.y = FlxG.height - gradientOverlay.height;
+					case 2:
+						gradientOverlay = FlxGradient.createGradientFlxSprite(480, 720, [0xFF000000, 0x00000000], 1, 180);
+						gradientOverlay.x = FlxG.width - gradientOverlay.width;
+					case 3:
+						gradientOverlay = FlxGradient.createGradientFlxSprite(480, 720, [0x00000000, 0xFF000000], 1, 180);
+				}
+				gradientOverlays.push(gradientOverlay);
+			}
+			for (overlay in gradientOverlays)
+			{
+				add(overlay);
+			}
+		}
 
 		// NG.core.calls.event.logEvent('swag').send();
 
@@ -187,7 +242,7 @@ class MainMenuState extends MusicBeatState
 
 		#if ACHIEVEMENTS_ALLOWED
 		Achievements.loadAchievements();
-		var leDate = Date.now();
+	/*	var leDate = Date.now();
 		if (leDate.getDay() == 5 && leDate.getHours() >= 18) {
 			var achieveID:Int = Achievements.getAchievementIndex('friday_night_play');
 			if(!Achievements.isAchievementUnlocked(Achievements.achievementsStuff[achieveID][2])) { //It's a friday night. WEEEEEEEEEEEEEEEEEE
@@ -195,7 +250,7 @@ class MainMenuState extends MusicBeatState
 				giveAchievement();
 				ClientPrefs.saveSettings();
 			}
-		}
+		} */
 		#end
 
 		super.create();
@@ -214,7 +269,12 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (FlxG.sound.music.volume < 0.8)
+		if (character == 0 && characterSet == 1 && FlxG.sound.music.volume > 0.1 && !selectedSomethin)
+		{
+			FlxG.sound.music.volume -= 0.5 * FlxG.elapsed;
+			if(FreeplayState.vocals != null) FreeplayState.vocals.volume -= 0.5 * elapsed;
+		}
+		else if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 			if(FreeplayState.vocals != null) FreeplayState.vocals.volume += 0.5 * elapsed;
@@ -260,7 +320,7 @@ class MainMenuState extends MusicBeatState
 		{
 			if (!selectedSomethin)
 			{
-				if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya == 'Sent Link')
+				if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya != 'Completed')
 				{
 					var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 					var keyPressed:FlxKey = FlxG.keys.firstJustPressed();
@@ -345,16 +405,14 @@ class MainMenuState extends MusicBeatState
 											MusicBeatState.switchState(new StoryMenuState());
 										case 'freeplay':
 											MusicBeatState.switchState(new FreeplayState());
-										#if MODS_ALLOWED
-										case 'mods':
-											MusicBeatState.switchState(new ModsMenuState());
-										#end
 										case 'awards':
 											MusicBeatState.switchState(new AchievementsMenuState());
 										case 'credits':
 											MusicBeatState.switchState(new CreditsState());
 										case 'options':
 											LoadingState.loadAndSwitchState(new options.OptionsState());
+										case 'gallery':
+											LoadingState.loadAndSwitchState(new GalleryState());
 									}
 								});
 							}
@@ -435,16 +493,15 @@ class MainMenuState extends MusicBeatState
 		randomCharacters.scale.y = attributes[whichone][2];
 	}
 
-	override function stepHit()
+	override function beatHit()
 	{
-		if (curStep % 6 == 0)
-			randomCharacters.animation.play('bounce', true);
+		randomCharacters.animation.play('bounce', true);
 	}
 
 	function randomizeCharacter() // aya sonic.exe moment
 	{
 		character = FlxG.random.int(0, randomCharacterAnimations.length - 1);
-		if (character == 0 && FlxG.save.data.ayaya != 'Completed')
+		if (character == 0 && FlxG.save.data.ayaya != 'Completed' && characterSet == 1)
 		{
 			trace("Aya was supposed to show up, but the song hasnt been cleared");
 			randomizeCharacter(); // refresh

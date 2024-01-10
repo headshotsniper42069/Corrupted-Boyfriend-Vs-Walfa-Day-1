@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				290,
+				50
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "yuki idle left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				307,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "yuki idle right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				290,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "yuki lef",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				290,
+				-3
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "yuki down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				284,
+				-56
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "yuki up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				300,
+				30
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "yuki right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				332,
+				-20
+			],
+			"anim": "intro",
+			"fps": 24,
+			"name": "yuki intro",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-70,
+				178
+			],
+			"loop": false,
+			"fps": 48,
+			"anim": "dies",
+			"indices": [],
+			"name": "yuki death"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/big_yukkuri_death",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-320,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

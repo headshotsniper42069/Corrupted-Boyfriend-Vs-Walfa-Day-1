@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-48,
+				91
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mokou_Right0"
+		},
+		{
+			"offsets": [
+				84,
+				117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mokou_Left0"
+		},
+		{
+			"offsets": [
+				84,
+				117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Mokou_Left_Miss"
+		},
+		{
+			"offsets": [
+				-19,
+				37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Mokou_Down0"
+		},
+		{
+			"offsets": [
+				-19,
+				43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Mokou_Down_Miss"
+		},
+		{
+			"offsets": [
+				-51,
+				164
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mokou_Up0"
+		},
+		{
+			"offsets": [
+				-51,
+				164
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Mokou_Up_Miss"
+		},
+		{
+			"offsets": [
+				-19,
+				91
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Mokou_Right_Miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Mokou_Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mokou",
+	"position": [
+		0,
+		50
+	],
+	"healthicon": "mokou",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		114,
+		0
+	],
+	"camera_position": [
+		220,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

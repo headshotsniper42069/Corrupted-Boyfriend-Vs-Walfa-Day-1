@@ -1,0 +1,7 @@
+Makes the screen get covered in fog
+
+Also makes the notes move in sync with each other
+
+Value 1: unused
+
+Value 2: unused

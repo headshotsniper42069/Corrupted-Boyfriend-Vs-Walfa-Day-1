@@ -24,7 +24,7 @@ function onCreate()
 
     if songName == 'Incident Solvers' then
 
-    setObjectOrder('boyfriendGroup', 2)
+    setObjectOrder('boyfriendGroup', 4)
 
     makeLuaSprite('BG', 'Backgrounds/Walfas/Shrine/BG_Solvers', -600, -200);
 	  addLuaSprite('BG', false);

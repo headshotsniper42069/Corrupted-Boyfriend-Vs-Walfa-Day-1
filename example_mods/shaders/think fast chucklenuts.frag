@@ -4,6 +4,7 @@ vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
 vec2 iResolution = openfl_TextureSize;
 uniform float iTime;
 uniform float Size = 8.0; // BLUR SIZE (Radius)
+uniform float Quality = 4.0; // BLUR QUALITY (Default 4.0 - More is better but slower)
 #define iChannel0 bitmap
 #define texture flixel_texture2D
 #define fragColor gl_FragColor
@@ -17,7 +18,6 @@ void mainImage()
     
     // GAUSSIAN BLUR SETTINGS {{{
     float Directions = 16.0; // BLUR DIRECTIONS (Default 16.0 - More is better but slower)
-    float Quality = 4.0; // BLUR QUALITY (Default 4.0 - More is better but slower)
     // GAUSSIAN BLUR SETTINGS }}}
    
     vec2 Radius = Size/iResolution.xy;

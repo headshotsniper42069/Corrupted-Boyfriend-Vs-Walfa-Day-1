@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chrismas.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Yukari_Bounce0000" x="100" y="100" width="974" height="911" frameX="0" frameY="-37" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0001" x="100" y="100" width="974" height="911" frameX="0" frameY="-37" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0002" x="1174" y="100" width="962" height="930" frameX="0" frameY="-18" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0003" x="1174" y="100" width="962" height="930" frameX="0" frameY="-18" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0004" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0005" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0006" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0007" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0008" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0009" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0010" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0011" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0012" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0013" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yukari_Bounce0014" x="2236" y="100" width="956" height="948" frameX="0" frameY="0" frameWidth="974" frameHeight="948"/>
+	<SubTexture name="Yuuka_Bounce0000" x="3292" y="100" width="480" height="534" frameX="0" frameY="-17" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0001" x="3292" y="100" width="480" height="534" frameX="0" frameY="-17" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0002" x="100" y="1148" width="475" height="540" frameX="-2" frameY="-11" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0003" x="100" y="1148" width="475" height="540" frameX="-2" frameY="-11" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0004" x="675" y="1148" width="475" height="545" frameX="-2" frameY="-6" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0005" x="675" y="1148" width="475" height="545" frameX="-2" frameY="-6" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0006" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0007" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0008" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0009" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0010" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0011" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0012" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0013" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+	<SubTexture name="Yuuka_Bounce0014" x="1250" y="1148" width="475" height="551" frameX="-2" frameY="0" frameWidth="480" frameHeight="551"/>
+</TextureAtlas>

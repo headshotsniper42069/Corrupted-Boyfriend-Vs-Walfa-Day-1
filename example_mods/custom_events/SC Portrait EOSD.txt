@@ -1,0 +1,4 @@
+Makes a spell card portrait animation, but Touhou 6 styled
+
+Value 1: Image to use: "images/Spell Cards/Value 1.png"
+Value 2: Duration?

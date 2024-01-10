@@ -13,25 +13,14 @@
 		},
 		{
 			"offsets": [
-				150,
-				390
+				180,
+				380
 			],
 			"loop": true,
 			"fps": 24,
 			"anim": "spin",
 			"indices": [],
 			"name": "Remilia_Spin"
-		},
-		{
-			"offsets": [
-				-28,
-				260
-			],
-			"loop": false,
-			"fps": 12,
-			"anim": "disappear",
-			"indices": [],
-			"name": "Remilia_Dissapears"
 		},
 		{
 			"offsets": [
@@ -71,6 +60,9 @@
 				195,
 				223
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
 			"indices": [
 				0,
 				2,
@@ -83,9 +75,6 @@
 				9,
 				10
 			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"loop": false,
 			"name": "Remilia_Left0"
 		},
 		{
@@ -93,6 +82,9 @@
 				-47,
 				46
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
 			"indices": [
 				0,
 				2,
@@ -105,9 +97,6 @@
 				9,
 				10
 			],
-			"fps": 24,
-			"anim": "singDOWN",
-			"loop": false,
 			"name": "Remilia_Down0"
 		},
 		{
@@ -115,6 +104,9 @@
 				-55,
 				381
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
 			"indices": [
 				0,
 				2,
@@ -127,9 +119,6 @@
 				9,
 				10
 			],
-			"fps": 24,
-			"anim": "singUP",
-			"loop": false,
 			"name": "Remilia_Up0"
 		},
 		{
@@ -137,6 +126,9 @@
 				-30,
 				228
 			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
 			"indices": [
 				0,
 				2,
@@ -149,10 +141,18 @@
 				9,
 				10
 			],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"loop": false,
 			"name": "Remilia_Right0"
+		},
+		{
+			"offsets": [
+				-28,
+				260
+			],
+			"indices": [],
+			"fps": 5,
+			"anim": "disappear",
+			"loop": false,
+			"name": "Remilia_Dissapears"
 		}
 	],
 	"no_antialiasing": false,

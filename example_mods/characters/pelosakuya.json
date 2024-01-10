@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-20,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Sakuya_Intro_Idle"
+		},
+		{
+			"offsets": [
+				-17,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Sakuya_Idle"
+		},
+		{
+			"offsets": [
+				83,
+				-73
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Sakuya_Left"
+		},
+		{
+			"offsets": [
+				-15,
+				-121
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Sakuya_Down"
+		},
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Sakuya_Up"
+		},
+		{
+			"offsets": [
+				-100,
+				-80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Sakuya_Right"
+		},
+		{
+			"offsets": [
+				-20,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "intro",
+			"indices": [],
+			"name": "Sakuya_Intro"
+		},
+		{
+			"offsets": [
+				-50,
+				-80
+			],
+			"loop": false,
+			"fps": 38,
+			"anim": "knive",
+			"indices": [],
+			"name": "Sakuya_Knive"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pelosakuya",
+	"position": [
+		-10,
+		40
+	],
+	"healthicon": "pelosakuya",
+	"flip_x": false,
+	"healthbar_colors": [
+		87,
+		64,
+		98
+	],
+	"camera_position": [
+		50,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-74,
+				-275
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "Suwako_DanceLeft"
+		},
+		{
+			"offsets": [
+				-88,
+				-275
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "Suwako_DanceRight"
+		},
+		{
+			"offsets": [
+				-44,
+				-275
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Suwako_Left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-90,
+				-326
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Suwako_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-91,
+				-259
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Suwako_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-103,
+				-275
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Suwako_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/suwako",
+	"position": [
+		0,
+		70
+	],
+	"healthicon": "suwako",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		237,
+		199
+	],
+	"camera_position": [
+		-100,
+		150
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,4 +1,5 @@
 function onCreate()
+	luaDebugMode = true
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Lightning' then
 			setPropertyFromGroup('unspawnNotes', i, 'texture', 'Arrows/Lightning');
@@ -17,6 +18,7 @@ function onCreatePost()
 	setProperty("flash.alpha", 0)
 	setObjectCamera("flash", "other")
 	addLuaSprite("flash")
+	callOnLuas("initCameraShader")
 end
 
 function noteMiss(id, direction, noteType, isSustainNote)

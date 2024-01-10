@@ -59,6 +59,12 @@ class FreeplayState extends MusicBeatState
 
 	var ayayaIntensifiesBuffer:String = '';
 
+	var rectangles:Array<FlxSprite> = [];
+
+	var descriptionBG:FlxSprite;
+
+	var descriptionText:FlxText;
+
 	override function create()
 	{
 		//Paths.clearStoredMemory();
@@ -72,6 +78,10 @@ class FreeplayState extends MusicBeatState
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
 		#end
+
+		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
+
+		var songsToCheck:Array<String> = StoryMenuState.currentSongs;
 
 		for (i in 0...WeekData.weeksList.length) {
 			if(weekIsLocked(WeekData.weeksList[i])) continue;
@@ -90,7 +100,7 @@ class FreeplayState extends MusicBeatState
 			{
 				if (song[4] == null)
 				{
-					song[4] = [0, 0, 16];
+					song[4] = [0, 0];
 					trace("freeplay shrine array for " + song[0] + " is null, setting valid values");
 				}
 				var colors:Array<Int> = song[2];
@@ -98,7 +108,6 @@ class FreeplayState extends MusicBeatState
 				{
 					colors = [146, 113, 253];
 				}
-				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]), [song[4][0], song[4][1], song[4][2]]);
 				if (song[5] == null)
 				{
 					song[5] = '';
@@ -106,6 +115,17 @@ class FreeplayState extends MusicBeatState
 					song[6][2] = 1;
 					trace("freeplay art stuff for " + song[0] + " is null, setting valid values");
 				}
+				if (song[7] == null)
+				{
+					song[7] = '';
+					trace("freeplay seperate difficulty stuff for " + song[0] + " is null, setting as blank");
+				}
+				if (song[8] == null)
+				{
+					song[8] = 'Description goes here';
+					trace("freeplay description for " + song[0] + " is null, setting placeholder");
+				}
+				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]), [song[4][0], song[4][1]], song[7], song[8]);
 				var freeplayArt:FlxSprite = new FlxSprite(400 + song[6][0], 50 + song[6][1]);
 				if (Paths.image("Freeplay Art/" + song[5]) != null)
 					freeplayArt.loadGraphic(Paths.image("Freeplay Art/" + song[5]));
@@ -140,15 +160,36 @@ class FreeplayState extends MusicBeatState
 		backdrop.velocity.set(50, 50);
 		add(backdrop);
 
+		for (i in 0...3)
+		{
+			var rectangle:FlxSprite;
+			if (i != 2)
+			{
+				rectangle = new FlxSprite(640, 280 + (120 * i)).makeGraphic(30, 730);
+				rectangle.scale.y *= 1.5;
+			}
+			else
+			{
+				rectangle = new FlxSprite(640, 520).makeGraphic(250, 1280);
+			}
+			rectangle.y -= 300;
+			rectangle.x -= 500;
+			rectangle.angle = -45;
+			rectangle.alpha = 0.15;
+			add(rectangle);
+			rectangles.push(rectangle);
+		}
+
 		grpSongs = new FlxTypedGroup<FreeplayItem>();
 		add(grpSongs);
 
 		for (i in 0...songs.length)
 		{
-			var songText:FreeplayItem = new FreeplayItem(90, 320, songs[i].songName, songs[i].shrineTextValues[0], songs[i].shrineTextValues[1], Std.int(songs[i].shrineTextValues[2]));
+			var songText:FreeplayItem = new FreeplayItem(90, 320, songs[i].songName, songs[i].shrineTextValues[0], songs[i].shrineTextValues[1]);
 			songText.targetY = i - curSelected;
 			grpSongs.add(songText);
 			songText.snapToPosition();
+			rectangles.push(songText.backgroundshrine);
 
 			Paths.currentModDirectory = songs[i].folder;
 			var icon:HealthIcon = new HealthIcon(songs[i].songCharacter, false, true);
@@ -181,15 +222,16 @@ class FreeplayState extends MusicBeatState
 		bg.color = songs[curSelected].color;
 		backdrop.color = songs[curSelected].color;
 		intendedColor = bg.color;
+		for (designSprite in rectangles)
+		{
+			designSprite.color = songs[curSelected].color;
+		}
 
 		if(lastDifficultyName == '')
 		{
 			lastDifficultyName = CoolUtil.defaultDifficulty;
 		}
 		curDifficulty = Math.round(Math.max(0, CoolUtil.defaultDifficulties.indexOf(lastDifficultyName)));
-		
-		changeSelection();
-		changeDiff();
 
 		var swag:Alphabet = new Alphabet(1, 0, "swag");
 
@@ -209,33 +251,23 @@ class FreeplayState extends MusicBeatState
 
 			trace(md);
 		 */
-
-		var textBG:FlxSprite = new FlxSprite(0, FlxG.height - 26).makeGraphic(FlxG.width, 26, 0xFF000000);
-		textBG.alpha = 0.6;
-		add(textBG);
-
-		#if PRELOAD_ALL
-		var leText:String = "Press SPACE to listen to the Song / Press CTRL to open the Gameplay Changers Menu / Press RESET to Reset your Score and Accuracy.";
-		var size:Int = 16;
-		#else
-		var leText:String = "Press CTRL to open the Gameplay Changers Menu / Press RESET to Reset your Score and Accuracy.";
-		var size:Int = 18;
-		#end
-		var text:FlxText = new FlxText(textBG.x, textBG.y + 4, FlxG.width, leText, size);
-		text.setFormat(Paths.font("vcr.ttf"), size, FlxColor.WHITE, RIGHT);
-		text.scrollFactor.set();
-		add(text);
-		super.create();
-		var currentStuff:Array<String> = StoryMenuState.currentSongs;
-		for (funnysong in currentStuff)
-		{
-			trace(funnysong);
-			trace(Highscore.getScore(funnysong, 2));
-		}
+		
 		for (freeplayActualArt in freeplayArtArray)
 		{
 			add(freeplayActualArt);
 		}
+		descriptionBG = new FlxSprite(0, FlxG.height - 125).makeGraphic(FlxG.width, 125, 0xFF000000);
+		descriptionBG.alpha = 0.6;
+		add(descriptionBG);
+
+		descriptionText = new FlxText(10, 600, 0, "If you can see this, something is wrong", 32);
+		descriptionText.setFormat("PC-9800", 32);
+		add(descriptionText);
+				
+		changeSelection();
+		changeDiff();
+		
+		super.create();
 	}
 
 	override function closeSubState() {
@@ -244,15 +276,15 @@ class FreeplayState extends MusicBeatState
 		super.closeSubState();
 	}
 
-	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int, shrineTextValues:Array<Float>)
+	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int, shrineTextValues:Array<Float>, seperateDifficulties:String, description:String)
 	{
 		if (songName == 'Ayaya')
 		{
 			if (FlxG.save.data.ayaya == 'Completed')
-				songs.push(new SongMetadata(songName, weekNum, songCharacter, color, shrineTextValues));
+				songs.push(new SongMetadata(songName, weekNum, songCharacter, color, shrineTextValues, seperateDifficulties, description));
 		}
 		else
-			songs.push(new SongMetadata(songName, weekNum, songCharacter, color, shrineTextValues));
+			songs.push(new SongMetadata(songName, weekNum, songCharacter, color, shrineTextValues, seperateDifficulties, description));
 	}
 
 	function weekIsLocked(name:String):Bool {
@@ -362,6 +394,11 @@ class FreeplayState extends MusicBeatState
 				colorTween.cancel();
 			}
 			FlxG.sound.play(Paths.sound('cancelMenu'));
+			for (designSprite in rectangles)
+			{
+				FlxTween.cancelTweensOf(designSprite);
+				designSprite.alpha = 0.15;
+			}
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
@@ -422,6 +459,11 @@ class FreeplayState extends MusicBeatState
 					colorTween.cancel();
 				}
 				
+				for (designSprite in rectangles)
+				{
+					FlxTween.cancelTweensOf(designSprite);
+				}
+				
 				if (FlxG.keys.pressed.SHIFT){
 					LoadingState.loadAndSwitchState(new ChartingState());
 				}else{
@@ -443,7 +485,7 @@ class FreeplayState extends MusicBeatState
 			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
-		if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya == 'Sent Link')
+		if (FlxG.keys.firstJustPressed() != FlxKey.NONE && FlxG.save.data.ayaya != 'Completed')
 		{
 			var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			var keyPressed:FlxKey = FlxG.keys.firstJustPressed();
@@ -473,6 +515,10 @@ class FreeplayState extends MusicBeatState
 					LoadingState.loadAndSwitchState(new PlayState());
 				}
 			}
+		}
+		for (designSprite in rectangles)
+		{
+			designSprite.alpha = 0.15;
 		}
 		super.update(elapsed);
 	}
@@ -537,6 +583,11 @@ class FreeplayState extends MusicBeatState
 					backdropColorTween = null;
 				}
 			});
+			for (designSprite in rectangles)
+			{
+				FlxTween.cancelTweensOf(designSprite);
+				FlxTween.color(designSprite, 1, designSprite.color, intendedColor);
+			}
 		}
 
 		// selector.y = (70 * curSelected) + 30;
@@ -550,22 +601,25 @@ class FreeplayState extends MusicBeatState
 
 		for (i in 0...iconArray.length)
 		{
-			iconArray[i].alpha = 0.6;
+		//	iconArray[i].alpha = 0.6;
 		}
 
-		iconArray[curSelected].alpha = 1;
+	//	iconArray[curSelected].alpha = 1;
 
 		for (item in grpSongs.members)
 		{
 			item.targetY = bullShit - curSelected;
 			bullShit++;
 
-			item.alpha = 0.6;
+			item.textsprite.alpha = 0.75;
+			item.backgroundshrine.alpha = 0.15;
 			// item.setGraphicSize(Std.int(item.width * 0.8));
 
 			if (item.targetY == 0)
 			{
 				item.alpha = 1;
+				item.textsprite.alpha = 1;
+				item.backgroundshrine.alpha = 0.3;
 				// item.setGraphicSize(Std.int(item.width));
 			}
 		}
@@ -575,6 +629,9 @@ class FreeplayState extends MusicBeatState
 
 		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
 		var diffStr:String = WeekData.getCurrentWeek().difficulties;
+		if (songs[curSelected].seperateDifficulties != "")
+			diffStr = songs[curSelected].seperateDifficulties;
+
 		if(diffStr != null) diffStr = diffStr.trim(); //Fuck you HTML5
 
 		if(diffStr != null && diffStr.length > 0)
@@ -620,6 +677,8 @@ class FreeplayState extends MusicBeatState
 			FlxTween.cancelTweensOf(freeplayArtArray[previousSelected]);
 			FlxTween.tween(freeplayArtArray[previousSelected], {x: freeplayArtInitPosition[previousSelected] + 50, alpha: 0}, 0.25, {ease:FlxEase.cubeOut});
 		}
+
+		descriptionText.text = songs[curSelected].description;
 	}
 
 	private function positionHighscore() {
@@ -640,8 +699,10 @@ class SongMetadata
 	public var songCharacter:String = "";
 	public var color:Int = -7179779;
 	public var folder:String = "";
+	public var seperateDifficulties:String = "";
+	public var description:String;
 
-	public function new(song:String, week:Int, songCharacter:String, color:Int, shrineTextValues:Array<Float>)
+	public function new(song:String, week:Int, songCharacter:String, color:Int, shrineTextValues:Array<Float>, seperateDifficulties:String, description:String)
 	{
 		this.songName = song;
 		this.week = week;
@@ -649,6 +710,8 @@ class SongMetadata
 		this.color = color;
 		this.folder = Paths.currentModDirectory;
 		this.shrineTextValues = shrineTextValues;
+		this.seperateDifficulties = seperateDifficulties;
+		this.description = description;
 		if(this.folder == null) this.folder = '';
 	}
 }

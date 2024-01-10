@@ -42,6 +42,7 @@ typedef DialogueAnimArray = {
 // Gonna try to kind of make it compatible to Forever Engine,
 // love u Shubs no homo :flushedh4:
 typedef DialogueFile = {
+	var font:String;
 	var dialogue:Array<DialogueLine>;
 }
 
@@ -57,7 +58,7 @@ typedef DialogueLine = {
 class DialogueCharacter extends FlxSprite
 {
 	private static var IDLE_SUFFIX:String = '-IDLE';
-	public static var DEFAULT_CHARACTER:String = 'bf';
+	public static var DEFAULT_CHARACTER:String = 'walfabf';
 	public static var DEFAULT_SCALE:Float = 0.7;
 
 	public var jsonFile:DialogueCharacterFile = null;
@@ -100,14 +101,16 @@ class DialogueCharacter extends FlxSprite
 		if(!FileSystem.exists(path)) {
 			path = Paths.getPreloadPath('images/dialogue/' + DEFAULT_CHARACTER + '.json');
 		}
-		rawJson = File.getContent(path);
-
+		
+		if(FileSystem.exists(path)) {
+			rawJson = File.getContent(path);	
+			jsonFile = cast Json.parse(rawJson);
+		}
 		#else
 		var path:String = Paths.getPreloadPath(characterPath);
 		rawJson = Assets.getText(path);
-		#end
-		
 		jsonFile = cast Json.parse(rawJson);
+		#end
 	}
 
 	public function reloadAnimations() {
@@ -221,7 +224,9 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		box.updateHitbox();
 		add(box);
 
-		daText = new TypedAlphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, '');
+		if (this.dialogueList.font == null)
+			this.dialogueList.font = "DFPPOPCorn-W12";
+		daText = new TypedAlphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, '', 0.05, false, this.dialogueList.font);
 		daText.scaleX = 0.7;
 		daText.scaleY = 0.7;
 		add(daText);

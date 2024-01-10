@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kaguya.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Kaguya_Down0000" x="100" y="100" width="533" height="790" frameX="0" frameY="-16" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0001" x="733" y="100" width="528" height="798" frameX="-3" frameY="-8" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0002" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0003" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0004" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0005" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0006" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0007" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0008" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Down0009" x="1361" y="100" width="523" height="806" frameX="-5" frameY="0" frameWidth="533" frameHeight="806"/>
+	<SubTexture name="Kaguya_Idle0000" x="1984" y="100" width="532" height="830" frameX="0" frameY="-12" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0001" x="1984" y="100" width="532" height="830" frameX="0" frameY="-12" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0002" x="2616" y="100" width="526" height="834" frameX="-3" frameY="-8" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0003" x="2616" y="100" width="526" height="834" frameX="-3" frameY="-8" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0004" x="3242" y="100" width="521" height="839" frameX="-5" frameY="-3" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0005" x="3242" y="100" width="521" height="839" frameX="-5" frameY="-3" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0006" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0007" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0008" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0009" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0010" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0011" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0012" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0013" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Idle0014" x="100" y="1039" width="521" height="842" frameX="-5" frameY="0" frameWidth="532" frameHeight="842"/>
+	<SubTexture name="Kaguya_Left0000" x="721" y="1039" width="522" height="839" frameX="0" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0001" x="1343" y="1039" width="522" height="839" frameX="-1" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0002" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0003" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0004" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0005" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0006" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0007" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0008" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Left0009" x="1965" y="1039" width="521" height="839" frameX="-2" frameY="0" frameWidth="523" frameHeight="839"/>
+	<SubTexture name="Kaguya_Right0000" x="2586" y="1039" width="522" height="842" frameX="-2" frameY="-2" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0001" x="3208" y="1039" width="521" height="844" frameX="-1" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0002" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0003" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0004" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0005" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0006" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0007" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0008" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Right0009" x="100" y="1983" width="521" height="844" frameX="0" frameY="0" frameWidth="524" frameHeight="844"/>
+	<SubTexture name="Kaguya_Up0000" x="721" y="1983" width="521" height="905"/>
+	<SubTexture name="Kaguya_Up0001" x="1342" y="1983" width="521" height="900" frameX="0" frameY="-5" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0002" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0003" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0004" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0005" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0006" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0007" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0008" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+	<SubTexture name="Kaguya_Up0009" x="1963" y="1983" width="521" height="897" frameX="0" frameY="-8" frameWidth="521" frameHeight="905"/>
+</TextureAtlas>

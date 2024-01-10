@@ -202,6 +202,7 @@ class ChartingState extends MusicBeatState
 	var text:String = "";
 	public static var vortex:Bool = false;
 	public var mouseQuant:Bool = false;
+	var controlsTextGroup:Array<FlxText> = [];
 	override function create()
 	{
 		if (PlayState.SONG != null)
@@ -218,6 +219,7 @@ class ChartingState extends MusicBeatState
 				needsVoices: true,
 				arrowSkin: '',
 				splashSkin: 'noteSplashes',//idk it would crash if i didn't
+				healthSkin: '',
 				player1: 'bf',
 				player2: 'dad',
 				gfVersion: 'gf',
@@ -361,7 +363,9 @@ class ChartingState extends MusicBeatState
 			tipText.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
 			//tipText.borderSize = 2;
 			tipText.scrollFactor.set();
+			tipText.ID = i;
 			add(tipText);
+			controlsTextGroup.push(tipText);
 		}
 		add(UI_box);
 
@@ -401,6 +405,7 @@ class ChartingState extends MusicBeatState
 	var UI_songTitle:FlxUIInputText;
 	var noteSkinInputText:FlxUIInputText;
 	var noteSplashesInputText:FlxUIInputText;
+	var healthSkinInputText:FlxUIInputText;
 	var stageDropDown:FlxUIDropDownMenuCustom;
 	var sliderRate:FlxUISlider;
 	function addSongUI():Void
@@ -600,7 +605,10 @@ class ChartingState extends MusicBeatState
 		noteSplashesInputText = new FlxUIInputText(noteSkinInputText.x, noteSkinInputText.y + 35, 150, _song.splashSkin, 8);
 		blockPressWhileTypingOn.push(noteSplashesInputText);
 
-		var reloadNotesButton:FlxButton = new FlxButton(noteSplashesInputText.x + 5, noteSplashesInputText.y + 20, 'Change Notes', function() {
+		healthSkinInputText = new FlxUIInputText(noteSplashesInputText.x, noteSplashesInputText.y + 35, 150, _song.healthSkin, 8);
+		blockPressWhileTypingOn.push(healthSkinInputText);
+
+		var reloadNotesButton:FlxButton = new FlxButton(healthSkinInputText.x + 5, healthSkinInputText.y + 20, 'Change Notes', function() {
 			_song.arrowSkin = noteSkinInputText.text;
 			updateGrid();
 		});
@@ -623,6 +631,7 @@ class ChartingState extends MusicBeatState
 		tab_group_song.add(reloadNotesButton);
 		tab_group_song.add(noteSkinInputText);
 		tab_group_song.add(noteSplashesInputText);
+		tab_group_song.add(healthSkinInputText);
 		tab_group_song.add(new FlxText(stepperBPM.x, stepperBPM.y - 15, 0, 'Song BPM:'));
 		tab_group_song.add(new FlxText(stepperBPM.x + 100, stepperBPM.y - 15, 0, 'Song Offset:'));
 		tab_group_song.add(new FlxText(stepperSpeed.x, stepperSpeed.y - 15, 0, 'Song Speed:'));
@@ -632,6 +641,7 @@ class ChartingState extends MusicBeatState
 		tab_group_song.add(new FlxText(stageDropDown.x, stageDropDown.y - 15, 0, 'Stage:'));
 		tab_group_song.add(new FlxText(noteSkinInputText.x, noteSkinInputText.y - 15, 0, 'Note Texture:'));
 		tab_group_song.add(new FlxText(noteSplashesInputText.x, noteSplashesInputText.y - 15, 0, 'Note Splashes Texture:'));
+		tab_group_song.add(new FlxText(healthSkinInputText.x, healthSkinInputText.y - 15, 0, 'Health Bar Skin:'));
 		tab_group_song.add(player2DropDown);
 		tab_group_song.add(gfVersionDropDown);
 		tab_group_song.add(player1DropDown);
@@ -1469,6 +1479,9 @@ class ChartingState extends MusicBeatState
 			if(sender == noteSplashesInputText) {
 				_song.splashSkin = noteSplashesInputText.text;
 			}
+			else if(sender == healthSkinInputText) {
+				_song.healthSkin = healthSkinInputText.text;
+			}
 			else if(curSelectedNote != null)
 			{
 				if(sender == value1InputText) {
@@ -1499,6 +1512,22 @@ class ChartingState extends MusicBeatState
 			{
 				case 'playbackSpeed':
 					playbackSpeed = Std.int(sliderRate.value);
+			}
+		}
+		else if (id == FlxUITabMenu.CLICK_EVENT && (sender is FlxUITabMenu))
+		{
+			if (data == 'Song')
+			{
+				UI_box.resize(300, 430);
+			}
+			else
+			{
+				UI_box.resize(300, 400);
+			}
+
+			for (text in controlsTextGroup)
+			{
+				text.y = (UI_box.y + UI_box.height + 8) + (text.ID * 12);
 			}
 		}
 
@@ -1698,6 +1727,8 @@ class ChartingState extends MusicBeatState
 				PlayState.chartingMode = false;
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.music.loopTime = 9410;
+				FlxG.sound.music.time = 9410;
 				FlxG.mouse.visible = false;
 				return;
 			}

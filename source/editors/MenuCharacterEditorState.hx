@@ -288,6 +288,8 @@ class MenuCharacterEditorState extends MusicBeatState
 			if(FlxG.keys.justPressed.ESCAPE) {
 				MusicBeatState.switchState(new editors.MasterEditorMenu());
 				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.music.loopTime = 9410;
+				FlxG.sound.music.time = 9410;
 			}
 
 			var shiftMult:Int = 1;

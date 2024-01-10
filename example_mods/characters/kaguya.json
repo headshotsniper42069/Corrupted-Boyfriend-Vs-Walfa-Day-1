@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Kaguya_Idle"
+		},
+		{
+			"offsets": [
+				-1,
+				47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Kaguya_Left"
+		},
+		{
+			"offsets": [
+				7,
+				14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Kaguya_Down"
+		},
+		{
+			"offsets": [
+				-5,
+				113
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Kaguya_Up"
+		},
+		{
+			"offsets": [
+				-14,
+				52
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Kaguya_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/kaguya",
+	"position": [
+		0,
+		30
+	],
+	"healthicon": "kaguya",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		166,
+		244
+	],
+	"camera_position": [
+		50,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

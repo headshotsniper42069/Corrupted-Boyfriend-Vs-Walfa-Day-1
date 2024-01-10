@@ -19,9 +19,9 @@ class TypedAlphabet extends Alphabet
 	public var sound:String = 'dialogue';
 	public var volume:Float = 1;
 
-	public function new(x:Float, y:Float, text:String = "", ?delay:Float = 0.05, ?bold:Bool = false)
+	public function new(x:Float, y:Float, text:String = "", ?delay:Float = 0.05, ?bold:Bool = false, ?font:String = "")
 	{
-		super(x, y, text, bold);
+		super(x, y, text, bold, font);
 
 		this.delay = delay;
 	}
@@ -52,7 +52,17 @@ class TypedAlphabet extends Alphabet
 				playedSound = true;
 
 				_curLetter++;
-				if(_curLetter >= letters.length - 1)
+				if (font != '')
+				{
+					if (_curLetter >= customLetters.length - 1)
+					{
+						finishedText = true;
+						if(onFinish != null) onFinish();
+						_timeToUpdate = 0;
+						break;
+					}
+				}
+				else if(_curLetter >= letters.length - 1)
 				{
 					finishedText = true;
 					if(onFinish != null) onFinish();
@@ -73,7 +83,10 @@ class TypedAlphabet extends Alphabet
 
 		for (i in start...(upTo+1))
 		{
-			if(letters[i] != null) letters[i].visible = true;
+			if (font != '')
+				if(customLetters[i] != null) customLetters[i].visible = true;
+			else
+				if(letters[i] != null) letters[i].visible = true;
 			//trace('test, showing: $i');
 		}
 	}
@@ -87,13 +100,20 @@ class TypedAlphabet extends Alphabet
 		{
 			letter.visible = false;
 		}
+		for (letter in customLetters)
+		{
+			letter.visible = false;
+		}
 	}
 
 	public function finishText()
 	{
 		if(finishedText) return;
 
-		showCharacterUpTo(letters.length - 1);
+		if (font != '')
+			showCharacterUpTo(customLetters.length - 1);
+		else
+			showCharacterUpTo(letters.length - 1);
 		if(sound != '') FlxG.sound.play(Paths.sound(sound), volume);
 		finishedText = true;
 		

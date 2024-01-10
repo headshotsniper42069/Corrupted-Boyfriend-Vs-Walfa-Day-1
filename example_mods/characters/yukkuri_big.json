@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				320,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "yuki idle left"
+		},
+		{
+			"offsets": [
+				307,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "yuki idle right"
+		},
+		{
+			"offsets": [
+				290,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "yuki lef"
+		},
+		{
+			"offsets": [
+				290,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "yuki down"
+		},
+		{
+			"offsets": [
+				284,
+				-56
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "yuki up"
+		},
+		{
+			"offsets": [
+				300,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "yuki right"
+		},
+		{
+			"offsets": [
+				332,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "intro",
+			"indices": [],
+			"name": "yuki intro"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/big_yukkuri",
+	"position": [
+		80,
+		-10
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-320,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ykkuribg.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Nitori0000" x="100" y="100" width="474" height="380" frameX="0" frameY="-34" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0001" x="100" y="100" width="474" height="380" frameX="0" frameY="-34" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0002" x="674" y="100" width="456" height="393" frameX="-9" frameY="-21" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0003" x="674" y="100" width="456" height="393" frameX="-9" frameY="-21" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0004" x="1230" y="100" width="456" height="400" frameX="-9" frameY="-14" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0005" x="1230" y="100" width="456" height="400" frameX="-9" frameY="-14" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0006" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0007" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0008" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0009" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0010" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0011" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0012" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Nitori0013" x="100" y="600" width="444" height="414" frameX="-15" frameY="0" frameWidth="474" frameHeight="414"/>
+	<SubTexture name="Sakuya0000" x="644" y="600" width="451" height="386" frameX="0" frameY="-20" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0001" x="644" y="600" width="451" height="386" frameX="0" frameY="-20" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0002" x="1195" y="600" width="439" height="391" frameX="-6" frameY="-15" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0003" x="1195" y="600" width="439" height="391" frameX="-6" frameY="-15" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0004" x="100" y="1114" width="434" height="397" frameX="-8" frameY="-9" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0005" x="100" y="1114" width="434" height="397" frameX="-8" frameY="-9" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0006" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0007" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0008" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0009" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0010" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0011" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0012" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+	<SubTexture name="Sakuya0013" x="634" y="1114" width="430" height="406" frameX="-10" frameY="0" frameWidth="451" frameHeight="406"/>
+</TextureAtlas>

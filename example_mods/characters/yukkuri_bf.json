@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-25,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "bf_idle"
+		},
+		{
+			"offsets": [
+				-26,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bf_left0"
+		},
+		{
+			"offsets": [
+				-51,
+				-124
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bf_down0"
+		},
+		{
+			"offsets": [
+				-84,
+				-61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bf_up0"
+		},
+		{
+			"offsets": [
+				-106,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bf_right0"
+		},
+		{
+			"offsets": [
+				-28,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "bf_left miss"
+		},
+		{
+			"offsets": [
+				-49,
+				-123
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "bf_down miss"
+		},
+		{
+			"offsets": [
+				-74,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "bf_up miss"
+		},
+		{
+			"offsets": [
+				-108,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "bf_right miss"
+		},
+		{
+			"offsets": [
+				-17,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "bf_hey"
+		},
+		{
+			"offsets": [
+				405,
+				281
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "bf_diesloop"
+		},
+		{
+			"offsets": [
+				405,
+				1556
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "bf_diesfinish"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				1748
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "bf_dies0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_yukkuri",
+	"position": [
+		30,
+		430
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		600,
+		-960
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

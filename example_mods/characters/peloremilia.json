@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				290,
+				0
+			],
+			"loop": true,
+			"fps": 20,
+			"anim": "idle",
+			"indices": [],
+			"name": "Remilia_Idle"
+		},
+		{
+			"offsets": [
+				410,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Remilia_Left"
+		},
+		{
+			"offsets": [
+				330,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Remilia_Down"
+		},
+		{
+			"offsets": [
+				255,
+				75
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Remilia_Up"
+		},
+		{
+			"offsets": [
+				130,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Remilia_Right"
+		},
+		{
+			"offsets": [
+				363,
+				227
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "smoke",
+			"indices": [],
+			"name": "Remilia_Smoke"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/peloremilia",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "peloremilia",
+	"flip_x": false,
+	"healthbar_colors": [
+		242,
+		180,
+		255
+	],
+	"camera_position": [
+		-460,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

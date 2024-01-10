@@ -1,0 +1,94 @@
+{
+	"storyName": "EOSD if it was Good",
+	"difficulties": "Easy, Normal, Hard, Lunatic",
+	"hideFreeplay": false,
+	"weekBefore": "1Walfa",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"storyNameSettings": [
+		5,
+		40,
+		32
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Stubborness",
+			"peloreimu",
+			[
+				234,
+				201,
+				255
+			],
+			"Stubborness",
+			[
+				-70,
+				21,
+				42
+			],
+			"peloreimu",
+			[
+				300,
+				10,
+				0.5
+			],
+			"",
+			"This is based on the Touhou 6 Animation of Sr. Pelo.",
+			"Pelo"
+		],
+		[
+			"Perfectionism",
+			"pelosakuya",
+			[
+				87,
+				64,
+				98
+			],
+			"Perfectionism",
+			[
+				0,
+				23,
+				44
+			],
+			"pelosakuya",
+			[
+				210,
+				20,
+				0.45
+			],
+			"",
+			"This is based on the Touhou 6 Animation of Sr. Pelo.",
+			"Pelo"
+		],
+		[
+			"Scarlet Dance",
+			"peloremilia",
+			[
+				242,
+				180,
+				255
+			],
+			"Scarlet",
+			[
+				-65,
+				34,
+				44
+			],
+			"peloremilia",
+			[
+				270,
+				50,
+				0.5
+			],
+			"",
+			"This is based on the Touhou 6 Animation of Sr. Pelo.",
+			"Pelo"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Pelo"
+}

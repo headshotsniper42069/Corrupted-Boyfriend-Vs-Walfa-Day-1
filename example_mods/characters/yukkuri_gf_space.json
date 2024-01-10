@@ -1,0 +1,203 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-19
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "GF left note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-20
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "GF Down Note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				4
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "GF Up Note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-20
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "GF Right Note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-21
+			],
+			"fps": 24,
+			"anim": "sad",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"name": "gf sad"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				45,
+				-8
+			],
+			"fps": 24,
+			"anim": "hairBlow",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"name": "GF Dancing Beat Hair blowing"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"fps": 24,
+			"anim": "hairFall",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"name": "GF Dancing Beat Hair Landing"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-2,
+				-17
+			],
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "GF FEAR"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-51
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "gf_cheer",
+			"indices": []
+		},
+		{
+			"offsets": [
+				467,
+				1541
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "crush",
+			"indices": [],
+			"name": "gf_squish"
+		},
+		{
+			"offsets": [
+				50,
+				-49
+			],
+			"indices": [
+				30,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "GF_Dance"
+		},
+		{
+			"offsets": [
+				50,
+				-49
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "GF_Dance"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/yukkuri_gf_space",
+	"position": [
+		170,
+		220
+	],
+	"healthicon": "dayousei",
+	"flip_x": false,
+	"healthbar_colors": [
+		99,
+		9,
+		57
+	],
+	"camera_position": [
+		-150,
+		110
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

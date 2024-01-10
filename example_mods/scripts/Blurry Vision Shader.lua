@@ -1,6 +1,8 @@
 local shaderName = "think fast chucklenuts"
-function onCreate()
+shaderIsEnabled = false
+function initCameraShader()
     size = 0
+    shaderQuality = 4
     shaderCoordFix()
 
     makeLuaSprite("think fast chucklenuts")
@@ -8,30 +10,36 @@ function onCreate()
 
     setSpriteShader("shaderImage", "think fast chucklenuts")
 
-
     runHaxeCode([[
         var shaderName = "]] .. shaderName .. [[";
-        
+
         game.initLuaShader(shaderName);
-        
+
         var shader0 = game.createRuntimeShader(shaderName);
         game.camGame.setFilters([new ShaderFilter(shader0)]);
-        game.getLuaObject("think fast chucklenuts").shader = shader0; // setting it into temporary sprite so luas can set its shader uniforms/properties
+        game.getLuaObject("think fast chucklenuts").shader = shader0;
         game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("think fast chucklenuts").shader)]);
         return;
     ]])
+    shaderIsEnabled = true
 end
 
 function onUpdate(elapsed)
-    setShaderFloat("think fast chucklenuts", "iTime", os.clock())
-    if size > 0 then
-        size = size - elapsed * 4
+    if shaderIsEnabled then
+        setShaderFloat("think fast chucklenuts", "iTime", os.clock())
+        if size > 0 then
+            size = size - elapsed * 4
+        else
+            shaderQuality = 0
+        end
+        setShaderFloat("think fast chucklenuts", "Size", size)
+        setShaderFloat("think fast chucklenuts", "Quality", shaderQuality)
     end
-    setShaderFloat("think fast chucklenuts", "Size", size)
 end
 
 function trigger()
     size = 14 -- that wasnt so hard was it?
+    shaderQuality = 4
 end
 
 function shaderCoordFix()

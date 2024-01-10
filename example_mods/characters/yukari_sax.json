@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				200
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Yukari_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				770,
+				210
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Yukari_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-80,
+				-420
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Yukari_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				170,
+				441
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Yukari_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				40
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Yukari_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Yukari_Saxophone",
+	"position": [
+		50,
+		0
+	],
+	"healthicon": "baddestbitpch",
+	"flip_x": false,
+	"healthbar_colors": [
+		128,
+		47,
+		149
+	],
+	"camera_position": [
+		200,
+		250
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,91 @@
+{
+	"storyName": "Fumo Fumo",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBefore": "2Pelo",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"storyNameSettings": [
+		20,
+		20,
+		50
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"China",
+			"meiling",
+			[
+				44,
+				156,
+				0
+			],
+			"fumo1",
+			[
+				90,
+				0
+			],
+			"meiling",
+			[
+				300,
+				70,
+				0.45
+			],
+			"",
+			"Fumo Fumo, Fumo? Fumo Fumo! Fumo!!",
+			"Fumo"
+		],
+		[
+			"Mlem",
+			"suwako",
+			[
+				255,
+				237,
+				199
+			],
+			"fumo2",
+			[
+				90,
+				0
+			],
+			"Suwako",
+			[
+				390,
+				70,
+				0.5
+			],
+			"",
+			"Fumo Fumo, Fumo? Fumo Fumo! Fumo!!",
+			"Fumo"
+		],
+		[
+			"Atomic",
+			"utsohu",
+			[
+				58,
+				58,
+				58
+			],
+			"fumo3",
+			[
+				50,
+				0
+			],
+			"Okuu",
+			[
+				340,
+				60,
+				0.5
+			],
+			"",
+			"Fumo Fumo, Fumo? Fumo Fumo! Fumo!!",
+			"Fumo"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Fumo"
+}

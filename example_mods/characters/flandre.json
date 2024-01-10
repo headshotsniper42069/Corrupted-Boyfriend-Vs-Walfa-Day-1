@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				392,
+				30
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Flandre_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				243,
+				-25
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Flandre_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				241,
+				129
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Flandre_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				23
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Flandre_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				270,
+				100
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "Flandre_DanceLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				243,
+				99
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Flandre_DanceRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/internet_flandre",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "survivour",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-400,
+		-50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

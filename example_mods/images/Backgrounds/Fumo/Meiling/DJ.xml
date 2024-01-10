@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fumobg.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Flandre0000" x="15" y="15" width="157" height="132" frameX="0" frameY="-19" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0001" x="15" y="15" width="157" height="132" frameX="0" frameY="-19" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0002" x="188" y="15" width="152" height="135" frameX="-3" frameY="-16" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0003" x="188" y="15" width="152" height="135" frameX="-3" frameY="-16" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0004" x="15" y="166" width="150" height="145" frameX="-4" frameY="-6" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0005" x="15" y="166" width="150" height="145" frameX="-4" frameY="-6" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0006" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0007" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0008" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0009" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0010" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0011" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0012" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0013" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+	<SubTexture name="Flandre0014" x="181" y="166" width="150" height="151" frameX="-4" frameY="0" frameWidth="157" frameHeight="151"/>
+</TextureAtlas>

@@ -1,0 +1,1 @@
+Makes the screen go black

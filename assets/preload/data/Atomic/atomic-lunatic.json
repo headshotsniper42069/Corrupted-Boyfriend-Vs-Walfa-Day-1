@@ -1,0 +1,16175 @@
+{
+	"song": {
+		"player1": "fumobf",
+		"healthSkin": "",
+		"gfVersion": "fumogf",
+		"notes": [
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 150
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 150
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						9600,
+						2,
+						0
+					],
+					[
+						9750,
+						1,
+						0
+					],
+					[
+						10050,
+						0,
+						375
+					],
+					[
+						10500,
+						1,
+						225
+					],
+					[
+						9750,
+						0,
+						0
+					],
+					[
+						10500,
+						3,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						10800,
+						2,
+						0
+					],
+					[
+						10950,
+						1,
+						0
+					],
+					[
+						11100,
+						0,
+						0
+					],
+					[
+						11250,
+						1,
+						0
+					],
+					[
+						11400,
+						3,
+						225
+					],
+					[
+						11700,
+						1,
+						225
+					],
+					[
+						11250,
+						2,
+						0
+					],
+					[
+						10950,
+						3,
+						0
+					],
+					[
+						11700,
+						0,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						12000,
+						2,
+						0
+					],
+					[
+						12150,
+						0,
+						0
+					],
+					[
+						12225,
+						2,
+						0
+					],
+					[
+						12300,
+						1,
+						225
+					],
+					[
+						12600,
+						0,
+						225
+					],
+					[
+						12900,
+						1,
+						225
+					],
+					[
+						12225,
+						3,
+						0
+					],
+					[
+						12900,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						13200,
+						3,
+						225
+					],
+					[
+						13500,
+						2,
+						225
+					],
+					[
+						13800,
+						3,
+						225
+					],
+					[
+						14100,
+						1,
+						225
+					],
+					[
+						13500,
+						0,
+						0
+					],
+					[
+						14100,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						14400,
+						2,
+						0
+					],
+					[
+						14550,
+						1,
+						0
+					],
+					[
+						14850,
+						0,
+						375
+					],
+					[
+						15300,
+						1,
+						225
+					],
+					[
+						14400,
+						4,
+						1125
+					],
+					[
+						14550,
+						0,
+						0
+					],
+					[
+						15300,
+						3,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						15600,
+						2,
+						0
+					],
+					[
+						15750,
+						1,
+						0
+					],
+					[
+						15900,
+						0,
+						0
+					],
+					[
+						16050,
+						1,
+						0
+					],
+					[
+						16200,
+						3,
+						225
+					],
+					[
+						16500,
+						1,
+						225
+					],
+					[
+						15600,
+						6,
+						1125
+					],
+					[
+						15750,
+						3,
+						0
+					],
+					[
+						16050,
+						2,
+						0
+					],
+					[
+						16500,
+						0,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						16800,
+						2,
+						0
+					],
+					[
+						16950,
+						0,
+						0
+					],
+					[
+						17025,
+						2,
+						0
+					],
+					[
+						17100,
+						1,
+						225
+					],
+					[
+						17400,
+						0,
+						225
+					],
+					[
+						17700,
+						1,
+						225
+					],
+					[
+						16800,
+						5,
+						1125
+					],
+					[
+						16800,
+						7,
+						1125
+					],
+					[
+						17025,
+						3,
+						0
+					],
+					[
+						17700,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						18000,
+						3,
+						225
+					],
+					[
+						18300,
+						2,
+						225
+					],
+					[
+						18600,
+						3,
+						225
+					],
+					[
+						18900,
+						1,
+						225
+					],
+					[
+						18000,
+						6,
+						1125
+					],
+					[
+						18000,
+						4,
+						1125
+					],
+					[
+						18300,
+						0,
+						0
+					],
+					[
+						18900,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						19200,
+						2,
+						0
+					],
+					[
+						19350,
+						3,
+						0
+					],
+					[
+						19500,
+						1,
+						0
+					],
+					[
+						19650,
+						0,
+						0
+					],
+					[
+						19800,
+						2,
+						0
+					],
+					[
+						19950,
+						0,
+						0
+					],
+					[
+						20250,
+						3,
+						0
+					],
+					[
+						19200,
+						1,
+						0
+					],
+					[
+						19500,
+						2,
+						0
+					],
+					[
+						19650,
+						3,
+						0
+					],
+					[
+						19950,
+						1,
+						0
+					],
+					[
+						20100,
+						2,
+						0
+					],
+					[
+						20250,
+						1,
+						0
+					],
+					[
+						19200,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						19200,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						19200,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						19200,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						20400,
+						2,
+						0
+					],
+					[
+						20550,
+						1,
+						0
+					],
+					[
+						20625,
+						0,
+						0
+					],
+					[
+						20700,
+						3,
+						0
+					],
+					[
+						20850,
+						1,
+						0
+					],
+					[
+						21000,
+						2,
+						0
+					],
+					[
+						21150,
+						0,
+						0
+					],
+					[
+						20700,
+						2,
+						0
+					],
+					[
+						21000,
+						3,
+						0
+					],
+					[
+						21150,
+						1,
+						0
+					],
+					[
+						21300,
+						3,
+						0
+					],
+					[
+						21450,
+						2,
+						0
+					],
+					[
+						21450,
+						1,
+						0
+					],
+					[
+						20550,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						21225,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						21600,
+						3,
+						0
+					],
+					[
+						21750,
+						2,
+						0
+					],
+					[
+						21825,
+						0,
+						0
+					],
+					[
+						21900,
+						1,
+						0
+					],
+					[
+						22125,
+						1,
+						0
+					],
+					[
+						22200,
+						2,
+						0
+					],
+					[
+						22350,
+						3,
+						0
+					],
+					[
+						22500,
+						2,
+						225
+					],
+					[
+						21900,
+						3,
+						0
+					],
+					[
+						22050,
+						2,
+						0
+					],
+					[
+						22200,
+						0,
+						0
+					],
+					[
+						22500,
+						1,
+						0
+					],
+					[
+						21750,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						22333.125,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						22800,
+						0,
+						0
+					],
+					[
+						22875,
+						1,
+						0
+					],
+					[
+						22950,
+						2,
+						0
+					],
+					[
+						23025,
+						1,
+						0
+					],
+					[
+						23100,
+						0,
+						0
+					],
+					[
+						23250,
+						2,
+						0
+					],
+					[
+						23400,
+						0,
+						0
+					],
+					[
+						23550,
+						3,
+						0
+					],
+					[
+						23700,
+						0,
+						0
+					],
+					[
+						23850,
+						1,
+						0
+					],
+					[
+						22950,
+						3,
+						0
+					],
+					[
+						23100,
+						2,
+						0
+					],
+					[
+						23400,
+						1,
+						0
+					],
+					[
+						23550,
+						2,
+						0
+					],
+					[
+						23850,
+						3,
+						0
+					],
+					[
+						23310,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						23589.375,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						24000,
+						2,
+						0
+					],
+					[
+						24150,
+						3,
+						0
+					],
+					[
+						24300,
+						1,
+						0
+					],
+					[
+						24450,
+						0,
+						0
+					],
+					[
+						24600,
+						2,
+						0
+					],
+					[
+						24750,
+						0,
+						0
+					],
+					[
+						25050,
+						3,
+						0
+					],
+					[
+						24000,
+						1,
+						0
+					],
+					[
+						24300,
+						2,
+						0
+					],
+					[
+						24450,
+						3,
+						0
+					],
+					[
+						24750,
+						1,
+						0
+					],
+					[
+						24900,
+						2,
+						0
+					],
+					[
+						25050,
+						1,
+						0
+					],
+					[
+						24000,
+						6,
+						225
+					],
+					[
+						24075,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						24525,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						24675,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						24225,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						25125,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						25200,
+						2,
+						0
+					],
+					[
+						25350,
+						1,
+						0
+					],
+					[
+						25425,
+						0,
+						0
+					],
+					[
+						25500,
+						3,
+						0
+					],
+					[
+						25650,
+						1,
+						0
+					],
+					[
+						25800,
+						2,
+						0
+					],
+					[
+						25950,
+						0,
+						0
+					],
+					[
+						25500,
+						2,
+						0
+					],
+					[
+						25800,
+						3,
+						0
+					],
+					[
+						25950,
+						1,
+						0
+					],
+					[
+						26100,
+						3,
+						0
+					],
+					[
+						26250,
+						2,
+						0
+					],
+					[
+						26250,
+						1,
+						0
+					],
+					[
+						25575,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						26025,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						26325,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						26400,
+						3,
+						0
+					],
+					[
+						26550,
+						2,
+						0
+					],
+					[
+						26625,
+						0,
+						0
+					],
+					[
+						26700,
+						1,
+						0
+					],
+					[
+						26925,
+						1,
+						0
+					],
+					[
+						27000,
+						2,
+						0
+					],
+					[
+						27150,
+						3,
+						0
+					],
+					[
+						27300,
+						2,
+						225
+					],
+					[
+						26700,
+						3,
+						0
+					],
+					[
+						26850,
+						2,
+						0
+					],
+					[
+						27000,
+						0,
+						0
+					],
+					[
+						27300,
+						1,
+						0
+					],
+					[
+						26700,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						27150,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						27225,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						27600,
+						0,
+						0
+					],
+					[
+						27675,
+						1,
+						0
+					],
+					[
+						27750,
+						2,
+						0
+					],
+					[
+						27825,
+						1,
+						0
+					],
+					[
+						27900,
+						0,
+						0
+					],
+					[
+						28050,
+						2,
+						0
+					],
+					[
+						28200,
+						0,
+						0
+					],
+					[
+						28350,
+						3,
+						0
+					],
+					[
+						28500,
+						0,
+						0
+					],
+					[
+						28650,
+						1,
+						0
+					],
+					[
+						27750,
+						3,
+						0
+					],
+					[
+						27900,
+						2,
+						0
+					],
+					[
+						28200,
+						1,
+						0
+					],
+					[
+						28350,
+						2,
+						0
+					],
+					[
+						28650,
+						3,
+						0
+					],
+					[
+						27975,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						28350,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						28575,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						29100,
+						4,
+						0
+					],
+					[
+						28800,
+						4,
+						0
+					],
+					[
+						29550,
+						5,
+						225
+					],
+					[
+						28800,
+						0,
+						0
+					],
+					[
+						28875,
+						3,
+						0
+					],
+					[
+						28950,
+						0,
+						0
+					],
+					[
+						29025,
+						3,
+						0
+					],
+					[
+						29100,
+						2,
+						0
+					],
+					[
+						29100,
+						1,
+						75
+					],
+					[
+						29250,
+						0,
+						0
+					],
+					[
+						29400,
+						2,
+						0
+					],
+					[
+						29550,
+						3,
+						0
+					],
+					[
+						29700,
+						1,
+						0
+					],
+					[
+						29850,
+						2,
+						0
+					],
+					[
+						28800,
+						6,
+						0
+					],
+					[
+						29100,
+						6,
+						0
+					],
+					[
+						29550,
+						7,
+						0
+					],
+					[
+						28800,
+						1,
+						0
+					],
+					[
+						28875,
+						2,
+						0
+					],
+					[
+						29400,
+						1,
+						0
+					],
+					[
+						29700,
+						0,
+						0
+					],
+					[
+						29850,
+						3,
+						0
+					],
+					[
+						28875,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						29025,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						29250,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						29775,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						29925,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						30000,
+						4,
+						225
+					],
+					[
+						30300,
+						7,
+						0
+					],
+					[
+						30450,
+						5,
+						225
+					],
+					[
+						30900,
+						4,
+						225
+					],
+					[
+						30000,
+						0,
+						0
+					],
+					[
+						30075,
+						1,
+						0
+					],
+					[
+						30150,
+						3,
+						0
+					],
+					[
+						30225,
+						1,
+						0
+					],
+					[
+						30300,
+						0,
+						0
+					],
+					[
+						30450,
+						2,
+						0
+					],
+					[
+						30600,
+						3,
+						0
+					],
+					[
+						30750,
+						2,
+						0
+					],
+					[
+						30900,
+						1,
+						225
+					],
+					[
+						30300,
+						6,
+						0
+					],
+					[
+						30900,
+						5,
+						0
+					],
+					[
+						30150,
+						2,
+						0
+					],
+					[
+						30450,
+						1,
+						0
+					],
+					[
+						30750,
+						0,
+						0
+					],
+					[
+						30900,
+						3,
+						0
+					],
+					[
+						30375,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						30825,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						30600,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						31200,
+						6,
+						1125
+					],
+					[
+						31200,
+						3,
+						0
+					],
+					[
+						31350,
+						1,
+						0
+					],
+					[
+						31425,
+						0,
+						0
+					],
+					[
+						31500,
+						2,
+						0
+					],
+					[
+						31650,
+						3,
+						0
+					],
+					[
+						31725,
+						1,
+						0
+					],
+					[
+						31800,
+						0,
+						0
+					],
+					[
+						31950,
+						2,
+						0
+					],
+					[
+						32025,
+						3,
+						0
+					],
+					[
+						32100,
+						1,
+						0
+					],
+					[
+						32250,
+						2,
+						0
+					],
+					[
+						31200,
+						7,
+						0
+					],
+					[
+						31200,
+						5,
+						0
+					],
+					[
+						31350,
+						2,
+						0
+					],
+					[
+						31650,
+						2,
+						0
+					],
+					[
+						32100,
+						0,
+						0
+					],
+					[
+						32250,
+						3,
+						0
+					],
+					[
+						31500,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						31575,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						31650,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						31725,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						32400,
+						5,
+						1125
+					],
+					[
+						32400,
+						0,
+						0
+					],
+					[
+						32550,
+						1,
+						0
+					],
+					[
+						32700,
+						3,
+						0
+					],
+					[
+						32850,
+						0,
+						0
+					],
+					[
+						33000,
+						1,
+						0
+					],
+					[
+						33150,
+						3,
+						0
+					],
+					[
+						33225,
+						0,
+						0
+					],
+					[
+						33300,
+						1,
+						0
+					],
+					[
+						33450,
+						2,
+						0
+					],
+					[
+						32400,
+						4,
+						0
+					],
+					[
+						32400,
+						7,
+						0
+					],
+					[
+						32550,
+						2,
+						0
+					],
+					[
+						32850,
+						2,
+						0
+					],
+					[
+						33150,
+						2,
+						0
+					],
+					[
+						33300,
+						3,
+						0
+					],
+					[
+						33450,
+						1,
+						0
+					],
+					[
+						32775,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						32850,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						32925,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						33000,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						33900,
+						4,
+						0
+					],
+					[
+						33600,
+						4,
+						0
+					],
+					[
+						34350,
+						5,
+						225
+					],
+					[
+						33600,
+						0,
+						0
+					],
+					[
+						33675,
+						3,
+						0
+					],
+					[
+						33750,
+						0,
+						0
+					],
+					[
+						33825,
+						3,
+						0
+					],
+					[
+						33900,
+						2,
+						0
+					],
+					[
+						33900,
+						1,
+						75
+					],
+					[
+						34050,
+						0,
+						0
+					],
+					[
+						34200,
+						2,
+						0
+					],
+					[
+						34350,
+						3,
+						0
+					],
+					[
+						34500,
+						1,
+						0
+					],
+					[
+						34650,
+						2,
+						0
+					],
+					[
+						33600,
+						6,
+						0
+					],
+					[
+						33900,
+						6,
+						0
+					],
+					[
+						34350,
+						7,
+						0
+					],
+					[
+						33600,
+						1,
+						0
+					],
+					[
+						33675,
+						2,
+						0
+					],
+					[
+						34200,
+						1,
+						0
+					],
+					[
+						34500,
+						0,
+						0
+					],
+					[
+						34650,
+						3,
+						0
+					],
+					[
+						33750,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						34125,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						34500,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						34800,
+						4,
+						225
+					],
+					[
+						35100,
+						7,
+						0
+					],
+					[
+						35250,
+						5,
+						225
+					],
+					[
+						35700,
+						4,
+						225
+					],
+					[
+						34800,
+						0,
+						0
+					],
+					[
+						34875,
+						1,
+						0
+					],
+					[
+						34950,
+						3,
+						0
+					],
+					[
+						35025,
+						1,
+						0
+					],
+					[
+						35100,
+						0,
+						0
+					],
+					[
+						35250,
+						2,
+						0
+					],
+					[
+						35400,
+						3,
+						0
+					],
+					[
+						35550,
+						2,
+						0
+					],
+					[
+						35700,
+						1,
+						225
+					],
+					[
+						35100,
+						6,
+						0
+					],
+					[
+						35700,
+						5,
+						0
+					],
+					[
+						34950,
+						2,
+						0
+					],
+					[
+						35250,
+						1,
+						0
+					],
+					[
+						35550,
+						0,
+						0
+					],
+					[
+						35700,
+						3,
+						0
+					],
+					[
+						35175,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						35475,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						36000,
+						6,
+						1125
+					],
+					[
+						36000,
+						3,
+						0
+					],
+					[
+						36150,
+						1,
+						0
+					],
+					[
+						36225,
+						0,
+						0
+					],
+					[
+						36300,
+						2,
+						0
+					],
+					[
+						36450,
+						3,
+						0
+					],
+					[
+						36525,
+						1,
+						0
+					],
+					[
+						36600,
+						0,
+						0
+					],
+					[
+						36750,
+						2,
+						0
+					],
+					[
+						36825,
+						3,
+						0
+					],
+					[
+						36900,
+						1,
+						0
+					],
+					[
+						37050,
+						2,
+						0
+					],
+					[
+						36000,
+						7,
+						0
+					],
+					[
+						36000,
+						5,
+						0
+					],
+					[
+						36150,
+						2,
+						0
+					],
+					[
+						36450,
+						2,
+						0
+					],
+					[
+						36900,
+						0,
+						0
+					],
+					[
+						37050,
+						3,
+						0
+					],
+					[
+						36225,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						36675,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						36375,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						37125,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						37200,
+						5,
+						825
+					],
+					[
+						37200,
+						0,
+						0
+					],
+					[
+						37350,
+						1,
+						0
+					],
+					[
+						37500,
+						3,
+						0
+					],
+					[
+						37650,
+						0,
+						0
+					],
+					[
+						37800,
+						1,
+						0
+					],
+					[
+						37950,
+						3,
+						0
+					],
+					[
+						38025,
+						0,
+						0
+					],
+					[
+						38100,
+						1,
+						0
+					],
+					[
+						38250,
+						2,
+						0
+					],
+					[
+						37200,
+						4,
+						0
+					],
+					[
+						37200,
+						7,
+						0
+					],
+					[
+						37350,
+						2,
+						0
+					],
+					[
+						37650,
+						2,
+						0
+					],
+					[
+						37950,
+						2,
+						0
+					],
+					[
+						38100,
+						3,
+						0
+					],
+					[
+						38250,
+						1,
+						0
+					],
+					[
+						38100,
+						6,
+						0
+					],
+					[
+						38250,
+						5,
+						0
+					],
+					[
+						37275,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						37575,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						37875,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						38175,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						38325,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						38400,
+						3,
+						0
+					],
+					[
+						38550,
+						3,
+						0
+					],
+					[
+						38700,
+						2,
+						0
+					],
+					[
+						38700,
+						1,
+						0
+					],
+					[
+						38850,
+						0,
+						0
+					],
+					[
+						39000,
+						1,
+						0
+					],
+					[
+						39150,
+						3,
+						0
+					],
+					[
+						39300,
+						2,
+						225
+					],
+					[
+						38400,
+						2,
+						0
+					],
+					[
+						38550,
+						0,
+						0
+					],
+					[
+						39000,
+						2,
+						0
+					],
+					[
+						39300,
+						0,
+						0
+					],
+					[
+						38400,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						38400,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						38756.25,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						39600,
+						1,
+						0
+					],
+					[
+						39750,
+						0,
+						0
+					],
+					[
+						39825,
+						1,
+						0
+					],
+					[
+						39900,
+						2,
+						0
+					],
+					[
+						40200,
+						2,
+						0
+					],
+					[
+						40275,
+						1,
+						0
+					],
+					[
+						40350,
+						0,
+						0
+					],
+					[
+						40425,
+						1,
+						0
+					],
+					[
+						40500,
+						2,
+						0
+					],
+					[
+						40650,
+						0,
+						0
+					],
+					[
+						39900,
+						3,
+						0
+					],
+					[
+						40050,
+						1,
+						0
+					],
+					[
+						40200,
+						3,
+						0
+					],
+					[
+						40350,
+						2,
+						0
+					],
+					[
+						40500,
+						3,
+						0
+					],
+					[
+						40650,
+						1,
+						0
+					],
+					[
+						39851.25,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						40256.25,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						40800,
+						3,
+						0
+					],
+					[
+						40950,
+						1,
+						0
+					],
+					[
+						41100,
+						2,
+						0
+					],
+					[
+						41250,
+						0,
+						0
+					],
+					[
+						41400,
+						1,
+						0
+					],
+					[
+						41550,
+						3,
+						0
+					],
+					[
+						41700,
+						1,
+						225
+					],
+					[
+						41100,
+						3,
+						0
+					],
+					[
+						41400,
+						2,
+						0
+					],
+					[
+						41700,
+						2,
+						0
+					],
+					[
+						41321.25,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						41696.25,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						42000,
+						3,
+						0
+					],
+					[
+						42075,
+						2,
+						0
+					],
+					[
+						42150,
+						1,
+						0
+					],
+					[
+						42225,
+						2,
+						0
+					],
+					[
+						42300,
+						0,
+						0
+					],
+					[
+						42375,
+						1,
+						0
+					],
+					[
+						42450,
+						3,
+						0
+					],
+					[
+						42525,
+						2,
+						0
+					],
+					[
+						42600,
+						0,
+						0
+					],
+					[
+						42750,
+						1,
+						0
+					],
+					[
+						42900,
+						2,
+						0
+					],
+					[
+						43050,
+						3,
+						0
+					],
+					[
+						42150,
+						0,
+						0
+					],
+					[
+						42375,
+						2,
+						0
+					],
+					[
+						42600,
+						1,
+						0
+					],
+					[
+						42900,
+						0,
+						0
+					],
+					[
+						42558.75,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						42858.75,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						43200,
+						3,
+						0
+					],
+					[
+						43350,
+						3,
+						0
+					],
+					[
+						43500,
+						2,
+						0
+					],
+					[
+						43500,
+						1,
+						0
+					],
+					[
+						43650,
+						0,
+						0
+					],
+					[
+						43800,
+						1,
+						0
+					],
+					[
+						43950,
+						3,
+						0
+					],
+					[
+						44100,
+						2,
+						225
+					],
+					[
+						43200,
+						2,
+						0
+					],
+					[
+						43350,
+						0,
+						0
+					],
+					[
+						43800,
+						2,
+						0
+					],
+					[
+						44100,
+						0,
+						0
+					],
+					[
+						43200,
+						6,
+						450
+					],
+					[
+						43200,
+						4,
+						0
+					],
+					[
+						43275,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						43575,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						43725,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						44400,
+						1,
+						0
+					],
+					[
+						44550,
+						0,
+						0
+					],
+					[
+						44625,
+						1,
+						0
+					],
+					[
+						44700,
+						2,
+						0
+					],
+					[
+						45000,
+						2,
+						0
+					],
+					[
+						45075,
+						1,
+						0
+					],
+					[
+						45150,
+						0,
+						0
+					],
+					[
+						45225,
+						1,
+						0
+					],
+					[
+						45300,
+						2,
+						0
+					],
+					[
+						45450,
+						0,
+						0
+					],
+					[
+						44700,
+						3,
+						0
+					],
+					[
+						44850,
+						1,
+						0
+					],
+					[
+						45000,
+						3,
+						0
+					],
+					[
+						45150,
+						2,
+						0
+					],
+					[
+						45300,
+						3,
+						0
+					],
+					[
+						45450,
+						1,
+						0
+					],
+					[
+						44775,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						45525,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						45600,
+						3,
+						0
+					],
+					[
+						45750,
+						1,
+						0
+					],
+					[
+						45900,
+						2,
+						0
+					],
+					[
+						46050,
+						0,
+						0
+					],
+					[
+						46200,
+						1,
+						0
+					],
+					[
+						46350,
+						3,
+						0
+					],
+					[
+						46500,
+						1,
+						225
+					],
+					[
+						45900,
+						3,
+						0
+					],
+					[
+						46200,
+						2,
+						0
+					],
+					[
+						46500,
+						2,
+						0
+					],
+					[
+						45825,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						46125,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						46650,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						46800,
+						3,
+						0
+					],
+					[
+						46875,
+						2,
+						0
+					],
+					[
+						46950,
+						1,
+						0
+					],
+					[
+						47025,
+						2,
+						0
+					],
+					[
+						47100,
+						0,
+						0
+					],
+					[
+						47175,
+						1,
+						0
+					],
+					[
+						47250,
+						3,
+						0
+					],
+					[
+						47325,
+						2,
+						0
+					],
+					[
+						47400,
+						0,
+						0
+					],
+					[
+						47550,
+						1,
+						0
+					],
+					[
+						47700,
+						2,
+						0
+					],
+					[
+						47850,
+						3,
+						0
+					],
+					[
+						46950,
+						0,
+						0
+					],
+					[
+						47175,
+						2,
+						0
+					],
+					[
+						47400,
+						1,
+						0
+					],
+					[
+						47700,
+						0,
+						0
+					],
+					[
+						47025,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						47250,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						47400,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						47625,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						47850,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						48000,
+						4,
+						0
+					],
+					[
+						48300,
+						4,
+						0
+					],
+					[
+						48750,
+						5,
+						150
+					],
+					[
+						48000,
+						2,
+						0
+					],
+					[
+						48150,
+						3,
+						0
+					],
+					[
+						48300,
+						1,
+						0
+					],
+					[
+						48450,
+						0,
+						0
+					],
+					[
+						48600,
+						2,
+						0
+					],
+					[
+						48675,
+						3,
+						0
+					],
+					[
+						48750,
+						2,
+						0
+					],
+					[
+						48825,
+						1,
+						0
+					],
+					[
+						48900,
+						3,
+						0
+					],
+					[
+						48975,
+						2,
+						0
+					],
+					[
+						49050,
+						0,
+						0
+					],
+					[
+						49125,
+						3,
+						0
+					],
+					[
+						48000,
+						1,
+						0
+					],
+					[
+						48450,
+						3,
+						0
+					],
+					[
+						48600,
+						1,
+						0
+					],
+					[
+						48825,
+						0,
+						0
+					],
+					[
+						49050,
+						1,
+						0
+					],
+					[
+						48000,
+						6,
+						0
+					],
+					[
+						48300,
+						6,
+						0
+					],
+					[
+						48750,
+						7,
+						0
+					],
+					[
+						48075,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						48150,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						48225,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						48525,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						48675,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						49200,
+						6,
+						225
+					],
+					[
+						49200,
+						7,
+						0
+					],
+					[
+						49650,
+						5,
+						150
+					],
+					[
+						50100,
+						4,
+						225
+					],
+					[
+						50100,
+						6,
+						0
+					],
+					[
+						49200,
+						0,
+						0
+					],
+					[
+						49350,
+						2,
+						0
+					],
+					[
+						49500,
+						1,
+						0
+					],
+					[
+						49650,
+						3,
+						0
+					],
+					[
+						49800,
+						1,
+						0
+					],
+					[
+						49950,
+						2,
+						0
+					],
+					[
+						50100,
+						0,
+						0
+					],
+					[
+						50250,
+						1,
+						0
+					],
+					[
+						49200,
+						4,
+						75
+					],
+					[
+						50100,
+						7,
+						150
+					],
+					[
+						49350,
+						3,
+						0
+					],
+					[
+						49500,
+						0,
+						0
+					],
+					[
+						49800,
+						2,
+						0
+					],
+					[
+						49950,
+						3,
+						0
+					],
+					[
+						50250,
+						3,
+						0
+					],
+					[
+						49500,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						49575,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						49950,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						50400,
+						7,
+						1125
+					],
+					[
+						50400,
+						2,
+						0
+					],
+					[
+						50550,
+						3,
+						0
+					],
+					[
+						50700,
+						2,
+						0
+					],
+					[
+						50850,
+						0,
+						0
+					],
+					[
+						51000,
+						1,
+						0
+					],
+					[
+						51150,
+						3,
+						0
+					],
+					[
+						51300,
+						0,
+						0
+					],
+					[
+						51450,
+						2,
+						0
+					],
+					[
+						50400,
+						5,
+						0
+					],
+					[
+						51000,
+						2,
+						0
+					],
+					[
+						51300,
+						1,
+						0
+					],
+					[
+						51450,
+						1,
+						0
+					],
+					[
+						50850,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						50925,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						51000,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						51075,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						51600,
+						6,
+						825
+					],
+					[
+						52500,
+						5,
+						0
+					],
+					[
+						52650,
+						4,
+						0
+					],
+					[
+						51600,
+						4,
+						0
+					],
+					[
+						51600,
+						3,
+						0
+					],
+					[
+						51825,
+						3,
+						0
+					],
+					[
+						51900,
+						1,
+						0
+					],
+					[
+						52050,
+						2,
+						0
+					],
+					[
+						52200,
+						3,
+						0
+					],
+					[
+						52350,
+						1,
+						0
+					],
+					[
+						52425,
+						0,
+						0
+					],
+					[
+						52500,
+						2,
+						0
+					],
+					[
+						52650,
+						3,
+						0
+					],
+					[
+						51600,
+						5,
+						150
+					],
+					[
+						51900,
+						0,
+						0
+					],
+					[
+						52200,
+						2,
+						0
+					],
+					[
+						52500,
+						1,
+						0
+					],
+					[
+						52650,
+						0,
+						0
+					],
+					[
+						52125,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						52200,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						52275,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						52350,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						52500,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						52650,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						52800,
+						4,
+						0
+					],
+					[
+						53100,
+						4,
+						0
+					],
+					[
+						53550,
+						5,
+						150
+					],
+					[
+						52800,
+						2,
+						0
+					],
+					[
+						52950,
+						3,
+						0
+					],
+					[
+						53100,
+						1,
+						0
+					],
+					[
+						53250,
+						0,
+						0
+					],
+					[
+						53400,
+						2,
+						0
+					],
+					[
+						53475,
+						3,
+						0
+					],
+					[
+						53550,
+						2,
+						0
+					],
+					[
+						53625,
+						1,
+						0
+					],
+					[
+						53700,
+						3,
+						0
+					],
+					[
+						53775,
+						2,
+						0
+					],
+					[
+						53850,
+						0,
+						0
+					],
+					[
+						53925,
+						3,
+						0
+					],
+					[
+						52800,
+						1,
+						0
+					],
+					[
+						53250,
+						3,
+						0
+					],
+					[
+						53400,
+						1,
+						0
+					],
+					[
+						53625,
+						0,
+						0
+					],
+					[
+						53850,
+						1,
+						0
+					],
+					[
+						52800,
+						6,
+						0
+					],
+					[
+						53100,
+						6,
+						0
+					],
+					[
+						53550,
+						7,
+						0
+					],
+					[
+						52875,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						53175,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						53475,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						53925,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						54000,
+						6,
+						225
+					],
+					[
+						54000,
+						7,
+						0
+					],
+					[
+						54450,
+						5,
+						150
+					],
+					[
+						54900,
+						4,
+						225
+					],
+					[
+						54900,
+						6,
+						0
+					],
+					[
+						54000,
+						0,
+						0
+					],
+					[
+						54150,
+						2,
+						0
+					],
+					[
+						54300,
+						1,
+						0
+					],
+					[
+						54450,
+						3,
+						0
+					],
+					[
+						54600,
+						1,
+						0
+					],
+					[
+						54750,
+						2,
+						0
+					],
+					[
+						54900,
+						0,
+						0
+					],
+					[
+						55050,
+						1,
+						0
+					],
+					[
+						54000,
+						4,
+						75
+					],
+					[
+						54900,
+						7,
+						150
+					],
+					[
+						54150,
+						3,
+						0
+					],
+					[
+						54300,
+						0,
+						0
+					],
+					[
+						54600,
+						2,
+						0
+					],
+					[
+						54750,
+						3,
+						0
+					],
+					[
+						55050,
+						3,
+						0
+					],
+					[
+						54075,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						54375,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						54525,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						54675,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						55200,
+						7,
+						1125
+					],
+					[
+						55200,
+						2,
+						0
+					],
+					[
+						55350,
+						3,
+						0
+					],
+					[
+						55500,
+						2,
+						0
+					],
+					[
+						55650,
+						0,
+						0
+					],
+					[
+						55800,
+						1,
+						0
+					],
+					[
+						55950,
+						3,
+						0
+					],
+					[
+						56100,
+						0,
+						0
+					],
+					[
+						56250,
+						2,
+						0
+					],
+					[
+						55200,
+						5,
+						0
+					],
+					[
+						55800,
+						2,
+						0
+					],
+					[
+						56100,
+						1,
+						0
+					],
+					[
+						56250,
+						1,
+						0
+					],
+					[
+						55425,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						55875,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						56400,
+						6,
+						825
+					],
+					[
+						57300,
+						5,
+						0
+					],
+					[
+						57450,
+						4,
+						0
+					],
+					[
+						56400,
+						4,
+						0
+					],
+					[
+						56400,
+						3,
+						0
+					],
+					[
+						56625,
+						3,
+						0
+					],
+					[
+						56700,
+						1,
+						0
+					],
+					[
+						56850,
+						2,
+						0
+					],
+					[
+						57000,
+						3,
+						0
+					],
+					[
+						57150,
+						1,
+						0
+					],
+					[
+						57225,
+						0,
+						0
+					],
+					[
+						57300,
+						2,
+						0
+					],
+					[
+						57450,
+						3,
+						0
+					],
+					[
+						56400,
+						5,
+						150
+					],
+					[
+						56700,
+						0,
+						0
+					],
+					[
+						57000,
+						2,
+						0
+					],
+					[
+						57300,
+						1,
+						0
+					],
+					[
+						57450,
+						0,
+						0
+					],
+					[
+						56475,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						56550,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						57075,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						57525,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						57600,
+						2,
+						0
+					],
+					[
+						57750,
+						3,
+						0
+					],
+					[
+						58200,
+						0,
+						0
+					],
+					[
+						58350,
+						2,
+						0
+					],
+					[
+						58500,
+						1,
+						0
+					],
+					[
+						58650,
+						3,
+						0
+					],
+					[
+						57750,
+						1,
+						0
+					],
+					[
+						58200,
+						1,
+						0
+					],
+					[
+						58050,
+						3,
+						0
+					],
+					[
+						58650,
+						2,
+						0
+					],
+					[
+						58183.125,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						58503.75,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						58950,
+						3,
+						0
+					],
+					[
+						59250,
+						1,
+						0
+					],
+					[
+						59400,
+						0,
+						0
+					],
+					[
+						59475,
+						1,
+						0
+					],
+					[
+						59550,
+						2,
+						0
+					],
+					[
+						59700,
+						1,
+						0
+					],
+					[
+						59850,
+						3,
+						0
+					],
+					[
+						58800,
+						1,
+						0
+					],
+					[
+						58950,
+						2,
+						0
+					],
+					[
+						59250,
+						2,
+						0
+					],
+					[
+						59550,
+						3,
+						0
+					],
+					[
+						59700,
+						0,
+						0
+					],
+					[
+						59850,
+						2,
+						0
+					],
+					[
+						59206.875,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						59465.625,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						59683.125,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						60000,
+						0,
+						0
+					],
+					[
+						60150,
+						2,
+						0
+					],
+					[
+						60300,
+						1,
+						0
+					],
+					[
+						60450,
+						3,
+						0
+					],
+					[
+						60600,
+						2,
+						0
+					],
+					[
+						60750,
+						1,
+						0
+					],
+					[
+						60900,
+						0,
+						0
+					],
+					[
+						61050,
+						2,
+						0
+					],
+					[
+						60000,
+						1,
+						0
+					],
+					[
+						60300,
+						0,
+						0
+					],
+					[
+						60450,
+						2,
+						0
+					],
+					[
+						60750,
+						3,
+						0
+					],
+					[
+						61050,
+						1,
+						0
+					],
+					[
+						60487.5,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						60678.75,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						60931.875,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						61110,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						61200,
+						3,
+						0
+					],
+					[
+						61350,
+						0,
+						0
+					],
+					[
+						61500,
+						3,
+						0
+					],
+					[
+						61650,
+						1,
+						0
+					],
+					[
+						61800,
+						2,
+						0
+					],
+					[
+						61950,
+						3,
+						0
+					],
+					[
+						62025,
+						3,
+						0
+					],
+					[
+						62100,
+						1,
+						0
+					],
+					[
+						62250,
+						0,
+						0
+					],
+					[
+						61350,
+						1,
+						0
+					],
+					[
+						61650,
+						0,
+						0
+					],
+					[
+						62100,
+						2,
+						0
+					],
+					[
+						62250,
+						3,
+						0
+					],
+					[
+						61633.125,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						61878.75,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						62248.125,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						62400,
+						2,
+						225
+					],
+					[
+						62850,
+						2,
+						0
+					],
+					[
+						63000,
+						1,
+						0
+					],
+					[
+						63150,
+						2,
+						0
+					],
+					[
+						63300,
+						3,
+						0
+					],
+					[
+						63450,
+						2,
+						0
+					],
+					[
+						63000,
+						0,
+						0
+					],
+					[
+						63300,
+						1,
+						0
+					],
+					[
+						63450,
+						3,
+						0
+					],
+					[
+						62861.25,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						63022.5,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						63234.375,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						63600,
+						1,
+						0
+					],
+					[
+						63750,
+						0,
+						0
+					],
+					[
+						63825,
+						0,
+						0
+					],
+					[
+						63900,
+						2,
+						0
+					],
+					[
+						64050,
+						3,
+						0
+					],
+					[
+						64200,
+						1,
+						0
+					],
+					[
+						64350,
+						2,
+						0
+					],
+					[
+						64500,
+						0,
+						225
+					],
+					[
+						63900,
+						1,
+						0
+					],
+					[
+						64200,
+						0,
+						0
+					],
+					[
+						64350,
+						3,
+						0
+					],
+					[
+						64175.625,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						64481.25,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						64691.25,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						64800,
+						3,
+						225
+					],
+					[
+						65100,
+						2,
+						225
+					],
+					[
+						65400,
+						3,
+						0
+					],
+					[
+						65550,
+						2,
+						0
+					],
+					[
+						65700,
+						1,
+						0
+					],
+					[
+						65775,
+						0,
+						0
+					],
+					[
+						65850,
+						1,
+						0
+					],
+					[
+						65925,
+						2,
+						0
+					],
+					[
+						64800,
+						1,
+						0
+					],
+					[
+						65100,
+						0,
+						0
+					],
+					[
+						65700,
+						3,
+						0
+					],
+					[
+						65347.5,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						65591.25,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						65775,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						66000,
+						3,
+						0
+					],
+					[
+						66075,
+						1,
+						0
+					],
+					[
+						66150,
+						3,
+						0
+					],
+					[
+						66225,
+						1,
+						0
+					],
+					[
+						66300,
+						0,
+						0
+					],
+					[
+						66450,
+						2,
+						0
+					],
+					[
+						66600,
+						3,
+						225
+					],
+					[
+						66900,
+						1,
+						225
+					],
+					[
+						66300,
+						2,
+						0
+					],
+					[
+						66600,
+						1,
+						0
+					],
+					[
+						66900,
+						0,
+						0
+					],
+					[
+						66481.875,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						66675,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						66885,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						66425.625,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						67200,
+						6,
+						375
+					],
+					[
+						67200,
+						2,
+						0
+					],
+					[
+						67350,
+						3,
+						0
+					],
+					[
+						67800,
+						0,
+						0
+					],
+					[
+						67950,
+						2,
+						0
+					],
+					[
+						68100,
+						1,
+						0
+					],
+					[
+						68250,
+						3,
+						0
+					],
+					[
+						67350,
+						1,
+						0
+					],
+					[
+						67800,
+						1,
+						0
+					],
+					[
+						67650,
+						3,
+						0
+					],
+					[
+						68250,
+						2,
+						0
+					],
+					[
+						67500,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						67950,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						68250,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						68550,
+						3,
+						0
+					],
+					[
+						68850,
+						1,
+						0
+					],
+					[
+						69000,
+						0,
+						0
+					],
+					[
+						69075,
+						1,
+						0
+					],
+					[
+						69150,
+						2,
+						0
+					],
+					[
+						69300,
+						1,
+						0
+					],
+					[
+						69450,
+						3,
+						0
+					],
+					[
+						68400,
+						1,
+						0
+					],
+					[
+						68550,
+						2,
+						0
+					],
+					[
+						68850,
+						2,
+						0
+					],
+					[
+						69150,
+						3,
+						0
+					],
+					[
+						69300,
+						0,
+						0
+					],
+					[
+						69450,
+						2,
+						0
+					],
+					[
+						68475,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						68700,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						68925,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						69300,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						69600,
+						0,
+						0
+					],
+					[
+						69750,
+						2,
+						0
+					],
+					[
+						69900,
+						1,
+						0
+					],
+					[
+						70050,
+						3,
+						0
+					],
+					[
+						70200,
+						2,
+						0
+					],
+					[
+						70350,
+						1,
+						0
+					],
+					[
+						70500,
+						0,
+						0
+					],
+					[
+						70650,
+						2,
+						0
+					],
+					[
+						69600,
+						1,
+						0
+					],
+					[
+						69900,
+						0,
+						0
+					],
+					[
+						70050,
+						2,
+						0
+					],
+					[
+						70350,
+						3,
+						0
+					],
+					[
+						70650,
+						1,
+						0
+					],
+					[
+						69675,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						69825,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						70275,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						70425,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						70725,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						70800,
+						3,
+						0
+					],
+					[
+						70950,
+						0,
+						0
+					],
+					[
+						71100,
+						3,
+						0
+					],
+					[
+						71250,
+						1,
+						0
+					],
+					[
+						71400,
+						2,
+						0
+					],
+					[
+						71550,
+						3,
+						0
+					],
+					[
+						71625,
+						3,
+						0
+					],
+					[
+						71700,
+						1,
+						0
+					],
+					[
+						71850,
+						0,
+						0
+					],
+					[
+						70950,
+						1,
+						0
+					],
+					[
+						71250,
+						0,
+						0
+					],
+					[
+						71700,
+						2,
+						0
+					],
+					[
+						71850,
+						3,
+						0
+					],
+					[
+						71025,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						71475,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						72000,
+						2,
+						225
+					],
+					[
+						72450,
+						2,
+						0
+					],
+					[
+						72600,
+						1,
+						0
+					],
+					[
+						72750,
+						2,
+						0
+					],
+					[
+						72900,
+						3,
+						0
+					],
+					[
+						73050,
+						2,
+						0
+					],
+					[
+						72600,
+						0,
+						0
+					],
+					[
+						72900,
+						1,
+						0
+					],
+					[
+						73050,
+						3,
+						0
+					],
+					[
+						72000,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						72525,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						72825,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						73200,
+						1,
+						0
+					],
+					[
+						73350,
+						0,
+						0
+					],
+					[
+						73425,
+						0,
+						0
+					],
+					[
+						73500,
+						2,
+						0
+					],
+					[
+						73650,
+						3,
+						0
+					],
+					[
+						73800,
+						1,
+						0
+					],
+					[
+						73950,
+						2,
+						0
+					],
+					[
+						74100,
+						0,
+						225
+					],
+					[
+						73500,
+						1,
+						0
+					],
+					[
+						73800,
+						0,
+						0
+					],
+					[
+						73950,
+						3,
+						0
+					],
+					[
+						73275,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						73725,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						74400,
+						3,
+						225
+					],
+					[
+						74700,
+						2,
+						225
+					],
+					[
+						75000,
+						3,
+						0
+					],
+					[
+						75150,
+						2,
+						0
+					],
+					[
+						75300,
+						1,
+						0
+					],
+					[
+						75375,
+						0,
+						0
+					],
+					[
+						75450,
+						1,
+						0
+					],
+					[
+						75525,
+						2,
+						0
+					],
+					[
+						74400,
+						1,
+						0
+					],
+					[
+						74700,
+						0,
+						0
+					],
+					[
+						75300,
+						3,
+						0
+					],
+					[
+						74400,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						74550,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						74850,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						75000,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						75600,
+						3,
+						0
+					],
+					[
+						75675,
+						1,
+						0
+					],
+					[
+						75750,
+						3,
+						0
+					],
+					[
+						75825,
+						1,
+						0
+					],
+					[
+						75900,
+						0,
+						0
+					],
+					[
+						76050,
+						2,
+						0
+					],
+					[
+						76200,
+						3,
+						225
+					],
+					[
+						76500,
+						1,
+						225
+					],
+					[
+						75900,
+						2,
+						0
+					],
+					[
+						76200,
+						1,
+						0
+					],
+					[
+						76500,
+						0,
+						0
+					],
+					[
+						75750,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						75975,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						76125,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						76800,
+						6,
+						525
+					],
+					[
+						76800,
+						3,
+						0
+					],
+					[
+						76950,
+						3,
+						0
+					],
+					[
+						77100,
+						1,
+						0
+					],
+					[
+						77250,
+						2,
+						0
+					],
+					[
+						77550,
+						1,
+						0
+					],
+					[
+						77700,
+						0,
+						0
+					],
+					[
+						77850,
+						1,
+						0
+					],
+					[
+						76800,
+						2,
+						0
+					],
+					[
+						76950,
+						2,
+						0
+					],
+					[
+						77250,
+						0,
+						0
+					],
+					[
+						77700,
+						2,
+						0
+					],
+					[
+						77850,
+						3,
+						0
+					],
+					[
+						76800,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						76800,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						78000,
+						2,
+						0
+					],
+					[
+						78150,
+						0,
+						0
+					],
+					[
+						78300,
+						2,
+						0
+					],
+					[
+						78375,
+						3,
+						0
+					],
+					[
+						78450,
+						2,
+						0
+					],
+					[
+						78600,
+						0,
+						0
+					],
+					[
+						78750,
+						2,
+						0
+					],
+					[
+						78900,
+						1,
+						0
+					],
+					[
+						79050,
+						0,
+						0
+					],
+					[
+						78525,
+						1,
+						0
+					],
+					[
+						78300,
+						1,
+						0
+					],
+					[
+						78450,
+						0,
+						0
+					],
+					[
+						78600,
+						3,
+						0
+					],
+					[
+						78900,
+						3,
+						0
+					],
+					[
+						78388.125,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						78667.5,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						79200,
+						3,
+						0
+					],
+					[
+						79275,
+						2,
+						0
+					],
+					[
+						79350,
+						1,
+						0
+					],
+					[
+						79425,
+						2,
+						0
+					],
+					[
+						79500,
+						0,
+						0
+					],
+					[
+						79575,
+						1,
+						0
+					],
+					[
+						79650,
+						3,
+						0
+					],
+					[
+						79725,
+						2,
+						0
+					],
+					[
+						79800,
+						0,
+						0
+					],
+					[
+						79950,
+						1,
+						0
+					],
+					[
+						80100,
+						3,
+						0
+					],
+					[
+						80250,
+						1,
+						0
+					],
+					[
+						79350,
+						0,
+						0
+					],
+					[
+						79575,
+						2,
+						0
+					],
+					[
+						79800,
+						1,
+						0
+					],
+					[
+						80100,
+						2,
+						0
+					],
+					[
+						79590,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						79828.125,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						80025,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						80221.875,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						80400,
+						0,
+						0
+					],
+					[
+						80475,
+						2,
+						0
+					],
+					[
+						80550,
+						0,
+						0
+					],
+					[
+						80625,
+						3,
+						0
+					],
+					[
+						80700,
+						2,
+						0
+					],
+					[
+						81000,
+						3,
+						0
+					],
+					[
+						81075,
+						2,
+						0
+					],
+					[
+						81150,
+						1,
+						0
+					],
+					[
+						81225,
+						3,
+						0
+					],
+					[
+						81300,
+						2,
+						0
+					],
+					[
+						81375,
+						0,
+						0
+					],
+					[
+						81450,
+						1,
+						0
+					],
+					[
+						81525,
+						3,
+						0
+					],
+					[
+						80475,
+						1,
+						0
+					],
+					[
+						80700,
+						1,
+						0
+					],
+					[
+						80850,
+						0,
+						0
+					],
+					[
+						81150,
+						0,
+						0
+					],
+					[
+						81450,
+						2,
+						0
+					],
+					[
+						81300,
+						1,
+						0
+					],
+					[
+						81050.625,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						81191.25,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						81378.75,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						81502.5,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						81600,
+						3,
+						0
+					],
+					[
+						81750,
+						3,
+						0
+					],
+					[
+						81900,
+						1,
+						0
+					],
+					[
+						82050,
+						2,
+						0
+					],
+					[
+						82350,
+						1,
+						0
+					],
+					[
+						82500,
+						0,
+						0
+					],
+					[
+						82650,
+						1,
+						0
+					],
+					[
+						81600,
+						2,
+						0
+					],
+					[
+						81750,
+						2,
+						0
+					],
+					[
+						82050,
+						0,
+						0
+					],
+					[
+						82500,
+						2,
+						0
+					],
+					[
+						82650,
+						3,
+						0
+					],
+					[
+						81600,
+						6,
+						225
+					],
+					[
+						81600,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						81750,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						82200,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						82425,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						82800,
+						2,
+						0
+					],
+					[
+						82950,
+						0,
+						0
+					],
+					[
+						83100,
+						2,
+						0
+					],
+					[
+						83175,
+						3,
+						0
+					],
+					[
+						83250,
+						2,
+						0
+					],
+					[
+						83400,
+						0,
+						0
+					],
+					[
+						83550,
+						2,
+						0
+					],
+					[
+						83700,
+						1,
+						0
+					],
+					[
+						83850,
+						0,
+						0
+					],
+					[
+						83325,
+						1,
+						0
+					],
+					[
+						83100,
+						1,
+						0
+					],
+					[
+						83250,
+						0,
+						0
+					],
+					[
+						83400,
+						3,
+						0
+					],
+					[
+						83700,
+						3,
+						0
+					],
+					[
+						82875,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						83475,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						83625,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						83925,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						84000,
+						3,
+						0
+					],
+					[
+						84075,
+						2,
+						0
+					],
+					[
+						84150,
+						1,
+						0
+					],
+					[
+						84225,
+						2,
+						0
+					],
+					[
+						84300,
+						0,
+						0
+					],
+					[
+						84375,
+						1,
+						0
+					],
+					[
+						84450,
+						3,
+						0
+					],
+					[
+						84525,
+						2,
+						0
+					],
+					[
+						84600,
+						0,
+						0
+					],
+					[
+						84750,
+						1,
+						0
+					],
+					[
+						84900,
+						3,
+						0
+					],
+					[
+						85050,
+						1,
+						0
+					],
+					[
+						84150,
+						0,
+						0
+					],
+					[
+						84375,
+						2,
+						0
+					],
+					[
+						84600,
+						1,
+						0
+					],
+					[
+						84900,
+						2,
+						0
+					],
+					[
+						84300,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						84675,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						84825,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						85200,
+						0,
+						0
+					],
+					[
+						85275,
+						2,
+						0
+					],
+					[
+						85350,
+						0,
+						0
+					],
+					[
+						85425,
+						3,
+						0
+					],
+					[
+						85500,
+						2,
+						0
+					],
+					[
+						85800,
+						3,
+						0
+					],
+					[
+						85875,
+						2,
+						0
+					],
+					[
+						85950,
+						1,
+						0
+					],
+					[
+						86025,
+						3,
+						0
+					],
+					[
+						86100,
+						2,
+						0
+					],
+					[
+						86175,
+						0,
+						0
+					],
+					[
+						86250,
+						1,
+						0
+					],
+					[
+						86325,
+						3,
+						0
+					],
+					[
+						85275,
+						1,
+						0
+					],
+					[
+						85500,
+						1,
+						0
+					],
+					[
+						85650,
+						0,
+						0
+					],
+					[
+						85950,
+						0,
+						0
+					],
+					[
+						86250,
+						2,
+						0
+					],
+					[
+						86100,
+						1,
+						0
+					],
+					[
+						85575,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						85800,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						86175,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						86400,
+						6,
+						225
+					],
+					[
+						86400,
+						3,
+						0
+					],
+					[
+						86775,
+						2,
+						0
+					],
+					[
+						86550,
+						1,
+						75
+					],
+					[
+						87000,
+						0,
+						0
+					],
+					[
+						87225,
+						1,
+						0
+					],
+					[
+						87450,
+						3,
+						0
+					],
+					[
+						86550,
+						0,
+						0
+					],
+					[
+						86775,
+						3,
+						0
+					],
+					[
+						87225,
+						2,
+						0
+					],
+					[
+						87450,
+						0,
+						0
+					],
+					[
+						86400,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						87600,
+						2,
+						0
+					],
+					[
+						87750,
+						1,
+						0
+					],
+					[
+						87900,
+						2,
+						225
+					],
+					[
+						88200,
+						1,
+						0
+					],
+					[
+						88275,
+						0,
+						0
+					],
+					[
+						88425,
+						3,
+						0
+					],
+					[
+						88575,
+						2,
+						0
+					],
+					[
+						88650,
+						0,
+						0
+					],
+					[
+						88725,
+						3,
+						0
+					],
+					[
+						87900,
+						0,
+						0
+					],
+					[
+						88350,
+						2,
+						0
+					],
+					[
+						88350,
+						1,
+						0
+					],
+					[
+						88500,
+						0,
+						0
+					],
+					[
+						88575,
+						1,
+						0
+					],
+					[
+						88725,
+						1,
+						0
+					],
+					[
+						87806.25,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						88132.5,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						88800,
+						2,
+						0
+					],
+					[
+						88875,
+						0,
+						0
+					],
+					[
+						88950,
+						3,
+						0
+					],
+					[
+						89025,
+						1,
+						0
+					],
+					[
+						89100,
+						2,
+						0
+					],
+					[
+						89175,
+						0,
+						0
+					],
+					[
+						89250,
+						1,
+						0
+					],
+					[
+						89325,
+						3,
+						0
+					],
+					[
+						89400,
+						1,
+						0
+					],
+					[
+						89475,
+						2,
+						0
+					],
+					[
+						89550,
+						0,
+						0
+					],
+					[
+						89625,
+						2,
+						0
+					],
+					[
+						89700,
+						1,
+						225
+					],
+					[
+						89025,
+						0,
+						0
+					],
+					[
+						89250,
+						2,
+						0
+					],
+					[
+						89475,
+						3,
+						0
+					],
+					[
+						89625,
+						3,
+						0
+					],
+					[
+						89058.75,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						89221.875,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						89433.75,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						89585.625,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						89696.25,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						90000,
+						3,
+						0
+					],
+					[
+						90075,
+						2,
+						0
+					],
+					[
+						90150,
+						0,
+						0
+					],
+					[
+						90225,
+						2,
+						0
+					],
+					[
+						90300,
+						1,
+						0
+					],
+					[
+						90375,
+						3,
+						0
+					],
+					[
+						90450,
+						1,
+						0
+					],
+					[
+						90525,
+						2,
+						0
+					],
+					[
+						90600,
+						0,
+						0
+					],
+					[
+						90675,
+						1,
+						0
+					],
+					[
+						90750,
+						3,
+						0
+					],
+					[
+						90825,
+						2,
+						0
+					],
+					[
+						90900,
+						1,
+						0
+					],
+					[
+						90975,
+						0,
+						0
+					],
+					[
+						91050,
+						2,
+						0
+					],
+					[
+						91125,
+						3,
+						0
+					],
+					[
+						90150,
+						1,
+						0
+					],
+					[
+						90375,
+						2,
+						0
+					],
+					[
+						90675,
+						2,
+						0
+					],
+					[
+						91125,
+						1,
+						0
+					],
+					[
+						90701.25,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						90946.875,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						91089.375,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						91200,
+						3,
+						0
+					],
+					[
+						91575,
+						2,
+						0
+					],
+					[
+						91350,
+						1,
+						75
+					],
+					[
+						91800,
+						0,
+						0
+					],
+					[
+						92025,
+						1,
+						0
+					],
+					[
+						92250,
+						3,
+						0
+					],
+					[
+						91350,
+						0,
+						0
+					],
+					[
+						91575,
+						3,
+						0
+					],
+					[
+						92025,
+						2,
+						0
+					],
+					[
+						92250,
+						0,
+						0
+					],
+					[
+						91200,
+						4,
+						225
+					],
+					[
+						91650,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						92325,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						92400,
+						2,
+						0
+					],
+					[
+						92550,
+						1,
+						0
+					],
+					[
+						92700,
+						2,
+						225
+					],
+					[
+						93000,
+						1,
+						0
+					],
+					[
+						93075,
+						0,
+						0
+					],
+					[
+						93225,
+						3,
+						0
+					],
+					[
+						93375,
+						2,
+						0
+					],
+					[
+						93450,
+						0,
+						0
+					],
+					[
+						93525,
+						3,
+						0
+					],
+					[
+						92700,
+						0,
+						0
+					],
+					[
+						93150,
+						2,
+						0
+					],
+					[
+						93150,
+						1,
+						0
+					],
+					[
+						93300,
+						0,
+						0
+					],
+					[
+						93375,
+						1,
+						0
+					],
+					[
+						93525,
+						1,
+						0
+					],
+					[
+						92625,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						93300,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						93600,
+						2,
+						0
+					],
+					[
+						93675,
+						0,
+						0
+					],
+					[
+						93750,
+						3,
+						0
+					],
+					[
+						93825,
+						1,
+						0
+					],
+					[
+						93900,
+						2,
+						0
+					],
+					[
+						93975,
+						0,
+						0
+					],
+					[
+						94050,
+						1,
+						0
+					],
+					[
+						94125,
+						3,
+						0
+					],
+					[
+						94200,
+						1,
+						0
+					],
+					[
+						94275,
+						2,
+						0
+					],
+					[
+						94350,
+						0,
+						0
+					],
+					[
+						94425,
+						2,
+						0
+					],
+					[
+						94500,
+						1,
+						225
+					],
+					[
+						93825,
+						0,
+						0
+					],
+					[
+						94050,
+						2,
+						0
+					],
+					[
+						94275,
+						3,
+						0
+					],
+					[
+						94425,
+						3,
+						0
+					],
+					[
+						93675,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						93975,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						94125,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						94350,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						94800,
+						3,
+						0
+					],
+					[
+						94875,
+						2,
+						0
+					],
+					[
+						94950,
+						0,
+						0
+					],
+					[
+						95025,
+						2,
+						0
+					],
+					[
+						95100,
+						1,
+						0
+					],
+					[
+						95175,
+						3,
+						0
+					],
+					[
+						95250,
+						1,
+						0
+					],
+					[
+						95325,
+						2,
+						0
+					],
+					[
+						95400,
+						0,
+						0
+					],
+					[
+						95475,
+						1,
+						0
+					],
+					[
+						95550,
+						3,
+						0
+					],
+					[
+						95625,
+						2,
+						0
+					],
+					[
+						95700,
+						1,
+						0
+					],
+					[
+						95775,
+						0,
+						0
+					],
+					[
+						95850,
+						2,
+						0
+					],
+					[
+						95925,
+						3,
+						0
+					],
+					[
+						94950,
+						1,
+						0
+					],
+					[
+						95175,
+						2,
+						0
+					],
+					[
+						95475,
+						2,
+						0
+					],
+					[
+						95925,
+						1,
+						0
+					],
+					[
+						95100,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						95400,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						95025,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						95700,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						96000,
+						4,
+						225
+					],
+					[
+						96000,
+						3,
+						0
+					],
+					[
+						96150,
+						3,
+						0
+					],
+					[
+						96300,
+						1,
+						0
+					],
+					[
+						96450,
+						3,
+						0
+					],
+					[
+						96600,
+						2,
+						0
+					],
+					[
+						96675,
+						1,
+						0
+					],
+					[
+						96750,
+						0,
+						0
+					],
+					[
+						96900,
+						1,
+						0
+					],
+					[
+						96975,
+						2,
+						0
+					],
+					[
+						97050,
+						1,
+						0
+					],
+					[
+						96000,
+						2,
+						0
+					],
+					[
+						96150,
+						0,
+						0
+					],
+					[
+						96600,
+						3,
+						0
+					],
+					[
+						96750,
+						2,
+						0
+					],
+					[
+						97050,
+						0,
+						0
+					],
+					[
+						96000,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						97200,
+						3,
+						0
+					],
+					[
+						97350,
+						2,
+						0
+					],
+					[
+						97500,
+						1,
+						0
+					],
+					[
+						97575,
+						0,
+						0
+					],
+					[
+						97650,
+						1,
+						0
+					],
+					[
+						97725,
+						0,
+						0
+					],
+					[
+						97800,
+						3,
+						0
+					],
+					[
+						97875,
+						1,
+						0
+					],
+					[
+						97950,
+						2,
+						0
+					],
+					[
+						98100,
+						1,
+						0
+					],
+					[
+						98250,
+						0,
+						0
+					],
+					[
+						97200,
+						1,
+						0
+					],
+					[
+						97500,
+						3,
+						0
+					],
+					[
+						97950,
+						3,
+						0
+					],
+					[
+						98100,
+						2,
+						0
+					],
+					[
+						98250,
+						3,
+						0
+					],
+					[
+						97573.125,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						97880.625,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						98400,
+						1,
+						0
+					],
+					[
+						98475,
+						2,
+						0
+					],
+					[
+						98550,
+						3,
+						0
+					],
+					[
+						98625,
+						0,
+						0
+					],
+					[
+						98700,
+						2,
+						0
+					],
+					[
+						98775,
+						3,
+						0
+					],
+					[
+						98850,
+						0,
+						0
+					],
+					[
+						98925,
+						1,
+						0
+					],
+					[
+						99000,
+						2,
+						0
+					],
+					[
+						99075,
+						0,
+						0
+					],
+					[
+						99150,
+						1,
+						0
+					],
+					[
+						99225,
+						3,
+						0
+					],
+					[
+						99450,
+						1,
+						0
+					],
+					[
+						99300,
+						2,
+						0
+					],
+					[
+						98550,
+						1,
+						0
+					],
+					[
+						98700,
+						1,
+						0
+					],
+					[
+						98850,
+						2,
+						0
+					],
+					[
+						99000,
+						3,
+						0
+					],
+					[
+						99150,
+						2,
+						0
+					],
+					[
+						99300,
+						0,
+						0
+					],
+					[
+						98596.875,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						98870.625,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						99031.875,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						99600,
+						3,
+						0
+					],
+					[
+						99675,
+						2,
+						0
+					],
+					[
+						99750,
+						0,
+						0
+					],
+					[
+						99825,
+						2,
+						0
+					],
+					[
+						99900,
+						3,
+						0
+					],
+					[
+						99975,
+						1,
+						0
+					],
+					[
+						100050,
+						2,
+						0
+					],
+					[
+						100125,
+						1,
+						0
+					],
+					[
+						100200,
+						0,
+						0
+					],
+					[
+						100275,
+						2,
+						0
+					],
+					[
+						100350,
+						1,
+						0
+					],
+					[
+						100425,
+						3,
+						0
+					],
+					[
+						100500,
+						2,
+						0
+					],
+					[
+						100575,
+						1,
+						0
+					],
+					[
+						100650,
+						2,
+						0
+					],
+					[
+						100725,
+						3,
+						0
+					],
+					[
+						99675,
+						1,
+						0
+					],
+					[
+						99825,
+						1,
+						0
+					],
+					[
+						99975,
+						0,
+						0
+					],
+					[
+						100125,
+						3,
+						0
+					],
+					[
+						100275,
+						3,
+						0
+					],
+					[
+						100425,
+						0,
+						0
+					],
+					[
+						100575,
+						0,
+						0
+					],
+					[
+						99750,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						100038.75,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						100205.625,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						100404.375,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						100618.125,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						100800,
+						3,
+						0
+					],
+					[
+						100950,
+						3,
+						0
+					],
+					[
+						101100,
+						1,
+						0
+					],
+					[
+						101250,
+						3,
+						0
+					],
+					[
+						101400,
+						2,
+						0
+					],
+					[
+						101475,
+						1,
+						0
+					],
+					[
+						101550,
+						0,
+						0
+					],
+					[
+						101700,
+						1,
+						0
+					],
+					[
+						101775,
+						2,
+						0
+					],
+					[
+						101850,
+						1,
+						0
+					],
+					[
+						100800,
+						2,
+						0
+					],
+					[
+						100950,
+						0,
+						0
+					],
+					[
+						101400,
+						3,
+						0
+					],
+					[
+						101550,
+						2,
+						0
+					],
+					[
+						101850,
+						0,
+						0
+					],
+					[
+						100800,
+						5,
+						225
+					],
+					[
+						101175,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						101625,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						102000,
+						3,
+						0
+					],
+					[
+						102150,
+						2,
+						0
+					],
+					[
+						102300,
+						1,
+						0
+					],
+					[
+						102375,
+						0,
+						0
+					],
+					[
+						102450,
+						1,
+						0
+					],
+					[
+						102525,
+						0,
+						0
+					],
+					[
+						102600,
+						3,
+						0
+					],
+					[
+						102675,
+						1,
+						0
+					],
+					[
+						102750,
+						2,
+						0
+					],
+					[
+						102900,
+						1,
+						0
+					],
+					[
+						103050,
+						0,
+						0
+					],
+					[
+						102000,
+						1,
+						0
+					],
+					[
+						102300,
+						3,
+						0
+					],
+					[
+						102750,
+						3,
+						0
+					],
+					[
+						102900,
+						2,
+						0
+					],
+					[
+						103050,
+						3,
+						0
+					],
+					[
+						102075,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						102525,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						102825,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						103125,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						103200,
+						1,
+						0
+					],
+					[
+						103275,
+						2,
+						0
+					],
+					[
+						103350,
+						3,
+						0
+					],
+					[
+						103425,
+						0,
+						0
+					],
+					[
+						103500,
+						2,
+						0
+					],
+					[
+						103575,
+						3,
+						0
+					],
+					[
+						103650,
+						0,
+						0
+					],
+					[
+						103725,
+						1,
+						0
+					],
+					[
+						103800,
+						2,
+						0
+					],
+					[
+						103875,
+						0,
+						0
+					],
+					[
+						103950,
+						1,
+						0
+					],
+					[
+						104025,
+						3,
+						0
+					],
+					[
+						104250,
+						1,
+						0
+					],
+					[
+						104100,
+						2,
+						0
+					],
+					[
+						103350,
+						1,
+						0
+					],
+					[
+						103500,
+						1,
+						0
+					],
+					[
+						103650,
+						2,
+						0
+					],
+					[
+						103800,
+						3,
+						0
+					],
+					[
+						103950,
+						2,
+						0
+					],
+					[
+						104100,
+						0,
+						0
+					],
+					[
+						103275,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						104175,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						104400,
+						3,
+						0
+					],
+					[
+						104475,
+						2,
+						0
+					],
+					[
+						104550,
+						0,
+						0
+					],
+					[
+						104625,
+						2,
+						0
+					],
+					[
+						104700,
+						3,
+						0
+					],
+					[
+						104775,
+						1,
+						0
+					],
+					[
+						104850,
+						2,
+						0
+					],
+					[
+						105000,
+						0,
+						0
+					],
+					[
+						105075,
+						2,
+						0
+					],
+					[
+						105150,
+						1,
+						0
+					],
+					[
+						105225,
+						3,
+						0
+					],
+					[
+						105300,
+						2,
+						0
+					],
+					[
+						105375,
+						1,
+						0
+					],
+					[
+						105450,
+						2,
+						0
+					],
+					[
+						105525,
+						3,
+						0
+					],
+					[
+						104475,
+						1,
+						0
+					],
+					[
+						104625,
+						1,
+						0
+					],
+					[
+						104775,
+						0,
+						0
+					],
+					[
+						105075,
+						3,
+						0
+					],
+					[
+						105225,
+						0,
+						0
+					],
+					[
+						105375,
+						0,
+						0
+					],
+					[
+						104925,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						104925,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						105600,
+						5,
+						225
+					],
+					[
+						105600,
+						3,
+						0
+					],
+					[
+						105750,
+						2,
+						0
+					],
+					[
+						105825,
+						1,
+						0
+					],
+					[
+						105900,
+						3,
+						0
+					],
+					[
+						105975,
+						2,
+						0
+					],
+					[
+						106050,
+						1,
+						0
+					],
+					[
+						106125,
+						2,
+						0
+					],
+					[
+						106200,
+						0,
+						0
+					],
+					[
+						106350,
+						1,
+						0
+					],
+					[
+						106500,
+						2,
+						0
+					],
+					[
+						106650,
+						3,
+						0
+					],
+					[
+						105825,
+						0,
+						0
+					],
+					[
+						106125,
+						3,
+						0
+					],
+					[
+						106350,
+						3,
+						0
+					],
+					[
+						106500,
+						0,
+						0
+					],
+					[
+						106650,
+						2,
+						0
+					],
+					[
+						105600,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						106800,
+						0,
+						0
+					],
+					[
+						106950,
+						2,
+						0
+					],
+					[
+						107100,
+						1,
+						225
+					],
+					[
+						107400,
+						2,
+						0
+					],
+					[
+						107475,
+						3,
+						0
+					],
+					[
+						107550,
+						1,
+						0
+					],
+					[
+						107625,
+						2,
+						0
+					],
+					[
+						107700,
+						0,
+						0
+					],
+					[
+						107775,
+						1,
+						0
+					],
+					[
+						107850,
+						3,
+						0
+					],
+					[
+						107400,
+						0,
+						0
+					],
+					[
+						107625,
+						3,
+						0
+					],
+					[
+						107775,
+						2,
+						0
+					],
+					[
+						107925,
+						0,
+						0
+					],
+					[
+						107227.5,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						107454.375,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						108000,
+						2,
+						0
+					],
+					[
+						108075,
+						3,
+						0
+					],
+					[
+						108150,
+						1,
+						0
+					],
+					[
+						108225,
+						2,
+						0
+					],
+					[
+						108300,
+						0,
+						0
+					],
+					[
+						108375,
+						2,
+						0
+					],
+					[
+						108450,
+						1,
+						0
+					],
+					[
+						108525,
+						3,
+						0
+					],
+					[
+						108600,
+						2,
+						0
+					],
+					[
+						108675,
+						0,
+						0
+					],
+					[
+						108750,
+						2,
+						0
+					],
+					[
+						108825,
+						1,
+						0
+					],
+					[
+						108900,
+						3,
+						0
+					],
+					[
+						108975,
+						1,
+						0
+					],
+					[
+						109050,
+						2,
+						0
+					],
+					[
+						109125,
+						0,
+						0
+					],
+					[
+						108000,
+						1,
+						0
+					],
+					[
+						108225,
+						3,
+						0
+					],
+					[
+						108450,
+						0,
+						0
+					],
+					[
+						108675,
+						1,
+						0
+					],
+					[
+						108900,
+						2,
+						0
+					],
+					[
+						109125,
+						3,
+						0
+					],
+					[
+						108133.125,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						108427.5,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						108706.875,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						108946.875,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						109200,
+						1,
+						0
+					],
+					[
+						109275,
+						2,
+						0
+					],
+					[
+						109350,
+						1,
+						0
+					],
+					[
+						109425,
+						3,
+						0
+					],
+					[
+						109500,
+						2,
+						0
+					],
+					[
+						109575,
+						0,
+						0
+					],
+					[
+						109650,
+						2,
+						0
+					],
+					[
+						109725,
+						1,
+						0
+					],
+					[
+						109800,
+						2,
+						0
+					],
+					[
+						109875,
+						0,
+						0
+					],
+					[
+						109950,
+						1,
+						0
+					],
+					[
+						110025,
+						2,
+						0
+					],
+					[
+						110325,
+						0,
+						0
+					],
+					[
+						109350,
+						0,
+						0
+					],
+					[
+						109575,
+						1,
+						0
+					],
+					[
+						109800,
+						3,
+						0
+					],
+					[
+						110025,
+						3,
+						0
+					],
+					[
+						110100,
+						1,
+						0
+					],
+					[
+						110175,
+						2,
+						0
+					],
+					[
+						110250,
+						3,
+						0
+					],
+					[
+						110250,
+						1,
+						0
+					],
+					[
+						109588.125,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						109813.125,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						110073.75,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						110400,
+						7,
+						225
+					],
+					[
+						110400,
+						3,
+						0
+					],
+					[
+						110550,
+						2,
+						0
+					],
+					[
+						110625,
+						1,
+						0
+					],
+					[
+						110700,
+						3,
+						0
+					],
+					[
+						110775,
+						2,
+						0
+					],
+					[
+						110850,
+						1,
+						0
+					],
+					[
+						110925,
+						2,
+						0
+					],
+					[
+						111000,
+						0,
+						0
+					],
+					[
+						111150,
+						1,
+						0
+					],
+					[
+						111300,
+						2,
+						0
+					],
+					[
+						111450,
+						3,
+						0
+					],
+					[
+						110625,
+						0,
+						0
+					],
+					[
+						110925,
+						3,
+						0
+					],
+					[
+						111150,
+						3,
+						0
+					],
+					[
+						111300,
+						0,
+						0
+					],
+					[
+						111450,
+						2,
+						0
+					],
+					[
+						110475,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						111075,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						111375,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						111600,
+						0,
+						0
+					],
+					[
+						111750,
+						2,
+						0
+					],
+					[
+						111900,
+						1,
+						225
+					],
+					[
+						112200,
+						2,
+						0
+					],
+					[
+						112275,
+						3,
+						0
+					],
+					[
+						112350,
+						1,
+						0
+					],
+					[
+						112425,
+						2,
+						0
+					],
+					[
+						112500,
+						0,
+						0
+					],
+					[
+						112575,
+						1,
+						0
+					],
+					[
+						112650,
+						3,
+						0
+					],
+					[
+						112200,
+						0,
+						0
+					],
+					[
+						112425,
+						3,
+						0
+					],
+					[
+						112575,
+						2,
+						0
+					],
+					[
+						112725,
+						0,
+						0
+					],
+					[
+						112050,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						112725,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						112800,
+						2,
+						0
+					],
+					[
+						112875,
+						3,
+						0
+					],
+					[
+						112950,
+						1,
+						0
+					],
+					[
+						113025,
+						2,
+						0
+					],
+					[
+						113100,
+						0,
+						0
+					],
+					[
+						113175,
+						2,
+						0
+					],
+					[
+						113250,
+						1,
+						0
+					],
+					[
+						113325,
+						3,
+						0
+					],
+					[
+						113400,
+						2,
+						0
+					],
+					[
+						113475,
+						0,
+						0
+					],
+					[
+						113550,
+						2,
+						0
+					],
+					[
+						113625,
+						1,
+						0
+					],
+					[
+						113700,
+						3,
+						0
+					],
+					[
+						113775,
+						1,
+						0
+					],
+					[
+						113850,
+						2,
+						0
+					],
+					[
+						113925,
+						0,
+						0
+					],
+					[
+						112800,
+						1,
+						0
+					],
+					[
+						113025,
+						3,
+						0
+					],
+					[
+						113250,
+						0,
+						0
+					],
+					[
+						113475,
+						1,
+						0
+					],
+					[
+						113700,
+						2,
+						0
+					],
+					[
+						113925,
+						3,
+						0
+					],
+					[
+						113100,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						113700,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						114000,
+						1,
+						0
+					],
+					[
+						114075,
+						2,
+						0
+					],
+					[
+						114150,
+						1,
+						0
+					],
+					[
+						114225,
+						3,
+						0
+					],
+					[
+						114300,
+						2,
+						0
+					],
+					[
+						114375,
+						0,
+						0
+					],
+					[
+						114450,
+						2,
+						0
+					],
+					[
+						114525,
+						1,
+						0
+					],
+					[
+						114600,
+						2,
+						0
+					],
+					[
+						114675,
+						0,
+						0
+					],
+					[
+						114750,
+						1,
+						0
+					],
+					[
+						114825,
+						2,
+						0
+					],
+					[
+						115125,
+						0,
+						0
+					],
+					[
+						114150,
+						0,
+						0
+					],
+					[
+						114375,
+						1,
+						0
+					],
+					[
+						114600,
+						3,
+						0
+					],
+					[
+						114825,
+						3,
+						0
+					],
+					[
+						114900,
+						1,
+						0
+					],
+					[
+						114975,
+						2,
+						0
+					],
+					[
+						115050,
+						3,
+						0
+					],
+					[
+						115050,
+						1,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						115200,
+						7,
+						225
+					],
+					[
+						115200,
+						1,
+						0
+					],
+					[
+						115350,
+						3,
+						0
+					],
+					[
+						115500,
+						1,
+						225
+					],
+					[
+						115950,
+						0,
+						225
+					],
+					[
+						115950,
+						2,
+						0
+					],
+					[
+						115200,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						115350,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						115500,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						115950,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						115950,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						116400,
+						2,
+						225
+					],
+					[
+						116850,
+						2,
+						225
+					],
+					[
+						117300,
+						3,
+						225
+					],
+					[
+						116400,
+						3,
+						0
+					],
+					[
+						116850,
+						0,
+						0
+					],
+					[
+						117300,
+						1,
+						0
+					],
+					[
+						116400,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						116400,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						116850,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						116850,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						117300,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						117300,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						117600,
+						1,
+						0
+					],
+					[
+						117750,
+						3,
+						0
+					],
+					[
+						117900,
+						1,
+						225
+					],
+					[
+						118350,
+						0,
+						225
+					],
+					[
+						118350,
+						2,
+						0
+					],
+					[
+						117675,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						117825,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						118800,
+						2,
+						225
+					],
+					[
+						119250,
+						2,
+						225
+					],
+					[
+						119700,
+						3,
+						225
+					],
+					[
+						118800,
+						3,
+						0
+					],
+					[
+						119250,
+						0,
+						0
+					],
+					[
+						119700,
+						1,
+						0
+					],
+					[
+						118800,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						119250,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						119700,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						120000,
+						1,
+						0
+					],
+					[
+						120150,
+						3,
+						0
+					],
+					[
+						120300,
+						1,
+						225
+					],
+					[
+						120750,
+						0,
+						0
+					],
+					[
+						120750,
+						2,
+						225
+					],
+					[
+						120000,
+						5,
+						0
+					],
+					[
+						120150,
+						7,
+						0
+					],
+					[
+						120300,
+						5,
+						225
+					],
+					[
+						120750,
+						4,
+						0
+					],
+					[
+						120750,
+						6,
+						225
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						121200,
+						0,
+						0
+					],
+					[
+						121350,
+						1,
+						0
+					],
+					[
+						121500,
+						0,
+						0
+					],
+					[
+						121650,
+						1,
+						0
+					],
+					[
+						121800,
+						2,
+						0
+					],
+					[
+						121950,
+						3,
+						0
+					],
+					[
+						122100,
+						2,
+						0
+					],
+					[
+						122250,
+						1,
+						0
+					],
+					[
+						121200,
+						4,
+						0
+					],
+					[
+						121350,
+						5,
+						0
+					],
+					[
+						121500,
+						4,
+						0
+					],
+					[
+						121650,
+						5,
+						0
+					],
+					[
+						121800,
+						6,
+						0
+					],
+					[
+						121950,
+						7,
+						0
+					],
+					[
+						122100,
+						6,
+						0
+					],
+					[
+						122250,
+						5,
+						0
+					],
+					[
+						121350,
+						6,
+						0
+					],
+					[
+						121350,
+						2,
+						0
+					],
+					[
+						121650,
+						7,
+						0
+					],
+					[
+						121650,
+						3,
+						0
+					],
+					[
+						121950,
+						0,
+						0
+					],
+					[
+						121950,
+						4,
+						0
+					],
+					[
+						122250,
+						0,
+						0
+					],
+					[
+						122250,
+						4,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						122400,
+						3,
+						0
+					],
+					[
+						122550,
+						0,
+						0
+					],
+					[
+						122700,
+						3,
+						0
+					],
+					[
+						122400,
+						7,
+						0
+					],
+					[
+						122550,
+						4,
+						0
+					],
+					[
+						122700,
+						7,
+						0
+					],
+					[
+						122850,
+						6,
+						0
+					],
+					[
+						123000,
+						7,
+						0
+					],
+					[
+						123150,
+						5,
+						0
+					],
+					[
+						123300,
+						7,
+						0
+					],
+					[
+						123450,
+						4,
+						0
+					],
+					[
+						122400,
+						7,
+						0
+					],
+					[
+						122550,
+						4,
+						0
+					],
+					[
+						122700,
+						7,
+						0
+					],
+					[
+						122400,
+						3,
+						0
+					],
+					[
+						122550,
+						0,
+						0
+					],
+					[
+						122700,
+						3,
+						0
+					],
+					[
+						122850,
+						2,
+						0
+					],
+					[
+						123000,
+						3,
+						0
+					],
+					[
+						123150,
+						1,
+						0
+					],
+					[
+						123300,
+						3,
+						0
+					],
+					[
+						123450,
+						0,
+						0
+					],
+					[
+						122550,
+						1,
+						0
+					],
+					[
+						122550,
+						5,
+						0
+					],
+					[
+						122850,
+						1,
+						0
+					],
+					[
+						122850,
+						5,
+						0
+					],
+					[
+						123150,
+						0,
+						0
+					],
+					[
+						123150,
+						4,
+						0
+					],
+					[
+						123450,
+						2,
+						0
+					],
+					[
+						123450,
+						6,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						123600,
+						5,
+						525
+					],
+					[
+						124200,
+						6,
+						525
+					],
+					[
+						123600,
+						1,
+						525
+					],
+					[
+						124200,
+						2,
+						525
+					],
+					[
+						123600,
+						3,
+						0
+					],
+					[
+						123600,
+						7,
+						0
+					],
+					[
+						124200,
+						0,
+						225
+					],
+					[
+						124200,
+						4,
+						225
+					],
+					[
+						124200,
+						7,
+						0
+					],
+					[
+						124200,
+						3,
+						0
+					],
+					[
+						124425,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						124500,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						124575,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						124650,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						124725,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						124800,
+						7,
+						525
+					],
+					[
+						125400,
+						6,
+						225
+					],
+					[
+						125700,
+						4,
+						225
+					],
+					[
+						124800,
+						3,
+						0
+					],
+					[
+						124950,
+						1,
+						0
+					],
+					[
+						125100,
+						2,
+						0
+					],
+					[
+						125250,
+						0,
+						0
+					],
+					[
+						125400,
+						3,
+						0
+					],
+					[
+						125550,
+						1,
+						0
+					],
+					[
+						125700,
+						2,
+						0
+					],
+					[
+						125850,
+						0,
+						0
+					],
+					[
+						124800,
+						6,
+						0
+					],
+					[
+						125400,
+						4,
+						0
+					],
+					[
+						125700,
+						5,
+						0
+					],
+					[
+						124800,
+						2,
+						0
+					],
+					[
+						125100,
+						3,
+						0
+					],
+					[
+						125250,
+						1,
+						0
+					],
+					[
+						125400,
+						2,
+						0
+					],
+					[
+						125700,
+						3,
+						0
+					],
+					[
+						125850,
+						1,
+						0
+					],
+					[
+						124875,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						124950,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						125175,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						125250,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						125325,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						125775,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						125850,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						126000,
+						6,
+						525
+					],
+					[
+						126000,
+						7,
+						0
+					],
+					[
+						126600,
+						7,
+						225
+					],
+					[
+						126900,
+						5,
+						0
+					],
+					[
+						127050,
+						4,
+						0
+					],
+					[
+						126000,
+						1,
+						0
+					],
+					[
+						126150,
+						2,
+						0
+					],
+					[
+						126300,
+						3,
+						0
+					],
+					[
+						126450,
+						2,
+						0
+					],
+					[
+						126600,
+						1,
+						0
+					],
+					[
+						126750,
+						2,
+						0
+					],
+					[
+						126900,
+						3,
+						0
+					],
+					[
+						127050,
+						2,
+						0
+					],
+					[
+						126600,
+						5,
+						0
+					],
+					[
+						126150,
+						0,
+						0
+					],
+					[
+						126450,
+						1,
+						0
+					],
+					[
+						126600,
+						3,
+						0
+					],
+					[
+						126000,
+						3,
+						0
+					],
+					[
+						126750,
+						0,
+						0
+					],
+					[
+						127050,
+						1,
+						0
+					],
+					[
+						126150,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						126225,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						126300,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						126375,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						126450,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						126750,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						126900,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						127200,
+						5,
+						225
+					],
+					[
+						127500,
+						6,
+						225
+					],
+					[
+						127800,
+						5,
+						0
+					],
+					[
+						127950,
+						4,
+						0
+					],
+					[
+						128250,
+						4,
+						225
+					],
+					[
+						127200,
+						0,
+						0
+					],
+					[
+						127350,
+						1,
+						0
+					],
+					[
+						127500,
+						3,
+						0
+					],
+					[
+						127650,
+						2,
+						0
+					],
+					[
+						127800,
+						0,
+						0
+					],
+					[
+						127950,
+						1,
+						0
+					],
+					[
+						128100,
+						3,
+						0
+					],
+					[
+						128250,
+						2,
+						0
+					],
+					[
+						127200,
+						7,
+						0
+					],
+					[
+						127500,
+						7,
+						0
+					],
+					[
+						127950,
+						6,
+						0
+					],
+					[
+						128250,
+						5,
+						0
+					],
+					[
+						127350,
+						2,
+						0
+					],
+					[
+						127650,
+						1,
+						0
+					],
+					[
+						127800,
+						3,
+						0
+					],
+					[
+						127200,
+						3,
+						0
+					],
+					[
+						127950,
+						2,
+						0
+					],
+					[
+						128250,
+						1,
+						0
+					],
+					[
+						127350,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						127500,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						127725,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						128100,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						128325,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						128550,
+						6,
+						0
+					],
+					[
+						128625,
+						7,
+						0
+					],
+					[
+						128700,
+						6,
+						0
+					],
+					[
+						128775,
+						5,
+						0
+					],
+					[
+						128850,
+						7,
+						375
+					],
+					[
+						129300,
+						6,
+						225
+					],
+					[
+						128400,
+						0,
+						0
+					],
+					[
+						128550,
+						3,
+						0
+					],
+					[
+						128700,
+						2,
+						0
+					],
+					[
+						128850,
+						0,
+						0
+					],
+					[
+						129000,
+						3,
+						0
+					],
+					[
+						129150,
+						0,
+						0
+					],
+					[
+						129300,
+						2,
+						0
+					],
+					[
+						129450,
+						3,
+						0
+					],
+					[
+						128775,
+						4,
+						0
+					],
+					[
+						128550,
+						5,
+						0
+					],
+					[
+						129300,
+						5,
+						0
+					],
+					[
+						128400,
+						3,
+						0
+					],
+					[
+						128700,
+						1,
+						0
+					],
+					[
+						128850,
+						3,
+						0
+					],
+					[
+						129150,
+						1,
+						0
+					],
+					[
+						129450,
+						1,
+						0
+					],
+					[
+						128925,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						129075,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						129450,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						129600,
+						4,
+						525
+					],
+					[
+						130200,
+						5,
+						0
+					],
+					[
+						130275,
+						6,
+						0
+					],
+					[
+						130350,
+						7,
+						0
+					],
+					[
+						130425,
+						4,
+						0
+					],
+					[
+						130650,
+						5,
+						0
+					],
+					[
+						129600,
+						0,
+						0
+					],
+					[
+						129675,
+						2,
+						0
+					],
+					[
+						129750,
+						1,
+						0
+					],
+					[
+						129825,
+						3,
+						0
+					],
+					[
+						129900,
+						2,
+						0
+					],
+					[
+						129975,
+						0,
+						0
+					],
+					[
+						130050,
+						1,
+						0
+					],
+					[
+						130125,
+						3,
+						0
+					],
+					[
+						130200,
+						0,
+						0
+					],
+					[
+						130275,
+						1,
+						0
+					],
+					[
+						130350,
+						3,
+						0
+					],
+					[
+						130650,
+						2,
+						0
+					],
+					[
+						129600,
+						5,
+						0
+					],
+					[
+						130425,
+						5,
+						0
+					],
+					[
+						130500,
+						7,
+						0
+					],
+					[
+						129675,
+						3,
+						0
+					],
+					[
+						130050,
+						2,
+						0
+					],
+					[
+						130350,
+						2,
+						0
+					],
+					[
+						130425,
+						1,
+						0
+					],
+					[
+						130500,
+						0,
+						0
+					],
+					[
+						130575,
+						1,
+						0
+					],
+					[
+						130650,
+						3,
+						0
+					],
+					[
+						130725,
+						0,
+						0
+					],
+					[
+						129600,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						129750,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						129900,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						129900,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						129975,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						130275,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						130650,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						130500,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						130800,
+						7,
+						525
+					],
+					[
+						131400,
+						4,
+						525
+					],
+					[
+						130800,
+						1,
+						0
+					],
+					[
+						130875,
+						0,
+						0
+					],
+					[
+						130950,
+						1,
+						0
+					],
+					[
+						131025,
+						2,
+						0
+					],
+					[
+						131100,
+						3,
+						0
+					],
+					[
+						131175,
+						1,
+						0
+					],
+					[
+						131250,
+						0,
+						0
+					],
+					[
+						131550,
+						0,
+						0
+					],
+					[
+						131700,
+						1,
+						0
+					],
+					[
+						131775,
+						2,
+						0
+					],
+					[
+						131925,
+						2,
+						0
+					],
+					[
+						131475,
+						1,
+						0
+					],
+					[
+						130800,
+						6,
+						0
+					],
+					[
+						131400,
+						5,
+						0
+					],
+					[
+						130950,
+						3,
+						0
+					],
+					[
+						131250,
+						2,
+						0
+					],
+					[
+						131325,
+						3,
+						0
+					],
+					[
+						131400,
+						2,
+						0
+					],
+					[
+						131550,
+						2,
+						0
+					],
+					[
+						131625,
+						3,
+						0
+					],
+					[
+						131850,
+						1,
+						0
+					],
+					[
+						131850,
+						0,
+						0
+					],
+					[
+						130800,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131025,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131100,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131175,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131250,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131475,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131550,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131625,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131700,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131775,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						131850,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						132000,
+						7,
+						525
+					],
+					[
+						132900,
+						7,
+						225
+					],
+					[
+						132600,
+						5,
+						225
+					],
+					[
+						132000,
+						0,
+						0
+					],
+					[
+						132075,
+						1,
+						0
+					],
+					[
+						132150,
+						2,
+						0
+					],
+					[
+						132300,
+						1,
+						0
+					],
+					[
+						132525,
+						2,
+						0
+					],
+					[
+						132600,
+						1,
+						0
+					],
+					[
+						132675,
+						0,
+						0
+					],
+					[
+						132750,
+						2,
+						0
+					],
+					[
+						133050,
+						2,
+						0
+					],
+					[
+						133125,
+						1,
+						0
+					],
+					[
+						132000,
+						5,
+						0
+					],
+					[
+						132600,
+						6,
+						0
+					],
+					[
+						132900,
+						6,
+						0
+					],
+					[
+						132150,
+						3,
+						0
+					],
+					[
+						132225,
+						0,
+						0
+					],
+					[
+						132375,
+						2,
+						0
+					],
+					[
+						132450,
+						0,
+						0
+					],
+					[
+						132450,
+						1,
+						0
+					],
+					[
+						132750,
+						3,
+						0
+					],
+					[
+						132825,
+						1,
+						0
+					],
+					[
+						132900,
+						0,
+						0
+					],
+					[
+						132975,
+						1,
+						0
+					],
+					[
+						133050,
+						3,
+						0
+					],
+					[
+						132075,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						132225,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						132300,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						132675,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						132825,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						132975,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133050,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						133200,
+						4,
+						525
+					],
+					[
+						133800,
+						6,
+						525
+					],
+					[
+						133200,
+						3,
+						0
+					],
+					[
+						133275,
+						0,
+						0
+					],
+					[
+						133350,
+						3,
+						0
+					],
+					[
+						133425,
+						2,
+						0
+					],
+					[
+						133500,
+						0,
+						0
+					],
+					[
+						133575,
+						2,
+						0
+					],
+					[
+						133650,
+						1,
+						0
+					],
+					[
+						133725,
+						3,
+						0
+					],
+					[
+						133800,
+						0,
+						0
+					],
+					[
+						133950,
+						2,
+						0
+					],
+					[
+						134100,
+						0,
+						0
+					],
+					[
+						134250,
+						3,
+						0
+					],
+					[
+						133200,
+						6,
+						0
+					],
+					[
+						133800,
+						7,
+						0
+					],
+					[
+						133350,
+						1,
+						0
+					],
+					[
+						133650,
+						0,
+						0
+					],
+					[
+						133950,
+						1,
+						0
+					],
+					[
+						134100,
+						3,
+						0
+					],
+					[
+						134250,
+						1,
+						0
+					],
+					[
+						133275,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133350,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133425,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133500,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133575,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133650,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133875,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						133950,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						134025,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						134100,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						134175,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						134250,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						134325,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						134400,
+						7,
+						525
+					],
+					[
+						135000,
+						6,
+						225
+					],
+					[
+						135300,
+						4,
+						225
+					],
+					[
+						134400,
+						3,
+						0
+					],
+					[
+						134550,
+						1,
+						0
+					],
+					[
+						134700,
+						2,
+						0
+					],
+					[
+						134850,
+						0,
+						0
+					],
+					[
+						135000,
+						3,
+						0
+					],
+					[
+						135150,
+						1,
+						0
+					],
+					[
+						135300,
+						2,
+						0
+					],
+					[
+						135450,
+						0,
+						0
+					],
+					[
+						134400,
+						6,
+						0
+					],
+					[
+						135000,
+						4,
+						0
+					],
+					[
+						135300,
+						5,
+						0
+					],
+					[
+						134400,
+						2,
+						0
+					],
+					[
+						134700,
+						3,
+						0
+					],
+					[
+						134850,
+						1,
+						0
+					],
+					[
+						135000,
+						2,
+						0
+					],
+					[
+						135300,
+						3,
+						0
+					],
+					[
+						135450,
+						1,
+						0
+					],
+					[
+						134400,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						134700,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						135000,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						135300,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						135600,
+						6,
+						525
+					],
+					[
+						135600,
+						7,
+						0
+					],
+					[
+						136200,
+						7,
+						225
+					],
+					[
+						136500,
+						5,
+						0
+					],
+					[
+						136650,
+						4,
+						0
+					],
+					[
+						135600,
+						1,
+						0
+					],
+					[
+						135750,
+						2,
+						0
+					],
+					[
+						135900,
+						3,
+						0
+					],
+					[
+						136050,
+						2,
+						0
+					],
+					[
+						136200,
+						1,
+						0
+					],
+					[
+						136350,
+						2,
+						0
+					],
+					[
+						136500,
+						3,
+						0
+					],
+					[
+						136650,
+						2,
+						0
+					],
+					[
+						136200,
+						5,
+						0
+					],
+					[
+						135750,
+						0,
+						0
+					],
+					[
+						136050,
+						1,
+						0
+					],
+					[
+						136200,
+						3,
+						0
+					],
+					[
+						135600,
+						3,
+						0
+					],
+					[
+						136350,
+						0,
+						0
+					],
+					[
+						136650,
+						1,
+						0
+					],
+					[
+						135600,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						135900,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						136500,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						136800,
+						5,
+						225
+					],
+					[
+						137100,
+						6,
+						225
+					],
+					[
+						137400,
+						5,
+						0
+					],
+					[
+						137550,
+						4,
+						0
+					],
+					[
+						137850,
+						4,
+						225
+					],
+					[
+						136800,
+						0,
+						0
+					],
+					[
+						136950,
+						1,
+						0
+					],
+					[
+						137100,
+						3,
+						0
+					],
+					[
+						137250,
+						2,
+						0
+					],
+					[
+						137400,
+						0,
+						0
+					],
+					[
+						137550,
+						1,
+						0
+					],
+					[
+						137700,
+						3,
+						0
+					],
+					[
+						137850,
+						2,
+						0
+					],
+					[
+						136800,
+						7,
+						0
+					],
+					[
+						137100,
+						7,
+						0
+					],
+					[
+						137550,
+						6,
+						0
+					],
+					[
+						137850,
+						5,
+						0
+					],
+					[
+						136950,
+						2,
+						0
+					],
+					[
+						137250,
+						1,
+						0
+					],
+					[
+						137400,
+						3,
+						0
+					],
+					[
+						136800,
+						3,
+						0
+					],
+					[
+						137550,
+						2,
+						0
+					],
+					[
+						137850,
+						1,
+						0
+					],
+					[
+						137100,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						137700,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						138150,
+						6,
+						0
+					],
+					[
+						138225,
+						7,
+						0
+					],
+					[
+						138300,
+						6,
+						0
+					],
+					[
+						138375,
+						5,
+						0
+					],
+					[
+						138450,
+						7,
+						375
+					],
+					[
+						138900,
+						6,
+						225
+					],
+					[
+						138000,
+						0,
+						0
+					],
+					[
+						138150,
+						3,
+						0
+					],
+					[
+						138300,
+						2,
+						0
+					],
+					[
+						138450,
+						0,
+						0
+					],
+					[
+						138600,
+						3,
+						0
+					],
+					[
+						138750,
+						0,
+						0
+					],
+					[
+						138900,
+						2,
+						0
+					],
+					[
+						139050,
+						3,
+						0
+					],
+					[
+						138375,
+						4,
+						0
+					],
+					[
+						138150,
+						5,
+						0
+					],
+					[
+						138900,
+						5,
+						0
+					],
+					[
+						138000,
+						3,
+						0
+					],
+					[
+						138300,
+						1,
+						0
+					],
+					[
+						138450,
+						3,
+						0
+					],
+					[
+						138750,
+						1,
+						0
+					],
+					[
+						139050,
+						1,
+						0
+					],
+					[
+						138300,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						138900,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						139200,
+						4,
+						525
+					],
+					[
+						139800,
+						5,
+						0
+					],
+					[
+						139875,
+						6,
+						0
+					],
+					[
+						139950,
+						7,
+						0
+					],
+					[
+						140025,
+						4,
+						0
+					],
+					[
+						140100,
+						6,
+						0
+					],
+					[
+						140250,
+						5,
+						0
+					],
+					[
+						139200,
+						0,
+						0
+					],
+					[
+						139275,
+						2,
+						0
+					],
+					[
+						139350,
+						1,
+						0
+					],
+					[
+						139425,
+						3,
+						0
+					],
+					[
+						139500,
+						2,
+						0
+					],
+					[
+						139575,
+						0,
+						0
+					],
+					[
+						139650,
+						1,
+						0
+					],
+					[
+						139725,
+						3,
+						0
+					],
+					[
+						139800,
+						0,
+						0
+					],
+					[
+						139875,
+						1,
+						0
+					],
+					[
+						139950,
+						3,
+						0
+					],
+					[
+						140250,
+						2,
+						0
+					],
+					[
+						139200,
+						5,
+						0
+					],
+					[
+						140025,
+						5,
+						0
+					],
+					[
+						140100,
+						7,
+						0
+					],
+					[
+						139275,
+						3,
+						0
+					],
+					[
+						139650,
+						2,
+						0
+					],
+					[
+						139950,
+						2,
+						0
+					],
+					[
+						140025,
+						1,
+						0
+					],
+					[
+						140100,
+						0,
+						0
+					],
+					[
+						140175,
+						1,
+						0
+					],
+					[
+						140250,
+						3,
+						0
+					],
+					[
+						140325,
+						0,
+						0
+					],
+					[
+						139200,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						139425,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						139575,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						139800,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						140100,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						140175,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						140400,
+						7,
+						525
+					],
+					[
+						141000,
+						4,
+						525
+					],
+					[
+						140400,
+						1,
+						0
+					],
+					[
+						140475,
+						0,
+						0
+					],
+					[
+						140550,
+						1,
+						0
+					],
+					[
+						140625,
+						2,
+						0
+					],
+					[
+						140700,
+						3,
+						0
+					],
+					[
+						140775,
+						1,
+						0
+					],
+					[
+						140850,
+						0,
+						0
+					],
+					[
+						141150,
+						0,
+						0
+					],
+					[
+						141300,
+						1,
+						0
+					],
+					[
+						141375,
+						2,
+						0
+					],
+					[
+						141525,
+						2,
+						0
+					],
+					[
+						141075,
+						1,
+						0
+					],
+					[
+						140400,
+						6,
+						0
+					],
+					[
+						141000,
+						5,
+						0
+					],
+					[
+						140550,
+						3,
+						0
+					],
+					[
+						140850,
+						2,
+						0
+					],
+					[
+						140925,
+						3,
+						0
+					],
+					[
+						141000,
+						2,
+						0
+					],
+					[
+						141150,
+						2,
+						0
+					],
+					[
+						141225,
+						3,
+						0
+					],
+					[
+						141450,
+						1,
+						0
+					],
+					[
+						141450,
+						0,
+						0
+					],
+					[
+						140400,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						140625,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						140925,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						141075,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						141450,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						141600,
+						7,
+						525
+					],
+					[
+						142500,
+						7,
+						225
+					],
+					[
+						142200,
+						5,
+						225
+					],
+					[
+						141600,
+						0,
+						0
+					],
+					[
+						141675,
+						1,
+						0
+					],
+					[
+						141750,
+						2,
+						0
+					],
+					[
+						141900,
+						1,
+						0
+					],
+					[
+						142125,
+						2,
+						0
+					],
+					[
+						142200,
+						1,
+						0
+					],
+					[
+						142275,
+						0,
+						0
+					],
+					[
+						142350,
+						2,
+						0
+					],
+					[
+						142650,
+						2,
+						0
+					],
+					[
+						142725,
+						1,
+						0
+					],
+					[
+						141600,
+						5,
+						0
+					],
+					[
+						142200,
+						6,
+						0
+					],
+					[
+						142500,
+						6,
+						0
+					],
+					[
+						141750,
+						3,
+						0
+					],
+					[
+						141825,
+						0,
+						0
+					],
+					[
+						141975,
+						2,
+						0
+					],
+					[
+						142050,
+						0,
+						0
+					],
+					[
+						142050,
+						1,
+						0
+					],
+					[
+						142350,
+						3,
+						0
+					],
+					[
+						142425,
+						1,
+						0
+					],
+					[
+						142500,
+						0,
+						0
+					],
+					[
+						142575,
+						1,
+						0
+					],
+					[
+						142650,
+						3,
+						0
+					],
+					[
+						141900,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						142050,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						142200,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						142800,
+						4,
+						525
+					],
+					[
+						143400,
+						6,
+						525
+					],
+					[
+						142800,
+						3,
+						0
+					],
+					[
+						142875,
+						0,
+						0
+					],
+					[
+						142950,
+						3,
+						0
+					],
+					[
+						143025,
+						2,
+						0
+					],
+					[
+						143100,
+						0,
+						0
+					],
+					[
+						143175,
+						2,
+						0
+					],
+					[
+						143250,
+						1,
+						0
+					],
+					[
+						143325,
+						3,
+						0
+					],
+					[
+						143400,
+						0,
+						0
+					],
+					[
+						143550,
+						2,
+						0
+					],
+					[
+						143700,
+						0,
+						0
+					],
+					[
+						143850,
+						3,
+						0
+					],
+					[
+						142800,
+						6,
+						0
+					],
+					[
+						143400,
+						7,
+						0
+					],
+					[
+						142950,
+						1,
+						0
+					],
+					[
+						143250,
+						0,
+						0
+					],
+					[
+						143550,
+						1,
+						0
+					],
+					[
+						143700,
+						3,
+						0
+					],
+					[
+						143850,
+						1,
+						0
+					],
+					[
+						142800,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						143100,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						143325,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						143475,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						143700,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						143850,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						143550,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						144000,
+						4,
+						525
+					],
+					[
+						144600,
+						5,
+						225
+					],
+					[
+						144900,
+						7,
+						225
+					],
+					[
+						144000,
+						0,
+						0
+					],
+					[
+						144150,
+						2,
+						0
+					],
+					[
+						144300,
+						1,
+						0
+					],
+					[
+						144450,
+						3,
+						0
+					],
+					[
+						144600,
+						0,
+						0
+					],
+					[
+						144750,
+						2,
+						0
+					],
+					[
+						144900,
+						1,
+						0
+					],
+					[
+						145050,
+						3,
+						0
+					],
+					[
+						144000,
+						5,
+						0
+					],
+					[
+						144600,
+						7,
+						0
+					],
+					[
+						144900,
+						6,
+						0
+					],
+					[
+						144000,
+						1,
+						0
+					],
+					[
+						144300,
+						0,
+						0
+					],
+					[
+						144450,
+						2,
+						0
+					],
+					[
+						144600,
+						1,
+						0
+					],
+					[
+						144900,
+						0,
+						0
+					],
+					[
+						145050,
+						2,
+						0
+					],
+					[
+						144000,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						144000,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						144150,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						144300,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						144450,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						144600,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						144750,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						145050,
+						5,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						145200,
+						5,
+						525
+					],
+					[
+						145200,
+						4,
+						0
+					],
+					[
+						145800,
+						4,
+						225
+					],
+					[
+						146100,
+						6,
+						0
+					],
+					[
+						146250,
+						7,
+						0
+					],
+					[
+						145200,
+						2,
+						0
+					],
+					[
+						145350,
+						1,
+						0
+					],
+					[
+						145500,
+						0,
+						0
+					],
+					[
+						145650,
+						1,
+						0
+					],
+					[
+						145800,
+						2,
+						0
+					],
+					[
+						145950,
+						1,
+						0
+					],
+					[
+						146100,
+						0,
+						0
+					],
+					[
+						146250,
+						1,
+						0
+					],
+					[
+						145800,
+						6,
+						0
+					],
+					[
+						145350,
+						3,
+						0
+					],
+					[
+						145650,
+						2,
+						0
+					],
+					[
+						145800,
+						0,
+						0
+					],
+					[
+						145200,
+						0,
+						0
+					],
+					[
+						145950,
+						3,
+						0
+					],
+					[
+						146250,
+						2,
+						0
+					],
+					[
+						145350,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						145500,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						145650,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						145950,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						146250,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						146400,
+						6,
+						225
+					],
+					[
+						146700,
+						5,
+						225
+					],
+					[
+						147000,
+						6,
+						0
+					],
+					[
+						147150,
+						7,
+						0
+					],
+					[
+						147450,
+						7,
+						225
+					],
+					[
+						146400,
+						3,
+						0
+					],
+					[
+						146550,
+						2,
+						0
+					],
+					[
+						146700,
+						0,
+						0
+					],
+					[
+						146850,
+						1,
+						0
+					],
+					[
+						147000,
+						3,
+						0
+					],
+					[
+						147150,
+						2,
+						0
+					],
+					[
+						147300,
+						0,
+						0
+					],
+					[
+						147450,
+						1,
+						0
+					],
+					[
+						146400,
+						4,
+						0
+					],
+					[
+						146700,
+						4,
+						0
+					],
+					[
+						147150,
+						5,
+						0
+					],
+					[
+						147450,
+						6,
+						0
+					],
+					[
+						146550,
+						1,
+						0
+					],
+					[
+						146850,
+						2,
+						0
+					],
+					[
+						147000,
+						0,
+						0
+					],
+					[
+						146400,
+						0,
+						0
+					],
+					[
+						147150,
+						1,
+						0
+					],
+					[
+						147450,
+						2,
+						0
+					],
+					[
+						146400,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						146550,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						146850,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						147000,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						147300,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						147750,
+						6,
+						0
+					],
+					[
+						147825,
+						7,
+						0
+					],
+					[
+						147900,
+						6,
+						0
+					],
+					[
+						147975,
+						5,
+						0
+					],
+					[
+						148050,
+						7,
+						375
+					],
+					[
+						148500,
+						6,
+						225
+					],
+					[
+						147600,
+						0,
+						0
+					],
+					[
+						147750,
+						3,
+						0
+					],
+					[
+						147900,
+						2,
+						0
+					],
+					[
+						148050,
+						0,
+						0
+					],
+					[
+						148200,
+						3,
+						0
+					],
+					[
+						148350,
+						0,
+						0
+					],
+					[
+						148500,
+						2,
+						0
+					],
+					[
+						148650,
+						3,
+						0
+					],
+					[
+						147975,
+						4,
+						0
+					],
+					[
+						147750,
+						5,
+						0
+					],
+					[
+						148500,
+						5,
+						0
+					],
+					[
+						147600,
+						3,
+						0
+					],
+					[
+						147900,
+						1,
+						0
+					],
+					[
+						148050,
+						3,
+						0
+					],
+					[
+						148350,
+						1,
+						0
+					],
+					[
+						148650,
+						1,
+						0
+					],
+					[
+						147600,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						147825,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						148200,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						148350,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						148650,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						148800,
+						7,
+						525
+					],
+					[
+						149400,
+						6,
+						0
+					],
+					[
+						149475,
+						5,
+						0
+					],
+					[
+						149550,
+						4,
+						0
+					],
+					[
+						149625,
+						7,
+						0
+					],
+					[
+						149700,
+						5,
+						0
+					],
+					[
+						149850,
+						6,
+						0
+					],
+					[
+						148800,
+						3,
+						0
+					],
+					[
+						148875,
+						1,
+						0
+					],
+					[
+						148950,
+						2,
+						0
+					],
+					[
+						149025,
+						0,
+						0
+					],
+					[
+						149100,
+						1,
+						0
+					],
+					[
+						149175,
+						3,
+						0
+					],
+					[
+						149250,
+						2,
+						0
+					],
+					[
+						149325,
+						0,
+						0
+					],
+					[
+						149400,
+						3,
+						0
+					],
+					[
+						149475,
+						2,
+						0
+					],
+					[
+						149550,
+						0,
+						0
+					],
+					[
+						149850,
+						1,
+						0
+					],
+					[
+						148800,
+						6,
+						0
+					],
+					[
+						149625,
+						6,
+						0
+					],
+					[
+						149700,
+						4,
+						0
+					],
+					[
+						148875,
+						0,
+						0
+					],
+					[
+						149250,
+						1,
+						0
+					],
+					[
+						149550,
+						1,
+						0
+					],
+					[
+						149625,
+						2,
+						0
+					],
+					[
+						149700,
+						3,
+						0
+					],
+					[
+						149775,
+						2,
+						0
+					],
+					[
+						149850,
+						0,
+						0
+					],
+					[
+						149925,
+						3,
+						0
+					],
+					[
+						148950,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						149100,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						149250,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						149775,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						150000,
+						4,
+						525
+					],
+					[
+						150600,
+						7,
+						525
+					],
+					[
+						150000,
+						2,
+						0
+					],
+					[
+						150075,
+						3,
+						0
+					],
+					[
+						150150,
+						2,
+						0
+					],
+					[
+						150225,
+						1,
+						0
+					],
+					[
+						150300,
+						0,
+						0
+					],
+					[
+						150375,
+						2,
+						0
+					],
+					[
+						150450,
+						3,
+						0
+					],
+					[
+						150750,
+						3,
+						0
+					],
+					[
+						150900,
+						2,
+						0
+					],
+					[
+						150975,
+						1,
+						0
+					],
+					[
+						151125,
+						1,
+						0
+					],
+					[
+						150675,
+						2,
+						0
+					],
+					[
+						150000,
+						5,
+						0
+					],
+					[
+						150600,
+						6,
+						0
+					],
+					[
+						150150,
+						0,
+						0
+					],
+					[
+						150450,
+						1,
+						0
+					],
+					[
+						150525,
+						0,
+						0
+					],
+					[
+						150600,
+						1,
+						0
+					],
+					[
+						150750,
+						1,
+						0
+					],
+					[
+						150825,
+						0,
+						0
+					],
+					[
+						151050,
+						2,
+						0
+					],
+					[
+						151050,
+						3,
+						0
+					],
+					[
+						150150,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						150300,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						150450,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						150750,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						150900,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						151050,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						151200,
+						4,
+						525
+					],
+					[
+						152100,
+						4,
+						225
+					],
+					[
+						151800,
+						6,
+						225
+					],
+					[
+						151200,
+						3,
+						0
+					],
+					[
+						151275,
+						2,
+						0
+					],
+					[
+						151350,
+						1,
+						0
+					],
+					[
+						151500,
+						2,
+						0
+					],
+					[
+						151725,
+						1,
+						0
+					],
+					[
+						151800,
+						2,
+						0
+					],
+					[
+						151875,
+						3,
+						0
+					],
+					[
+						151950,
+						1,
+						0
+					],
+					[
+						152250,
+						1,
+						0
+					],
+					[
+						152325,
+						2,
+						0
+					],
+					[
+						151200,
+						6,
+						0
+					],
+					[
+						151800,
+						5,
+						0
+					],
+					[
+						152100,
+						5,
+						0
+					],
+					[
+						151350,
+						0,
+						0
+					],
+					[
+						151425,
+						3,
+						0
+					],
+					[
+						151575,
+						1,
+						0
+					],
+					[
+						151650,
+						3,
+						0
+					],
+					[
+						151650,
+						2,
+						0
+					],
+					[
+						151950,
+						0,
+						0
+					],
+					[
+						152025,
+						2,
+						0
+					],
+					[
+						152100,
+						3,
+						0
+					],
+					[
+						152175,
+						2,
+						0
+					],
+					[
+						152250,
+						0,
+						0
+					],
+					[
+						151350,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						151500,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						151650,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						151950,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						152250,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						152400,
+						7,
+						525
+					],
+					[
+						153000,
+						5,
+						525
+					],
+					[
+						152400,
+						0,
+						0
+					],
+					[
+						152475,
+						3,
+						0
+					],
+					[
+						152550,
+						0,
+						0
+					],
+					[
+						152625,
+						1,
+						0
+					],
+					[
+						152700,
+						3,
+						0
+					],
+					[
+						152775,
+						1,
+						0
+					],
+					[
+						152850,
+						2,
+						0
+					],
+					[
+						152925,
+						0,
+						0
+					],
+					[
+						153000,
+						3,
+						0
+					],
+					[
+						153150,
+						1,
+						0
+					],
+					[
+						153300,
+						3,
+						0
+					],
+					[
+						153450,
+						0,
+						0
+					],
+					[
+						152400,
+						5,
+						0
+					],
+					[
+						153000,
+						4,
+						0
+					],
+					[
+						152550,
+						2,
+						0
+					],
+					[
+						152850,
+						3,
+						0
+					],
+					[
+						153150,
+						2,
+						0
+					],
+					[
+						153300,
+						0,
+						0
+					],
+					[
+						153450,
+						2,
+						0
+					],
+					[
+						152475,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						152550,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						152625,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						152700,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						152775,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						152850,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						152925,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						153075,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						153150,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						153225,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						153300,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						153375,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						153450,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						153525,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						153600,
+						4,
+						525
+					],
+					[
+						154200,
+						5,
+						225
+					],
+					[
+						154500,
+						7,
+						225
+					],
+					[
+						153600,
+						0,
+						0
+					],
+					[
+						153750,
+						2,
+						0
+					],
+					[
+						153900,
+						1,
+						0
+					],
+					[
+						154050,
+						3,
+						0
+					],
+					[
+						154200,
+						0,
+						0
+					],
+					[
+						154350,
+						2,
+						0
+					],
+					[
+						154500,
+						1,
+						0
+					],
+					[
+						154650,
+						3,
+						0
+					],
+					[
+						153600,
+						5,
+						0
+					],
+					[
+						154200,
+						7,
+						0
+					],
+					[
+						154500,
+						6,
+						0
+					],
+					[
+						153600,
+						1,
+						0
+					],
+					[
+						153900,
+						0,
+						0
+					],
+					[
+						154050,
+						2,
+						0
+					],
+					[
+						154200,
+						1,
+						0
+					],
+					[
+						154500,
+						0,
+						0
+					],
+					[
+						154650,
+						2,
+						0
+					],
+					[
+						153900,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						154500,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						154800,
+						5,
+						525
+					],
+					[
+						154800,
+						4,
+						0
+					],
+					[
+						155400,
+						4,
+						225
+					],
+					[
+						155700,
+						6,
+						0
+					],
+					[
+						155850,
+						7,
+						0
+					],
+					[
+						154800,
+						2,
+						0
+					],
+					[
+						154950,
+						1,
+						0
+					],
+					[
+						155100,
+						0,
+						0
+					],
+					[
+						155250,
+						1,
+						0
+					],
+					[
+						155400,
+						2,
+						0
+					],
+					[
+						155550,
+						1,
+						0
+					],
+					[
+						155700,
+						0,
+						0
+					],
+					[
+						155850,
+						1,
+						0
+					],
+					[
+						155400,
+						6,
+						0
+					],
+					[
+						154950,
+						3,
+						0
+					],
+					[
+						155250,
+						2,
+						0
+					],
+					[
+						155400,
+						0,
+						0
+					],
+					[
+						154800,
+						0,
+						0
+					],
+					[
+						155550,
+						3,
+						0
+					],
+					[
+						155850,
+						2,
+						0
+					],
+					[
+						155100,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						155700,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						156000,
+						6,
+						225
+					],
+					[
+						156300,
+						5,
+						225
+					],
+					[
+						156600,
+						6,
+						0
+					],
+					[
+						156750,
+						7,
+						0
+					],
+					[
+						157050,
+						7,
+						225
+					],
+					[
+						156000,
+						3,
+						0
+					],
+					[
+						156150,
+						2,
+						0
+					],
+					[
+						156300,
+						0,
+						0
+					],
+					[
+						156450,
+						1,
+						0
+					],
+					[
+						156600,
+						3,
+						0
+					],
+					[
+						156750,
+						2,
+						0
+					],
+					[
+						156900,
+						0,
+						0
+					],
+					[
+						157050,
+						1,
+						0
+					],
+					[
+						156000,
+						4,
+						0
+					],
+					[
+						156300,
+						4,
+						0
+					],
+					[
+						156750,
+						5,
+						0
+					],
+					[
+						157050,
+						6,
+						0
+					],
+					[
+						156150,
+						1,
+						0
+					],
+					[
+						156450,
+						2,
+						0
+					],
+					[
+						156600,
+						0,
+						0
+					],
+					[
+						156000,
+						0,
+						0
+					],
+					[
+						156750,
+						1,
+						0
+					],
+					[
+						157050,
+						2,
+						0
+					],
+					[
+						156300,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						156900,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						157350,
+						6,
+						0
+					],
+					[
+						157425,
+						7,
+						0
+					],
+					[
+						157500,
+						6,
+						0
+					],
+					[
+						157575,
+						5,
+						0
+					],
+					[
+						157650,
+						7,
+						375
+					],
+					[
+						158100,
+						6,
+						225
+					],
+					[
+						157200,
+						0,
+						0
+					],
+					[
+						157350,
+						3,
+						0
+					],
+					[
+						157500,
+						2,
+						0
+					],
+					[
+						157650,
+						0,
+						0
+					],
+					[
+						157800,
+						3,
+						0
+					],
+					[
+						157950,
+						0,
+						0
+					],
+					[
+						158100,
+						2,
+						0
+					],
+					[
+						158250,
+						3,
+						0
+					],
+					[
+						157575,
+						4,
+						0
+					],
+					[
+						157350,
+						5,
+						0
+					],
+					[
+						158100,
+						5,
+						0
+					],
+					[
+						157200,
+						3,
+						0
+					],
+					[
+						157500,
+						1,
+						0
+					],
+					[
+						157650,
+						3,
+						0
+					],
+					[
+						157950,
+						1,
+						0
+					],
+					[
+						158250,
+						1,
+						0
+					],
+					[
+						157500,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						158100,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						158400,
+						7,
+						525
+					],
+					[
+						159000,
+						6,
+						0
+					],
+					[
+						159075,
+						5,
+						0
+					],
+					[
+						159150,
+						4,
+						0
+					],
+					[
+						159225,
+						7,
+						0
+					],
+					[
+						159300,
+						5,
+						0
+					],
+					[
+						159450,
+						6,
+						0
+					],
+					[
+						158400,
+						3,
+						0
+					],
+					[
+						158475,
+						1,
+						0
+					],
+					[
+						158550,
+						2,
+						0
+					],
+					[
+						158625,
+						0,
+						0
+					],
+					[
+						158700,
+						1,
+						0
+					],
+					[
+						158775,
+						3,
+						0
+					],
+					[
+						158850,
+						2,
+						0
+					],
+					[
+						158925,
+						0,
+						0
+					],
+					[
+						159000,
+						3,
+						0
+					],
+					[
+						159075,
+						2,
+						0
+					],
+					[
+						159150,
+						0,
+						0
+					],
+					[
+						159450,
+						1,
+						0
+					],
+					[
+						158400,
+						6,
+						0
+					],
+					[
+						159225,
+						6,
+						0
+					],
+					[
+						159300,
+						4,
+						0
+					],
+					[
+						158475,
+						0,
+						0
+					],
+					[
+						158850,
+						1,
+						0
+					],
+					[
+						159150,
+						1,
+						0
+					],
+					[
+						159225,
+						2,
+						0
+					],
+					[
+						159300,
+						3,
+						0
+					],
+					[
+						159375,
+						2,
+						0
+					],
+					[
+						159450,
+						0,
+						0
+					],
+					[
+						159525,
+						3,
+						0
+					],
+					[
+						158550,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						158700,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						159300,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						159600,
+						4,
+						525
+					],
+					[
+						160200,
+						7,
+						525
+					],
+					[
+						159600,
+						2,
+						0
+					],
+					[
+						159675,
+						3,
+						0
+					],
+					[
+						159750,
+						2,
+						0
+					],
+					[
+						159825,
+						1,
+						0
+					],
+					[
+						159900,
+						0,
+						0
+					],
+					[
+						159975,
+						2,
+						0
+					],
+					[
+						160050,
+						3,
+						0
+					],
+					[
+						160350,
+						3,
+						0
+					],
+					[
+						160500,
+						2,
+						0
+					],
+					[
+						160575,
+						1,
+						0
+					],
+					[
+						160725,
+						1,
+						0
+					],
+					[
+						160275,
+						2,
+						0
+					],
+					[
+						159600,
+						5,
+						0
+					],
+					[
+						160200,
+						6,
+						0
+					],
+					[
+						159750,
+						0,
+						0
+					],
+					[
+						160050,
+						1,
+						0
+					],
+					[
+						160125,
+						0,
+						0
+					],
+					[
+						160200,
+						1,
+						0
+					],
+					[
+						160350,
+						1,
+						0
+					],
+					[
+						160425,
+						0,
+						0
+					],
+					[
+						160650,
+						2,
+						0
+					],
+					[
+						160650,
+						3,
+						0
+					],
+					[
+						159900,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						160650,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						160800,
+						4,
+						525
+					],
+					[
+						161700,
+						4,
+						225
+					],
+					[
+						161400,
+						6,
+						225
+					],
+					[
+						160800,
+						3,
+						0
+					],
+					[
+						160875,
+						2,
+						0
+					],
+					[
+						160950,
+						1,
+						0
+					],
+					[
+						161100,
+						2,
+						0
+					],
+					[
+						161325,
+						1,
+						0
+					],
+					[
+						161400,
+						2,
+						0
+					],
+					[
+						161475,
+						3,
+						0
+					],
+					[
+						161550,
+						1,
+						0
+					],
+					[
+						161850,
+						1,
+						0
+					],
+					[
+						161925,
+						2,
+						0
+					],
+					[
+						160800,
+						6,
+						0
+					],
+					[
+						161400,
+						5,
+						0
+					],
+					[
+						161700,
+						5,
+						0
+					],
+					[
+						160950,
+						0,
+						0
+					],
+					[
+						161025,
+						3,
+						0
+					],
+					[
+						161175,
+						1,
+						0
+					],
+					[
+						161250,
+						3,
+						0
+					],
+					[
+						161250,
+						2,
+						0
+					],
+					[
+						161550,
+						0,
+						0
+					],
+					[
+						161625,
+						2,
+						0
+					],
+					[
+						161700,
+						3,
+						0
+					],
+					[
+						161775,
+						2,
+						0
+					],
+					[
+						161850,
+						0,
+						0
+					],
+					[
+						161250,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						162000,
+						7,
+						525
+					],
+					[
+						162600,
+						5,
+						525
+					],
+					[
+						162000,
+						0,
+						0
+					],
+					[
+						162075,
+						3,
+						0
+					],
+					[
+						162150,
+						0,
+						0
+					],
+					[
+						162225,
+						1,
+						0
+					],
+					[
+						162300,
+						3,
+						0
+					],
+					[
+						162375,
+						1,
+						0
+					],
+					[
+						162450,
+						2,
+						0
+					],
+					[
+						162525,
+						0,
+						0
+					],
+					[
+						162600,
+						3,
+						0
+					],
+					[
+						162750,
+						1,
+						0
+					],
+					[
+						162900,
+						3,
+						0
+					],
+					[
+						163050,
+						0,
+						0
+					],
+					[
+						162000,
+						5,
+						0
+					],
+					[
+						162600,
+						4,
+						0
+					],
+					[
+						162150,
+						2,
+						0
+					],
+					[
+						162450,
+						3,
+						0
+					],
+					[
+						162750,
+						2,
+						0
+					],
+					[
+						162900,
+						0,
+						0
+					],
+					[
+						163050,
+						2,
+						0
+					],
+					[
+						162300,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						163125,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						162750,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						162975,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						163200,
+						7,
+						525
+					],
+					[
+						163800,
+						6,
+						225
+					],
+					[
+						164100,
+						4,
+						225
+					],
+					[
+						163200,
+						3,
+						525
+					],
+					[
+						163800,
+						2,
+						225
+					],
+					[
+						164100,
+						0,
+						225
+					],
+					[
+						163800,
+						1,
+						0
+					],
+					[
+						163800,
+						5,
+						0
+					],
+					[
+						163331.25,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						163488.75,
+						6,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						164167.5,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						164400,
+						6,
+						825
+					],
+					[
+						164400,
+						7,
+						0
+					],
+					[
+						165300,
+						5,
+						0
+					],
+					[
+						165450,
+						4,
+						0
+					],
+					[
+						164400,
+						2,
+						825
+					],
+					[
+						164400,
+						3,
+						0
+					],
+					[
+						165300,
+						1,
+						0
+					],
+					[
+						165450,
+						0,
+						0
+					],
+					[
+						164400,
+						1,
+						0
+					],
+					[
+						164400,
+						5,
+						0
+					],
+					[
+						165450,
+						7,
+						0
+					],
+					[
+						165450,
+						3,
+						0
+					],
+					[
+						164848.125,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						164986.875,
+						7,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						165185.625,
+						7,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						165600,
+						5,
+						225
+					],
+					[
+						165900,
+						6,
+						225
+					],
+					[
+						166200,
+						5,
+						0
+					],
+					[
+						166350,
+						4,
+						0
+					],
+					[
+						166650,
+						4,
+						225
+					],
+					[
+						165600,
+						1,
+						225
+					],
+					[
+						165900,
+						2,
+						225
+					],
+					[
+						166200,
+						1,
+						0
+					],
+					[
+						166350,
+						0,
+						0
+					],
+					[
+						166650,
+						0,
+						225
+					],
+					[
+						165900,
+						7,
+						0
+					],
+					[
+						165900,
+						3,
+						0
+					],
+					[
+						166350,
+						2,
+						0
+					],
+					[
+						166350,
+						6,
+						0
+					],
+					[
+						166650,
+						3,
+						0
+					],
+					[
+						166650,
+						7,
+						0
+					],
+					[
+						165931.875,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						166576.875,
+						6,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						166950,
+						6,
+						0
+					],
+					[
+						167025,
+						7,
+						0
+					],
+					[
+						167100,
+						6,
+						0
+					],
+					[
+						167175,
+						5,
+						0
+					],
+					[
+						167250,
+						7,
+						375
+					],
+					[
+						167700,
+						6,
+						225
+					],
+					[
+						166950,
+						2,
+						0
+					],
+					[
+						167025,
+						3,
+						0
+					],
+					[
+						167100,
+						2,
+						0
+					],
+					[
+						167175,
+						1,
+						0
+					],
+					[
+						167250,
+						3,
+						375
+					],
+					[
+						167700,
+						2,
+						225
+					],
+					[
+						167250,
+						0,
+						0
+					],
+					[
+						167250,
+						4,
+						0
+					],
+					[
+						166950,
+						1,
+						0
+					],
+					[
+						166950,
+						5,
+						0
+					],
+					[
+						167700,
+						1,
+						0
+					],
+					[
+						167700,
+						5,
+						0
+					],
+					[
+						167499.375,
+						5,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						167625,
+						4,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						167053.125,
+						4,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						168000,
+						4,
+						525
+					],
+					[
+						168600,
+						5,
+						0
+					],
+					[
+						168675,
+						6,
+						0
+					],
+					[
+						168750,
+						7,
+						0
+					],
+					[
+						168825,
+						4,
+						0
+					],
+					[
+						168900,
+						6,
+						0
+					],
+					[
+						169050,
+						5,
+						0
+					],
+					[
+						168000,
+						0,
+						525
+					],
+					[
+						168600,
+						1,
+						0
+					],
+					[
+						168675,
+						2,
+						0
+					],
+					[
+						168750,
+						3,
+						0
+					],
+					[
+						168825,
+						0,
+						0
+					],
+					[
+						168900,
+						2,
+						0
+					],
+					[
+						169050,
+						1,
+						0
+					],
+					[
+						168600,
+						3,
+						0
+					],
+					[
+						168600,
+						7,
+						0
+					],
+					[
+						169050,
+						2,
+						0
+					],
+					[
+						169050,
+						6,
+						0
+					],
+					[
+						168176.25,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						168315,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						169143.75,
+						0,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						169200,
+						7,
+						525
+					],
+					[
+						169800,
+						4,
+						525
+					],
+					[
+						169200,
+						3,
+						525
+					],
+					[
+						169800,
+						0,
+						525
+					],
+					[
+						169800,
+						2,
+						0
+					],
+					[
+						169800,
+						6,
+						0
+					],
+					[
+						169486.875,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						169995,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						170107.5,
+						3,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						170400,
+						7,
+						450
+					],
+					[
+						171300,
+						7,
+						225
+					],
+					[
+						170400,
+						3,
+						450
+					],
+					[
+						171300,
+						3,
+						225
+					],
+					[
+						170925,
+						5,
+						300
+					],
+					[
+						170925,
+						1,
+						300
+					],
+					[
+						170400,
+						2,
+						0
+					],
+					[
+						170400,
+						6,
+						0
+					],
+					[
+						171300,
+						2,
+						0
+					],
+					[
+						171300,
+						6,
+						0
+					],
+					[
+						170632.5,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						170833.125,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						171600,
+						4,
+						525
+					],
+					[
+						172200,
+						6,
+						525
+					],
+					[
+						171600,
+						0,
+						525
+					],
+					[
+						172200,
+						2,
+						525
+					],
+					[
+						172200,
+						1,
+						0
+					],
+					[
+						172200,
+						5,
+						0
+					],
+					[
+						171864.375,
+						1,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						172800,
+						3,
+						1125
+					],
+					[
+						172800,
+						7,
+						1125
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						174000,
+						2,
+						825
+					],
+					[
+						174900,
+						1,
+						0
+					],
+					[
+						175050,
+						0,
+						0
+					],
+					[
+						174000,
+						6,
+						825
+					],
+					[
+						174900,
+						5,
+						0
+					],
+					[
+						175050,
+						4,
+						0
+					],
+					[
+						174000,
+						0,
+						0
+					],
+					[
+						174000,
+						4,
+						0
+					],
+					[
+						175050,
+						6,
+						0
+					],
+					[
+						175050,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						175200,
+						3,
+						225
+					],
+					[
+						175500,
+						2,
+						225
+					],
+					[
+						176250,
+						0,
+						525
+					],
+					[
+						175200,
+						7,
+						225
+					],
+					[
+						175500,
+						6,
+						225
+					],
+					[
+						176250,
+						4,
+						525
+					],
+					[
+						175800,
+						5,
+						0
+					],
+					[
+						175950,
+						4,
+						0
+					],
+					[
+						175950,
+						0,
+						0
+					],
+					[
+						175800,
+						1,
+						0
+					],
+					[
+						175950,
+						7,
+						0
+					],
+					[
+						175950,
+						3,
+						0
+					],
+					[
+						176250,
+						6,
+						0
+					],
+					[
+						176250,
+						2,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						176850,
+						2,
+						375
+					],
+					[
+						177300,
+						3,
+						225
+					],
+					[
+						176850,
+						6,
+						375
+					],
+					[
+						177300,
+						7,
+						225
+					],
+					[
+						177300,
+						1,
+						0
+					],
+					[
+						177300,
+						5,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						177600,
+						4,
+						1125
+					],
+					[
+						177600,
+						0,
+						1125
+					],
+					[
+						177600,
+						2,
+						0
+					],
+					[
+						177600,
+						6,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						178800,
+						3,
+						525
+					],
+					[
+						179400,
+						1,
+						525
+					],
+					[
+						178800,
+						7,
+						525
+					],
+					[
+						179400,
+						5,
+						525
+					],
+					[
+						178800,
+						2,
+						0
+					],
+					[
+						178800,
+						6,
+						0
+					],
+					[
+						179400,
+						0,
+						0
+					],
+					[
+						179400,
+						4,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						180000,
+						7,
+						375
+					],
+					[
+						180450,
+						5,
+						375
+					],
+					[
+						180000,
+						3,
+						375
+					],
+					[
+						180450,
+						1,
+						375
+					],
+					[
+						180900,
+						7,
+						225
+					],
+					[
+						180900,
+						3,
+						225
+					],
+					[
+						180450,
+						0,
+						0
+					],
+					[
+						180450,
+						4,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": false,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						181200,
+						1,
+						525
+					],
+					[
+						181200,
+						5,
+						525
+					],
+					[
+						181800,
+						0,
+						525
+					],
+					[
+						181800,
+						4,
+						525
+					],
+					[
+						181200,
+						2,
+						0
+					],
+					[
+						181200,
+						6,
+						0
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [
+					[
+						182400,
+						2,
+						1125
+					],
+					[
+						182400,
+						3,
+						0
+					],
+					[
+						182400,
+						1,
+						0
+					],
+					[
+						182625,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						182700,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						182775,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						182850,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						182925,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						183000,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						183075,
+						2,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						183150,
+						3,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						183225,
+						0,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						183300,
+						1,
+						0,
+						"Reiuji Fireballs"
+					],
+					[
+						183375,
+						2,
+						0,
+						"Reiuji Fireballs"
+					]
+				],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 200,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 200
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 200,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 200,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 200,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			}
+		],
+		"events": [],
+		"player2": "utsohu",
+		"splashSkin": "noteSplashes",
+		"song": "atomic",
+		"needsVoices": true,
+		"arrowSkin": "",
+		"stage": "Hell",
+		"validScore": true,
+		"bpm": 200,
+		"speed": 2.4
+	}
+}

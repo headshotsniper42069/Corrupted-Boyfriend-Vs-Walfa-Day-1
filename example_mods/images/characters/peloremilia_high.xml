@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="remilia_high.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Remilia_Cough0000" x="15" y="15" width="617" height="610"/>
+	<SubTexture name="Remilia_Down_Alt0000" x="648" y="15" width="1017" height="581" frameX="0" frameY="-18" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0001" x="1681" y="15" width="1017" height="586" frameX="0" frameY="-13" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0002" x="2714" y="15" width="1015" height="588" frameX="-2" frameY="-4" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0003" x="2714" y="15" width="1015" height="588" frameX="-2" frameY="-4" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0004" x="3745" y="15" width="1013" height="591" frameX="-4" frameY="0" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0005" x="4774" y="15" width="1013" height="591" frameX="-4" frameY="0" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0006" x="4774" y="15" width="1013" height="591" frameX="-4" frameY="0" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0007" x="4774" y="15" width="1013" height="591" frameX="-4" frameY="0" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0008" x="4774" y="15" width="1013" height="591" frameX="-4" frameY="0" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Down_Alt0009" x="4774" y="15" width="1013" height="591" frameX="-4" frameY="0" frameWidth="1017" frameHeight="599"/>
+	<SubTexture name="Remilia_Idle_Alt0000" x="5803" y="15" width="700" height="617" frameX="-143" frameY="-4" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0001" x="5803" y="15" width="700" height="617" frameX="-143" frameY="-4" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0002" x="6519" y="15" width="648" height="616" frameX="-166" frameY="-7" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0003" x="6519" y="15" width="648" height="616" frameX="-166" frameY="-7" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0004" x="7183" y="15" width="967" height="616" frameX="-8" frameY="-5" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0005" x="7183" y="15" width="967" height="616" frameX="-8" frameY="-5" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0006" x="15" y="648" width="965" height="617" frameX="-8" frameY="-2" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0007" x="15" y="648" width="965" height="617" frameX="-8" frameY="-2" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0008" x="996" y="648" width="963" height="617" frameX="-9" frameY="0" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0009" x="996" y="648" width="963" height="617" frameX="-9" frameY="0" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0010" x="1975" y="648" width="965" height="617" frameX="-8" frameY="-2" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0011" x="1975" y="648" width="965" height="617" frameX="-8" frameY="-2" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0012" x="2956" y="648" width="984" height="617" frameX="0" frameY="-3" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Idle_Alt0013" x="2956" y="648" width="984" height="617" frameX="0" frameY="-3" frameWidth="984" frameHeight="623"/>
+	<SubTexture name="Remilia_Left_Alt0000" x="3956" y="648" width="926" height="596" frameX="0" frameY="-3" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0001" x="4898" y="648" width="930" height="596" frameX="-6" frameY="-3" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0002" x="5844" y="648" width="927" height="597" frameX="-21" frameY="-1" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0003" x="5844" y="648" width="927" height="597" frameX="-21" frameY="-1" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0004" x="6787" y="648" width="930" height="597" frameX="-24" frameY="0" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0005" x="15" y="1281" width="930" height="597" frameX="-24" frameY="0" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0006" x="15" y="1281" width="930" height="597" frameX="-24" frameY="0" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0007" x="15" y="1281" width="930" height="597" frameX="-24" frameY="0" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0008" x="15" y="1281" width="930" height="597" frameX="-24" frameY="0" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Left_Alt0009" x="15" y="1281" width="930" height="597" frameX="-24" frameY="0" frameWidth="954" frameHeight="599"/>
+	<SubTexture name="Remilia_Right_Alt0000" x="961" y="1281" width="887" height="623" frameX="-36" frameY="0" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0001" x="1864" y="1281" width="888" height="623" frameX="-29" frameY="0" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0002" x="2768" y="1281" width="892" height="616" frameX="-11" frameY="-7" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0003" x="2768" y="1281" width="892" height="616" frameX="-11" frameY="-7" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0004" x="3676" y="1281" width="895" height="613" frameX="0" frameY="-10" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0005" x="4587" y="1281" width="895" height="613" frameX="0" frameY="-10" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0006" x="4587" y="1281" width="895" height="613" frameX="0" frameY="-10" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0007" x="4587" y="1281" width="895" height="613" frameX="0" frameY="-10" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0008" x="4587" y="1281" width="895" height="613" frameX="0" frameY="-10" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Right_Alt0009" x="4587" y="1281" width="895" height="613" frameX="0" frameY="-10" frameWidth="923" frameHeight="623"/>
+	<SubTexture name="Remilia_Up_Alt0000" x="5498" y="1281" width="896" height="644" frameX="-11" frameY="0" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0001" x="6410" y="1281" width="896" height="637" frameX="-11" frameY="-7" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0002" x="15" y="1941" width="908" height="638" frameX="-5" frameY="-18" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0003" x="15" y="1941" width="908" height="638" frameX="-5" frameY="-18" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0004" x="939" y="1941" width="918" height="637" frameX="0" frameY="-22" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0005" x="1873" y="1941" width="918" height="637" frameX="0" frameY="-22" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0006" x="1873" y="1941" width="918" height="637" frameX="0" frameY="-22" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0007" x="1873" y="1941" width="918" height="637" frameX="0" frameY="-22" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0008" x="1873" y="1941" width="918" height="637" frameX="0" frameY="-22" frameWidth="918" frameHeight="659"/>
+	<SubTexture name="Remilia_Up_Alt0009" x="1873" y="1941" width="918" height="637" frameX="0" frameY="-22" frameWidth="918" frameHeight="659"/>
+</TextureAtlas>

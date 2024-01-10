@@ -1,5 +1,8 @@
 package;
 
+import flixel.util.FlxColor;
+import flixel.text.FlxText;
+import sys.FileSystem;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
@@ -25,7 +28,7 @@ class Alphabet extends FlxSpriteGroup
 
 	public var bold:Bool = false;
 	public var letters:Array<AlphaCharacter> = [];
-
+	public var customLetters:Array<CustomCharacter> = [];
 	public var isMenuItem:Bool = false;
 	public var targetY:Int = 0;
 	public var changeX:Bool = true;
@@ -41,7 +44,9 @@ class Alphabet extends FlxSpriteGroup
 
 	public var isFreeplayVersion:Bool = false;
 
-	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = true)
+	public var font:String = "";
+
+	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = true, ?font:String = "")
 	{
 		super(x, y);
 
@@ -49,6 +54,7 @@ class Alphabet extends FlxSpriteGroup
 		this.startPosition.y = y;
 		this.bold = bold;
 		this.text = text;
+		this.font = font;
 	}
 
 	public function setAlignmentFromString(align:String)
@@ -90,6 +96,23 @@ class Alphabet extends FlxSpriteGroup
 			letter.offset.x += newOffset;
 			letter.alignOffset = newOffset;
 		}
+		for (letter in customLetters)
+		{
+			var newOffset:Float = 0;
+			switch(alignment)
+			{
+				case CENTERED:
+					newOffset = letter.rowWidth / 2;
+				case RIGHT:
+					newOffset = letter.rowWidth;
+				default:
+					newOffset = 0;
+			}
+	
+			letter.offset.x -= letter.alignOffset;
+			letter.offset.x += newOffset;
+			letter.alignOffset = newOffset;
+		}
 	}
 
 	private function set_text(newText:String)
@@ -104,19 +127,38 @@ class Alphabet extends FlxSpriteGroup
 
 	public function clearLetters()
 	{
-		var i:Int = letters.length;
-		while (i > 0)
+		if (font != '')
 		{
-			--i;
-			var letter:AlphaCharacter = letters[i];
-			if(letter != null)
+			var i:Int = customLetters.length;
+			while (i > 0)
 			{
-				letter.kill();
-				letters.remove(letter);
-				letter.destroy();
+				--i;
+				var letter:CustomCharacter = customLetters[i];
+				if(letter != null)
+				{
+					letter.kill();
+					customLetters.remove(letter);
+					letter.destroy();
+				}
+			}
+		}
+		else
+		{
+			var i:Int = letters.length;
+			while (i > 0)
+			{
+				--i;
+				var letter:AlphaCharacter = letters[i];
+				if(letter != null)
+				{
+					letter.kill();
+					letters.remove(letter);
+					letter.destroy();
+				}
 			}
 		}
 		letters = [];
+		customLetters = [];
 		rows = 0;
 	}
 
@@ -126,6 +168,16 @@ class Alphabet extends FlxSpriteGroup
 
 		scale.x = value;
 		for (letter in letters)
+		{
+			if(letter != null)
+			{
+				letter.updateHitbox();
+				//letter.updateLetterOffset();
+				var ratio:Float = (value / letter.spawnScale.x);
+				letter.x = letter.spawnPos.x * ratio;
+			}
+		}
+		for (letter in customLetters)
 		{
 			if(letter != null)
 			{
@@ -145,6 +197,16 @@ class Alphabet extends FlxSpriteGroup
 
 		scale.y = value;
 		for (letter in letters)
+		{
+			if(letter != null)
+			{
+				letter.updateHitbox();
+				letter.updateLetterOffset();
+				var ratio:Float = (value / letter.spawnScale.y);
+				letter.y = letter.spawnPos.y * ratio;
+			}
+		}
+		for (letter in customLetters)
 		{
 			if(letter != null)
 			{
@@ -202,7 +264,6 @@ class Alphabet extends FlxSpriteGroup
 		rows = 0;
 		for (character in newText.split(''))
 		{
-			
 			if(character != '\n')
 			{
 				var spaceChar:Bool = (character == " " || (bold && character == "_"));
@@ -222,18 +283,35 @@ class Alphabet extends FlxSpriteGroup
 					}
 					consecutiveSpaces = 0;
 
-					var letter:AlphaCharacter = new AlphaCharacter(xPos, rows * Y_PER_ROW * scaleY, character, bold, this);
-					letter.x += letter.letterOffset[0] * scaleX;
-					letter.y -= letter.letterOffset[1] * scaleY;
-					letter.row = rows;
+					if (font != '')
+					{
+						var letter:CustomCharacter = new CustomCharacter(xPos, rows * Y_PER_ROW * scaleY, character, this);
+						letter.x += letter.letterOffset[0] * scaleX;
+						letter.y -= letter.letterOffset[1] * scaleY;
+						letter.row = rows;
 
-					var off:Float = 0;
-					if(!bold) off = 2;
-					xPos += letter.width + (letter.letterOffset[0] + off) * scaleX;
-					rowData[rows] = xPos;
+						var off:Float = -5;
+						xPos += letter.width + (letter.letterOffset[0] + off) * scaleX;
+						rowData[rows] = xPos;
 
-					add(letter);
-					letters.push(letter);
+						add(letter);
+						customLetters.push(letter);
+					}
+					else
+					{
+						var letter:AlphaCharacter = new AlphaCharacter(xPos, rows * Y_PER_ROW * scaleY, character, bold, this);
+						letter.x += letter.letterOffset[0] * scaleX;
+						letter.y -= letter.letterOffset[1] * scaleY;
+						letter.row = rows;
+
+						var off:Float = 0;
+						if(!bold) off = 2;
+						xPos += letter.width + (letter.letterOffset[0] + off) * scaleX;
+						rowData[rows] = xPos;
+
+						add(letter);
+						letters.push(letter);
+					}
 				}
 			}
 			else
@@ -250,7 +328,16 @@ class Alphabet extends FlxSpriteGroup
 			letter.rowWidth = rowData[letter.row];
 		}
 
+		for (letter in customLetters)
+		{
+			letter.spawnPos.set(letter.x, letter.y);
+			letter.spawnScale.set(scaleX, scaleY);
+			letter.rowWidth = rowData[letter.row];
+		}
+
 		if(letters.length > 0) rows++;
+
+		if(customLetters.length > 0) rows++;
 	}
 }
 
@@ -420,6 +507,61 @@ class AlphaCharacter extends FlxSprite
 			updateLetterOffset();
 		}
 		return name;
+	}
+
+	public function updateLetterOffset()
+	{
+		if (animation.curAnim == null) return;
+
+		if(!animation.curAnim.name.endsWith('bold'))
+		{
+			offset.y += -(110 - height);
+		}
+	}
+}
+class CustomCharacter extends FlxText // AlphaCharacter, but for fonts
+{
+	var parent:Alphabet;
+	public var alignOffset:Float = 0; //Don't change this
+	public var letterOffset:Array<Float> = [0, -100];
+	public var spawnPos:FlxPoint = new FlxPoint();
+	public var spawnScale:FlxPoint = new FlxPoint();
+
+	public var row:Int = 0;
+	public var rowWidth:Float = 0;
+	public function new(x:Float, y:Float, character:String, parent:Alphabet)
+	{
+		var attribute:String = "";
+		var fileType:String = ".ttf";
+		super(x, y, 0, character, 36);
+		this.parent = parent;
+		antialiasing = ClientPrefs.globalAntialiasing;
+		if (FileSystem.exists("mods/fonts/" + parent.font + fileType))
+		{
+			trace("Using font from the mods folder: " + parent.font);
+			trace("TrueType");
+			attribute = "mods/fonts/";
+		}
+		else if (FileSystem.exists("mods/fonts/" + parent.font + ".otf"))
+		{
+			fileType = ".otf";
+			trace("Using font from the mods folder: " + parent.font);
+			trace("OpenType");
+			attribute = "mods/fonts/";
+		}
+		else
+		{
+			fileType = "";
+		}
+		setFormat(attribute + parent.font + fileType, 36, FlxColor.BLACK);
+		updateHitbox();
+		updateLetterOffset();
+	}
+
+	public static function isTypeAlphabet(c:String) // thanks kade
+	{
+		var ascii = StringTools.fastCodeAt(c, 0);
+		return (ascii >= 65 && ascii <= 90) || (ascii >= 97 && ascii <= 122);
 	}
 
 	public function updateLetterOffset()

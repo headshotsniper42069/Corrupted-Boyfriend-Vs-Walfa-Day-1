@@ -33,7 +33,7 @@ class WeekData {
 	public var folder:String = '';
 	
 	// JSON variables
-	public var songs:Array<Dynamic>;
+	public var songs:Array<Dynamic>; 
 	public var weekBefore:String;
 	public var storyName:String;
 	public var storyNameSettings:Array<Float>;
@@ -49,7 +49,7 @@ class WeekData {
 
 	public static function createWeekFile():WeekFile {
 		var weekFile:WeekFile = {
-			songs: [["Bopeebo", "dad", [146, 113, 253], '', [0, 0, 16], '', [0, 0, 1]], ["Fresh", "dad", [146, 113, 253], '', [0, 0, 16], '', [0, 0, 1]], ["Dad Battle", "dad", [146, 113, 253], '', [0, 0, 16], '', [0, 0, 1]]],
+			songs: [["Bopeebo", "dad", [146, 113, 253], '', 0, '', [0, 0, 1], '', ''], ["Fresh", "dad", [146, 113, 253], '', 0, '', [0, 0, 1], '', ''], ["Dad Battle", "dad", [146, 113, 253], '', 0, '', [0, 0, 1], '', '']],
 			weekBefore: 'tutorial',
 			storyName: 'Your New Week',
 			storyNameSettings: [10, 10, 24],

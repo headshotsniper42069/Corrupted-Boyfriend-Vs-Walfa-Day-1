@@ -28,6 +28,7 @@ typedef SwagSong =
 
 	var arrowSkin:String;
 	var splashSkin:String;
+	var healthSkin:String;
 	var validScore:Bool;
 }
 
@@ -40,6 +41,7 @@ class Song
 	public var needsVoices:Bool = true;
 	public var arrowSkin:String;
 	public var splashSkin:String;
+	public var healthSkin:String;
 	public var speed:Float = 1;
 	public var stage:String;
 	public var player1:String = 'bf';
@@ -76,6 +78,10 @@ class Song
 					else i++;
 				}
 			}
+		}
+		if(songJson.healthSkin == null)
+		{
+			songJson.healthSkin = '';
 		}
 	}
 

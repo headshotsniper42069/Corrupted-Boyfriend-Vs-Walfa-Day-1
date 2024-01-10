@@ -17,31 +17,31 @@ local font = 'DFPOCOC.ttf'
 
 
 function onCreate()
-	makeLuaText('setlyric','',1000,screenWidth/2 + xOffset,screenHeight/2 + yOffset);
+	makeLuaText('setlyric','',0,screenWidth/2 + xOffset,screenHeight/2 + yOffset);
 	setTextSize('setlyric',size);
-	setTextAlignment('setlyric','left'); 
+	setTextAlignment('setlyric','center'); -- actual center alignment LOL
 	setTextColor('sunglyric', setColor)
 	setObjectCamera('setlyric', 'other')
 	setTextFont('setlyric', font)
 	addLuaText('setlyric');
-	screenCenter(setlyric);
 
 
-	makeLuaText('sunglyric','',1000,screenWidth/2 + xOffset,screenHeight/2 + yOffset);
+	makeLuaText('sunglyric','',0,screenWidth/2 + xOffset,screenHeight/2 + yOffset);
 	setTextSize('sunglyric',size);
-	setTextAlignment('sunglyric','left');
+	setTextAlignment('sunglyric','center'); -- actual center alignment again LOL
 	setTextColor('sunglyric', sungColor)
 	setObjectCamera('sunglyric', 'other')
 	setTextFont('sunglyric', font)
 	addLuaText('sunglyric');
 end
 function onUpdate()
-setProperty('sunglyric.x', getProperty('setlyric.x')) -- make sure sung text is always ontop of set text
+	screenCenter('setlyric', 'x')
+	setProperty('sunglyric.x', getProperty('setlyric.x')) -- make sure sung text is always ontop of set text
 end
 function onEvent(name, value1, value2)
 	if name == 'karaokelyrics' then
 	if value1 == 'set' or value1 == '' then
-		setProperty('setlyric.x', screenWidth/2-(#value2*11)+ xOffset) --attempt to emulate center alignment
+	--	setProperty('setlyric.x', screenWidth/2-(#value2*11)+ xOffset) --attempt to emulate center alignment
 		setTextString('setlyric', value2)
 		setTextString('sunglyric', '')
 	end

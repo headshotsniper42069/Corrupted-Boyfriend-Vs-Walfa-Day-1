@@ -10,10 +10,12 @@ class Highscore
 	public static var weekScores:Map<String, Int> = new Map();
 	public static var songScores:Map<String, Int> = new Map();
 	public static var songRating:Map<String, Float> = new Map();
+	public static var songMisses:Map<String, Int> = new Map();
 	#else
 	public static var weekScores:Map<String, Int> = new Map();
 	public static var songScores:Map<String, Int> = new Map<String, Int>();
 	public static var songRating:Map<String, Float> = new Map<String, Float>();
+	public static var songMisses:Map<String, Int> = new Map<String, Int>();
 	#end
 
 
@@ -22,6 +24,7 @@ class Highscore
 		var daSong:String = formatSong(song, diff);
 		setScore(daSong, 0);
 		setRating(daSong, 0);
+		setMisses(daSong, 1);
 	}
 
 	public static function resetWeek(week:String, diff:Int = 0):Void
@@ -46,7 +49,7 @@ class Highscore
 		return newValue / tempMult;
 	}
 
-	public static function saveScore(song:String, score:Int = 0, ?diff:Int = 0, ?rating:Float = -1):Void
+	public static function saveScore(song:String, score:Int = 0, ?diff:Int = 0, ?rating:Float = -1, ?misses:Int = 1):Void
 	{
 		var daSong:String = formatSong(song, diff);
 
@@ -59,6 +62,16 @@ class Highscore
 		else {
 			setScore(daSong, score);
 			if(rating >= 0) setRating(daSong, rating);
+		}
+		if (songMisses.exists(daSong))
+		{
+			if (songMisses.get(daSong) > misses) {
+				setMisses(daSong, misses);
+			}
+		}
+		else
+		{
+			setMisses(daSong, misses);
 		}
 	}
 
@@ -101,6 +114,14 @@ class Highscore
 		FlxG.save.flush();
 	}
 
+	static function setMisses(song:String, misses:Int):Void
+	{
+		// Reminder that I don't need to format this song, it should come formatted!
+		songMisses.set(song, misses);
+		FlxG.save.data.songMisses = songMisses;
+		FlxG.save.flush();
+	}
+
 	public static function formatSong(song:String, diff:Int):String
 	{
 		return Paths.formatToSongPath(song) + CoolUtil.getDifficultyFilePath(diff);
@@ -113,6 +134,18 @@ class Highscore
 			setScore(daSong, 0);
 
 		return songScores.get(daSong);
+	}
+	
+	public static function getMisses(song:String, ?useFormattedString:Bool = false, ?diff:Int):Int
+	{
+		var daSong:String = formatSong(song, diff);
+		if (useFormattedString)
+			daSong = song;
+		
+		if (!songMisses.exists(daSong))
+			setMisses(daSong, 1);
+
+		return songMisses.get(daSong);
 	}
 
 	public static function getRating(song:String, diff:Int):Float
@@ -146,6 +179,10 @@ class Highscore
 		if (FlxG.save.data.songRating != null)
 		{
 			songRating = FlxG.save.data.songRating;
+		}
+		if (FlxG.save.data.songMisses != null)
+		{
+			songMisses = FlxG.save.data.songMisses;
 		}
 	}
 }

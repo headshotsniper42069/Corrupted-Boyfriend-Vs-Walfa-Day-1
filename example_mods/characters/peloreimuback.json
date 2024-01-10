@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-90
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Reimu_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				170,
+				-70
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Reimu_Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				169,
+				-75
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Reimu_Right_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-160
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Reimu_Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-151
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Reimu_Down_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-30
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Reimu_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-30
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Reimu_Up_Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-85,
+				-67
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Reimu_Left0"
+		},
+		{
+			"offsets": [
+				-70,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Reimu_Left_Miss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/peloreimu_back",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "peloreimu",
+	"flip_x": false,
+	"healthbar_colors": [
+		234,
+		201,
+		255
+	],
+	"camera_position": [
+		-90,
+		-70
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

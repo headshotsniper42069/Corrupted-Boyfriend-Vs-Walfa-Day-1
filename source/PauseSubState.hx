@@ -285,6 +285,8 @@ class PauseSubState extends MusicBeatSubstate
 					PlayState.alreadySeenClass = false;
 					PlayState.cancelMusicFadeTween();
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					FlxG.sound.music.loopTime = 9410;
+					FlxG.sound.music.time = 9410;
 					PlayState.changedDifficulty = false;
 					PlayState.chartingMode = false;
 					Main.fpsVar.visible = ClientPrefs.showFPS;
@@ -410,8 +412,8 @@ class PauseSubState extends MusicBeatSubstate
 		else
 		{
 			var imagePaths:Array<String> = ['Continue', 'Retry', 'Exit'];
-			pauseImage = new FlxSprite(0, 100, Paths.image("pause/Pause"));
-			pauseImage.setGraphicSize(Std.int(pauseImage.width * 0.5));
+			pauseImage = new FlxSprite(0, 60, Paths.image("pause/Pause"));
+			pauseImage.setGraphicSize(Std.int(pauseImage.width * 0.3));
 			pauseImage.updateHitbox();
 			pauseImage.screenCenter(X);
 			add(pauseImage);

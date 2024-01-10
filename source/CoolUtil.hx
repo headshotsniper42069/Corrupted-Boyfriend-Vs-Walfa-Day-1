@@ -139,4 +139,13 @@ class CoolUtil
 		FlxG.openURL(site);
 		#end
 	}
+	
+    public static function removeLine(line:String, word:String):String
+	{
+		while (line.indexOf(word) != -1)
+		{
+			line = StringTools.replace(line, word, "");
+		}
+		return line;
+	}
 }

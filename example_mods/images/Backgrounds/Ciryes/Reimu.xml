@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Unbenannt-1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Reimu0000" x="100" y="100" width="425" height="877" frameX="0" frameY="-52" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0001" x="100" y="100" width="425" height="877" frameX="0" frameY="-52" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0002" x="625" y="100" width="413" height="896" frameX="-6" frameY="-33" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0003" x="625" y="100" width="413" height="896" frameX="-6" frameY="-33" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0004" x="1138" y="100" width="405" height="913" frameX="-10" frameY="-15" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0005" x="1138" y="100" width="405" height="913" frameX="-10" frameY="-15" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0006" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0007" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0008" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0009" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0010" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0011" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0012" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0013" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0014" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0015" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0016" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+	<SubTexture name="Reimu0017" x="1643" y="100" width="405" height="928" frameX="-10" frameY="0" frameWidth="425" frameHeight="929"/>
+</TextureAtlas>

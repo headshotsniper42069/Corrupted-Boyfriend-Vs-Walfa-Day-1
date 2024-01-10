@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-160
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Reimu_Idle0"
+		},
+		{
+			"offsets": [
+				76,
+				-173
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Reimu_Left"
+		},
+		{
+			"offsets": [
+				-12,
+				-219
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Reimu_Down"
+		},
+		{
+			"offsets": [
+				18,
+				-120
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Reimu_Up"
+		},
+		{
+			"offsets": [
+				-40,
+				-195
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Reimu_Right"
+		},
+		{
+			"offsets": [
+				4,
+				-159
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "granade",
+			"indices": [],
+			"name": "Reimu_Granade"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/peloreimu",
+	"position": [
+		0,
+		10
+	],
+	"healthicon": "peloreimu",
+	"flip_x": false,
+	"healthbar_colors": [
+		234,
+		201,
+		255
+	],
+	"camera_position": [
+		100,
+		250
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

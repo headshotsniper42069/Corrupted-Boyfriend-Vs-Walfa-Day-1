@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				-20,
+				-340
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "Meiling_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-342
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Meiling_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-390
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Meiling_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-310
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Meiling_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-58,
+				-343
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Meiling_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/meiling",
+	"position": [
+		0,
+		60
+	],
+	"healthicon": "meiling",
+	"flip_x": false,
+	"healthbar_colors": [
+		44,
+		156,
+		0
+	],
+	"camera_position": [
+		0,
+		300
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

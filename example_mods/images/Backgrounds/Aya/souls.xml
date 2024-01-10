@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="souls.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hatate0000" x="100" y="100" width="295" height="339"/>
+	<SubTexture name="Hatate0001" x="495" y="100" width="295" height="339"/>
+	<SubTexture name="Hatate0002" x="890" y="100" width="294" height="339" frameX="0" frameY="0" frameWidth="295" frameHeight="339"/>
+	<SubTexture name="Hatate0003" x="100" y="100" width="295" height="339"/>
+	<SubTexture name="Hatate0004" x="495" y="100" width="295" height="339"/>
+	<SubTexture name="Hatate0005" x="890" y="100" width="294" height="339" frameX="0" frameY="0" frameWidth="295" frameHeight="339"/>
+	<SubTexture name="Kanako0000" x="1284" y="100" width="256" height="824"/>
+	<SubTexture name="Kanako0001" x="1640" y="100" width="256" height="824"/>
+	<SubTexture name="Kanako0002" x="1996" y="100" width="256" height="824"/>
+	<SubTexture name="Kanako0003" x="1284" y="100" width="256" height="824"/>
+	<SubTexture name="Kanako0004" x="2352" y="100" width="256" height="824"/>
+	<SubTexture name="Kanako0005" x="1996" y="100" width="256" height="824"/>
+	<SubTexture name="Sanae0000" x="2708" y="100" width="132" height="316"/>
+	<SubTexture name="Sanae0001" x="2940" y="100" width="132" height="316"/>
+	<SubTexture name="Sanae0002" x="3172" y="100" width="132" height="316"/>
+	<SubTexture name="Sanae0003" x="2708" y="100" width="132" height="316"/>
+	<SubTexture name="Sanae0004" x="2940" y="100" width="132" height="316"/>
+	<SubTexture name="Sanae0005" x="2940" y="100" width="132" height="316"/>
+	<SubTexture name="Suwako0000" x="3404" y="100" width="227" height="278"/>
+	<SubTexture name="Suwako0001" x="3731" y="100" width="227" height="278"/>
+	<SubTexture name="Suwako0002" x="3404" y="100" width="227" height="278"/>
+	<SubTexture name="Suwako0003" x="100" y="1024" width="226" height="277" frameX="0" frameY="-1" frameWidth="227" frameHeight="278"/>
+	<SubTexture name="Suwako0004" x="3731" y="100" width="227" height="278"/>
+</TextureAtlas>

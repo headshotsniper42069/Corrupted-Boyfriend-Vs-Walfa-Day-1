@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fumobg3.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Miko_Bounce0000" x="100" y="100" width="352" height="511" frameX="0" frameY="-32" frameWidth="352" frameHeight="543"/>
+	<SubTexture name="Miko_Bounce0001" x="100" y="100" width="352" height="511" frameX="0" frameY="-32" frameWidth="352" frameHeight="543"/>
+	<SubTexture name="Miko_Bounce0002" x="552" y="100" width="352" height="527" frameX="0" frameY="-16" frameWidth="352" frameHeight="543"/>
+	<SubTexture name="Miko_Bounce0003" x="552" y="100" width="352" height="527" frameX="0" frameY="-16" frameWidth="352" frameHeight="543"/>
+	<SubTexture name="Miko_Bounce0004" x="1004" y="100" width="352" height="534" frameX="0" frameY="-9" frameWidth="352" frameHeight="543"/>
+	<SubTexture name="Miko_Bounce0005" x="1004" y="100" width="352" height="534" frameX="0" frameY="-9" frameWidth="352" frameHeight="543"/>
+	<SubTexture name="Miko_Bounce0006" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0007" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0008" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0009" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0010" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0011" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0012" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0013" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Miko_Bounce0014" x="1456" y="100" width="352" height="543"/>
+	<SubTexture name="Shikie_Bounce0000" x="1908" y="100" width="532" height="560" frameX="0" frameY="-32" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0001" x="1908" y="100" width="532" height="560" frameX="0" frameY="-32" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0002" x="2540" y="100" width="532" height="561" frameX="0" frameY="-19" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0003" x="2540" y="100" width="532" height="561" frameX="0" frameY="-19" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0004" x="3172" y="100" width="532" height="560" frameX="0" frameY="-8" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0005" x="3172" y="100" width="532" height="560" frameX="0" frameY="-8" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0006" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0007" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0008" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0009" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0010" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0011" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0012" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0013" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Shikie_Bounce0014" x="100" y="761" width="532" height="560" frameX="0" frameY="0" frameWidth="532" frameHeight="592"/>
+	<SubTexture name="Yuuka_Bounce0000" x="732" y="761" width="297" height="441" frameX="0" frameY="-35" frameWidth="297" frameHeight="476"/>
+	<SubTexture name="Yuuka_Bounce0001" x="732" y="761" width="297" height="441" frameX="0" frameY="-35" frameWidth="297" frameHeight="476"/>
+	<SubTexture name="Yuuka_Bounce0002" x="1129" y="761" width="297" height="451" frameX="0" frameY="-25" frameWidth="297" frameHeight="476"/>
+	<SubTexture name="Yuuka_Bounce0003" x="1129" y="761" width="297" height="451" frameX="0" frameY="-25" frameWidth="297" frameHeight="476"/>
+	<SubTexture name="Yuuka_Bounce0004" x="1526" y="761" width="297" height="461" frameX="0" frameY="-15" frameWidth="297" frameHeight="476"/>
+	<SubTexture name="Yuuka_Bounce0005" x="1526" y="761" width="297" height="461" frameX="0" frameY="-15" frameWidth="297" frameHeight="476"/>
+	<SubTexture name="Yuuka_Bounce0006" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0007" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0008" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0009" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0010" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0011" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0012" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0013" x="1923" y="761" width="297" height="476"/>
+	<SubTexture name="Yuuka_Bounce0014" x="1923" y="761" width="297" height="476"/>
+</TextureAtlas>

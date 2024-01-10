@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				220,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Remilia_Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				250,
+				40
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Remilia_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				218,
+				7
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Remilia_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				209,
+				68
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Remilia_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				191,
+				34
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Remilia_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				217,
+				46
+			],
+			"anim": "intro",
+			"fps": 24,
+			"name": "Remilia_Intro",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/remilia_sc",
+	"position": [
+		-70,
+		-20
+	],
+	"healthicon": "remilia",
+	"flip_x": false,
+	"healthbar_colors": [
+		179,
+		81,
+		166
+	],
+	"camera_position": [
+		245,
+		-40
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

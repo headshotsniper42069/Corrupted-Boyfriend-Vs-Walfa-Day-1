@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fumobg.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Patchy0000" x="15" y="15" width="385" height="569" frameX="0" frameY="-43" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0001" x="15" y="15" width="385" height="569" frameX="0" frameY="-43" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0002" x="416" y="15" width="372" height="588" frameX="-3" frameY="-24" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0003" x="416" y="15" width="372" height="588" frameX="-3" frameY="-24" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0004" x="804" y="15" width="372" height="604" frameX="-3" frameY="-8" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0005" x="804" y="15" width="372" height="604" frameX="-3" frameY="-8" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0006" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0007" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0008" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0009" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0010" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0011" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0012" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0013" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Patchy0014" x="1192" y="15" width="372" height="612" frameX="-3" frameY="0" frameWidth="385" frameHeight="612"/>
+	<SubTexture name="Reimu0000" x="15" y="643" width="462" height="425" frameX="0" frameY="-34" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0001" x="15" y="643" width="462" height="425" frameX="0" frameY="-34" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0002" x="493" y="643" width="451" height="436" frameX="-5" frameY="-20" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0003" x="493" y="643" width="451" height="436" frameX="-5" frameY="-20" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0004" x="960" y="643" width="451" height="443" frameX="-5" frameY="-7" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0005" x="960" y="643" width="451" height="443" frameX="-5" frameY="-7" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0006" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0007" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0008" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0009" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0010" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0011" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0012" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0013" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Reimu0014" x="1427" y="643" width="451" height="447" frameX="-5" frameY="0" frameWidth="462" frameHeight="459"/>
+	<SubTexture name="Youmu0000" x="15" y="1106" width="351" height="482" frameX="0" frameY="-36" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0001" x="15" y="1106" width="351" height="482" frameX="0" frameY="-36" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0002" x="382" y="1106" width="340" height="487" frameX="-5" frameY="-19" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0003" x="382" y="1106" width="340" height="487" frameX="-5" frameY="-19" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0004" x="738" y="1106" width="340" height="492" frameX="-5" frameY="-7" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0005" x="738" y="1106" width="340" height="492" frameX="-5" frameY="-7" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0006" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0007" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0008" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0009" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0010" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0011" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0012" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0013" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+	<SubTexture name="Youmu0014" x="1094" y="1106" width="340" height="495" frameX="-5" frameY="0" frameWidth="351" frameHeight="518"/>
+</TextureAtlas>

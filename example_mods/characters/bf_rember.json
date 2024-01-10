@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF_Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF_Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF_Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF_Left_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF_Down_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF_Up_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				250
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF_Right_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				150,
+				272
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF_Death0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-392,
+				-58
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "BF_Death_Loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-391,
+				-31
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "BF_Death_Accept",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bf_rember",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "4chanbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		42,
+		255
+	],
+	"camera_position": [
+		150,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

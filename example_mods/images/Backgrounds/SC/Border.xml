@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Unbenannt-1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Border0000" x="15" y="15" width="426" height="1337"/>
+	<SubTexture name="Border0001" x="15" y="15" width="426" height="1337"/>
+	<SubTexture name="Border0002" x="15" y="15" width="426" height="1337"/>
+	<SubTexture name="Border0003" x="15" y="15" width="426" height="1337"/>
+	<SubTexture name="Border0004" x="457" y="15" width="409" height="1324" frameX="-8" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0005" x="457" y="15" width="409" height="1324" frameX="-8" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0006" x="457" y="15" width="409" height="1324" frameX="-8" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0007" x="457" y="15" width="409" height="1324" frameX="-8" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0008" x="457" y="15" width="409" height="1324" frameX="-8" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0009" x="882" y="15" width="330" height="1220" frameX="-26" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0010" x="882" y="15" width="330" height="1220" frameX="-26" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0011" x="882" y="15" width="330" height="1220" frameX="-26" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0012" x="882" y="15" width="330" height="1220" frameX="-26" frameY="0" frameWidth="426" frameHeight="1337"/>
+	<SubTexture name="Border0013" x="882" y="15" width="330" height="1220" frameX="-26" frameY="0" frameWidth="426" frameHeight="1337"/>
+</TextureAtlas>

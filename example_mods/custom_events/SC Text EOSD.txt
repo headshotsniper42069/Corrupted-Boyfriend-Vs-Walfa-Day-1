@@ -1,0 +1,4 @@
+Makes the spell text appear at the top, for the second week
+
+Value 1: Image to use: "images/Spell Cards/Value 1 Text.png"
+Value 2: Duration (should be the same as the spell card)

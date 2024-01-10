@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Unbenannt-1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Window0000" x="100" y="100" width="634" height="551" frameX="0" frameY="0" frameWidth="634" frameHeight="555"/>
+	<SubTexture name="Window0001" x="834" y="100" width="634" height="551" frameX="0" frameY="0" frameWidth="634" frameHeight="555"/>
+	<SubTexture name="Window0002" x="100" y="751" width="592" height="541" frameX="-30" frameY="-14" frameWidth="634" frameHeight="555"/>
+	<SubTexture name="Window0003" x="792" y="751" width="592" height="541" frameX="-30" frameY="-14" frameWidth="634" frameHeight="555"/>
+	<SubTexture name="Window0004" x="100" y="1392" width="595" height="529" frameX="-28" frameY="-24" frameWidth="634" frameHeight="555"/>
+	<SubTexture name="Window0005" x="795" y="1392" width="595" height="529" frameX="-28" frameY="-24" frameWidth="634" frameHeight="555"/>
+</TextureAtlas>

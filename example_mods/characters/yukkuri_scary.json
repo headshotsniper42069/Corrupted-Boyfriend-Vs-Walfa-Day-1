@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-10,
+				-370
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "reimu_idle"
+		},
+		{
+			"offsets": [
+				-2,
+				-370
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "reimu_left"
+		},
+		{
+			"offsets": [
+				-10,
+				-393
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "reimu_down"
+		},
+		{
+			"offsets": [
+				-19,
+				-369
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "reimu_up"
+		},
+		{
+			"offsets": [
+				-20,
+				-370
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "reimu_right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-340
+			],
+			"anim": "intro",
+			"fps": 24,
+			"name": "reimu_intro",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-57
+			],
+			"anim": "laugh",
+			"fps": 24,
+			"name": "reimu_laugh",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/yukkuri_christmas",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "krima-yukkuri",
+	"flip_x": false,
+	"healthbar_colors": [
+		123,
+		19,
+		19
+	],
+	"camera_position": [
+		100,
+		460
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

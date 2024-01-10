@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Unbenannt-1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Komachi_Bounce0000" x="100" y="100" width="629" height="861" frameX="0" frameY="-10" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0001" x="100" y="100" width="629" height="861" frameX="0" frameY="-10" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0002" x="829" y="100" width="626" height="866" frameX="-6" frameY="-5" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0003" x="829" y="100" width="626" height="866" frameX="-6" frameY="-5" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0004" x="100" y="1066" width="618" height="867" frameX="-5" frameY="-4" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0005" x="100" y="1066" width="618" height="867" frameX="-5" frameY="-4" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0006" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0007" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0008" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0009" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0010" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0011" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0012" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0013" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+	<SubTexture name="Komachi_Bounce0014" x="818" y="1066" width="618" height="871" frameX="-5" frameY="0" frameWidth="632" frameHeight="871"/>
+</TextureAtlas>

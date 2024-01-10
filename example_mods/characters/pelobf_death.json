@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				55,
+				260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Remilia_Idle"
+		},
+		{
+			"offsets": [
+				195,
+				173
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Remilia_Left0"
+		},
+		{
+			"offsets": [
+				-37,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Remilia_Down0"
+		},
+		{
+			"offsets": [
+				-45,
+				331
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Remilia_Up0"
+		},
+		{
+			"offsets": [
+				0,
+				190
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Remilia_Right0"
+		},
+		{
+			"offsets": [
+				134,
+				182
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "BF_Dies"
+		},
+		{
+			"offsets": [
+				137,
+				186
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "BF_Accept"
+		},
+		{
+			"offsets": [
+				136,
+				185
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "BF_Loop"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pelobfdeath",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mistr00s",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		150,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

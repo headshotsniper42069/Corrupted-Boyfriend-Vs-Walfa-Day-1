@@ -1,5 +1,6 @@
 package;
 
+import flixel.system.FlxSound;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -36,6 +37,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private var checkboxGroup:FlxTypedGroup<CheckboxThingie>;
 	private var grpTexts:FlxTypedGroup<AttachedText>;
+	private var botplaySound:FlxSound;
 
 	function getOptions()
 	{
@@ -110,6 +112,8 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 	public function new()
 	{
 		super();
+
+		botplaySound = FlxG.sound.load(Paths.sound("botplay", "shared"), 0.7, false);
 		
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		bg.alpha = 0.6;
@@ -195,6 +199,13 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 				if(controls.ACCEPT)
 				{
 					FlxG.sound.play(Paths.sound('scrollMenu'));
+					if (curOption.name == 'Botplay')
+					{
+						if (!curOption.getValue())
+							botplaySound.play(true);
+						else
+							botplaySound.stop();
+					}
 					curOption.setValue((curOption.getValue() == true) ? false : true);
 					curOption.change();
 					reloadCheckboxes();

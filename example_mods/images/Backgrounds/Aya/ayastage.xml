@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ayastage.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF0000" x="100" y="100" width="2148" height="700"/>
+	<SubTexture name="GF0001" x="100" y="900" width="2148" height="700"/>
+	<SubTexture name="GF0002" x="100" y="100" width="2148" height="700"/>
+	<SubTexture name="GF0003" x="100" y="900" width="2148" height="700"/>
+	<SubTexture name="GF0004" x="100" y="100" width="2148" height="700"/>
+	<SubTexture name="GF0005" x="100" y="1700" width="2148" height="700"/>
+</TextureAtlas>

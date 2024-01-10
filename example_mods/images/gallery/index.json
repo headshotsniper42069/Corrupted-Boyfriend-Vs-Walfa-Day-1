@@ -1,0 +1,147 @@
+{
+	"images": [
+		{
+			"description": "Flandre in Roblox wtf",
+			"descriptionSize": 48,
+			"descriptionPosition": [
+				60,
+				30
+			],
+			"scale": 1.8,
+			"offset": 0,
+			"image": "FLANDREINRBOLOX"
+		},
+		{
+			"description": "Scrapped Week containing Fanon aspects,\n like Yandere Alice and Psycho Flandre",
+			"descriptionPosition": [
+				30,
+				20
+			],
+			"descriptionSize": 28,
+			"scale": 0.5,
+			"image": "Fanon",
+			"offset": -35
+		},
+		{
+			"description": "Funny Starved Joke",
+			"descriptionPosition": [
+				70,
+				30
+			],
+			"descriptionSize": 52,
+			"scale": 0.85,
+			"image": "I...love these fairies",
+			"offset": -20
+		},
+		{
+			"description": "Scrapped Concept based of Marizza",
+			"descriptionSize": 32,
+			"descriptionPosition": [
+				30,
+				40
+			],
+			"scale": 1,
+			"offset": -15,
+			"image": "Marizza_Concept"
+		},
+		{
+			"description": "First Calling in Red Concept",
+			"descriptionSize": 44,
+			"descriptionPosition": [
+				30,
+				40
+			],
+			"scale": 0.9,
+			"offset": -25,
+			"image": "SC_Concept"
+		},
+		{
+			"description": "Nothing to see here",
+			"descriptionSize": 64,
+			"descriptionPosition": [
+				0,
+				20
+			],
+			"scale": 1,
+			"offset": 0,
+			"image": "THICK"
+		},
+		{
+			"description": "Intro for Brainfreeze",
+			"descriptionPosition": [
+				95,
+				40
+			],
+			"descriptionSize": 44,
+			"scale": 0.9,
+			"image": "You're going to die bimbo",
+			"offset": -30
+		},
+		{
+			"description": "Old Aya Design... how tf did I draw her so bad",
+			"descriptionSize": 24,
+			"descriptionPosition": [
+				50,
+				40
+			],
+			"scale": 1,
+			"offset": 0,
+			"image": "get_gud"
+		},
+		{
+			"description": "caught lacking",
+			"descriptionSize": 64,
+			"descriptionPosition": [
+				80,
+				20
+			],
+			"scale": 1,
+			"offset": 0,
+			"image": "inspiration"
+		},
+		{
+			"description": "Old Over10 Concept again bf looks so bad",
+			"descriptionSize": 28,
+			"descriptionPosition": [
+				40,
+				40
+			],
+			"scale": 0.85,
+			"offset": -45,
+			"image": "over10morelikeunder7"
+		},
+		{
+			"description": "Scrapped KKHTA Concept",
+			"descriptionSize": 48,
+			"descriptionPosition": [
+				20,
+				30
+			],
+			"scale": 0.75,
+			"offset": -10,
+			"image": "scrapped_KKHTS_Design"
+		},
+		{
+			"description": "Scrapped Koishi Unconscious Requiem Concept",
+			"descriptionSize": 24,
+			"descriptionPosition": [
+				30,
+				40
+			],
+			"scale": 1,
+			"offset": -35,
+			"image": "scrapped_koishi_unconscious_requiem_art"
+		},
+		{
+			"description": "Shrimp frye concept thats scrapped",
+			"descriptionSize": 32,
+			"descriptionPosition": [
+				20,
+				40
+			],
+			"scale": 1,
+			"offset": 0,
+			"image": "shrimp_fry_concept_scrapped"
+		}
+	]
+}

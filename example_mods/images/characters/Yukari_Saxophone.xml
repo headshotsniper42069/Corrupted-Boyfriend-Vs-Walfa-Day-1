@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Yukari.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Yukari_Down0000" x="15" y="15" width="440" height="278" frameX="0" frameY="-88" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0001" x="471" y="15" width="425" height="299" frameX="-7" frameY="-67" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0002" x="912" y="15" width="393" height="333" frameX="-23" frameY="-34" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0003" x="912" y="15" width="393" height="333" frameX="-23" frameY="-34" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0004" x="1321" y="15" width="393" height="366" frameX="-23" frameY="0" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0005" x="1321" y="15" width="393" height="366" frameX="-23" frameY="0" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0006" x="1321" y="15" width="393" height="366" frameX="-23" frameY="0" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0007" x="1321" y="15" width="393" height="366" frameX="-23" frameY="0" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0008" x="1321" y="15" width="393" height="366" frameX="-23" frameY="0" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Down0009" x="1321" y="15" width="393" height="366" frameX="-23" frameY="0" frameWidth="440" frameHeight="367"/>
+	<SubTexture name="Yukari_Idle0000" x="1730" y="15" width="918" height="971" frameX="0" frameY="-33" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0001" x="1730" y="15" width="918" height="971" frameX="0" frameY="-33" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0002" x="2664" y="15" width="909" height="983" frameX="-2" frameY="-22" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0003" x="2664" y="15" width="909" height="983" frameX="-2" frameY="-22" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0004" x="3589" y="15" width="904" height="990" frameX="-7" frameY="-15" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0005" x="3589" y="15" width="904" height="990" frameX="-7" frameY="-15" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0006" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0007" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0008" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0009" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0010" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0011" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0012" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0013" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Idle0014" x="4509" y="15" width="900" height="1005" frameX="-10" frameY="0" frameWidth="918" frameHeight="1005"/>
+	<SubTexture name="Yukari_Left0000" x="5425" y="15" width="870" height="588" frameX="0" frameY="-357" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0001" x="6311" y="15" width="950" height="826" frameX="-16" frameY="-192" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0002" x="15" y="1036" width="1095" height="1068" frameX="-149" frameY="-23" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0003" x="15" y="1036" width="1095" height="1068" frameX="-149" frameY="-23" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0004" x="1126" y="1036" width="1100" height="1091" frameX="-194" frameY="0" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0005" x="1126" y="1036" width="1100" height="1091" frameX="-194" frameY="0" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0006" x="1126" y="1036" width="1100" height="1091" frameX="-194" frameY="0" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0007" x="1126" y="1036" width="1100" height="1091" frameX="-194" frameY="0" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0008" x="1126" y="1036" width="1100" height="1091" frameX="-194" frameY="0" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Left0009" x="1126" y="1036" width="1100" height="1091" frameX="-194" frameY="0" frameWidth="1294" frameHeight="1091"/>
+	<SubTexture name="Yukari_Right0000" x="2242" y="1036" width="993" height="826" frameX="0" frameY="-23" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0001" x="3251" y="1036" width="961" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0002" x="4228" y="1036" width="933" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0003" x="4228" y="1036" width="933" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0004" x="5177" y="1036" width="893" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0005" x="5177" y="1036" width="893" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0006" x="5177" y="1036" width="893" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0007" x="5177" y="1036" width="893" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0008" x="5177" y="1036" width="893" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Right0009" x="5177" y="1036" width="893" height="848" frameX="0" frameY="0" frameWidth="993" frameHeight="849"/>
+	<SubTexture name="Yukari_Up0000" x="6086" y="1036" width="799" height="1244" frameX="-51" frameY="0" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0001" x="6901" y="1036" width="816" height="1213" frameX="-42" frameY="-30" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0002" x="15" y="2296" width="866" height="1157" frameX="-17" frameY="-87" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0003" x="15" y="2296" width="866" height="1157" frameX="-17" frameY="-87" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0004" x="897" y="2296" width="900" height="1112" frameX="0" frameY="-132" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0005" x="897" y="2296" width="900" height="1112" frameX="0" frameY="-132" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0006" x="897" y="2296" width="900" height="1112" frameX="0" frameY="-132" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0007" x="897" y="2296" width="900" height="1112" frameX="0" frameY="-132" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0008" x="897" y="2296" width="900" height="1112" frameX="0" frameY="-132" frameWidth="900" frameHeight="1244"/>
+	<SubTexture name="Yukari_Up0009" x="897" y="2296" width="900" height="1112" frameX="0" frameY="-132" frameWidth="900" frameHeight="1244"/>
+</TextureAtlas>

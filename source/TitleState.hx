@@ -283,6 +283,7 @@ class TitleState extends MusicBeatState
 
 			if(FlxG.sound.music == null) {
 				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+				FlxG.sound.music.loopTime = 9410;
 			}
 		}
 
@@ -503,8 +504,14 @@ class TitleState extends MusicBeatState
 
 		// EASTER EGG
 
+		if (FlxG.sound.music != null)
+			if (FlxG.sound.music.time < FlxG.sound.music.loopTime - 250)
+				FlxG.sound.music.time = FlxG.sound.music.loopTime;
+
 		if (initialized && !transitioning && skippedIntro)
 		{
+			while (FlxG.sound.music.loopTime == 0)
+				FlxG.sound.music.loopTime = 9410;
 			if (newTitle && !pressedEnter)
 			{
 				var timer:Float = titleTimer;

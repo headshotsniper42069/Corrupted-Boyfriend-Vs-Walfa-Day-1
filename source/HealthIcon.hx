@@ -8,6 +8,7 @@ using StringTools;
 class HealthIcon extends FlxSprite
 {
 	public var sprTracker:FlxSprite;
+	public var freeplayTracker:FreeplayItem;
 	public var isFreeplay:Bool = false;
 	private var isOldIcon:Bool = false;
 	private var isPlayer:Bool = false;
@@ -28,7 +29,9 @@ class HealthIcon extends FlxSprite
 		super.update(elapsed);
 
 		if (sprTracker != null)
-			setPosition(sprTracker.x + sprTracker.width + 12, sprTracker.y - (isFreeplay ? 10 : 30));
+			setPosition(sprTracker.x + sprTracker.width + 12 - (isFreeplay ? 90 : 0), sprTracker.y - (isFreeplay ? 40 : 30));
+		else if (freeplayTracker != null)
+			setPosition(freeplayTracker.x + freeplayTracker.width + 12 - (isFreeplay ? 90 : 0) - freeplayTracker.rectanglePosition, freeplayTracker.y - (isFreeplay ? 40 : 30));
 	}
 
 	public function swapOldIcon() {

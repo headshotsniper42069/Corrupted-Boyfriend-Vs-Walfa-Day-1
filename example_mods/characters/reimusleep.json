@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "firstdeath",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				90,
+				0
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "loopdeath",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				0
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "revive",
+			"indices": []
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "fuckleft"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "fuckdown"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "fuckup"
+		},
+		{
+			"offsets": [
+				90,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "fuckright"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sleepyreimu",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "reimu",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		0,
+		21
+	],
+	"camera_position": [
+		-100,
+		150
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

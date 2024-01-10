@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Unbenannt-1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Koishi_Bounce0000" x="100" y="100" width="955" height="1001" frameX="0" frameY="-22" frameWidth="980" frameHeight="1023"/>
+	<SubTexture name="Koishi_Bounce0001" x="100" y="100" width="955" height="1001" frameX="0" frameY="-22" frameWidth="980" frameHeight="1023"/>
+	<SubTexture name="Koishi_Bounce0002" x="1155" y="100" width="970" height="1010" frameX="0" frameY="-13" frameWidth="980" frameHeight="1023"/>
+	<SubTexture name="Koishi_Bounce0003" x="1155" y="100" width="970" height="1010" frameX="0" frameY="-13" frameWidth="980" frameHeight="1023"/>
+	<SubTexture name="Koishi_Bounce0004" x="2225" y="100" width="975" height="1019" frameX="-1" frameY="-4" frameWidth="980" frameHeight="1023"/>
+	<SubTexture name="Koishi_Bounce0005" x="2225" y="100" width="975" height="1019" frameX="-1" frameY="-4" frameWidth="980" frameHeight="1023"/>
+	<SubTexture name="Koishi_Bounce0006" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0007" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0008" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0009" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0010" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0011" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0012" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0013" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Koishi_Bounce0014" x="3300" y="100" width="980" height="1023"/>
+	<SubTexture name="Yukari_Idle0000" x="4380" y="100" width="1282" height="1048" frameX="0" frameY="-173" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0001" x="4380" y="100" width="1282" height="1048" frameX="0" frameY="-173" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0002" x="5762" y="100" width="1123" height="1110" frameX="-80" frameY="-111" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0003" x="5762" y="100" width="1123" height="1110" frameX="-80" frameY="-111" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0004" x="6985" y="100" width="1079" height="1174" frameX="-102" frameY="-47" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0005" x="6985" y="100" width="1079" height="1174" frameX="-102" frameY="-47" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0006" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0007" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0008" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0009" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0010" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0011" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0012" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0013" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukari_Idle0014" x="100" y="1374" width="1079" height="1221" frameX="-102" frameY="0" frameWidth="1282" frameHeight="1221"/>
+	<SubTexture name="Yukkuri_Bounce0000" x="1279" y="1374" width="1480" height="858" frameX="0" frameY="-120" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0001" x="1279" y="1374" width="1480" height="858" frameX="0" frameY="-120" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0002" x="2859" y="1374" width="1399" height="904" frameX="-40" frameY="-74" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0003" x="2859" y="1374" width="1399" height="904" frameX="-40" frameY="-74" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0004" x="4358" y="1374" width="1366" height="949" frameX="-57" frameY="-29" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0005" x="4358" y="1374" width="1366" height="949" frameX="-57" frameY="-29" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0006" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0007" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0008" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0009" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0010" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0011" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0012" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0013" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+	<SubTexture name="Yukkuri_Bounce0014" x="5824" y="1374" width="1366" height="978" frameX="-57" frameY="0" frameWidth="1480" frameHeight="978"/>
+</TextureAtlas>

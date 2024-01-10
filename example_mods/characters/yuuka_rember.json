@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Yuuka_Idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Yuuka_Left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Yuuka_Down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Yuuka_Up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Yuuka_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/yuuka_rember",
+	"position": [
+		-420,
+		0
+	],
+	"healthicon": "rember",
+	"flip_x": false,
+	"healthbar_colors": [
+		117,
+		255,
+		11
+	],
+	"camera_position": [
+		-270,
+		150
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

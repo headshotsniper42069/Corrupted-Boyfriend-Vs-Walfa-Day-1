@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				290,
+				0
+			],
+			"loop": true,
+			"fps": 20,
+			"anim": "idle",
+			"indices": [],
+			"name": "Remilia_Idle_Alt"
+		},
+		{
+			"offsets": [
+				410,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Remilia_Left_Alt"
+		},
+		{
+			"offsets": [
+				330,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Remilia_Down_Alt"
+		},
+		{
+			"offsets": [
+				255,
+				75
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Remilia_Up_Alt"
+		},
+		{
+			"offsets": [
+				130,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Remilia_Right_Alt"
+		},
+		{
+			"offsets": [
+				60,
+				-10
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "cough",
+			"indices": [],
+			"name": "Remilia_Cough"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/peloremilia_high",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "peloremilia",
+	"flip_x": false,
+	"healthbar_colors": [
+		242,
+		180,
+		255
+	],
+	"camera_position": [
+		-260,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

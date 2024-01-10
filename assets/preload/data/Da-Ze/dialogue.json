@@ -4,157 +4,149 @@
 			"expression": "Hating",
 			"text": "You're still here...",
 			"boxState": "normal",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		},
 		{
 			"expression": "Worried",
 			"text": "Yeah, usually we have to do 3 songs...",
 			"boxState": "normal",
-			"sound": "GFV",
+			"portrait": "walfagf",
 			"speed": 0.05,
-			"portrait": "walfagf"
+			"sound": "GFV"
 		},
 		{
 			"expression": "Pose",
 			"text": "Skedip!",
 			"boxState": "normal",
-			"sound": "BFV",
+			"portrait": "walfabf",
 			"speed": 0.05,
-			"portrait": "walfabf"
+			"sound": "BFV"
 		},
 		{
 			"expression": "Shocked",
 			"text": "3 SONGS?!?",
 			"boxState": "angry",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		},
 		{
 			"expression": "Hating",
 			"text": "Yeah, I can't help you with that. I have a Shrine to clea-",
 			"boxState": "normal",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		},
 		{
 			"expression": "Happy",
 			"text": "Yo, Reimu!",
 			"boxState": "normal",
-			"sound": "MarisaV",
+			"portrait": "walfamarisa",
 			"speed": 0.05,
-			"portrait": "walfamarisa"
+			"sound": "MarisaV"
 		},
 		{
 			"expression": "Sigh",
 			"text": "..... ",
 			"boxState": "normal",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		},
 		{
 			"expression": "Hating",
 			"text": "What is it, Marisa?",
 			"boxState": "normal",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		},
 		{
 			"expression": "Normal",
 			"text": "Well, I heard music coming from your Shrine and decided to check it out.",
 			"boxState": "normal",
-			"sound": "MarisaV",
+			"portrait": "walfamarisa",
 			"speed": 0.05,
-			"portrait": "walfamarisa"
+			"sound": "MarisaV"
 		},
 		{
 			"expression": "Thinking",
 			"text": "Didn't expect you to have a small concert...",
 			"boxState": "normal",
-			"sound": "MarisaV",
+			"portrait": "walfamarisa",
 			"speed": 0.05,
-			"portrait": "walfamarisa"
+			"sound": "MarisaV"
 		},
 		{
 			"expression": "Normal",
 			"text": "Your friend Reimu is helping us with our problem.",
 			"boxState": "normal",
-			"sound": "GFV",
+			"portrait": "walfagf",
 			"speed": 0.05,
-			"portrait": "walfagf"
+			"sound": "GFV"
 		},
 		{
 			"expression": "Mic",
 			"text": "Bap!",
 			"boxState": "normal",
-			"sound": "BFV",
+			"portrait": "walfabf",
 			"speed": 0.05,
-			"portrait": "walfabf"
+			"sound": "BFV"
 		},
 		{
 			"expression": "Thinking",
 			"text": "Problem?",
 			"boxState": "normal",
-			"sound": "MarisaV",
+			"portrait": "walfamarisa",
 			"speed": 0.05,
-			"portrait": "walfamarisa"
+			"sound": "MarisaV"
 		},
 		{
 			"expression": "Normal",
 			"text": "Yeah, we're stuck here till we sing 3 son-",
 			"boxState": "normal",
-			"sound": "GFV",
+			"portrait": "walfagf",
 			"speed": 0.05,
-			"portrait": "walfagf"
+			"sound": "GFV"
 		},
 		{
 			"expression": "Hating",
 			"text": "They're basically another incident...",
 			"boxState": "normal",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		},
 		{
 			"expression": "Sad",
 			"text": "You're solving an incident without me?",
 			"boxState": "normal",
-			"sound": "MarisaV",
+			"portrait": "walfamarisa",
 			"speed": 0.05,
-			"portrait": "walfamarisa"
+			"sound": "MarisaV"
 		},
 		{
 			"expression": "Angry",
 			"text": "Marisa, I-",
 			"boxState": "normal",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		},
 		{
 			"expression": "Pose",
 			"text": "Beepo!",
 			"boxState": "normal",
-			"sound": "BFV",
+			"portrait": "walfabf",
 			"speed": 0.05,
-			"portrait": "walfabf"
-		},
-		{
-			"sound": "MarisaV",
-			"speed": 0.05,
-			"portrait": "walfamarisa",
-			"boxState": "normal",
-			"expression": "Mic",
-			"text": "Did you just give me a microphone?"
+			"sound": "BFV"
 		},
 		{
 			"expression": "Mic",
-			"text": "I like your attitude kid, bring it on da ze~",
+			"text": "Did you just give me a microphone?",
 			"boxState": "normal",
 			"sound": "MarisaV",
 			"speed": 0.05,
@@ -162,19 +154,28 @@
 		},
 		{
 			"expression": "Mic",
+			"text": "I like your attitude kid, bring it on da ze~",
+			"boxState": "normal",
+			"portrait": "walfamarisa",
+			"speed": 0.05,
+			"sound": "MarisaV"
+		},
+		{
+			"expression": "Mic",
 			"text": "Bop!",
 			"boxState": "normal",
-			"sound": "BFV",
+			"portrait": "walfabf",
 			"speed": 0.05,
-			"portrait": "walfabf"
+			"sound": "BFV"
 		},
 		{
 			"expression": "Hating",
 			"text": "Alright, imma just... continue cleaning this mess.",
 			"boxState": "normal",
-			"sound": "ReimuV",
+			"portrait": "walfareimu",
 			"speed": 0.05,
-			"portrait": "walfareimu"
+			"sound": "ReimuV"
 		}
-	]
+	],
+	"font": "CC Wild Words Roman"
 }

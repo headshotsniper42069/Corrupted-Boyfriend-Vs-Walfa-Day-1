@@ -5371,44 +5371,37 @@
 					[
 						126537.634408602,
 						2,
-						0,
-						"No Animation"
+						0
 					],
 					[
 						126704.301075269,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
 						126870.967741936,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
 						127037.634408602,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
 						127204.301075269,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
 						127370.967741936,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
 						127537.634408602,
-						1,
-						241.935483870968,
-						"No Animation"
+						2,
+						241.935483870968
 					]
 				],
 				"sectionBeats": 4,
@@ -8339,30 +8332,6 @@
 					],
 					[
 						177204.301075269,
-						2,
-						0,
-						"No Animation"
-					],
-					[
-						177704.301075269,
-						1,
-						0,
-						"No Animation"
-					],
-					[
-						178037.634408603,
-						1,
-						0,
-						"No Animation"
-					],
-					[
-						178370.967741936,
-						1,
-						0,
-						"No Animation"
-					],
-					[
-						177204.301075269,
 						4,
 						0,
 						"Lightning"
@@ -8375,6 +8344,26 @@
 					[
 						177204.301075269,
 						7,
+						0
+					],
+					[
+						177204.301075269,
+						2,
+						0
+					],
+					[
+						177704.301075269,
+						2,
+						0
+					],
+					[
+						178037.634408603,
+						2,
+						0
+					],
+					[
+						178370.967741936,
+						2,
 						0
 					]
 				],
@@ -8390,21 +8379,18 @@
 				"sectionNotes": [
 					[
 						178704.301075269,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
 						179037.634408603,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
 						179454.301075269,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					]
 				],
 				"typeOfSection": 0,
@@ -12695,46 +12681,39 @@
 				"sectionBeats": 4,
 				"sectionNotes": [
 					[
-						244870.967741936,
-						1,
-						0,
-						"No Animation"
-					],
-					[
-						244704.30107527,
-						1,
-						0,
-						"No Animation"
-					],
-					[
-						244537.634408603,
-						1,
-						0,
-						"No Animation"
-					],
-					[
-						244370.967741936,
-						1,
-						0,
-						"No Animation"
-					],
-					[
-						244204.30107527,
-						1,
-						0,
-						"No Animation"
+						243870.967741936,
+						2,
+						0
 					],
 					[
 						244037.634408603,
-						1,
-						0,
-						"No Animation"
+						2,
+						0
 					],
 					[
-						243870.967741936,
+						244204.30107527,
 						2,
-						0,
-						"No Animation"
+						0
+					],
+					[
+						244370.967741936,
+						2,
+						0
+					],
+					[
+						244537.634408603,
+						2,
+						0
+					],
+					[
+						244704.30107527,
+						2,
+						0
+					],
+					[
+						244870.967741936,
+						2,
+						0
 					]
 				],
 				"typeOfSection": 0,
@@ -13125,6 +13104,36 @@
 				"bpm": 155
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 155,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 155
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 155
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -13292,86 +13301,6 @@
 				]
 			],
 			[
-				126537.634408602,
-				[
-					[
-						"Change Scroll Speed",
-						"1.5",
-						"0.5"
-					]
-				]
-			],
-			[
-				126537.634408602,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				126704.301075269,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				126870.967741936,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				127037.634408602,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				127204.301075269,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				127370.967741936,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				127537.634408602,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
 				133370.967741936,
 				[
 					[
@@ -13403,66 +13332,6 @@
 			],
 			[
 				177204.301075269,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				177704.301075269,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				178037.634408603,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				178370.967741936,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				178704.301075269,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				179037.634408603,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				179454.301075269,
 				[
 					[
 						"Play Animation",
@@ -13550,69 +13419,10 @@
 						"shamei-bbm"
 					]
 				]
-			],
-			[
-				244037.634408603,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				244204.30107527,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				244370.967741936,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				244537.634408603,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				244704.30107527,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
-			],
-			[
-				244870.967741936,
-				[
-					[
-						"Play Animation",
-						"laugh",
-						"shamei-bbm"
-					]
-				]
 			]
 		],
 		"player2": "noenemy",
+		"healthSkin": "",
 		"splashSkin": "noteSplashes",
 		"song": "Ayaya",
 		"needsVoices": true,

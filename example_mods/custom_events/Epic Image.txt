@@ -1,0 +1,7 @@
+Shows an image that instantly disappears after a duration
+
+Value 1: image name, should be in "mods/images/"
+
+Value 2: duration
+
+Made for Stubbornness
