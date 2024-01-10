@@ -67,7 +67,7 @@ function goodNoteHit(id, direction, noteType, isSustainNote)
 	if noteType == 'Credits' and not isSustainNote then
         setProperty("socials.alpha", 1)
         doTweenAlpha("socialPopup", "socials", 0, 0.5)
-        credits = credits + 1
+        credits = credits + 5
         setTextString("socialBoyfriend", "Social Credits: "..credits)
         setTextString("socialOpponent", "Social Credits: "..math.floor(opponentCredits))
         setProperty("socialBoyfriend.x", screenWidth - getProperty("socialBoyfriend.width") - 25)
