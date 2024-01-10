@@ -89,3 +89,19 @@ Both health bars are now behind the notes
 Slightly changed the difficulty description for Normal
 
 Made players able to play Ayaya without having to play each song, the notepad window will still open if you complete every song to let you know that it exists
+
+## Demo Version Hotfix 2
+
+Fixed a goofy looking issue where Reimu's card notes, when triggered, would turn off the opponents' note animations
+What i didn't account for was that in Incident Solvers it's a major issue when both of them sings in the Lunatic difficulty
+
+Made it possible to play the secret song in the main menu, story menu, and freeplay menu
+Also made it quicker and fixed a bug where the vocals in the songs wouldn't mute when going into the secret song
+
+## Demo Version Hotfix
+
+Fixed an issue where playing a song on easy or normal that isn't Flashy Beats would softlock the game
+
+## Demo Version
+
+The demo version of this mod, nothing really new except for the whole mod
