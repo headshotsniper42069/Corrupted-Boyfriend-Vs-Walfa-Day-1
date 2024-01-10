@@ -1,9 +1,18 @@
 # Changes throughout the mod
 
+## Version 1 Hotfixes
+
+Hotfix 2:
+
+Fixed the 'Nostalgia Feast' achievement being impossible to get
+
+Hotfix 1:
+
+Fixed the issue with Meiling's song's social credits gimmick giving you 1 instead of 5 credits
+
 ## Version 1
 
 ### Additions
-
 
 Walfas' dialog now has a custom font
 
