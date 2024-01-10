@@ -42,7 +42,7 @@ class StoryMenuState extends MusicBeatState
 	'Brreasy Scarer', 'Calling in Red', 'China', 'Easy Taker', 'Lacking', 'Mlem', 'My Memories', 'Perfectionism', 'Scarlet Dance', 'Smol', 'Stubborness'];
 
 	public static var currentFreeplaySongs:Array<String> = ['Mistr00s', 'Brainfreeze','Baddest Bitpch', 'Brreasy Scarer', 
-	'Calling in Red', 'Easy Taker', 'Lacking', 'My Memories', 'Over10', 'Smol']; // for freeplay lunatic achievement
+	'Calling in Red', 'Lacking', 'My Memories', 'Smol']; // for freeplay lunatic achievement, internet survivor and Easy Taker have none
 
 	public var explanationOfDifficulties:Array<String> = ['
 		For people getting used to the Controls.
