@@ -1,7 +1,5 @@
 # Friday Night Funkin' - Touhou Echoes of Cyberscape Public Source Code
 
-***V2's source code is coming soon, stay tuned***
-
 **Check the commits if you want older versions of the mod**
 
 Currently the whole mod was programmed by me, with a few expections being the stage Lua files and whatnot.
