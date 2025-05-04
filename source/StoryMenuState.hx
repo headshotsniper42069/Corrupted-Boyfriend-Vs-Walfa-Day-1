@@ -38,8 +38,36 @@ class StoryMenuState extends MusicBeatState
 
 	private static var curWeek:Int = 0;
 
-	public static var currentSongs:Array<String> = ['Flashy Beats', 'Da Ze', 'Incident Solvers', 'Mistr00s', 'Brainfreeze', 'Atomic', 'Baddest Bitpch', 
-	'Brreasy Scarer', 'Calling in Red', 'China', 'Easy Taker', 'Lacking', 'Mlem', 'My Memories', 'Perfectionism', 'Scarlet Dance', 'Smol', 'Stubborness'];
+	public static var currentSongs:Array<String> = [
+	'Flashy Beats', 
+	'Da Ze', 
+	'Incident Solvers', 
+
+	'China',
+	'Mlem',
+	'Atomic',
+
+	'Adventuring',
+	'Geistesmadchen',
+	'Mind Breaker',
+
+	'Bnnuy Blast',
+	'Kugutsunette',
+	'Crimson Eclipse',
+
+//	'Gapped Out',
+
+	'Mistr00s', 
+	'Brainfreeze',
+	'Baddest Bitpch', 
+	'Calling in Red', 
+	'Easy Taker', 
+	'Lacking', 
+	'My Memories', 
+	'Perfectionism', 
+	'Scarlet Dance', 
+	'Smol', 
+	'Stubborness'];
 
 	public static var currentFreeplaySongs:Array<String> = ['Mistr00s', 'Brainfreeze','Baddest Bitpch', 'Brreasy Scarer', 
 	'Calling in Red', 'Lacking', 'My Memories', 'Smol']; // for freeplay lunatic achievement, internet survivor and Easy Taker have none
@@ -87,6 +115,7 @@ class StoryMenuState extends MusicBeatState
 	{
 		PlayState.isStoryMode = true;
 		WeekData.reloadWeekFiles(true);
+		GlobalFreeplayStuff.kooshThemePlayback = 0;
 		if(curWeek >= WeekData.weeksList.length) curWeek = 0;
 		persistentUpdate = persistentDraw = true;
 

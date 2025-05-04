@@ -2,19 +2,18 @@
 	"storyName": "EOSD if it was Good",
 	"difficulties": "Easy, Normal, Hard, Lunatic",
 	"hideFreeplay": false,
-	"weekBefore": "1Walfa",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
 	"storyNameSettings": [
 		5,
 		40,
 		32
 	],
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "1Walfa",
 	"startUnlocked": false,
-	"hideStoryMode": false,
 	"songs": [
 		[
 			"Stubborness",
@@ -32,8 +31,8 @@
 			],
 			"peloreimu",
 			[
-				300,
-				10,
+				310,
+				120,
 				0.5
 			],
 			"",
@@ -56,9 +55,9 @@
 			],
 			"pelosakuya",
 			[
-				210,
-				20,
-				0.45
+				250,
+				150,
+				0.4
 			],
 			"",
 			"This is based on the Touhou 6 Animation of Sr. Pelo.",
@@ -81,7 +80,7 @@
 			"peloremilia",
 			[
 				270,
-				50,
+				130,
 				0.5
 			],
 			"",
@@ -89,6 +88,7 @@
 			"Pelo"
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Pelo"
+	"hideStoryMode": false,
+	"weekName": "Pelo",
+	"hiddenUntilUnlocked": false
 }

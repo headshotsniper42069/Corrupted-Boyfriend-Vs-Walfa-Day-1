@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-25,
+				80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF_Idle"
+		},
+		{
+			"offsets": [
+				9,
+				81
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF_Left0"
+		},
+		{
+			"offsets": [
+				-26,
+				37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF_Down0"
+		},
+		{
+			"offsets": [
+				-56,
+				106
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF_Up0"
+		},
+		{
+			"offsets": [
+				-70,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF_Right0"
+		},
+		{
+			"offsets": [
+				155,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "BF_Death"
+		},
+		{
+			"offsets": [
+				121,
+				147
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "BF_Accept"
+		},
+		{
+			"offsets": [
+				214,
+				170
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "BF_Loop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-50
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-50
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-50
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				-50
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF_Miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bkub_bf",
+	"position": [
+		-30,
+		255
+	],
+	"healthicon": "bkubbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		150,
+		200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

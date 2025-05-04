@@ -17,7 +17,7 @@ void mainImage()
     float Pi = 6.28318530718; // Pi*2
     
     // GAUSSIAN BLUR SETTINGS {{{
-    float Directions = 16.0; // BLUR DIRECTIONS (Default 16.0 - More is better but slower)
+    float Directions = 18.0; // BLUR DIRECTIONS (Default 16.0 - More is better but slower)
     // GAUSSIAN BLUR SETTINGS }}}
    
     vec2 Radius = Size/iResolution.xy;

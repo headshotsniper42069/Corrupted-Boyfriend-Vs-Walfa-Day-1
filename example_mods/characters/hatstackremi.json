@@ -1,0 +1,121 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			],
+			"name": "Remi_Idle0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "Remi_Idle0"
+		},
+		{
+			"offsets": [
+				66,
+				24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Remi_Left"
+		},
+		{
+			"offsets": [
+				44,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Remi_Down"
+		},
+		{
+			"offsets": [
+				-6,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Remi_Up"
+		},
+		{
+			"offsets": [
+				-11,
+				21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Remi_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/remi",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "hatstackremi",
+	"flip_x": true,
+	"healthbar_colors": [
+		143,
+		158,
+		243
+	],
+	"camera_position": [
+		250,
+		-50
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

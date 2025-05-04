@@ -1,3 +1,6 @@
+local whichStage = 0
+local stepToReturn = 256800
+
 function onCreate()
 	makeLuaSprite('BG', 'Backgrounds/Aya/BG', -600, -200);
   	setProperty('BG.antialiasing', true)
@@ -41,6 +44,9 @@ function onCreate()
 	scaleObject('Black', 3, 3);
 
 	makeLuaSprite('Black', 'Backgrounds/Aya/Black', -700, -250);
+
+	makeLuaSprite("pixelStage", "Backgrounds/Aya/pixel", 0, 0)
+    scaleObject("pixelStage", 2, 2)
 end
 
 function onStepHit()
@@ -68,6 +74,10 @@ function onStepHit()
 	    setProperty('dad.x', 100)
         setProperty('dad.y', 100)
     end
+
+	if curStep == stepToReturn then
+		setProperty('cameraSpeed', 1)
+	end
 end
 
 function onBeatHit()--for every beat
@@ -82,4 +92,36 @@ function onSongStart()
 	setProperty('timeTxt.visible', false)
 	setProperty('dad.x', -1300)
 	setProperty('dad.y', 900)
+end
+
+function onEvent(name, value1, value2)
+	if name == 'Shameimaru Pixel Transition' then
+		setProperty('cameraSpeed', 15)
+		stepToReturn = curStep + 4
+		if whichStage == 0 then
+			whichStage = 1
+			triggerEvent("Change Character", "dad", "pixelaya")
+			triggerEvent("Change Character", "bf", "pixelbf")
+			setProperty('dad.x', 1050)
+			setProperty('dad.y', 1480)
+			setProperty('boyfriend.x', 1850)
+			setProperty('boyfriend.y', 1600)
+		    setProperty('Hatate.alpha', 0)
+		    setProperty('Sanae.alpha', 0)
+		    setProperty('Kanako.alpha', 0)
+			addLuaSprite("pixelStage")
+		else
+			whichStage = 0
+			triggerEvent("Change Character", "dad", "shamei.bbm")
+			triggerEvent("Change Character", "bf", "bf")
+			setProperty('dad.x', 1050)
+			setProperty('dad.y', 1450)
+			setProperty('boyfriend.x', 1750)
+			setProperty('boyfriend.y', 1855)
+			setProperty('Hatate.alpha', 1)
+		    setProperty('Sanae.alpha', 1)
+		    setProperty('Kanako.alpha', 1)
+			removeLuaSprite("pixelStage")
+		end
+	end
 end

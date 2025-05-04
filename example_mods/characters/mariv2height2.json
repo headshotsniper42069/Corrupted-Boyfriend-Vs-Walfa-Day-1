@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				203,
+				139
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "Marisa_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				302,
+				112
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "Marisa_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				195,
+				109
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "Marisa_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				214,
+				119
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "Marisa_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				196,
+				114
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Marisa_Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/marisav2new2_sheet",
+	"position": [
+		100,
+		-50
+	],
+	"healthicon": "icon-marisanormal",
+	"flip_x": false,
+	"healthbar_colors": [
+		172,
+		172,
+		172
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

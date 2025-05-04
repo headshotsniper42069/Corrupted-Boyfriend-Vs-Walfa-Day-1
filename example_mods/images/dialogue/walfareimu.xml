@@ -1,63 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="walfa.png">
+<TextureAtlas imagePath="Unbenannt-1.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Reimu_Angry0000" x="50" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Angry0001" x="50" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Angry0002" x="436" y="50" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Angry0003" x="436" y="50" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Angry0004" x="824" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Angry0005" x="824" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Angry_Done0000" x="824" y="50" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Hating0000" x="1215" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Hating0001" x="1215" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Hating0002" x="1601" y="50" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Hating0003" x="1601" y="50" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Hating0004" x="1989" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Hating0005" x="1989" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Hating_Done0000" x="1989" y="50" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Mic0000" x="2380" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Mic0001" x="2380" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Mic0002" x="2766" y="50" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Mic0003" x="2766" y="50" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Mic0004" x="3154" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Mic0005" x="3154" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Mic_Done0000" x="3154" y="50" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Pissed_Mic0000" x="3545" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Pissed_Mic0001" x="3545" y="50" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Pissed_Mic0002" x="50" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Pissed_Mic0003" x="50" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Pissed_Mic0004" x="438" y="561" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Pissed_Mic0005" x="438" y="561" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Pissed_Mic_Done0000" x="438" y="561" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sarcastic0000" x="829" y="561" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sarcastic0001" x="829" y="561" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sarcastic0002" x="1215" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sarcastic0003" x="1215" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sarcastic0004" x="1603" y="561" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sarcastic0005" x="1603" y="561" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sarcastic_Done0000" x="1603" y="561" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Shocked0000" x="1994" y="561" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Shocked0001" x="1994" y="561" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Shocked0002" x="2380" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Shocked0003" x="2380" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Shocked0004" x="2768" y="561" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Shocked0005" x="2768" y="561" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Shocked_Done0000" x="2768" y="561" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0000" x="3159" y="561" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0001" x="3159" y="561" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0002" x="3545" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0003" x="3545" y="561" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0004" x="50" y="1072" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0005" x="50" y="1072" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0006" x="1989" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh0007" x="1989" y="50" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Sigh_Done0000" x="1989" y="50" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Thinking0000" x="441" y="1072" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Thinking0001" x="441" y="1072" width="336" height="461" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Thinking0002" x="827" y="1072" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Thinking0003" x="827" y="1072" width="338" height="458" frameX="0" frameY="-3" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Thinking0004" x="1215" y="1072" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Thinking0005" x="1215" y="1072" width="341" height="454" frameX="0" frameY="-7" frameWidth="341" frameHeight="461"/>
-	<SubTexture name="Reimu_Thinking_Done0000" x="1215" y="1072" width="341" height="454" frameX="0" frameY="0" frameWidth="341" frameHeight="461"/>
+	<SubTexture name="Reimu_Angry0000" x="100" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Angry0001" x="100" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Angry0002" x="564" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Angry0003" x="564" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Angry_Done0000" x="1029" y="100" width="365" height="474"/>
+	<SubTexture name="Reimu_Angry_Done0001" x="1029" y="100" width="365" height="474"/>
+	<SubTexture name="Reimu_Hating0000" x="1494" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Hating0001" x="1494" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Hating0002" x="1958" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Hating0003" x="1958" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Hating_Done0000" x="2423" y="100" width="365" height="474"/>
+	<SubTexture name="Reimu_Hating_Done0001" x="2423" y="100" width="365" height="474"/>
+	<SubTexture name="Reimu_Mic0000" x="2888" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Mic0001" x="2888" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Mic0002" x="3352" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Mic0003" x="3352" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Mic_Done0000" x="100" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Mic_Done0001" x="100" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Pissed0000" x="565" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Pissed0001" x="565" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Pissed0002" x="1029" y="679" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Pissed0003" x="1029" y="679" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Pissed_Done0000" x="1494" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Pissed_Done0001" x="1494" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Sarcastic0000" x="1959" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sarcastic0001" x="1959" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sarcastic0002" x="2423" y="679" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sarcastic0003" x="2423" y="679" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sarcastic_Done0000" x="2888" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Sarcastic_Done0001" x="2888" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Shocked0000" x="3353" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Shocked0001" x="3353" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Shocked0002" x="100" y="1258" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Shocked0003" x="100" y="1258" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Shocked_Done0000" x="565" y="1258" width="365" height="474"/>
+	<SubTexture name="Reimu_Shocked_Done0001" x="565" y="1258" width="365" height="474"/>
+	<SubTexture name="Reimu_Sigh0000" x="565" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sigh0001" x="565" y="679" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sigh0002" x="1029" y="679" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sigh0003" x="1029" y="679" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Sigh_Done0000" x="1494" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Sigh_Done0001" x="1494" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Thinking0000" x="2888" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Thinking0001" x="2888" y="100" width="364" height="479" frameX="0" frameY="0" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Thinking0002" x="3352" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Thinking0003" x="3352" y="100" width="365" height="474" frameX="0" frameY="-5" frameWidth="365" frameHeight="479"/>
+	<SubTexture name="Reimu_Thinking_Done0000" x="100" y="679" width="365" height="474"/>
+	<SubTexture name="Reimu_Thinking_Done0001" x="100" y="679" width="365" height="474"/>
 </TextureAtlas>

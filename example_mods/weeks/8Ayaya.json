@@ -1,0 +1,46 @@
+{
+	"storyName": "Your New Week",
+	"difficulties": "Hard, Lunatic",
+	"hideFreeplay": false,
+	"storyNameSettings": [
+		10,
+		10,
+		24
+	],
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"Ayaya",
+			"aya",
+			[
+				60,
+				60,
+				60
+			],
+			"",
+			[
+				100,
+				30,
+				62
+			],
+			"ayaya",
+			[
+				170,
+				20,
+				0.45
+			],
+			"",
+			"Based on a Touhou joke creepypasta by DTSV.\nIf you wanted to be any less creative, you’d put an exe in your mod.",
+			""
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
+}

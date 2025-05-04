@@ -1,4 +1,10 @@
+import flixel.util.FlxTimer;
+import flixel.tweens.misc.NumTween;
+import flixel.addons.text.FlxTypeText;
 import flixel.addons.display.FlxBackdrop;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.math.FlxRect;
 import lime.app.Application;
 import openfl.events.Event;
 import flixel.group.FlxGroup.FlxTypedGroup;
@@ -9,50 +15,95 @@ import flixel.text.FlxText;
 import flixel.FlxSprite;
 import flixel.FlxG;
 import haxe.Json;
+import flixel.tweens.misc.NumTween;
 
 using StringTools;
 
 class GalleryState extends MusicBeatState
 {
-    var background:FlxSprite;
-    var borders:FlxSprite;
-    var descriptionBox:FlxSprite;
-    var descriptionText:FlxText;
-    var imageText:FlxText;
-    var galleryGroup:FlxTypedGroup<GalleryItem>;
-    var index:GalleryIndex;
-    var curSelected = 0;
-    var backdrop:FlxBackdrop;
-    override public function create() 
+	// New gallery
+
+	var background:FlxSprite;
+	var speechBubble:FlxSprite;
+	var akyuu:FlxSprite;
+	var scroll:FlxSprite;
+	var text:FlxText;
+
+	var height:Float = 0;
+	var height2:Float = 0;
+
+	var heightTween:NumTween;
+	var height2Tween:NumTween;
+
+    var talking:Bool = false;
+
+    var exiting:Bool = false;
+
+	// Leftover variables
+
+	var descriptionText:FlxTypeText; // Should be speechText, but let the name stay for continiuity
+	var galleryGroup:FlxTypedGroup<FlxSprite>;
+	var index:GalleryIndex;
+	var curSelected = 0;
+
+
+    override public function create()
     {
-        background = new FlxSprite(0, 0, Paths.image("storymenu/background"));
-        add(background);
+		super.create();
 
-        backdrop = new FlxBackdrop(Paths.image("storymenu/background checkers"));
-		backdrop.velocity.set(50, 50);
-		add(backdrop);
+        persistentUpdate = true;
+        persistentDraw = true;
 
-        galleryGroup = new FlxTypedGroup<GalleryItem>();
-        add(galleryGroup);
+		background = new FlxSprite(0, 0, Paths.image("akyuu/BG"));
+		background.setGraphicSize(1280);
+		background.updateHitbox();
+		background.screenCenter();
+		background.antialiasing = true;
+		add(background);
 
-        borders = new FlxSprite(-10, -5, Paths.image("galleryscreen/Bars"));
-        borders.setGraphicSize(1300);
-        borders.updateHitbox();
-        add(borders);
+		akyuu = new FlxSprite(-50, 215);
+		akyuu.frames = Paths.getSparrowAtlas("akyuu/akyuu_menu");
+        akyuu.animation.addByPrefix("idle", "Akyuu_Idle", 18, false);
+		akyuu.animation.addByPrefix("talk", "Akyuu_Talk", 24, false);
+		akyuu.animation.play("talk");
+		akyuu.setGraphicSize(Std.int(akyuu.width * 0.9));
+		akyuu.updateHitbox();
+		akyuu.antialiasing = true;
+		add(akyuu);
 
-        descriptionBox = new FlxSprite(0, 591, Paths.image("galleryscreen/Textbox"));
-        descriptionBox.scale.set(0.61, 0.61);
-        descriptionBox.updateHitbox();
-        descriptionBox.screenCenter(X);
-        add(descriptionBox);
+		speechBubble = new FlxSprite(250, 550, Paths.image("akyuu/speechbubble"));
+		speechBubble.setGraphicSize(Std.int(speechBubble.width * 1.45));
+		speechBubble.updateHitbox();
+		speechBubble.setGraphicSize(Std.int(speechBubble.width * 1.15), Std.int(speechBubble.height));
+		speechBubble.updateHitbox();
+		speechBubble.antialiasing = true;
+		add(speechBubble);
 
-        descriptionText = new FlxText(descriptionBox.x, descriptionBox.y, 0, "Description goes here", 16);
-        descriptionText.setFormat("Topsicle");
-        add(descriptionText);
+		scroll = new FlxSprite(800, 50);
+		scroll.frames = Paths.getSparrowAtlas("akyuu/scroll");
+		scroll.animation.addByPrefix("idle", "Scroll_Closed", 24, false);
+		scroll.animation.addByPrefix("dance", "Scroll_Open", 24, false);
+		scroll.animation.play("dance");
+		add(scroll);
 
-        imageText = new FlxText(5, 10, 0, "Image file name goes here");
-        imageText.setFormat("Topsicle", 32);
-        add(imageText);
+		descriptionText = new FlxTypeText(speechBubble.x, speechBubble.y, 0, "Description goes here", 16);
+		descriptionText.setFormat("CC Wild Words Roman");
+		descriptionText.color = 0xFF000000;
+
+		add(descriptionText);
+
+		galleryGroup = new FlxTypedGroup<FlxSprite>();
+		add(galleryGroup);
+
+		heightTween = FlxTween.num(height, height * 2, 0.5, {ease: FlxEase.cubeInOut}, function(value:Float)
+		{
+			height = value;
+		});
+
+		height2Tween = FlxTween.num(0, height2, 0.5, {ease: FlxEase.cubeInOut}, function(value:Float)
+		{
+			height2 = value;
+		});
 
         if (FileSystem.exists(Paths.mods("images/gallery/index.json")))
         {
@@ -77,50 +128,113 @@ class GalleryState extends MusicBeatState
             FlxG.camera.alpha = 0;
             MusicBeatState.switchState(new MainMenuState());
         }
-        Main.fpsVar.visible = false;
     }
 
     override public function update(elapsed:Float)
     {
         super.update(elapsed);
-        if (controls.UI_RIGHT_P)
+        
+        if (FlxG.sound.music != null)
+			Conductor.songPosition = FlxG.sound.music.time;
+        
+        if (talking)
         {
-            changeImage(1);
+            akyuu.animation.play("talk");
         }
-        if (controls.UI_LEFT_P)
+
+		galleryGroup.members[curSelected].clipRect.y = galleryGroup.members[curSelected].height - height;
+		galleryGroup.members[curSelected].clipRect.height = height2;
+
+		galleryGroup.members[curSelected].clipRect = galleryGroup.members[curSelected].clipRect;
+
+        if (!exiting)
         {
-            changeImage(-1);
-        }
-        if (controls.UI_LEFT_P || controls.UI_RIGHT_P)
-		{
-			FlxG.sound.play(Paths.sound('scrollMenu'));
-		}
-        if (controls.BACK)
-        {
-            FlxG.sound.play(Paths.sound('cancelMenu'));
-            MusicBeatState.switchState(new MainMenuState());
+            if (controls.UI_RIGHT_P)
+            {
+                changeImage(1);
+            }
+            if (controls.UI_LEFT_P)
+            {
+                changeImage(-1);
+            }
+            if (controls.UI_LEFT_P || controls.UI_RIGHT_P)
+            {
+                FlxG.sound.play(Paths.sound('scrollMenu'));
+            }
+            if (controls.BACK)
+            {
+                exiting = true;
+                FlxG.sound.play(Paths.sound('cancelMenu'));
+                MusicBeatState.switchState(new MainMenuState());
+            }
         }
     }
 
     function changeImage(amount:Int = 0)
     {
-        curSelected += amount;
-        if (curSelected >= index.images.length)
+		curSelected += amount;
+
+		if (curSelected >= index.images.length)
 			curSelected = 0;
 		if (curSelected < 0)
 			curSelected = index.images.length - 1;
 
-        var amountToShift:Int = 0;
-        for (item in galleryGroup.members)
-        {
-            item.targetY = amountToShift - curSelected;
-            amountToShift++;
-        }
+        talking = true;
 
-        imageText.text = index.images[curSelected].image + ".png";
-        descriptionText.text = index.images[curSelected].description;
-        descriptionText.setPosition(descriptionBox.x + index.images[curSelected].descriptionPosition[0], descriptionBox.y + index.images[curSelected].descriptionPosition[1]);
-        descriptionText.size = index.images[curSelected].descriptionSize;
+		galleryGroup.forEach(function(image:FlxSprite)
+		{
+			image.alpha = 0;
+		});
+
+		descriptionText.resetText(index.images[curSelected].description);
+	//	descriptionText.text = index.images[curSelected].description;
+		descriptionText.setPosition(speechBubble.x + index.images[curSelected].descriptionPosition[0],
+			speechBubble.y + index.images[curSelected].descriptionPosition[1]);
+		descriptionText.size = index.images[curSelected].descriptionSize;
+
+		descriptionText.start(0.02, true, false, null, function(){
+            trace("done");
+            talking = false;
+            akyuu.animation.play("idle", true);
+        });
+
+		FlxTween.cancelTweensOf(height);
+
+		height = Std.int(galleryGroup.members[curSelected].height / 2); // initial value
+		height2 = Std.int(galleryGroup.members[curSelected].height); // initial value
+
+		heightTween.cancel();
+		height2Tween.cancel();
+
+		var height2temp = height2;
+
+		new FlxTimer().start(0.05, function(bruh:FlxTimer)
+		{ // frame delay
+
+            galleryGroup.members[curSelected].alpha = 1;
+			heightTween = FlxTween.num(height, height * 2, 0.5, {ease: FlxEase.cubeInOut}, function(value:Float)
+			{
+				height = value;
+			});
+
+			height2Tween = FlxTween.num(0, height2temp, 0.5, {ease: FlxEase.cubeInOut}, function(value:Float)
+			{
+				height2 = value;
+			});
+		});
+
+		scroll.animation.play("dance", true);
+    }
+
+    override public function beatHit()
+    {
+        super.beatHit();
+
+        if (!talking)
+        {
+            trace("playing");
+            akyuu.animation.play("idle", true);
+        }
     }
 
     function checkForMissingImages()
@@ -190,13 +304,23 @@ class GalleryState extends MusicBeatState
     {
         for (i in 0...index.images.length)
         {
-            var galleryImage:GalleryItem = new GalleryItem(index.images[i].scale, Paths.image("gallery/" + index.images[i].image), index.images[i].offset);
-            galleryImage.targetY = i;
-            galleryGroup.add(galleryImage);
-            galleryImage.instantSetPosition();
+            try {
+                var temp:Int = 0 + index.images[i].x; // source/GalleryState.hx:269: characters 29-33 : On static platforms, null can't be used as basic type Int
+            }
+            catch (e)
+            {
+                index.images[i].x = 0;
+				index.images[i].y = 0;
+            }
+			var galleryImage:FlxSprite = new FlxSprite(800 + index.images[i].x, 50 + index.images[i].y, Paths.image("gallery/" + index.images[i].image));
+			galleryImage.scale.set(index.images[i].scale, index.images[i].scale);
+            galleryImage.antialiasing = ClientPrefs.globalAntialiasing;
+            galleryImage.alpha = 0;
+			galleryImage.clipRect = new FlxRect(0, 0, galleryImage.width, galleryImage.height);
+			galleryGroup.add(galleryImage);
         }
         changeImage();
-        openSubState(new CustomFadeTransition(0.7, true));
+    //    openSubState(new CustomFadeTransition(0.7, true));
     }
 }
 
@@ -207,10 +331,12 @@ typedef GalleryIndex =
 
 typedef GalleryImage = 
 {
-    var image:String;
-    var scale:Float;
-    var offset:Float;
-    var description:String;
-    var descriptionPosition:Array<Float>;
-    var descriptionSize:Int;
+	var image:String;
+	var scale:Float;
+	var x:Int;
+	var y:Int;
+	var offset:Float; // Unused
+	var description:String; // Speech bubble text
+	var descriptionPosition:Array<Float>; // Speech bubble text position
+	var descriptionSize:Int;
 }

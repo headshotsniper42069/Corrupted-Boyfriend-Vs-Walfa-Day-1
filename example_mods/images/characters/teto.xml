@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="teto.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Teto_Down0000" x="100" y="100" width="885" height="996"/>
+	<SubTexture name="Teto_Down0001" x="100" y="100" width="885" height="996"/>
+	<SubTexture name="Teto_Down0002" x="1085" y="100" width="873" height="986" frameX="-3" frameY="-10" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0003" x="1085" y="100" width="873" height="986" frameX="-3" frameY="-10" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0004" x="2058" y="100" width="843" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0005" x="2058" y="100" width="843" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0006" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0007" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0008" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0009" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0010" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0011" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0012" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Down0013" x="3001" y="100" width="839" height="990" frameX="-8" frameY="-6" frameWidth="885" frameHeight="996"/>
+	<SubTexture name="Teto_Idle0000" x="3940" y="100" width="788" height="1417" frameX="-4" frameY="-32" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0001" x="3940" y="100" width="788" height="1417" frameX="-4" frameY="-32" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0002" x="4828" y="100" width="791" height="1435" frameX="0" frameY="-13" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0003" x="4828" y="100" width="791" height="1435" frameX="0" frameY="-13" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0004" x="5719" y="100" width="781" height="1447" frameX="-9" frameY="-1" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0005" x="5719" y="100" width="781" height="1447" frameX="-9" frameY="-1" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0006" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0007" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0008" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0009" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0010" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0011" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0012" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Idle0013" x="6600" y="100" width="780" height="1448" frameX="-9" frameY="0" frameWidth="792" frameHeight="1449"/>
+	<SubTexture name="Teto_Left0000" x="100" y="1648" width="977" height="1335"/>
+	<SubTexture name="Teto_Left0001" x="100" y="1648" width="977" height="1335"/>
+	<SubTexture name="Teto_Left0002" x="1177" y="1648" width="943" height="1331" frameX="-34" frameY="-4" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0003" x="1177" y="1648" width="943" height="1331" frameX="-34" frameY="-4" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0004" x="2220" y="1648" width="879" height="1324" frameX="-98" frameY="-11" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0005" x="2220" y="1648" width="879" height="1324" frameX="-98" frameY="-11" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0006" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0007" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0008" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0009" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0010" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0011" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0012" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Left0013" x="3199" y="1648" width="872" height="1323" frameX="-105" frameY="-12" frameWidth="977" frameHeight="1335"/>
+	<SubTexture name="Teto_Right0000" x="4171" y="1648" width="1189" height="1193" frameX="0" frameY="0" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0001" x="4171" y="1648" width="1189" height="1193" frameX="0" frameY="0" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0002" x="5460" y="1648" width="1163" height="1188" frameX="0" frameY="-5" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0003" x="5460" y="1648" width="1163" height="1188" frameX="0" frameY="-5" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0004" x="6723" y="1648" width="1102" height="1179" frameX="-10" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0005" x="6723" y="1648" width="1102" height="1179" frameX="-10" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0006" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0007" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0008" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0009" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0010" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0011" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0012" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Right0013" x="100" y="3083" width="1095" height="1178" frameX="-11" frameY="-15" frameWidth="1189" frameHeight="1194"/>
+	<SubTexture name="Teto_Up0000" x="1295" y="3083" width="970" height="1516"/>
+	<SubTexture name="Teto_Up0001" x="1295" y="3083" width="970" height="1516"/>
+	<SubTexture name="Teto_Up0002" x="2365" y="3083" width="949" height="1493" frameX="-14" frameY="-22" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0003" x="2365" y="3083" width="949" height="1493" frameX="-14" frameY="-22" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0004" x="3414" y="3083" width="903" height="1458" frameX="-47" frameY="-57" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0005" x="3414" y="3083" width="903" height="1458" frameX="-47" frameY="-57" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0006" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0007" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0008" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0009" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0010" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0011" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0012" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+	<SubTexture name="Teto_Up0013" x="4417" y="3083" width="897" height="1455" frameX="-51" frameY="-60" frameWidth="970" frameHeight="1516"/>
+</TextureAtlas>

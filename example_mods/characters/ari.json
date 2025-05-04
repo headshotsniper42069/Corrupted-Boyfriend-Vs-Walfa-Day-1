@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				166,
+				94
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Ari_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				224,
+				125
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "Ari_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				224,
+				149
+			],
+			"anim": "singUPmiss",
+			"fps": 20,
+			"name": "Ari_Up_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				102
+			],
+			"anim": "singRIGHT",
+			"fps": 20,
+			"name": "Ari_Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				127
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 20,
+			"name": "Ari_Right_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				225,
+				-6
+			],
+			"anim": "singDOWN",
+			"fps": 20,
+			"name": "Ari_Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				243,
+				16
+			],
+			"anim": "singDOWNmiss",
+			"fps": 20,
+			"name": "Ari_Down_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				240,
+				126
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "Ari_Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				240,
+				127
+			],
+			"anim": "singLEFTmiss",
+			"fps": 20,
+			"name": "Ari_Left_Miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ari",
+	"position": [
+		0,
+		20
+	],
+	"healthicon": "ari",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		200,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

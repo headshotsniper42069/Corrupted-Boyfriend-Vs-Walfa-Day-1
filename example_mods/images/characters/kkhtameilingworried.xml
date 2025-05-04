@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kkhtameilingworried.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Meiling_Down_Alt0000" x="100" y="100" width="1024" height="1883" frameX="0" frameY="-16" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0001" x="100" y="100" width="1024" height="1883" frameX="0" frameY="-16" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0002" x="1224" y="100" width="1007" height="1889" frameX="-12" frameY="-10" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0003" x="1224" y="100" width="1007" height="1889" frameX="-12" frameY="-10" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0004" x="2331" y="100" width="1008" height="1897" frameX="-8" frameY="-1" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0005" x="2331" y="100" width="1008" height="1897" frameX="-8" frameY="-1" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0006" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0007" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0008" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0009" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0010" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0011" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0012" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Down_Alt0013" x="3439" y="100" width="1030" height="1898" frameX="-13" frameY="0" frameWidth="1043" frameHeight="1899"/>
+	<SubTexture name="Meiling_Idle0000" x="4569" y="100" width="971" height="1908" frameX="0" frameY="-9" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0001" x="4569" y="100" width="971" height="1908" frameX="0" frameY="-9" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0002" x="5640" y="100" width="1056" height="1912" frameX="-4" frameY="-5" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0003" x="5640" y="100" width="1056" height="1912" frameX="-4" frameY="-5" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0004" x="6796" y="100" width="982" height="1917" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0005" x="6796" y="100" width="982" height="1917" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0006" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0007" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0008" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0009" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0010" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0011" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0012" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Idle0013" x="100" y="2117" width="975" height="1916" frameX="-15" frameY="0" frameWidth="1060" frameHeight="1917"/>
+	<SubTexture name="Meiling_Left_Alt0000" x="1175" y="2117" width="1095" height="1939"/>
+	<SubTexture name="Meiling_Left_Alt0001" x="1175" y="2117" width="1095" height="1939"/>
+	<SubTexture name="Meiling_Left_Alt0002" x="2370" y="2117" width="1067" height="1931" frameX="-19" frameY="-8" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0003" x="2370" y="2117" width="1067" height="1931" frameX="-19" frameY="-8" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0004" x="3537" y="2117" width="1019" height="1917" frameX="-51" frameY="-22" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0005" x="3537" y="2117" width="1019" height="1917" frameX="-51" frameY="-22" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0006" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0007" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0008" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0009" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0010" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0011" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0012" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Left_Alt0013" x="4656" y="2117" width="1015" height="1916" frameX="-54" frameY="-23" frameWidth="1095" frameHeight="1939"/>
+	<SubTexture name="Meiling_Right_Alt0000" x="5771" y="2117" width="1096" height="1940"/>
+	<SubTexture name="Meiling_Right_Alt0001" x="5771" y="2117" width="1096" height="1940"/>
+	<SubTexture name="Meiling_Right_Alt0002" x="6967" y="2117" width="1077" height="1936" frameX="0" frameY="-4" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0003" x="6967" y="2117" width="1077" height="1936" frameX="0" frameY="-4" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0004" x="100" y="4157" width="1048" height="1929" frameX="0" frameY="-11" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0005" x="100" y="4157" width="1048" height="1929" frameX="0" frameY="-11" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0006" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0007" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0008" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0009" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0010" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0011" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0012" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Right_Alt0013" x="1248" y="4157" width="1044" height="1928" frameX="0" frameY="-12" frameWidth="1096" frameHeight="1940"/>
+	<SubTexture name="Meiling_Up_Alt0000" x="2392" y="4157" width="1045" height="1990"/>
+	<SubTexture name="Meiling_Up_Alt0001" x="2392" y="4157" width="1045" height="1990"/>
+	<SubTexture name="Meiling_Up_Alt0002" x="3537" y="4157" width="1028" height="1976" frameX="-11" frameY="-14" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0003" x="3537" y="4157" width="1028" height="1976" frameX="-11" frameY="-14" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0004" x="4665" y="4157" width="1001" height="1953" frameX="-29" frameY="-37" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0005" x="4665" y="4157" width="1001" height="1953" frameX="-29" frameY="-37" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0006" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0007" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0008" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0009" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0010" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0011" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0012" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+	<SubTexture name="Meiling_Up_Alt0013" x="5766" y="4157" width="999" height="1951" frameX="-31" frameY="-39" frameWidth="1045" frameHeight="1990"/>
+</TextureAtlas>

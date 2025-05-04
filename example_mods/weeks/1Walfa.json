@@ -2,18 +2,19 @@
 	"storyName": "Walfa Stories",
 	"difficulties": "Easy, Normal, Hard, Lunatic",
 	"hideFreeplay": false,
-	"storyNameSettings": [
-		10,
-		25,
-		48
-	],
+	"weekBefore": "tutorial",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "tutorial",
+	"storyNameSettings": [
+		10,
+		25,
+		48
+	],
 	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"Flashy Beats",
@@ -31,9 +32,9 @@
 			],
 			"Reimu",
 			[
-				410,
-				30,
-				0.5
+				320,
+				50,
+				0.6
 			],
 			"",
 			"This is based on the virtual paper doll program called Walfas or Create.swf.\nWith a bit of Fanon personalities thrown in aswell",
@@ -55,9 +56,9 @@
 			],
 			"Marisa",
 			[
-				340,
-				20,
-				0.5
+				290,
+				10,
+				0.6
 			],
 			"",
 			"This is based on the virtual paper doll program called Walfas or Create.swf.\nWith a bit of Fanon personalities thrown in aswell",
@@ -79,16 +80,15 @@
 			],
 			"Both",
 			[
-				260,
-				40,
-				0.45
+				180,
+				110,
+				0.5
 			],
 			"",
 			"This is based on the virtual paper doll program called Walfas or Create.swf.\nWith a bit of Fanon personalities thrown in aswell",
 			"Walfa"
 		]
 	],
-	"hideStoryMode": false,
-	"weekName": "Walfa",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "Walfa"
 }

@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-220
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Marisa_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-221
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Marisa_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				-110
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Marisa_Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-40,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Marisa_Right"
+		},
+		{
+			"offsets": [
+				80,
+				-200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Marisa_Left"
+		},
+		{
+			"offsets": [
+				-45,
+				-240
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodge",
+			"loop": false,
+			"name": "Marisa_Dodge"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/marisamukyu",
+	"position": [
+		-200,
+		-450
+	],
+	"healthicon": "marisa",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		252,
+		42
+	],
+	"camera_position": [
+		100,
+		450
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

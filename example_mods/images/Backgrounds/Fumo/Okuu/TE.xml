@@ -1,35 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="fumobg3.png">
+<TextureAtlas imagePath="TE.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Eirin_Bounce0000" x="100" y="100" width="112" height="201" frameX="0" frameY="-12" frameWidth="112" frameHeight="213"/>
-	<SubTexture name="Eirin_Bounce0001" x="100" y="100" width="112" height="201" frameX="0" frameY="-12" frameWidth="112" frameHeight="213"/>
-	<SubTexture name="Eirin_Bounce0002" x="312" y="100" width="112" height="206" frameX="0" frameY="-7" frameWidth="112" frameHeight="213"/>
-	<SubTexture name="Eirin_Bounce0003" x="312" y="100" width="112" height="206" frameX="0" frameY="-7" frameWidth="112" frameHeight="213"/>
-	<SubTexture name="Eirin_Bounce0004" x="524" y="100" width="112" height="210" frameX="0" frameY="-3" frameWidth="112" frameHeight="213"/>
-	<SubTexture name="Eirin_Bounce0005" x="524" y="100" width="112" height="210" frameX="0" frameY="-3" frameWidth="112" frameHeight="213"/>
-	<SubTexture name="Eirin_Bounce0006" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0007" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0008" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0009" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0010" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0011" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0012" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0013" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Eirin_Bounce0014" x="736" y="100" width="112" height="213"/>
-	<SubTexture name="Tewi_Bounce0000" x="100" y="413" width="102" height="156" frameX="0" frameY="-7" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0001" x="100" y="413" width="102" height="156" frameX="0" frameY="-7" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0002" x="302" y="413" width="100" height="159" frameX="-1" frameY="-4" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0003" x="302" y="413" width="100" height="159" frameX="-1" frameY="-4" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0004" x="502" y="413" width="98" height="160" frameX="-2" frameY="-3" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0005" x="502" y="413" width="98" height="160" frameX="-2" frameY="-3" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0006" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0007" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0008" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0009" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0010" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0011" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0012" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0013" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
-	<SubTexture name="Tewi_Bounce0014" x="700" y="413" width="98" height="163" frameX="-2" frameY="0" frameWidth="102" frameHeight="163"/>
+	<SubTexture name="Eirin_Bounce0000" x="100" y="100" width="527" height="595" frameX="0" frameY="-42" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0001" x="100" y="100" width="527" height="595" frameX="0" frameY="-42" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0002" x="727" y="100" width="521" height="609" frameX="-3" frameY="-27" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0003" x="727" y="100" width="521" height="609" frameX="-3" frameY="-27" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0004" x="1348" y="100" width="513" height="635" frameX="-7" frameY="-2" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0005" x="1348" y="100" width="513" height="635" frameX="-7" frameY="-2" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0006" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0007" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0008" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0009" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0010" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0011" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0012" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Eirin_Bounce0013" x="1961" y="100" width="512" height="636" frameX="-7" frameY="0" frameWidth="527" frameHeight="637"/>
+	<SubTexture name="Tewi_Bounce0000" x="2573" y="100" width="528" height="523" frameX="0" frameY="-41" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0001" x="2573" y="100" width="528" height="523" frameX="0" frameY="-41" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0002" x="3201" y="100" width="523" height="538" frameX="-3" frameY="-26" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0003" x="3201" y="100" width="523" height="538" frameX="-3" frameY="-26" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0004" x="100" y="836" width="513" height="561" frameX="-8" frameY="-2" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0005" x="100" y="836" width="513" height="561" frameX="-8" frameY="-2" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0006" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0007" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0008" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0009" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0010" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0011" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0012" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
+	<SubTexture name="Tewi_Bounce0013" x="713" y="836" width="512" height="563" frameX="-8" frameY="0" frameWidth="528" frameHeight="564"/>
 </TextureAtlas>

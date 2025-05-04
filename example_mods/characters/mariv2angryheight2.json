@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				223,
+				139
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Marisa_Up"
+		},
+		{
+			"offsets": [
+				112,
+				32
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Marisa_Right"
+		},
+		{
+			"offsets": [
+				205,
+				59
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Marisa_Down"
+		},
+		{
+			"offsets": [
+				394,
+				99
+			],
+			"loop": false,
+			"fps": 20,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Marisa_Left"
+		},
+		{
+			"offsets": [
+				196,
+				114
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Marisa_Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/marisav2angry2_sheet",
+	"position": [
+		100,
+		-30
+	],
+	"healthicon": "icon-marisaangry",
+	"flip_x": false,
+	"healthbar_colors": [
+		172,
+		172,
+		172
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

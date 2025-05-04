@@ -1,70 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-220
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Marisa_Idle",
-			"indices": []
+			"indices": [],
+			"name": "Marisa_Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				20,
+				30,
 				-220
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Marisa_Left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Marisa_Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				-241
+				-261
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Marisa_Down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Marisa_Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-170
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Marisa_Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Marisa_Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-20,
 				-210
 			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Marisa_Right",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-20,
-				-220
-			],
 			"loop": false,
-			"fps": 35,
-			"anim": "beam",
+			"fps": 24,
+			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Marisa_Beam"
+			"name": "Marisa_Right"
 		}
 	],
 	"no_antialiasing": false,

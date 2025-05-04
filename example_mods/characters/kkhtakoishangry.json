@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				330,
+				240
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Koishi_Idle"
+		},
+		{
+			"offsets": [
+				263,
+				219
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Koishi_Left"
+		},
+		{
+			"offsets": [
+				230,
+				200
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Koishi_Down"
+		},
+		{
+			"offsets": [
+				350,
+				286
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Koishi_Up"
+		},
+		{
+			"offsets": [
+				335,
+				220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Koishi_Right"
+		},
+		{
+			"offsets": [
+				227,
+				197
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "laugh",
+			"loop": false,
+			"name": "Koishi_Laugh"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/KKHTAKooshangry",
+	"position": [
+		0,
+		-50
+	],
+	"healthicon": "kkhtakoishi",
+	"flip_x": false,
+	"healthbar_colors": [
+		38,
+		114,
+		45
+	],
+	"camera_position": [
+		100,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="EOCS_Arrows.png">
-	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+<TextureAtlas imagePath="Knive.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="blue0000" x="15" y="15" width="52" height="135" frameX="-32" frameY="-4" frameWidth="103" frameHeight="140"/>
-	<SubTexture name="green0000" x="83" y="15" width="51" height="135" frameX="-32" frameY="-4" frameWidth="103" frameHeight="140"/>
-	<SubTexture name="purple0000" x="150" y="15" width="134" height="51"/>
-	<SubTexture name="red0000" x="300" y="15" width="139" height="52"/>
+	<SubTexture name="blue0000" x="4" y="4" width="157" height="154"/>
+	<SubTexture name="green0000" x="165" y="4" width="157" height="154"/>
+	<SubTexture name="purple0000" x="326" y="4" width="154" height="157"/>
+	<SubTexture name="red0000" x="484" y="4" width="154" height="157"/>
 </TextureAtlas>

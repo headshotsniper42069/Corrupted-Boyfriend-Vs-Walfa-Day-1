@@ -1,4 +1,4 @@
-local shakeAmount = 0.04
+local shakeAmount = 0.01
 local active = false
 
 function onCreatePost()
@@ -23,8 +23,8 @@ end
 
 function onUpdate(elapsed)
     if active then
-        triggerEvent("Screen Shake", ""..(elapsed * 2)..", "..shakeAmount, ""..(elapsed * 2)..", "..shakeAmount)
-        shakeAmount = shakeAmount - (0.03 * elapsed)
+        triggerEvent("Screen Shake", ""..(elapsed * 2)..", "..shakeAmount, "")
+        shakeAmount = shakeAmount - (0.005 * elapsed)
         if shakeAmount < 0 then
             active = false
         end

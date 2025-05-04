@@ -22,6 +22,7 @@ function onEvent(eventName, value1, value2)
         scaleImage = true
         setProperty("spell card disaster disspelling disinfecting gaming.alpha", 0)
         doTweenAlpha("pop up", "spell card disaster disspelling disinfecting gaming", 1, 0.3, "linear")
+        runTimer("get out spell", 20, 1)
     end
 end
 
@@ -50,5 +51,9 @@ function onTimerCompleted(tag, loops, loopsLeft)
     if tag == "elevate" then -- or, well, its more like going down if youre in downscroll LOL
         doTweenY("going up", "spell card disaster disspelling disinfecting gaming", spelltextY[2], 1, "cubeInOut")
         scaleImage = false
+    end
+
+    if tag == "get out spell" then -- https://www.youtube.com/watch?v=RcGyPrGhljQ
+        doTweenAlpha("SpellTextTween", "spell card disaster disspelling disinfecting gaming", 0, 0.5, "cubeIn")
     end
 end

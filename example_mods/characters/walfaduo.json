@@ -1,70 +1,70 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				77,
 				-273
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Reimu_Idle",
-			"indices": []
+			"indices": [],
+			"name": "Reimu_Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				251,
-				-266
+				105,
+				-268
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Reimu_Left",
-			"indices": []
+			"indices": [],
+			"name": "Reimu_Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				85,
-				-307
+				81,
+				-287
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Reimu_Down",
-			"indices": []
+			"indices": [],
+			"name": "Reimu_Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				98,
-				-246
+				89,
+				-243
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Reimu_Up",
-			"indices": []
+			"indices": [],
+			"name": "Reimu_Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				63,
-				-279
+				68,
+				-268
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Reimu_Right",
-			"indices": []
+			"indices": [],
+			"name": "Reimu_Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				82,
-				-275
+				96,
+				-270
 			],
-			"anim": "card",
+			"indices": [],
 			"fps": 55,
-			"name": "Reimu_Card",
-			"indices": []
+			"anim": "card",
+			"loop": false,
+			"name": "Reimu_Shoot"
 		}
 	],
 	"no_antialiasing": false,

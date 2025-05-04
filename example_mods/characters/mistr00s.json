@@ -4,155 +4,100 @@
 			"loop": false,
 			"offsets": [
 				55,
-				260
+				360
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "Remilia_Idle",
+			"name": "Mistr00s_Idle",
 			"indices": []
 		},
 		{
-			"offsets": [
-				180,
-				380
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "spin",
-			"indices": [],
-			"name": "Remilia_Spin"
-		},
-		{
-			"offsets": [
-				70,
-				250
-			],
-			"loop": false,
-			"fps": 12,
-			"anim": "appear",
-			"indices": [],
-			"name": "Remilia_Appears"
-		},
-		{
-			"offsets": [
-				69,
-				249
-			],
-			"loop": false,
-			"fps": 25,
-			"anim": "idle-alt",
-			"indices": [],
-			"name": "Remilia_Ide_Alt"
-		},
-		{
 			"loop": false,
 			"offsets": [
-				1741,
-				315
+				285,
+				243
 			],
-			"anim": "boom",
-			"fps": 12,
-			"name": "Remilia_Boom",
-			"indices": []
-		},
-		{
-			"offsets": [
-				195,
-				223
-			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10
-			],
-			"name": "Remilia_Left0"
+			"fps": 24,
+			"name": "Mistr00s_Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-47,
-				46
+				36
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10
-			],
-			"name": "Remilia_Down0"
+			"fps": 24,
+			"name": "Mistr00s_Down",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-55,
-				381
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				205,
+				371
+			],
 			"anim": "singUP",
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10
-			],
-			"name": "Remilia_Up0"
-		},
-		{
-			"offsets": [
-				-30,
-				228
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10
-			],
-			"name": "Remilia_Right0"
+			"name": "Mistr00s_Up",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-28,
-				260
-			],
-			"indices": [],
-			"fps": 5,
-			"anim": "disappear",
 			"loop": false,
-			"name": "Remilia_Dissapears"
+			"offsets": [
+				-70,
+				168
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Mistr00s_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				0
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				0
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				0
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-100,
+				0
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "miss",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -170,7 +115,7 @@
 	],
 	"camera_position": [
 		300,
-		-150
+		-200
 	],
 	"sing_duration": 4,
 	"scale": 1

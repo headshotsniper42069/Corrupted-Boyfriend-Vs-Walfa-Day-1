@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				100,
+				110
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Marisa_Idle"
+		},
+		{
+			"offsets": [
+				50,
+				-110
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Marisa_Down0"
+		},
+		{
+			"offsets": [
+				-20,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Marisa_Up0"
+		},
+		{
+			"offsets": [
+				281,
+				59
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Marisa_Left0"
+		},
+		{
+			"offsets": [
+				-120,
+				-30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Marisa_Right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-93
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Marisa_Down_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				40
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Marisa_Up_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				282,
+				59
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Marisa_Left_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-64,
+				-30
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Marisa_Right_Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				-30
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Marisa_Death",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				0
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Marisa_Accept",
+			"indices": []
+		},
+		{
+			"offsets": [
+				50,
+				-192
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "Marisa_Loop"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Maris_Death",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "maris",
+	"flip_x": true,
+	"healthbar_colors": [
+		189,
+		127,
+		77
+	],
+	"camera_position": [
+		100,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

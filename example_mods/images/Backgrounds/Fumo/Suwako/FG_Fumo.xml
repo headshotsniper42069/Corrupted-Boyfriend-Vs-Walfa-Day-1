@@ -1,50 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="fumobg2.png">
+<TextureAtlas imagePath="FG_Fumo.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Byakuren_Bounce0000" x="100" y="100" width="288" height="464" frameX="0" frameY="-20" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0001" x="100" y="100" width="288" height="464" frameX="0" frameY="-20" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0002" x="488" y="100" width="285" height="468" frameX="0" frameY="-16" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0003" x="488" y="100" width="285" height="468" frameX="0" frameY="-16" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0004" x="873" y="100" width="283" height="476" frameX="0" frameY="-8" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0005" x="873" y="100" width="283" height="476" frameX="0" frameY="-8" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0006" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0007" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0008" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0009" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0010" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0011" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0012" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0013" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Byakuren_Bounce0014" x="1256" y="100" width="283" height="484" frameX="0" frameY="0" frameWidth="288" frameHeight="484"/>
-	<SubTexture name="Inu_Bounce0000" x="1639" y="100" width="473" height="433" frameX="0" frameY="-28" frameWidth="473" frameHeight="461"/>
-	<SubTexture name="Inu_Bounce0001" x="1639" y="100" width="473" height="433" frameX="0" frameY="-28" frameWidth="473" frameHeight="461"/>
-	<SubTexture name="Inu_Bounce0002" x="2212" y="100" width="473" height="444" frameX="0" frameY="-17" frameWidth="473" frameHeight="461"/>
-	<SubTexture name="Inu_Bounce0003" x="2212" y="100" width="473" height="444" frameX="0" frameY="-17" frameWidth="473" frameHeight="461"/>
-	<SubTexture name="Inu_Bounce0004" x="2785" y="100" width="473" height="453" frameX="0" frameY="-8" frameWidth="473" frameHeight="461"/>
-	<SubTexture name="Inu_Bounce0005" x="2785" y="100" width="473" height="453" frameX="0" frameY="-8" frameWidth="473" frameHeight="461"/>
-	<SubTexture name="Inu_Bounce0006" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0007" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0008" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0009" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0010" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0011" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0012" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0013" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Inu_Bounce0014" x="3358" y="100" width="473" height="461"/>
-	<SubTexture name="Komachi_Bounce0000" x="100" y="684" width="385" height="568" frameX="0" frameY="-23" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0001" x="100" y="684" width="385" height="568" frameX="0" frameY="-23" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0002" x="585" y="684" width="380" height="578" frameX="-5" frameY="-13" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0003" x="585" y="684" width="380" height="578" frameX="-5" frameY="-13" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0004" x="1065" y="684" width="378" height="585" frameX="-7" frameY="-6" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0005" x="1065" y="684" width="378" height="585" frameX="-7" frameY="-6" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0006" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0007" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0008" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0009" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0010" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0011" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0012" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0013" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
-	<SubTexture name="Komachi_Bounce0014" x="1543" y="684" width="378" height="591" frameX="-7" frameY="0" frameWidth="385" frameHeight="591"/>
+	<SubTexture name="Byakuren_Bounce0000" x="100" y="100" width="826" height="677" frameX="0" frameY="-44" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0001" x="100" y="100" width="826" height="677" frameX="0" frameY="-44" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0002" x="1026" y="100" width="816" height="693" frameX="-5" frameY="-28" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0003" x="1026" y="100" width="816" height="693" frameX="-5" frameY="-28" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0004" x="1942" y="100" width="802" height="718" frameX="-12" frameY="-2" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0005" x="1942" y="100" width="802" height="718" frameX="-12" frameY="-2" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0006" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0007" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0008" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0009" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0010" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0011" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0012" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Byakuren_Bounce0013" x="2844" y="100" width="801" height="720" frameX="-12" frameY="0" frameWidth="826" frameHeight="721"/>
+	<SubTexture name="Inu_Bounce0000" x="100" y="920" width="486" height="438" frameX="0" frameY="-23" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0001" x="100" y="920" width="486" height="438" frameX="0" frameY="-23" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0002" x="686" y="920" width="481" height="446" frameX="-3" frameY="-14" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0003" x="686" y="920" width="481" height="446" frameX="-3" frameY="-14" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0004" x="1267" y="920" width="473" height="459" frameX="-7" frameY="-1" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0005" x="1267" y="920" width="473" height="459" frameX="-7" frameY="-1" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0006" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0007" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0008" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0009" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0010" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0011" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0012" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Inu_Bounce0013" x="1840" y="920" width="472" height="460" frameX="-7" frameY="0" frameWidth="486" frameHeight="461"/>
+	<SubTexture name="Komachi_Bounce0000" x="2412" y="920" width="1372" height="711" frameX="0" frameY="-48" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0001" x="2412" y="920" width="1372" height="711" frameX="0" frameY="-48" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0002" x="100" y="1731" width="1358" height="727" frameX="-7" frameY="-31" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0003" x="100" y="1731" width="1358" height="727" frameX="-7" frameY="-31" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0004" x="1558" y="1731" width="1336" height="756" frameX="-18" frameY="-2" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0005" x="1558" y="1731" width="1336" height="756" frameX="-18" frameY="-2" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0006" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0007" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0008" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0009" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0010" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0011" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0012" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
+	<SubTexture name="Komachi_Bounce0013" x="100" y="2587" width="1333" height="758" frameX="-19" frameY="0" frameWidth="1372" frameHeight="759"/>
 </TextureAtlas>

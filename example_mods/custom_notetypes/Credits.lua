@@ -4,5 +4,4 @@ function onCreate()
 			setPropertyFromGroup('unspawnNotes', i, 'texture', 'Arrows/Credits');
 		end
 	end
-	debugPrint("success")
 end

@@ -1,35 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="fumobg2.png">
+<TextureAtlas imagePath="SK.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Keine_Bounce0000" x="100" y="100" width="252" height="171" frameX="0" frameY="-6" frameWidth="252" frameHeight="177"/>
-	<SubTexture name="Keine_Bounce0001" x="100" y="100" width="252" height="171" frameX="0" frameY="-6" frameWidth="252" frameHeight="177"/>
-	<SubTexture name="Keine_Bounce0002" x="452" y="100" width="252" height="173" frameX="0" frameY="-4" frameWidth="252" frameHeight="177"/>
-	<SubTexture name="Keine_Bounce0003" x="452" y="100" width="252" height="173" frameX="0" frameY="-4" frameWidth="252" frameHeight="177"/>
-	<SubTexture name="Keine_Bounce0004" x="100" y="373" width="252" height="175" frameX="0" frameY="-2" frameWidth="252" frameHeight="177"/>
-	<SubTexture name="Keine_Bounce0005" x="100" y="373" width="252" height="175" frameX="0" frameY="-2" frameWidth="252" frameHeight="177"/>
-	<SubTexture name="Keine_Bounce0006" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0007" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0008" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0009" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0010" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0011" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0012" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0013" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Keine_Bounce0014" x="452" y="373" width="252" height="177"/>
-	<SubTexture name="Satori_Bounce0000" x="804" y="373" width="115" height="140" frameX="0" frameY="-9" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0001" x="804" y="373" width="115" height="140" frameX="0" frameY="-9" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0002" x="100" y="650" width="114" height="143" frameX="-1" frameY="-6" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0003" x="100" y="650" width="114" height="143" frameX="-1" frameY="-6" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0004" x="314" y="650" width="113" height="146" frameX="-2" frameY="-3" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0005" x="314" y="650" width="113" height="146" frameX="-2" frameY="-3" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0006" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0007" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0008" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0009" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0010" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0011" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0012" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0013" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
-	<SubTexture name="Satori_Bounce0014" x="527" y="650" width="113" height="149" frameX="-2" frameY="0" frameWidth="115" frameHeight="149"/>
+	<SubTexture name="Keine_Bounce0000" x="100" y="100" width="297" height="195" frameX="-1" frameY="-3" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0001" x="100" y="100" width="297" height="195" frameX="-1" frameY="-3" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0002" x="497" y="100" width="298" height="198" frameX="0" frameY="-1" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0003" x="497" y="100" width="298" height="198" frameX="0" frameY="-1" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0004" x="895" y="100" width="298" height="199"/>
+	<SubTexture name="Keine_Bounce0005" x="895" y="100" width="298" height="199"/>
+	<SubTexture name="Keine_Bounce0006" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0007" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0008" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0009" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0010" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0011" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0012" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Keine_Bounce0013" x="1293" y="100" width="297" height="199" frameX="-1" frameY="0" frameWidth="298" frameHeight="199"/>
+	<SubTexture name="Satori_Bounce0000" x="100" y="399" width="531" height="539" frameX="0" frameY="-24" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0001" x="100" y="399" width="531" height="539" frameX="0" frameY="-24" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0002" x="731" y="399" width="523" height="548" frameX="-4" frameY="-15" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0003" x="731" y="399" width="523" height="548" frameX="-4" frameY="-15" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0004" x="1354" y="399" width="513" height="562" frameX="-9" frameY="-1" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0005" x="1354" y="399" width="513" height="562" frameX="-9" frameY="-1" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0006" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0007" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0008" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0009" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0010" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0011" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0012" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
+	<SubTexture name="Satori_Bounce0013" x="100" y="1061" width="512" height="563" frameX="-9" frameY="0" frameWidth="531" frameHeight="563"/>
 </TextureAtlas>

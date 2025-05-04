@@ -1,147 +1,210 @@
 {
 	"images": [
 		{
-			"description": "Flandre in Roblox wtf",
-			"descriptionSize": 48,
+			"description": "Bunny Blaster Render with Eirin",
+			"x": -860,
+			"descriptionSize": 32,
 			"descriptionPosition": [
-				60,
-				30
+				40,
+				60
 			],
-			"scale": 1.8,
+			"y": -1105,
+			"scale": 0.149999999999999,
 			"offset": 0,
-			"image": "FLANDREINRBOLOX"
+			"image": "BUNNY_BLASTER3"
 		},
 		{
+			"x": -285,
 			"description": "Scrapped Week containing Fanon aspects,\n like Yandere Alice and Psycho Flandre",
+			"y": -240,
 			"descriptionPosition": [
-				30,
-				20
+				40,
+				60
 			],
-			"descriptionSize": 28,
-			"scale": 0.5,
+			"descriptionSize": 24,
+			"scale": 0.25,
 			"image": "Fanon",
 			"offset": -35
 		},
 		{
-			"description": "Funny Starved Joke",
-			"descriptionPosition": [
-				70,
-				30
-			],
-			"descriptionSize": 52,
-			"scale": 0.85,
-			"image": "I...love these fairies",
-			"offset": -20
-		},
-		{
 			"description": "Scrapped Concept based of Marizza",
-			"descriptionSize": 32,
+			"x": 60,
+			"descriptionSize": 28,
 			"descriptionPosition": [
-				30,
-				40
+				40,
+				60
 			],
-			"scale": 1,
+			"y": 55,
+			"scale": 0.8,
 			"offset": -15,
 			"image": "Marizza_Concept"
 		},
 		{
 			"description": "First Calling in Red Concept",
-			"descriptionSize": 44,
+			"x": -80,
+			"descriptionSize": 36,
 			"descriptionPosition": [
-				30,
-				40
+				40,
+				60
 			],
-			"scale": 0.9,
+			"scale": 0.4,
 			"offset": -25,
 			"image": "SC_Concept"
 		},
 		{
-			"description": "Nothing to see here",
-			"descriptionSize": 64,
+			"description": "Apple Girlington First Concept",
+			"x": -195,
+			"descriptionSize": 36,
 			"descriptionPosition": [
-				0,
-				20
+				30,
+				60
 			],
-			"scale": 1,
+			"y": -275,
+			"scale": 0.3,
 			"offset": 0,
-			"image": "THICK"
+			"image": "applesconcept"
 		},
 		{
-			"description": "Intro for Brainfreeze",
+			"description": "Meiling her honest Reaction",
+			"x": -90,
+			"descriptionSize": 36,
 			"descriptionPosition": [
-				95,
-				40
+				50,
+				60
 			],
-			"descriptionSize": 44,
-			"scale": 0.9,
-			"image": "You're going to die bimbo",
-			"offset": -30
+			"y": -145,
+			"scale": 0.4,
+			"offset": 0,
+			"image": "china-knows"
 		},
 		{
+			"description": "Scrapped Ciryes Week Featuring Eiki and Clownpiece",
+			"x": -365,
+			"descriptionSize": 20,
+			"descriptionPosition": [
+				40,
+				70
+			],
+			"y": 0,
+			"scale": 0.25,
+			"offset": 0,
+			"image": "ciryes"
+		},
+		{
+			"x": -215,
 			"description": "Old Aya Design... how tf did I draw her so bad",
 			"descriptionSize": 24,
 			"descriptionPosition": [
-				50,
-				40
+				20,
+				60
 			],
-			"scale": 1,
+			"scale": 0.5,
 			"offset": 0,
 			"image": "get_gud"
 		},
 		{
-			"description": "caught lacking",
-			"descriptionSize": 64,
-			"descriptionPosition": [
-				80,
-				20
-			],
-			"scale": 1,
-			"offset": 0,
-			"image": "inspiration"
-		},
-		{
-			"description": "Old Over10 Concept again bf looks so bad",
-			"descriptionSize": 28,
-			"descriptionPosition": [
-				40,
-				40
-			],
-			"scale": 0.85,
-			"offset": -45,
-			"image": "over10morelikeunder7"
-		},
-		{
-			"description": "Scrapped KKHTA Concept",
-			"descriptionSize": 48,
-			"descriptionPosition": [
-				20,
-				30
-			],
-			"scale": 0.75,
-			"offset": -10,
-			"image": "scrapped_KKHTS_Design"
-		},
-		{
-			"description": "Scrapped Koishi Unconscious Requiem Concept",
-			"descriptionSize": 24,
-			"descriptionPosition": [
-				30,
-				40
-			],
-			"scale": 1,
-			"offset": -35,
-			"image": "scrapped_koishi_unconscious_requiem_art"
-		},
-		{
-			"description": "Shrimp frye concept thats scrapped",
+			"description": "Hatstack Remilia Sketch",
+			"x": -125,
 			"descriptionSize": 32,
 			"descriptionPosition": [
-				20,
-				40
+				100,
+				60
 			],
-			"scale": 1,
+			"y": -100,
+			"scale": 0.4,
+			"offset": 0,
+			"image": "hatstacksketch"
+		},
+		{
+			"description": "Im scared",
+			"x": 110,
+			"descriptionSize": 44,
+			"descriptionPosition": [
+				220,
+				60
+			],
+			"y": 110,
+			"scale": 1.25,
+			"offset": 0,
+			"image": "help"
+		},
+		{
+			"description": "Isaac VS Doremy Concept",
+			"x": -35,
+			"descriptionSize": 40,
+			"descriptionPosition": [
+				40,
+				60
+			],
+			"y": 105,
+			"scale": 0.8,
+			"offset": 0,
+			"image": "isaac"
+		},
+		{
+			"description": "First ever sketch of me",
+			"x": -290,
+			"descriptionSize": 40,
+			"descriptionPosition": [
+				40,
+				60
+			],
+			"y": 0,
+			"scale": 0.3,
+			"offset": 0,
+			"image": "raw_sketch_of_gallery"
+		},
+		{
+			"description": "Scrapped KKHTA Design",
+			"x": 15,
+			"descriptionSize": 32,
+			"descriptionPosition": [
+				40,
+				60
+			],
+			"y": 0,
+			"scale": 0.55,
+			"offset": 0,
+			"image": "scrapped_KKHTA_Design"
+		},
+		{
+			"description": "Scrapped part from Pelo Cutscene",
+			"x": -110,
+			"descriptionSize": 28,
+			"descriptionPosition": [
+				30,
+				60
+			],
+			"y": 115,
+			"scale": 0.65,
+			"offset": 0,
+			"image": "scrapped_cutscene"
+		},
+		{
+			"description": "Shrimp fry concept thats scrapped",
+			"x": 50,
+			"descriptionSize": 28,
+			"descriptionPosition": [
+				30,
+				60
+			],
+			"y": 65,
+			"scale": 0.8,
 			"offset": 0,
 			"image": "shrimp_fry_concept_scrapped"
+		},
+		{
+			"description": "April Fool Prank CBT with Yuuka",
+			"x": -400,
+			"descriptionSize": 32,
+			"descriptionPosition": [
+				40,
+				70
+			],
+			"y": -745,
+			"scale": 0.2,
+			"offset": 0,
+			"image": "yuulkasmth"
 		}
 	]
 }

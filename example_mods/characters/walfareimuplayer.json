@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				-223
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Reimu_Idle"
+		},
+		{
+			"offsets": [
+				46,
+				-197
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Reimu_Left"
+		},
+		{
+			"offsets": [
+				-12,
+				-238
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Reimu_Down"
+		},
+		{
+			"offsets": [
+				-5,
+				-209
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Reimu_Up"
+		},
+		{
+			"offsets": [
+				-13,
+				-216
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Reimu_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/reimuwalfa",
+	"position": [
+		0,
+		40
+	],
+	"healthicon": "walfareimu",
+	"flip_x": true,
+	"healthbar_colors": [
+		233,
+		30,
+		87
+	],
+	"camera_position": [
+		-140,
+		360
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

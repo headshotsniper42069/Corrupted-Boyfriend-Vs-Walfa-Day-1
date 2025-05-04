@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				37161.2903225807,
+				[
+					[
+						"Change Character",
+						"1",
+						"mariv2angryheight2"
+					]
+				]
+			],
+			[
+				99677.4193548388,
+				[
+					[
+						"Change Character",
+						"dad",
+						"mariv2depressive"
+					]
+				]
+			],
+			[
+				111483.870967742,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"mariv2height2"
+					]
+				]
+			],
+			[
+				136258.064516129,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"maripov"
+					]
+				]
+			]
+		]
+	}
+}

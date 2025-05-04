@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				-6
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Reisen_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				12,
+				-44
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Reisen_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Reisen_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				-13
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Reisen_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "Reisen_Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/pixelreisen",
+	"position": [
+		200,
+		540
+	],
+	"healthicon": "reisen",
+	"flip_x": false,
+	"healthbar_colors": [
+		190,
+		28,
+		190
+	],
+	"camera_position": [
+		40,
+		-30
+	],
+	"sing_duration": 6.1,
+	"scale": 6.4
+}

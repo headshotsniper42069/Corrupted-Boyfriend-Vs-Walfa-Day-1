@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				330,
+				240
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Koishi_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				263,
+				219
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Koishi_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				230,
+				200
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Koishi_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				350,
+				286
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Koishi_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				332,
+				220
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Koishi_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/kkhtakoosh",
+	"position": [
+		0,
+		-50
+	],
+	"healthicon": "kkhtakoishi",
+	"flip_x": false,
+	"healthbar_colors": [
+		38,
+		114,
+		45
+	],
+	"camera_position": [
+		100,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

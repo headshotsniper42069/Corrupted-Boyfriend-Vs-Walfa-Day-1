@@ -1,0 +1,526 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Play Animation",
+						"asthma",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				187.5,
+				[
+					[
+						"Play Animation",
+						"asthma",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				281.25,
+				[
+					[
+						"Play Animation",
+						"asthma",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				375,
+				[
+					[
+						"Play Animation",
+						"asthma",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				468.75,
+				[
+					[
+						"Play Animation",
+						"asthma",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				562.5,
+				[
+					[
+						"Play Animation",
+						"asthma",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				656.25,
+				[
+					[
+						"Play Animation",
+						"asthma",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				1125,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				1312.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				1500,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				1593.75,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				1781.25,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				57375,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				57750,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				58125,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				63000,
+				[
+					[
+						"Change Character",
+						"BF",
+						"bfmarisadeath"
+					]
+				]
+			],
+			[
+				64031.25,
+				[
+					[
+						"Change Character",
+						"BF",
+						"marisa"
+					]
+				]
+			],
+			[
+				72375,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				72750,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				73125,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				117375,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				117750,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				118125,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				190875,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				191250,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				192000,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				193500,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				193875,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				194250,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				195187.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				195375,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				202875,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				203250,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				203625,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				208500,
+				[
+					[
+						"Camera Fade Out",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				210000,
+				[
+					[
+						"karaokelyrics",
+						"set",
+						"Patchy dying.mp4"
+					]
+				]
+			],
+			[
+				210562.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				211500,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				212250,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				212531.25,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				212906.25,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				213187.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				213656.25,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				213937.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				214031.25,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				214125,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				214218.75,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				214312.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				214406.25,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				215062.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				215156.25,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			],
+			[
+				215812.5,
+				[
+					[
+						"Play Animation",
+						"cough",
+						"thickchouli"
+					]
+				]
+			]
+		]
+	}
+}

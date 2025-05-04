@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jack.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jack_Down0000" x="100" y="100" width="528" height="668"/>
+	<SubTexture name="Jack_Down0001" x="100" y="100" width="528" height="668"/>
+	<SubTexture name="Jack_Down0002" x="728" y="100" width="526" height="666" frameX="0" frameY="-2" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0003" x="728" y="100" width="526" height="666" frameX="0" frameY="-2" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0004" x="1354" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0005" x="1354" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0006" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0007" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0008" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0009" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0010" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0011" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0012" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Down0013" x="1975" y="100" width="521" height="664" frameX="0" frameY="-4" frameWidth="528" frameHeight="668"/>
+	<SubTexture name="Jack_Hurt0000" x="2596" y="100" width="603" height="692"/>
+	<SubTexture name="Jack_Hurt0001" x="2596" y="100" width="603" height="692"/>
+	<SubTexture name="Jack_Hurt0002" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0003" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0004" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0005" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0006" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0007" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0008" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0009" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0010" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0011" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0012" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Hurt0013" x="3299" y="100" width="552" height="675" frameX="-41" frameY="-17" frameWidth="603" frameHeight="692"/>
+	<SubTexture name="Jack_Idle0000" x="3951" y="100" width="550" height="669" frameX="-10" frameY="-11" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0001" x="3951" y="100" width="550" height="669" frameX="-10" frameY="-11" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0002" x="4601" y="100" width="549" height="680" frameX="-9" frameY="0" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0003" x="4601" y="100" width="549" height="680" frameX="-9" frameY="0" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0004" x="5250" y="100" width="552" height="675" frameX="-1" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0005" x="5250" y="100" width="552" height="675" frameX="-1" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0006" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0007" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0008" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0009" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0010" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0011" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0012" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Idle0013" x="5902" y="100" width="552" height="675" frameX="0" frameY="-5" frameWidth="560" frameHeight="680"/>
+	<SubTexture name="Jack_Left0000" x="6554" y="100" width="685" height="633"/>
+	<SubTexture name="Jack_Left0001" x="6554" y="100" width="685" height="633"/>
+	<SubTexture name="Jack_Left0002" x="7339" y="100" width="675" height="630" frameX="-10" frameY="-2" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0003" x="7339" y="100" width="675" height="630" frameX="-10" frameY="-2" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0004" x="100" y="892" width="658" height="625" frameX="-26" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0005" x="100" y="892" width="658" height="625" frameX="-26" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0006" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0007" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0008" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0009" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0010" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0011" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0012" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Left0013" x="858" y="892" width="657" height="624" frameX="-27" frameY="-6" frameWidth="685" frameHeight="633"/>
+	<SubTexture name="Jack_Right0000" x="1615" y="892" width="573" height="761" frameX="-22" frameY="0" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0001" x="1615" y="892" width="573" height="761" frameX="-22" frameY="0" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0002" x="2288" y="892" width="564" height="754" frameX="-14" frameY="-7" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0003" x="2288" y="892" width="564" height="754" frameX="-14" frameY="-7" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0004" x="2952" y="892" width="559" height="742" frameX="-1" frameY="-19" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0005" x="2952" y="892" width="559" height="742" frameX="-1" frameY="-19" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0006" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0007" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0008" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0009" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0010" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0011" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0012" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Right0013" x="3611" y="892" width="560" height="741" frameX="0" frameY="-20" frameWidth="595" frameHeight="761"/>
+	<SubTexture name="Jack_Up0000" x="4271" y="892" width="571" height="685" frameX="0" frameY="0" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0001" x="4271" y="892" width="571" height="685" frameX="0" frameY="0" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0002" x="4942" y="892" width="575" height="680" frameX="-4" frameY="-5" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0003" x="4942" y="892" width="575" height="680" frameX="-4" frameY="-5" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0004" x="5617" y="892" width="581" height="672" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0005" x="5617" y="892" width="581" height="672" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0006" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0007" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0008" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0009" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0010" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0011" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0012" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+	<SubTexture name="Jack_Up0013" x="6298" y="892" width="583" height="671" frameX="-10" frameY="-14" frameWidth="593" frameHeight="686"/>
+</TextureAtlas>

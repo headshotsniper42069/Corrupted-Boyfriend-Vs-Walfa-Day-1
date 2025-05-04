@@ -3,13 +3,8 @@ function onCreate()
 	  addLuaSprite('BG', false);
   	setProperty('BG.antialiasing', true)
   	scaleObject('BG', 1.4, 1.4);
-
-  	if songName == 'Flashy Beats' then
-  	makeLuaSprite('broom', 'Backgrounds/Walfas/Shrine/broom', 1610, 880);
-	  addLuaSprite('broom', false);
-  	setProperty('broom.antialiasing', true)
-  	scaleObject('broom',1.3, 1.3);
-  end
+  	setObjectOrder('boyfriendGroup', 2)
+    setObjectOrder('gfGroup', 1)
 
   	if songName == 'Da Ze' then
   	makeAnimatedLuaSprite('Cleaning','Backgrounds/Walfas/Shrine/Reimu_Cleaning',200, 820)
@@ -24,7 +19,8 @@ function onCreate()
 
     if songName == 'Incident Solvers' then
 
-    setObjectOrder('boyfriendGroup', 4)
+    setObjectOrder('boyfriendGroup', 2)
+    setObjectOrder('dadGroup', 4)
 
     makeLuaSprite('BG', 'Backgrounds/Walfas/Shrine/BG_Solvers', -600, -200);
 	  addLuaSprite('BG', false);

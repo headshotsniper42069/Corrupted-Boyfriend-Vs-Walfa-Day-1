@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-154,
+				-219
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Mokou_Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-56,
+				-223
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Mokou_Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-85,
+				-232
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Mokou_Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-128,
+				-180
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Mokou_Up0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-120,
+				-220
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Mokou_Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mokoud",
+	"position": [
+		-100,
+		-220
+	],
+	"healthicon": "mokoud",
+	"flip_x": true,
+	"healthbar_colors": [
+		159,
+		149,
+		219
+	],
+	"camera_position": [
+		100,
+		250
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

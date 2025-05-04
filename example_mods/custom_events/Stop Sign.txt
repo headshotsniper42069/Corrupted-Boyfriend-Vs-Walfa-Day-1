@@ -1,7 +1,0 @@
-Makes the notes get covered with a stop sign, like Expurgation
-
-Made for Baddest Bitpch
-
-Value 1: duration
-
-Value 2: unused

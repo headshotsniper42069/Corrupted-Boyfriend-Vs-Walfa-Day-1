@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Chen_Idle"
+		},
+		{
+			"offsets": [
+				90,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Chen_Left"
+		},
+		{
+			"offsets": [
+				-68,
+				-130
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Chen_Down"
+		},
+		{
+			"offsets": [
+				0,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Chen_Up"
+		},
+		{
+			"offsets": [
+				-21,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Chen_Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "honk",
+			"indices": [],
+			"name": "Chen_Honk"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bkub_chen",
+	"position": [
+		-30,
+		170
+	],
+	"healthicon": "chen",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		140,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

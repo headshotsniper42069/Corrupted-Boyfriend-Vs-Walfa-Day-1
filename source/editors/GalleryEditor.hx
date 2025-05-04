@@ -1,5 +1,11 @@
 package editors;
 
+import flixel.util.FlxTimer;
+import flixel.math.FlxRect;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.addons.text.FlxTypeText;
+import flixel.tweens.misc.NumTween;
 import flixel.ui.FlxButton;
 import openfl.events.IOErrorEvent;
 import openfl.events.Event;
@@ -18,14 +24,30 @@ using StringTools;
 
 class GalleryEditor extends MusicBeatState
 {
-    var background:FlxSprite;
-    var borders:FlxSprite;
-    var descriptionBox:FlxSprite;
-    var descriptionText:FlxText;
-    var index:GalleryIndex;
-    var galleryImage:GalleryItem;
-    var galleryGroup:FlxTypedGroup<GalleryItem>;
-    var curSelected:Int = 0;
+	// New gallery
+
+	var background:FlxSprite;
+	var speechBubble:FlxSprite;
+	var akyuu:FlxSprite;
+	var scroll:FlxSprite;
+	var text:FlxText;
+
+	var height:Float = 0;
+	var height2:Float = 0;
+
+	var heightTween:NumTween;
+	var height2Tween:NumTween;
+
+    var exiting:Bool = false;
+
+	// Leftover variables
+
+	var descriptionText:FlxTypeText; // Should be speechText, but let the name stay for continiuity
+	var galleryGroup:FlxTypedGroup<FlxSprite>;
+	var index:GalleryIndex;
+	var curSelected = 0;
+    var galleryImage:FlxSprite;
+    
     var listOfImageNames:Array<String> = [];
     var previousImages:Array<String> = [];
     var allImagesAreMissing:Bool = false;
@@ -33,34 +55,54 @@ class GalleryEditor extends MusicBeatState
 
     override public function create()
     {
-        background = new FlxSprite(0, 0, Paths.image("storymenu/background"));
-        add(background);
+        persistentUpdate = true;
+        persistentDraw = true;
 
-        galleryGroup = new FlxTypedGroup<GalleryItem>();
-        add(galleryGroup);
+		background = new FlxSprite(0, 0, Paths.image("akyuu/BG"));
+		background.setGraphicSize(1280);
+		background.updateHitbox();
+		background.screenCenter();
+		background.antialiasing = true;
+		add(background);
 
+		akyuu = new FlxSprite(-50, 215);
+		akyuu.frames = Paths.getSparrowAtlas("akyuu/akyuu_menu");
+        akyuu.animation.addByPrefix("idle", "Akyuu_Idle", 18, false);
+		akyuu.animation.addByPrefix("talk", "Akyuu_Talk", 24, false);
+		akyuu.animation.play("talk");
+		akyuu.setGraphicSize(Std.int(akyuu.width * 0.9));
+		akyuu.updateHitbox();
+		akyuu.antialiasing = true;
+		add(akyuu);
+
+		speechBubble = new FlxSprite(250, 550, Paths.image("akyuu/speechbubble"));
+		speechBubble.setGraphicSize(Std.int(speechBubble.width * 1.45));
+		speechBubble.updateHitbox();
+		speechBubble.setGraphicSize(Std.int(speechBubble.width * 1.15), Std.int(speechBubble.height));
+		speechBubble.updateHitbox();
+		speechBubble.antialiasing = true;
+		add(speechBubble);
+
+		scroll = new FlxSprite(800, 50);
+		scroll.frames = Paths.getSparrowAtlas("akyuu/scroll");
+		scroll.animation.addByPrefix("idle", "Scroll_Closed", 24, false);
+		scroll.animation.addByPrefix("dance", "Scroll_Open", 24, false);
+		scroll.animation.play("dance");
+		add(scroll);
+
+		descriptionText = new FlxTypeText(speechBubble.x, speechBubble.y, 0, "Description goes here", 16);
+		descriptionText.setFormat("CC Wild Words Roman");
+		descriptionText.color = 0xFF000000;
+		add(descriptionText);
+        
         try {
-            galleryImage = new GalleryItem(index.images[0].scale, Paths.image("gallery/" + index.images[0].image), index.images[0].offset);
+            galleryImage = new FlxSprite();
             add(galleryImage);
         }
         catch (e)
         {
            trace("Got an error: " + e);
         }
-        borders = new FlxSprite(-10, -5, Paths.image("galleryscreen/Bars"));
-        borders.setGraphicSize(1300);
-        borders.updateHitbox();
-        add(borders);
-
-        descriptionBox = new FlxSprite(0, 591, Paths.image("galleryscreen/Textbox"));
-        descriptionBox.scale.set(0.61, 0.61);
-        descriptionBox.updateHitbox();
-        descriptionBox.screenCenter(X);
-        add(descriptionBox);
-
-        descriptionText = new FlxText(descriptionBox.x, descriptionBox.y, 0, "Description goes here", 16);
-        descriptionText.setFormat("Topsicle");
-        add(descriptionText);
         
         indexImagesListForReal = ["test"];
         
@@ -88,22 +130,6 @@ class GalleryEditor extends MusicBeatState
                 checkForMissingImages(true);
                 curSelected = 0;
                 indexImagesListForReal = [];
-                try {
-                    galleryImage.destroy();
-                }
-                catch (e)
-                {
-                   trace("Got an error: " + e);
-                }
-                galleryImage = null;
-                try {
-                    galleryImage = new GalleryItem(index.images[0].scale, Paths.image("gallery/" + index.images[0].image), index.images[0].offset);
-                    galleryGroup.add(galleryImage);
-                }
-                catch (e)
-                {
-                   trace("Got an error: " + e);
-                }
                 for (i in index.images)
                 {
                     trace(i.image);
@@ -147,6 +173,7 @@ class GalleryEditor extends MusicBeatState
     var imageList:FlxUIDropDownMenuCustom; // this is gonna be a long one
     var indexImagesListForReal:Array<String> = [];
     var scaleStepper:FlxUINumericStepper;
+    var xOffsetStepper:FlxUINumericStepper;
     var yOffsetStepper:FlxUINumericStepper;
     var descriptionInputText:FlxUIInputText;
     var descriptionPositionXStepper:FlxUINumericStepper;
@@ -164,9 +191,10 @@ class GalleryEditor extends MusicBeatState
         });
         scaleStepper = new FlxUINumericStepper(10, imageList.y + 40, 0.05, 1, 0.05, 5, 2);
 
-        yOffsetStepper = new FlxUINumericStepper(10, scaleStepper.y + 40, 5, 0, -1280, 1280, 0);
+        xOffsetStepper = new FlxUINumericStepper(10, scaleStepper.y + 40, 5, 0, -1280, 1280, 0);
+        yOffsetStepper = new FlxUINumericStepper(xOffsetStepper.x + 60, scaleStepper.y + 40, 5, 0, -1280, 1280, 0);
 
-        descriptionInputText = new FlxUIInputText(10, yOffsetStepper.y + 40, 150, 'Description goes here', 8);
+        descriptionInputText = new FlxUIInputText(10, xOffsetStepper.y + 40, 150, 'Description goes here', 8);
         blockPressWhileTypingOn.push(descriptionInputText);
         
 		descriptionPositionXStepper = new FlxUINumericStepper(10, descriptionInputText.y + 40, 10, 0, -640, 640, 0);
@@ -180,13 +208,14 @@ class GalleryEditor extends MusicBeatState
 
         tab_group.add(new FlxText(imageList.x, imageList.y - 18, 0, 'Image:'));
         tab_group.add(new FlxText(scaleStepper.x, scaleStepper.y - 18, 0, 'Image scale multiplier:'));
-        tab_group.add(new FlxText(yOffsetStepper.x, yOffsetStepper.y - 18, 0, 'Image vertical offset:'));
+        tab_group.add(new FlxText(xOffsetStepper.x, xOffsetStepper.y - 18, 0, 'Image X and Y:'));
         tab_group.add(new FlxText(descriptionInputText.x, descriptionInputText.y - 18, 0, 'Description:'));
 
-        tab_group.add(new FlxText(descriptionPositionXStepper.x, descriptionPositionXStepper.y - 18, 0, 'Description text X/Y offset:'));
+        tab_group.add(new FlxText(descriptionPositionXStepper.x, descriptionPositionXStepper.y - 18, 0, 'Description text X and Y:'));
         tab_group.add(new FlxText(descriptionPositionSizeStepper.x, descriptionPositionSizeStepper.y - 18, 0, 'Description text size:'));
 
         tab_group.add(scaleStepper);
+        tab_group.add(xOffsetStepper);
         tab_group.add(yOffsetStepper);
         tab_group.add(descriptionInputText);
         tab_group.add(descriptionPositionXStepper);
@@ -201,21 +230,64 @@ class GalleryEditor extends MusicBeatState
     function loadSettings()
     {
         scaleStepper.value = index.images[curSelected].scale;
-        yOffsetStepper.value = index.images[curSelected].offset;
+        xOffsetStepper.value = index.images[curSelected].x;
+        yOffsetStepper.value = index.images[curSelected].y;
         descriptionInputText.text = index.images[curSelected].description;
         descriptionPositionXStepper.value = index.images[curSelected].descriptionPosition[0];
         descriptionPositionYStepper.value = index.images[curSelected].descriptionPosition[1];
         descriptionPositionSizeStepper.value = index.images[curSelected].descriptionSize;
-        descriptionText.text = index.images[curSelected].description;
-        descriptionText.setPosition(descriptionBox.x + index.images[curSelected].descriptionPosition[0], descriptionBox.y + index.images[curSelected].descriptionPosition[1]);
+        descriptionText.resetText(index.images[curSelected].description);
+        descriptionText.setPosition(speechBubble.x + index.images[curSelected].descriptionPosition[0], speechBubble.y + index.images[curSelected].descriptionPosition[1]);
         descriptionText.size = index.images[curSelected].descriptionSize;
-        galleryImage.reloadImage(index.images[curSelected].scale, Paths.image("gallery/" + index.images[curSelected].image));
-        galleryImage.yOffset = index.images[curSelected].offset;
+        galleryImage.loadGraphic(Paths.image("gallery/" + index.images[curSelected].image));
+        galleryImage.scale.set(index.images[curSelected].scale, index.images[curSelected].scale);
+        galleryImage.setPosition(800 + index.images[curSelected].x, 50 + index.images[curSelected].y);
+        galleryImage.clipRect = new FlxRect(0, 0, galleryImage.width, galleryImage.height);
+
+		height = Std.int(galleryImage.height / 2); // initial value
+		height2 = Std.int(galleryImage.height); // initial value
+
+        var height2temp = height2;
+
+        try {
+            heightTween.cancel();
+            height2Tween.cancel();
+        }
+        catch (e)
+        {
+            trace("Nevermind");
+        }
+
+        new FlxTimer().start(0.05, function(bruh:FlxTimer)
+        { // frame delay
+    
+            galleryImage.alpha = 1;
+            heightTween = FlxTween.num(height, height * 2, 0.5, {ease: FlxEase.cubeInOut}, function(value:Float)
+            {
+                height = value;
+            });
+    
+            height2Tween = FlxTween.num(0, height2temp, 0.5, {ease: FlxEase.cubeInOut}, function(value:Float)
+            {
+                height2 = value;
+            });
+        });
+
+        descriptionText.start(0.02, true, false, null, function(){
+            akyuu.animation.play("idle", true);
+        });
+
     }
 
     override public function update(elapsed:Float) 
     {
         super.update(elapsed);
+
+        galleryImage.clipRect.y = galleryImage.height - height;
+		galleryImage.clipRect.height = height2;
+
+		galleryImage.clipRect = galleryImage.clipRect;
+
         var blockInput:Bool = false;
         for (inputText in blockPressWhileTypingOn) {
 			if(inputText.hasFocus) {
@@ -251,8 +323,10 @@ class GalleryEditor extends MusicBeatState
 		else if(id == FlxUINumericStepper.CHANGE_EVENT && (sender is FlxUINumericStepper)) {
 			if(sender == scaleStepper) {
 				index.images[curSelected].scale = scaleStepper.value;
+            } else if(sender == xOffsetStepper) {
+				index.images[curSelected].x = Std.int(xOffsetStepper.value);
 			} else if(sender == yOffsetStepper) {
-				index.images[curSelected].offset = yOffsetStepper.value;
+				index.images[curSelected].y = Std.int(yOffsetStepper.value);
 			} else if(sender == descriptionPositionXStepper){
                 index.images[curSelected].descriptionPosition[0] = descriptionPositionXStepper.value;
             } else if(sender == descriptionPositionYStepper){
@@ -381,6 +455,8 @@ class GalleryEditor extends MusicBeatState
             index.images.push({
                 image: newImageString,
                 scale: 1,
+                x: 0,
+                y: 0,
                 offset: 0,
                 description: "Description goes here",
                 descriptionPosition: [0, 0],
@@ -492,8 +568,10 @@ typedef GalleryImage =
 {
     var image:String;
     var scale:Float;
-    var offset:Float;
-    var description:String;
-    var descriptionPosition:Array<Float>;
-    var descriptionSize:Int;
+    var x:Int;
+	var y:Int;
+	var offset:Float; // Unused
+	var description:String; // Speech bubble text
+	var descriptionPosition:Array<Float>; // Speech bubble text position
+	var descriptionSize:Int;
 }

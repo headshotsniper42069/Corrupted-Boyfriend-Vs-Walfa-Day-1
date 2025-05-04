@@ -172,12 +172,12 @@
 		0,
 		350
 	],
-	"healthicon": "bf",
+	"healthicon": "ari",
 	"flip_x": true,
 	"healthbar_colors": [
-		49,
-		177,
-		209
+		255,
+		255,
+		255
 	],
 	"camera_position": [
 		660,

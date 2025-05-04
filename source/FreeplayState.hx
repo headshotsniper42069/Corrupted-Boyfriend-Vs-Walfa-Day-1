@@ -98,6 +98,7 @@ class FreeplayState extends MusicBeatState
 			WeekData.setDirectoryFromWeek(leWeek);
 			for (song in leWeek.songs)
 			{
+				if (song[0] == 'Ayaya' && FlxG.save.data.ayaya != "Completed") continue;
 				if (song[4] == null)
 				{
 					song[4] = [0, 0];
@@ -127,6 +128,7 @@ class FreeplayState extends MusicBeatState
 				}
 				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]), [song[4][0], song[4][1]], song[7], song[8]);
 				var freeplayArt:FlxSprite = new FlxSprite(400 + song[6][0], 50 + song[6][1]);
+				if (song[0] == "Donation Frustration") song[5] = "Donation";
 				if (Paths.image("Freeplay Art/" + song[5]) != null)
 					freeplayArt.loadGraphic(Paths.image("Freeplay Art/" + song[5]));
 				freeplayArt.scale.set(song[6][2], song[6][2]);
@@ -251,11 +253,12 @@ class FreeplayState extends MusicBeatState
 
 			trace(md);
 		 */
-		
+
 		for (freeplayActualArt in freeplayArtArray)
 		{
 			add(freeplayActualArt);
 		}
+
 		descriptionBG = new FlxSprite(0, FlxG.height - 125).makeGraphic(FlxG.width, 125, 0xFF000000);
 		descriptionBG.alpha = 0.6;
 		add(descriptionBG);
@@ -263,7 +266,7 @@ class FreeplayState extends MusicBeatState
 		descriptionText = new FlxText(10, 600, 0, "If you can see this, something is wrong", 32);
 		descriptionText.setFormat("PC-9800", 32);
 		add(descriptionText);
-				
+		
 		changeSelection();
 		changeDiff();
 		

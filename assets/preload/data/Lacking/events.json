@@ -2,16 +2,6 @@
 	"song": {
 		"events": [
 			[
-				12000,
-				[
-					[
-						"badapplelol",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
 				12003.90625,
 				[
 					[
@@ -32,172 +22,12 @@
 				]
 			],
 			[
-				12035.15625,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				12375,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				12562.5,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				12750,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				13218.75,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				13406.25,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				13593.75,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				13781.25,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				13875,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				14062.5,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				14250,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				14437.5,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				14718.75,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				14812.5,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				15000,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
 				15375,
 				[
 					[
 						"karaokelyrics",
 						"",
 						""
-					]
-				]
-			],
-			[
-				15937.5,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
 					]
 				]
 			],
@@ -212,242 +42,12 @@
 				]
 			],
 			[
-				16031.25,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				16218.75,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				16500,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				16593.75,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				16781.25,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				16875,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				17062.5,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				17250,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				17437.5,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				17718.75,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				17906.25,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				18000,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				18187.5,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				18375,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				18562.5,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				18937.5,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"BF"
-					]
-				]
-			],
-			[
 				18984.375,
 				[
 					[
 						"karaokelyrics",
 						"",
 						"What do you want, Kaguya?\r\n"
-					]
-				]
-			],
-			[
-				19125,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"BF"
-					]
-				]
-			],
-			[
-				19312.5,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"BF"
-					]
-				]
-			],
-			[
-				19500,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"BF"
-					]
-				]
-			],
-			[
-				19687.5,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"BF"
-					]
-				]
-			],
-			[
-				19875,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"BF"
-					]
-				]
-			],
-			[
-				19968.75,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"BF"
-					]
-				]
-			],
-			[
-				20062.5,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"BF"
 					]
 				]
 			],
@@ -462,102 +62,12 @@
 				]
 			],
 			[
-				20437.5,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				20578.125,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				20765.625,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"Dad"
-					]
-				]
-			],
-			[
-				21000,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"Dad"
-					]
-				]
-			],
-			[
-				21093.75,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"Dad"
-					]
-				]
-			],
-			[
-				21187.5,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"Dad"
-					]
-				]
-			],
-			[
-				22687.5,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"BF"
-					]
-				]
-			],
-			[
 				22703.125,
 				[
 					[
 						"karaokelyrics",
 						"",
 						"Not one bit."
-					]
-				]
-			],
-			[
-				22828.125,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"BF"
-					]
-				]
-			],
-			[
-				23062.5,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"BF"
 					]
 				]
 			],
@@ -778,16 +288,6 @@
 						"ababa",
 						"0.5",
 						""
-					]
-				]
-			],
-			[
-				47253.90625,
-				[
-					[
-						"badapplelol",
-						"a",
-						"0.5"
 					]
 				]
 			],
@@ -1842,16 +1342,6 @@
 				]
 			],
 			[
-				95535.15625,
-				[
-					[
-						"badapplelol",
-						"b",
-						"0.2"
-					]
-				]
-			],
-			[
 				95539.0625,
 				[
 					[
@@ -2275,6 +1765,16 @@
 				115500,
 				[
 					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				115503.90625,
+				[
+					[
 						"ababa",
 						"0.7",
 						""
@@ -2282,11 +1782,101 @@
 				]
 			],
 			[
-				115875,
+				115507.8125,
+				[
+					[
+						"LinearSpin",
+						"0.2",
+						"360"
+					]
+				]
+			],
+			[
+				115511.71875,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				115781.25,
+				[
+					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				115785.15625,
 				[
 					[
 						"ababa",
-						"0.6",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				115789.0625,
+				[
+					[
+						"LinearSpin",
+						"0.2",
+						"360"
+					]
+				]
+			],
+			[
+				115792.96875,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				116062.5,
+				[
+					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				116066.40625,
+				[
+					[
+						"ababa",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				116070.3125,
+				[
+					[
+						"LinearSpin",
+						"0.2",
+						"360"
+					]
+				]
+			],
+			[
+				116074.21875,
+				[
+					[
+						"Add Camera Zoom",
+						"",
 						""
 					]
 				]
@@ -2295,8 +1885,38 @@
 				116250,
 				[
 					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				116253.90625,
+				[
+					[
 						"ababa",
-						"0.5",
+						"1.3",
+						""
+					]
+				]
+			],
+			[
+				116257.8125,
+				[
+					[
+						"LinearSpin",
+						"0.2",
+						"360"
+					]
+				]
+			],
+			[
+				116261.71875,
+				[
+					[
+						"Add Camera Zoom",
+						"",
 						""
 					]
 				]
@@ -2306,7 +1926,7 @@
 				[
 					[
 						"ababa",
-						"0.6",
+						"1",
 						""
 					]
 				]
@@ -2372,16 +1992,6 @@
 				]
 			],
 			[
-				119632.8125,
-				[
-					[
-						"badapplelol",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
 				120000,
 				[
 					[
@@ -2398,16 +2008,6 @@
 						"Cinematics (With HUD)",
 						"0.2",
 						"0"
-					]
-				]
-			],
-			[
-				121128.90625,
-				[
-					[
-						"badapplelol",
-						"b",
-						"0.2"
 					]
 				]
 			],
@@ -2722,32 +2322,12 @@
 				]
 			],
 			[
-				144000,
-				[
-					[
-						"badapplelol",
-						"a",
-						"0.5"
-					]
-				]
-			],
-			[
 				144003.90625,
 				[
 					[
 						"Cinematics (With HUD)",
 						"0.5",
 						"90"
-					]
-				]
-			],
-			[
-				144007.8125,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
 					]
 				]
 			],
@@ -2762,132 +2342,12 @@
 				]
 			],
 			[
-				145500,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				147000,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				148500,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				150000,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				151500,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				153000,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				154500,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				156000,
+				162003.90625,
 				[
 					[
 						"Kaboom",
 						"0",
 						"0"
-					]
-				]
-			],
-			[
-				157500,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				159000,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				160500,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				162000,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"99999999"
-					]
-				]
-			],
-			[
-				163359.375,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"BF"
 					]
 				]
 			],
@@ -2902,172 +2362,12 @@
 				]
 			],
 			[
-				163531.25,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"BF"
-					]
-				]
-			],
-			[
-				163843.75,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"BF"
-					]
-				]
-			],
-			[
-				163968.75,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"BF"
-					]
-				]
-			],
-			[
-				164156.25,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"BF"
-					]
-				]
-			],
-			[
-				164250,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"999999"
-					]
-				]
-			],
-			[
-				164437.5,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"BF"
-					]
-				]
-			],
-			[
-				164625,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"BF"
-					]
-				]
-			],
-			[
-				165000,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"BF"
-					]
-				]
-			],
-			[
-				165093.75,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"999999"
-					]
-				]
-			],
-			[
-				165187.5,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"BF"
-					]
-				]
-			],
-			[
-				165468.75,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"BF"
-					]
-				]
-			],
-			[
-				165609.375,
-				[
-					[
-						"Play Animation",
-						"singRIGHT",
-						"BF"
-					]
-				]
-			],
-			[
-				165750,
-				[
-					[
-						"Play Animation",
-						"singDOWN",
-						"BF"
-					]
-				]
-			],
-			[
-				165984.375,
-				[
-					[
-						"Play Animation",
-						"singLEFT",
-						"BF"
-					]
-				]
-			],
-			[
-				166125,
-				[
-					[
-						"Add Camera Zoom",
-						"0",
-						"999999"
-					]
-				]
-			],
-			[
-				166218.75,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"BF"
-					]
-				]
-			],
-			[
 				166500,
 				[
 					[
-						"badapplelol",
-						"b",
-						"0.5"
+						"Add Camera Zoom",
+						"0",
+						"9999999"
 					]
 				]
 			],

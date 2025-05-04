@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tipsy.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tipsy_Bounce0000" x="100" y="100" width="692" height="540" frameX="0" frameY="-32" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0001" x="100" y="100" width="692" height="540" frameX="0" frameY="-32" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0002" x="892" y="100" width="622" height="548" frameX="-3" frameY="-21" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0003" x="892" y="100" width="622" height="548" frameX="-3" frameY="-21" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0004" x="1614" y="100" width="678" height="564" frameX="-7" frameY="-2" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0005" x="1614" y="100" width="678" height="564" frameX="-7" frameY="-2" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0006" x="2392" y="100" width="612" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0007" x="2392" y="100" width="612" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0008" x="3104" y="100" width="678" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0009" x="3104" y="100" width="678" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0010" x="2392" y="100" width="612" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0011" x="2392" y="100" width="612" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0012" x="100" y="765" width="626" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Bounce0013" x="100" y="765" width="626" height="565" frameX="-7" frameY="0" frameWidth="692" frameHeight="572"/>
+	<SubTexture name="Tipsy_Stab0000" x="826" y="765" width="477" height="531" frameX="-59" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0001" x="826" y="765" width="477" height="531" frameX="-59" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0002" x="1403" y="765" width="608" height="531"/>
+	<SubTexture name="Tipsy_Stab0003" x="1403" y="765" width="608" height="531"/>
+	<SubTexture name="Tipsy_Stab0004" x="826" y="765" width="477" height="531" frameX="-59" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0005" x="826" y="765" width="477" height="531" frameX="-59" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0006" x="2111" y="765" width="522" height="531" frameX="-34" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0007" x="2111" y="765" width="522" height="531" frameX="-34" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0008" x="2733" y="765" width="608" height="531"/>
+	<SubTexture name="Tipsy_Stab0009" x="2733" y="765" width="608" height="531"/>
+	<SubTexture name="Tipsy_Stab0010" x="826" y="765" width="477" height="531" frameX="-59" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0011" x="826" y="765" width="477" height="531" frameX="-59" frameY="0" frameWidth="608" frameHeight="531"/>
+	<SubTexture name="Tipsy_Stab0012" x="1403" y="765" width="608" height="531"/>
+	<SubTexture name="Tipsy_Stab0013" x="1403" y="765" width="608" height="531"/>
+</TextureAtlas>

@@ -1,35 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="jackvscir.png">
+<TextureAtlas imagePath="dayousei_gf.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Dayousei_Dance0000" x="51" y="51" width="573" height="592" frameX="0" frameY="0" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0001" x="675" y="51" width="573" height="592" frameX="0" frameY="0" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0002" x="1299" y="51" width="573" height="592" frameX="-2" frameY="0" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0003" x="1299" y="51" width="573" height="592" frameX="-2" frameY="0" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0004" x="1923" y="51" width="573" height="591" frameX="-4" frameY="-1" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0005" x="1923" y="51" width="573" height="591" frameX="-4" frameY="-1" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0006" x="2547" y="51" width="574" height="590" frameX="-7" frameY="-2" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0007" x="3172" y="51" width="573" height="589" frameX="-9" frameY="-3" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0008" x="3172" y="51" width="573" height="589" frameX="-9" frameY="-3" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0009" x="3172" y="51" width="573" height="589" frameX="-9" frameY="-3" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0010" x="51" y="694" width="574" height="589" frameX="-11" frameY="-3" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0011" x="51" y="694" width="574" height="589" frameX="-11" frameY="-3" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0012" x="51" y="694" width="574" height="589" frameX="-11" frameY="-3" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0013" x="676" y="694" width="574" height="588" frameX="-13" frameY="-4" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0014" x="676" y="694" width="574" height="588" frameX="-13" frameY="-4" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0015" x="1301" y="694" width="573" height="574" frameX="-19" frameY="-18" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0016" x="1925" y="694" width="573" height="574" frameX="-19" frameY="-18" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0017" x="2549" y="694" width="574" height="574" frameX="-16" frameY="-18" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0018" x="2549" y="694" width="574" height="574" frameX="-16" frameY="-18" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0019" x="3174" y="694" width="574" height="577" frameX="-15" frameY="-15" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0020" x="3174" y="694" width="574" height="577" frameX="-15" frameY="-15" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0021" x="51" y="1334" width="574" height="582" frameX="-14" frameY="-10" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0022" x="676" y="1334" width="574" height="585" frameX="-14" frameY="-7" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0023" x="676" y="1334" width="574" height="585" frameX="-14" frameY="-7" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0024" x="676" y="1334" width="574" height="585" frameX="-14" frameY="-7" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0025" x="1301" y="1334" width="574" height="586" frameX="-13" frameY="-6" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0026" x="1301" y="1334" width="574" height="586" frameX="-13" frameY="-6" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0027" x="1926" y="1334" width="574" height="591" frameX="-11" frameY="-1" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0028" x="1926" y="1334" width="574" height="591" frameX="-11" frameY="-1" frameWidth="592" frameHeight="592"/>
-	<SubTexture name="Dayousei_Dance0029" x="1926" y="1334" width="574" height="591" frameX="-11" frameY="-1" frameWidth="592" frameHeight="592"/>
+	<SubTexture name="Dayousei_Dance0000" x="100" y="100" width="606" height="866" frameX="-4" frameY="-1" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0001" x="100" y="100" width="606" height="866" frameX="-4" frameY="-1" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0002" x="806" y="100" width="602" height="870" frameX="-1" frameY="-2" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0003" x="806" y="100" width="602" height="870" frameX="-1" frameY="-2" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0004" x="1508" y="100" width="601" height="860" frameX="0" frameY="-4" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0005" x="1508" y="100" width="601" height="860" frameX="0" frameY="-4" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0006" x="2209" y="100" width="598" height="860" frameX="-2" frameY="0" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0007" x="2209" y="100" width="598" height="860" frameX="-2" frameY="0" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0008" x="2907" y="100" width="598" height="858" frameX="-2" frameY="-2" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0009" x="2907" y="100" width="598" height="858" frameX="-2" frameY="-2" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0010" x="100" y="1070" width="610" height="860" frameX="-2" frameY="-1" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0011" x="100" y="1070" width="610" height="860" frameX="-2" frameY="-1" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0012" x="810" y="1070" width="616" height="845" frameX="-2" frameY="-16" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0013" x="810" y="1070" width="616" height="845" frameX="-2" frameY="-16" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0014" x="1526" y="1070" width="613" height="848" frameX="0" frameY="-14" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0015" x="1526" y="1070" width="613" height="848" frameX="0" frameY="-14" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0016" x="2239" y="1070" width="598" height="858" frameX="-2" frameY="-2" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0017" x="2239" y="1070" width="598" height="858" frameX="-2" frameY="-2" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0018" x="2907" y="100" width="598" height="858" frameX="-2" frameY="-2" frameWidth="618" frameHeight="872"/>
+	<SubTexture name="Dayousei_Dance0019" x="2907" y="100" width="598" height="858" frameX="-2" frameY="-2" frameWidth="618" frameHeight="872"/>
 </TextureAtlas>

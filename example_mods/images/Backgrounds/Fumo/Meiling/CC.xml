@@ -1,35 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="fumobg.png">
+<TextureAtlas imagePath="CC.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Chen0000" x="15" y="15" width="149" height="191" frameX="0" frameY="-15" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0001" x="15" y="15" width="149" height="191" frameX="0" frameY="-15" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0002" x="180" y="15" width="147" height="197" frameX="-1" frameY="-9" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0003" x="180" y="15" width="147" height="197" frameX="-1" frameY="-9" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0004" x="343" y="15" width="147" height="202" frameX="-1" frameY="-4" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0005" x="343" y="15" width="147" height="202" frameX="-1" frameY="-4" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0006" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0007" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0008" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0009" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0010" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0011" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0012" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0013" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Chen0014" x="506" y="15" width="147" height="206" frameX="-1" frameY="0" frameWidth="149" frameHeight="206"/>
-	<SubTexture name="Cirno0000" x="669" y="15" width="150" height="216" frameX="0" frameY="-13" frameWidth="150" frameHeight="229"/>
-	<SubTexture name="Cirno0001" x="669" y="15" width="150" height="216" frameX="0" frameY="-13" frameWidth="150" frameHeight="229"/>
-	<SubTexture name="Cirno0002" x="835" y="15" width="150" height="221" frameX="0" frameY="-8" frameWidth="150" frameHeight="229"/>
-	<SubTexture name="Cirno0003" x="835" y="15" width="150" height="221" frameX="0" frameY="-8" frameWidth="150" frameHeight="229"/>
-	<SubTexture name="Cirno0004" x="15" y="252" width="150" height="226" frameX="0" frameY="-3" frameWidth="150" frameHeight="229"/>
-	<SubTexture name="Cirno0005" x="15" y="252" width="150" height="226" frameX="0" frameY="-3" frameWidth="150" frameHeight="229"/>
-	<SubTexture name="Cirno0006" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0007" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0008" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0009" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0010" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0011" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0012" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0013" x="181" y="252" width="150" height="229"/>
-	<SubTexture name="Cirno0014" x="181" y="252" width="150" height="229"/>
+	<SubTexture name="Chen_Bounce0000" x="100" y="100" width="529" height="531" frameX="0" frameY="-40" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0001" x="100" y="100" width="529" height="531" frameX="0" frameY="-40" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0002" x="729" y="100" width="523" height="545" frameX="-3" frameY="-26" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0003" x="729" y="100" width="523" height="545" frameX="-3" frameY="-26" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0004" x="1352" y="100" width="517" height="557" frameX="-6" frameY="-13" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0005" x="1352" y="100" width="517" height="557" frameX="-6" frameY="-13" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0006" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0007" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0008" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0009" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0010" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0011" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0012" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Chen_Bounce0013" x="1969" y="100" width="512" height="570" frameX="-8" frameY="0" frameWidth="529" frameHeight="571"/>
+	<SubTexture name="Cirno_Bounce0000" x="2581" y="100" width="535" height="518" frameX="0" frameY="-46" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0001" x="2581" y="100" width="535" height="518" frameX="0" frameY="-46" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0002" x="3216" y="100" width="527" height="534" frameX="-4" frameY="-29" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0003" x="3216" y="100" width="527" height="534" frameX="-4" frameY="-29" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0004" x="100" y="770" width="513" height="561" frameX="-11" frameY="-2" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0005" x="100" y="770" width="513" height="561" frameX="-11" frameY="-2" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0006" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0007" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0008" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0009" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0010" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0011" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0012" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
+	<SubTexture name="Cirno_Bounce0013" x="713" y="770" width="512" height="563" frameX="-11" frameY="0" frameWidth="535" frameHeight="564"/>
 </TextureAtlas>

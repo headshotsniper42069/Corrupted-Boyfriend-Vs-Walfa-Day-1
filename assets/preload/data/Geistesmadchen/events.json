@@ -1,0 +1,136 @@
+{
+	"song": {
+		"events": [
+			[
+				33854.1666666667,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				33958.3333333333,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				34166.6666666667,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				34270.8333333333,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				34479.1666666667,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				34687.5,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				34791.6666666667,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				141562.5,
+				[
+					[
+						"Change Character",
+						"GF",
+						"kkhtameilingworried"
+					]
+				]
+			],
+			[
+				146666.666666667,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				146875,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				147083.333333333,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				147291.666666667,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			],
+			[
+				147500,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"kkhtakoishangry"
+					]
+				]
+			]
+		]
+	}
+}

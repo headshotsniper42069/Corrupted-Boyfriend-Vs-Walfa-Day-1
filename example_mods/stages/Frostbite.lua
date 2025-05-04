@@ -7,54 +7,31 @@ function onCreate()
 	if getRandomBool(5) then
 		objects = "bg_objects_chance"
 	end
-	makeLuaSprite('Sky', 'Backgrounds/Frostbite/sky', -1400, -700);
-	addLuaSprite('Sky', false);
-  	setProperty('Sky.antialiasing', true)
-  	scaleObject('Sky', 1, 1);
-  	setScrollFactor('Sky', 0.8, 0.8);
 
-    makeLuaSprite('bg_snow', 'Backgrounds/Frostbite/bg_snow', -1500, -300);
-	addLuaSprite('bg_snow', false);
-  	setProperty('bg_snow.antialiasing', true)
-  	scaleObject('bg_snow', 1, 1);
-
-  	makeLuaSprite('bg_objects', 'Backgrounds/Frostbite/'..objects, -850, -200);
-	addLuaSprite('bg_objects', false);
-  	setProperty('bg_objects.antialiasing', true)
-  	scaleObject('bg_objects', 1, 1);
-  	setScrollFactor('bg_objects', 0.95, 0.95);
-
-	makeLuaSprite('BG', 'Backgrounds/Frostbite/ground', -1600, -200);
+	makeLuaSprite('BG', 'Backgrounds/Frostbite/brainfreeze_bg', -1600, -1300);
 	addLuaSprite('BG', false);
   	setProperty('BG.antialiasing', true)
   	scaleObject('BG', 1, 1);
 
 	makeAnimatedLuaSprite('Pyro', 'Backgrounds/Frostbite/pyro', 300, -750);
 	addAnimationByPrefix("Pyro", "bounce", "pyro", 24, false)
-	addLuaSprite('Pyro', true);
+	addLuaSprite('Pyro', false);
 	setProperty('Pyro.antialiasing', true)
 
-	makeAnimatedLuaSprite('Ripper', 'Backgrounds/Frostbite/ripper', -450, -80);
+	makeAnimatedLuaSprite('Ripper', 'Backgrounds/Frostbite/ripper', -650, -80);
 	addAnimationByPrefix("Ripper", "bounce", "ripper", 24, false)
-	addLuaSprite('Ripper', true);
+	addLuaSprite('Ripper', false);
 	setProperty('Ripper.antialiasing', true)
-	setObjectOrder('Ripper', getObjectOrder('Ripper') - 4)
 
-	makeAnimatedLuaSprite("diamondtester", "Backgrounds/Frostbite/Cirno Attacking", 300, 0, "sparrow")
+	makeAnimatedLuaSprite("diamondtester", "Backgrounds/Frostbite/Cirno Attacking", 500, 0, "sparrow")
 	addAnimationByPrefix("diamondtester", "bounce", "Crystal_Idle", 24, false)
 	addAnimationByPrefix("diamondtester", "shoot", "Crystal_Shoot", 64, false)
-	addLuaSprite("diamondtester", true)
+	addLuaSprite("diamondtester", false)
 
 	makeAnimatedLuaSprite("jackvscirno", "Backgrounds/Frostbite/jackvscir", 400, -1200, "sparrow")
 	addAnimationByPrefix("jackvscirno", "bonkers", "Ice", 64, false)
 	setProperty("jackvscirno.alpha", 0)
-	addLuaSprite("jackvscirno")
-
-  	makeLuaSprite('Snow', 'Backgrounds/Frostbite/snowmans', -1300, -50);
-	addLuaSprite('Snow', true);
-  	setProperty('Snow.antialiasing', true)
-  	scaleObject('Snow', 1, 1);
-  	setScrollFactor('Snow', 1.1, 1.1);
+	addLuaSprite("jackvscirno", true)
 
 	for particle=1,amountOfTwitterUsers do
 		makeLuaSprite('particle'..particle, "", getRandomInt(-1280, 1280), getRandomInt(-720, 720))
@@ -72,10 +49,14 @@ function onCreate()
 	cirnocrystaloffset = 0
 end
 
+function onCreatePost()
+	setObjectOrder('diamondtester', 4)
+end
+
 function onUpdate(elapsed)
 	elapsedTime = elapsedTime + elapsed
 	setProperty("Pyro.y", -750 + (math.sin(elapsedTime * 3) * 16))
-	setProperty("diamondtester.y", -100 + (math.sin(elapsedTime * 4.5) * 16) + cirnocrystaloffset)
+	setProperty("diamondtester.y", -150 + (math.sin(elapsedTime * 4.5) * 16) + cirnocrystaloffset)
 	for particle=1,amountOfTwitterUsers do
 		setProperty('particle'..particle..'.x', getProperty('particle'..particle..'.x') + (elapsed) * 1050)
 		setProperty('particle'..particle..'.y', getProperty('particle'..particle..'.y') + (elapsed) * 550)
@@ -90,7 +71,7 @@ end
 
 function shootJackInTheFace()
 	cirnocrystalidle = false
-	setProperty("diamondtester.x", -475)
+	setProperty("diamondtester.x", -275)
 	cirnocrystaloffset = 20
 	objectPlayAnimation("diamondtester", "shoot", true)
 	runTimer("cirnocrystal", 0.5)
@@ -166,7 +147,7 @@ function onBeatHit()
 		objectPlayAnimation("Ripper", "bounce", true)
 	end
 	if cirnocrystalidle then
-		setProperty("diamondtester.x", 300)
+		setProperty("diamondtester.x", 500)
 		cirnocrystaloffset = 0
 		objectPlayAnimation("diamondtester", "bounce", true)
 	end

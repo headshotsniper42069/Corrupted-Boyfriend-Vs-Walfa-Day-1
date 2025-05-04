@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ayapixel.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aya_Down0000" x="100" y="100" width="27" height="36" frameX="0" frameY="-2" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0001" x="100" y="100" width="27" height="36" frameX="0" frameY="-2" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0002" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0003" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0004" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0005" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0006" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0007" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0008" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0009" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0010" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0011" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0012" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Down0013" x="227" y="100" width="25" height="37" frameX="-1" frameY="0" frameWidth="27" frameHeight="38"/>
+	<SubTexture name="Aya_Idle0000" x="352" y="100" width="24" height="42" frameX="0" frameY="-1" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0001" x="352" y="100" width="24" height="42" frameX="0" frameY="-1" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0002" x="476" y="100" width="24" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0003" x="476" y="100" width="24" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0004" x="600" y="100" width="23" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0005" x="600" y="100" width="23" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0006" x="723" y="100" width="23" height="43" frameX="0" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0007" x="723" y="100" width="23" height="43" frameX="0" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0008" x="846" y="100" width="22" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0009" x="846" y="100" width="22" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0010" x="600" y="100" width="23" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0011" x="600" y="100" width="23" height="43" frameX="-1" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0012" x="723" y="100" width="23" height="43" frameX="0" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Idle0013" x="723" y="100" width="23" height="43" frameX="0" frameY="0" frameWidth="25" frameHeight="43"/>
+	<SubTexture name="Aya_Left0000" x="100" y="243" width="26" height="43" frameX="-2" frameY="-6" frameWidth="35" frameHeight="50"/>
+	<SubTexture name="Aya_Left0001" x="100" y="243" width="26" height="43" frameX="-2" frameY="-6" frameWidth="35" frameHeight="50"/>
+	<SubTexture name="Aya_Left0002" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0003" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0004" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0005" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0006" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0007" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0008" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0009" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0010" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0011" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0012" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Left0013" x="226" y="243" width="35" height="50"/>
+	<SubTexture name="Aya_Right0000" x="361" y="243" width="30" height="42"/>
+	<SubTexture name="Aya_Right0001" x="361" y="243" width="30" height="42"/>
+	<SubTexture name="Aya_Right0002" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0003" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0004" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0005" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0006" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0007" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0008" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0009" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0010" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0011" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0012" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Right0013" x="491" y="243" width="28" height="42" frameX="0" frameY="0" frameWidth="30" frameHeight="42"/>
+	<SubTexture name="Aya_Up0000" x="619" y="243" width="25" height="48" frameX="-1" frameY="0" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0001" x="619" y="243" width="25" height="48" frameX="-1" frameY="0" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0002" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0003" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0004" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0005" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0006" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0007" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0008" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0009" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0010" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0011" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0012" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+	<SubTexture name="Aya_Up0013" x="744" y="243" width="26" height="47" frameX="0" frameY="-1" frameWidth="26" frameHeight="48"/>
+</TextureAtlas>

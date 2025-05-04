@@ -3,7 +3,7 @@ package flixel.system;
 import flash.events.Event;
 import flash.events.IEventDispatcher;
 import flash.media.Sound;
-import flash.media.SoundChannel;
+import openfl.media.SoundChannel;
 import flash.media.SoundTransform;
 import flash.net.URLRequest;
 import flixel.FlxBasic;

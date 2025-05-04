@@ -8,6 +8,7 @@ function onEvent(eventName, value1, value2)
         duration = value2
         makeLuaSprite("epicstubborn", "Spell Cards/"..value1, 1280, 160)
         addLuaSprite("epicstubborn")
+        playSound("spellcard", 0.60, "spellcardsound")
         setObjectCamera("epicstubborn", "hud")
         doTweenX("moving 1", "epicstubborn", 705, 0.5, "cubeOut")
         scaleObject("epicstubborn", 0.6, 0.6);

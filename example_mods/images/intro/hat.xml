@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rotten.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Suika_10000" x="100" y="100" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_10001" x="100" y="100" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_10002" x="1266" y="100" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_10003" x="1266" y="100" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_10004" x="2432" y="100" width="1066" height="461"/>
+	<SubTexture name="Suika_10005" x="2432" y="100" width="1066" height="461"/>
+	<SubTexture name="Suika_10006" x="100" y="661" width="1066" height="461"/>
+	<SubTexture name="Suika_10007" x="100" y="661" width="1066" height="461"/>
+	<SubTexture name="Suika_10008" x="100" y="661" width="1066" height="461"/>
+	<SubTexture name="Suika_10009" x="100" y="661" width="1066" height="461"/>
+	<SubTexture name="Suika_20000" x="1266" y="661" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_20001" x="1266" y="661" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_20002" x="2432" y="661" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_20003" x="2432" y="661" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_20004" x="100" y="1222" width="1066" height="461"/>
+	<SubTexture name="Suika_20005" x="100" y="1222" width="1066" height="461"/>
+	<SubTexture name="Suika_20006" x="1266" y="1222" width="1066" height="461"/>
+	<SubTexture name="Suika_20007" x="1266" y="1222" width="1066" height="461"/>
+	<SubTexture name="Suika_20008" x="1266" y="1222" width="1066" height="461"/>
+	<SubTexture name="Suika_20009" x="1266" y="1222" width="1066" height="461"/>
+	<SubTexture name="Suika_30000" x="2432" y="1222" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_30001" x="2432" y="1222" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_30002" x="100" y="1783" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_30003" x="100" y="1783" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_30004" x="1266" y="1783" width="1066" height="461"/>
+	<SubTexture name="Suika_30005" x="1266" y="1783" width="1066" height="461"/>
+	<SubTexture name="Suika_30006" x="2432" y="1783" width="1066" height="461"/>
+	<SubTexture name="Suika_30007" x="2432" y="1783" width="1066" height="461"/>
+	<SubTexture name="Suika_30008" x="2432" y="1783" width="1066" height="461"/>
+	<SubTexture name="Suika_30009" x="2432" y="1783" width="1066" height="461"/>
+	<SubTexture name="Suika_Go0000" x="100" y="2344" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_Go0001" x="100" y="2344" width="1066" height="448" frameX="0" frameY="-13" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_Go0002" x="1266" y="2344" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_Go0003" x="1266" y="2344" width="1066" height="454" frameX="0" frameY="-7" frameWidth="1066" frameHeight="461"/>
+	<SubTexture name="Suika_Go0004" x="2432" y="2344" width="1066" height="461"/>
+	<SubTexture name="Suika_Go0005" x="2432" y="2344" width="1066" height="461"/>
+	<SubTexture name="Suika_Go0006" x="100" y="2905" width="1066" height="461"/>
+	<SubTexture name="Suika_Go0007" x="100" y="2905" width="1066" height="461"/>
+	<SubTexture name="Suika_Go0008" x="100" y="2905" width="1066" height="461"/>
+	<SubTexture name="Suika_Go0009" x="100" y="2905" width="1066" height="461"/>
+</TextureAtlas>

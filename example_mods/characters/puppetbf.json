@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-27,
+				34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF_Left0"
+		},
+		{
+			"offsets": [
+				-36,
+				28
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF_Down0"
+		},
+		{
+			"offsets": [
+				-60,
+				62
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF_Up0"
+		},
+		{
+			"offsets": [
+				-69,
+				34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF_Right0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				40
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "BF_Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/bf_puppet",
+	"position": [
+		150,
+		595
+	],
+	"healthicon": "puppetbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		255,
+		255
+	],
+	"camera_position": [
+		275,
+		-250
+	],
+	"sing_duration": 4,
+	"scale": 5.99999999999999
+}

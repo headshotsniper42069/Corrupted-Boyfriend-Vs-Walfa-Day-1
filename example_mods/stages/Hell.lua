@@ -9,7 +9,7 @@ function onCreate()
   	setProperty('shadow.antialiasing', true)
   	scaleObject('shadow', 1.8, 1.8);
 
-  	makeAnimatedLuaSprite('Smol','Backgrounds/Fumo/Okuu/FG_Fumo',-270, 1200)
+  	makeAnimatedLuaSprite('Smol','Backgrounds/Fumo/Okuu/FG_Fumo',-70, 1200)
   	addAnimationByPrefix('Smol','idle','Shikie_Bounce',24, false)
   	addLuaSprite('Smol', true);
    scaleObject('Smol', 1.5, 1.5);
@@ -19,7 +19,7 @@ function onCreate()
   	addLuaSprite('Mommy', true);
    scaleObject('Mommy', 1.7, 1.7);
 
-   makeAnimatedLuaSprite('Buddhist','Backgrounds/Fumo/Okuu/FG_Fumo',-1300, 1100)
+   makeAnimatedLuaSprite('Buddhist','Backgrounds/Fumo/Okuu/FG_Fumo',-1600, 900)
   	addAnimationByPrefix('Buddhist','idle','Miko_Bounce',24, false)
   	addLuaSprite('Buddhist', true);
    scaleObject('Buddhist', 1.5, 1.5);
@@ -33,17 +33,17 @@ function onCreate()
    makeAnimatedLuaSprite('Bnuy','Backgrounds/Fumo/Okuu/TE',550, 655)
   	addAnimationByPrefix('Bnuy','idle','Tewi_Bounce',24, false)
   	addLuaSprite('Bnuy', false);
-    scaleObject('Bnuy', 1.3, 1.3);
+    scaleObject('Bnuy', 0.5, 0.5);
 
     makeAnimatedLuaSprite('Medical','Backgrounds/Fumo/Okuu/TE',-950, 835)
   	addAnimationByPrefix('Medical','idle','Eirin_Bounce',24, false)
   	addLuaSprite('Medical', false);
-    scaleObject('Medical', 1.3, 1.3);
+    scaleObject('Medical', 0.5, 0.5);
 
-      makeAnimatedLuaSprite('Tomboy','Backgrounds/Fumo/Okuu/Y',950, 805)
-  	addAnimationByPrefix('Tomboy','idle','Yachie_Bounce',24, false)
-  	addLuaSprite('Tomboy', false);
-    scaleObject('Tomboy', 1.3, 1.3);
+      makeAnimatedLuaSprite('ZUN','Backgrounds/Fumo/Okuu/Y',950, 805)
+  	addAnimationByPrefix('ZUN','idle','Zun_Bounce',24, false)
+  	addLuaSprite('ZUN', false);
+    scaleObject('ZUN', 0.6, 0.6);
 
 
   end
@@ -55,7 +55,7 @@ function onCreate()
 	    objectPlayAnimation('Smol','idle',true)
 	    objectPlayAnimation('Bnuy','idle',true)
 	    objectPlayAnimation('Mommy','idle',true)
-	    objectPlayAnimation('Tomboy','idle',true)
+	    objectPlayAnimation('ZUN','idle',true)
 	    objectPlayAnimation('DJ Role','idle',true)
 
 

@@ -31,7 +31,7 @@ function onCreate()
 
   	makeAnimatedLuaSprite('Border','Backgrounds/SC/Border',500, -150)
   	addAnimationByPrefix('Border','idle','Border',24, true)
-  	addLuaSprite('Border', true);
+  	addLuaSprite('Border', false);
    scaleObject('Border', 1.4, 1.6);
 	epicOffset = 1100
 	doingEpicEffects = false

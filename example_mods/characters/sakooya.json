@@ -3,113 +3,68 @@
 		{
 			"loop": false,
 			"offsets": [
-				20,
-				-40
+				40,
+				-20
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "Sakuya_Idle0",
+			"name": "Sakooya_Idle0",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				-82
+				12,
+				-50
 			],
 			"anim": "idle-alt",
 			"fps": 24,
-			"name": "Sakuya_Idle_Alt",
+			"name": "Sakooya_Idle_Alt",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-170,
-				80
+				71,
+				101
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "Sakuya_Up",
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11
-			]
+			"name": "Sakooya_Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				51,
-				-52
+				113,
+				-31
 			],
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10
-			],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Sakuya_Left"
+			"fps": 24,
+			"name": "Sakooya_Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-132,
-				-362
+				-56,
+				-202
 			],
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10
-			],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Sakuya_Down"
+			"fps": 24,
+			"name": "Sakooya_Down",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-110,
-				-80
-			],
-			"indices": [
-				0,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10
-			],
-			"fps": 24,
-			"anim": "singRIGHT",
 			"loop": false,
-			"name": "Sakuya_Right"
+			"offsets": [
+				-100,
+				-100
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sakooya_Right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -126,8 +81,8 @@
 		238
 	],
 	"camera_position": [
-		360,
-		300
+		200,
+		150
 	],
 	"sing_duration": 6.1,
 	"scale": 1

@@ -1,15 +1,32 @@
 Touhou EOCS Dev Team
-MeteorA::meteor::Director, Main Artist, Chromatic Maker::https://www.youtube.com/channel/UC7QsbFVG7SXhb9wlxNq-qDA::0xFF706758
-Mopsikus::mopsikus::Charter::https://gamebanana.com/members/2130496::0xFF909090
-resurrection::resurrect::Charter::https://www.youtube.com/channel/UCoNdwpvvHEwVTo-51IQuHSg::0xFF737373
-Sta_r::Sta_r::Charter::https://www.youtube.com/channel/UCDpeX70CMx4izpNDdA5HwTA::0xFFBB3CE1
-Lewtaro::Lewtaro::Charter::https://www.youtube.com/channel/UCMlOwXTumMvA94UjHaXZgkg::0xFF576CE5
-Colin::colin::Charter::https://www.youtube.com/channel/UCNjO4zFE_VKtAcKyHU-CYKw::0xFF0099FF
+Metall A::metall::Director, Main Artist, Chromatic Maker::https://www.youtube.com/channel/UC7QsbFVG7SXhb9wlxNq-qDA::0xFF706758
+ClaySpark84B::ari::Main Artist::https://x.com/arianne20131::0xFF9170C0
 Mikoto45::Mikoto45::Artist::https://twitter.com/yunozaki45::0xFFA86E68
-headshotsniper::headshot::Main Programmer::https://www.youtube.com/channel/UCa2e_jkbIjx_-_qX7iAWkfw::0xFF007417
+Fukint0_::Fukint0_::Artist and Musician::https://x.com/Fukint0_::0xFF272727
+Niko::niko::Artist::https://twitter.com/scoundrel_niko::0xFFB6FFC8
+Minuil::Minuil::Artist::https://x.com/balbin_brian::0xFF336600
+Tricoelacanth::trico::Pixel Artist::https://www.youtube.com/channel/UC7iey7m7J8v01koEJfjCbow::0xFF28ACE0
+Flyingfeltboot::flyingfeltboot::Artist::::0xFF7B1E25
+Mopsikus::mopsikus::Charter::https://gamebanana.com/members/2130496::0xFF909090
+Resurrection::resurrect::Charter::https://www.youtube.com/channel/UCoNdwpvvHEwVTo-51IQuHSg::0xFF737373
+Sta_r::Sta_r::Charter::https://www.youtube.com/channel/UCDpeX70CMx4izpNDdA5HwTA::0xFFBB3CE1
+Zeperox::zeperox::Charter::https://github.com/Zeperox::0xFFB97734
+Rembulous::rembulous::Charter::https://www.youtube.com/channel/UCqf5Okxr3dTFmjbknU2A32g::0xFFFFFFFF
+Lewtaro::Lewtaro::Charter::https://www.youtube.com/channel/UCMlOwXTumMvA94UjHaXZgkg::0xFF576CE5
+Cryfur::Cryfur::Charter::https://x.com/CryfurV::0xFF9D91F3
+Colin::colin::Charter::https://www.youtube.com/channel/UCNjO4zFE_VKtAcKyHU-CYKw::0xFF0099FF
+Headshotsniper::headshot::Main Programmer and Musician::https://www.youtube.com/channel/UCa2e_jkbIjx_-_qX7iAWkfw::0xFFCC0022
 G-Corp Mania::gcorp::Musician::https://www.youtube.com/@gcorpmania::0xFF6A8EAF
+argonaut::argonaut::Musician::https://www.youtube.com/@LilArgonaut::0xFFFFFFFF
+Hordy17::hordy17::Musician::https://www.youtube.com/@hordy17::0xFF008E00
+mortisaki#ave::mortisaki#ave::Playtester::::0xFFFAF7F9
 Memi::memi::Musician and Artist::https://www.youtube.com/channel/UC60sqCv75CZLnqTmHX3nNYA::0xFFFFFFFF
+Hiperactive::hiperactive::Musician::https://x.com/nothipe::0xFF75C79A
 NilVO::nilvo::Musician::https://www.youtube.com/channel/UChpHlk8UgLX3qlyq3528anQ::0xFFF9C902
 Scoundrel::scoundrel::Musician::https://twitter.com/scoundrel_niko::0xFF1336AD
-Niko::niko::Artist::https://twitter.com/scoundrel_niko::0xFFB6FFC8
 DTSV::DTSV::Owner of Shamei.bbm and Voice Actor::https://www.youtube.com/channel/UCe_Yf0yJSac6NHEAXyQp_-g::0xFFFF2E2E
+
+
+Outdrunk Models
+Reimu::pending::3D Model for Outdrunk::https://bowlroll.net/file/292072::0xFFFF2E2E
+Suika::pending::3D Model for Outdrunk::https://3d.nicovideo.jp/works/td31564::0xFFB97734

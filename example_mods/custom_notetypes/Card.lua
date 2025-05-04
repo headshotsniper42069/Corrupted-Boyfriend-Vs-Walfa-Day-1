@@ -9,7 +9,6 @@ end
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == 'Card' then
 		playSound('Card', 0.7);
-		setObjectOrder('boyfriendGroup', 10)
 		playAnim('boyfriend', 'dodge', true)
 		setProperty('boyfriend.specialAnim', true)
 		playAnim('dad', 'card', true)
@@ -26,7 +25,6 @@ end
 function noteMiss(id, noteData, noteType, isSustainNote)
 	if noteType == 'Card' then
 		playSound('Card', 0.7);
-		setObjectOrder('boyfriendGroup', 2)
 		playAnim('boyfriend', 'hurt', true)
 		setProperty('boyfriend.specialAnim', true)
 		playAnim('dad', 'card', true)

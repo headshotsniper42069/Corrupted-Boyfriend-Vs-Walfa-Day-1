@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				290,
+				340
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "idle",
+			"indices": [],
+			"name": "Rumia_Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				308,
+				340
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Rumia_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				309,
+				367
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Rumia_Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				327,
+				348
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Rumia_Left"
+		},
+		{
+			"offsets": [
+				303,
+				372
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Rumia_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/rumiaexnice",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "rumianice",
+	"flip_x": true,
+	"healthbar_colors": [
+		248,
+		224,
+		166
+	],
+	"camera_position": [
+		250,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

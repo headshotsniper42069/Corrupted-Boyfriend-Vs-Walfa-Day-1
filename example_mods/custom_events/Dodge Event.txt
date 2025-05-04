@@ -1,0 +1,6 @@
+Makes a warning telling you to press space
+Is active for half a beat no matter where you place it
+
+(also makes you lose 40% health if you miss)
+
+Made for Stubborness

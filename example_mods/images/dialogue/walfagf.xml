@@ -1,26 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="walfa.png">
+<TextureAtlas imagePath="Unbenannt-1.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="GF_Angry0000" x="50" y="50" width="341" height="450" frameX="0" frameY="0" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Angry0001" x="50" y="50" width="341" height="450" frameX="0" frameY="0" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Angry0002" x="441" y="50" width="342" height="449" frameX="-2" frameY="-1" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Angry0003" x="441" y="50" width="342" height="449" frameX="-2" frameY="-1" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Angry0004" x="833" y="50" width="343" height="446" frameX="-3" frameY="-4" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Angry0005" x="833" y="50" width="343" height="446" frameX="-3" frameY="-4" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Angry_Done0000" x="1226" y="50" width="338" height="450"/>
-	<SubTexture name="GF_Normal0000" x="1614" y="50" width="341" height="450" frameX="0" frameY="0" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Normal0001" x="1614" y="50" width="341" height="450" frameX="0" frameY="0" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Normal0002" x="50" y="550" width="342" height="449" frameX="-2" frameY="-1" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Normal0003" x="50" y="550" width="342" height="449" frameX="-2" frameY="-1" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Normal0004" x="442" y="550" width="343" height="446" frameX="-3" frameY="-4" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Normal0005" x="442" y="550" width="343" height="446" frameX="-3" frameY="-4" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Normal_Done0000" x="835" y="550" width="343" height="446"/>
-	<SubTexture name="GF_Worried0000" x="1228" y="550" width="341" height="450" frameX="0" frameY="0" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Worried0001" x="1228" y="550" width="341" height="450" frameX="0" frameY="0" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Worried0002" x="1619" y="550" width="342" height="449" frameX="-2" frameY="-1" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Worried0003" x="1619" y="550" width="342" height="449" frameX="-2" frameY="-1" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Worried0004" x="50" y="1050" width="343" height="446" frameX="-3" frameY="-4" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Worried0005" x="50" y="1050" width="343" height="446" frameX="-3" frameY="-4" frameWidth="346" frameHeight="450"/>
-	<SubTexture name="GF_Worried_Done0000" x="443" y="1050" width="343" height="446"/>
+	<SubTexture name="GF_Angry0000" x="100" y="100" width="383" height="467"/>
+	<SubTexture name="GF_Angry0001" x="100" y="100" width="383" height="467"/>
+	<SubTexture name="GF_Angry0002" x="583" y="100" width="379" height="464" frameX="-1" frameY="-3" frameWidth="383" frameHeight="467"/>
+	<SubTexture name="GF_Angry0003" x="583" y="100" width="379" height="464" frameX="-1" frameY="-3" frameWidth="383" frameHeight="467"/>
+	<SubTexture name="GF_Angry_Done0000" x="1062" y="100" width="379" height="464"/>
+	<SubTexture name="GF_Angry_Done0001" x="1062" y="100" width="379" height="464"/>
+	<SubTexture name="GF_Normal0000" x="1541" y="100" width="383" height="467"/>
+	<SubTexture name="GF_Normal0001" x="1541" y="100" width="383" height="467"/>
+	<SubTexture name="GF_Normal0002" x="100" y="667" width="379" height="464" frameX="-1" frameY="-3" frameWidth="383" frameHeight="467"/>
+	<SubTexture name="GF_Normal0003" x="100" y="667" width="379" height="464" frameX="-1" frameY="-3" frameWidth="383" frameHeight="467"/>
+	<SubTexture name="GF_Normal_Done0000" x="579" y="667" width="379" height="464"/>
+	<SubTexture name="GF_Normal_Done0001" x="579" y="667" width="379" height="464"/>
+	<SubTexture name="GF_Worried0000" x="1058" y="667" width="383" height="467"/>
+	<SubTexture name="GF_Worried0001" x="1058" y="667" width="383" height="467"/>
+	<SubTexture name="GF_Worried0002" x="1541" y="667" width="379" height="464" frameX="-1" frameY="-3" frameWidth="383" frameHeight="467"/>
+	<SubTexture name="GF_Worried0003" x="1541" y="667" width="379" height="464" frameX="-1" frameY="-3" frameWidth="383" frameHeight="467"/>
+	<SubTexture name="GF_Worried_Done0000" x="100" y="1234" width="379" height="464"/>
+	<SubTexture name="GF_Worried_Done0001" x="100" y="1234" width="379" height="464"/>
 </TextureAtlas>

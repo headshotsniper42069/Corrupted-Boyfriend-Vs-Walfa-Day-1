@@ -1,5 +1,6 @@
 package;
 
+import vlc.MP4Sprite;
 import WeekData.WeekFile;
 import openfl.display.BitmapData;
 import openfl.display.Bitmap;
@@ -356,6 +357,42 @@ class PlayState extends MusicBeatState
 	var notesContainsIceNotes:Bool = false;
 	var hitJack:Bool = false;
 
+	// Ayaya Camera
+
+	var cameraGroup:Array<ShameimaruCamera> = [];
+
+	var cameraFlash:FlxSprite;
+	var mousePlaceholderSprite:FlxSprite;
+	var ayayaCameras:Int = 0;
+
+	// Cutscene images
+
+	var cutscene:FlxSprite;
+	var whichCutscene:Int = 1;
+	var inWalfasPanels:Bool = false;
+	var cutsceneSound:FlxSound;
+
+	var cutsceneMusic:FlxSound;
+	var cutscenePitch:Float = 1;
+	var cutsceneSlowdown:Bool = false;
+
+	var pressEscape:FlxText;
+
+	// Cutscene images (KKHTA)
+
+	var cutscenes:Int = 0;
+
+	// Smiling Thief
+
+	var camCutscene:FlxCamera;
+	var backgroundCutscenes:Array<MP4Sprite> = [];
+
+	// Hatstack
+
+	var hats:Array<FlxSprite> = [];
+	var hatIndex:PlacementIndex;
+	var hatToAppear:Int = 0;
+
 	override public function create()
 	{
 		//trace('Playback Rate: ' + playbackRate);
@@ -422,12 +459,15 @@ class PlayState extends MusicBeatState
 
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
+		camCutscene = new FlxCamera();
 		camHUD = new FlxCamera();
 		camOther = new FlxCamera();
+		camCutscene.bgColor.alpha = 0;
 		camHUD.bgColor.alpha = 0;
 		camOther.bgColor.alpha = 0;
 
 		FlxG.cameras.reset(camGame);
+		FlxG.cameras.add(camCutscene, false);
 		FlxG.cameras.add(camHUD, false);
 		FlxG.cameras.add(camOther, false);
 		grpNoteSplashes = new FlxTypedGroup<NoteSplash>();
@@ -1054,7 +1094,7 @@ class PlayState extends MusicBeatState
 
 		Conductor.songPosition = -5000 / Conductor.songPosition;
 
-		strumLine = new FlxSprite((ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red') ? STRUM_X_MIDDLESCROLL : STRUM_X, 50).makeGraphic(FlxG.width, 10);
+		strumLine = new FlxSprite((ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red' || SONG.song.toLowerCase() == 'donation-frustration' || SONG.song.toLowerCase() == 'reawakening') ? STRUM_X_MIDDLESCROLL : STRUM_X, 50).makeGraphic(FlxG.width, 10);
 		if(ClientPrefs.downScroll) strumLine.y = FlxG.height - 150;
 		strumLine.scrollFactor.set();
 
@@ -1138,6 +1178,28 @@ class PlayState extends MusicBeatState
 			timeBarBG.sprTracker = timeBar;
 		}
 
+		if (SONG.song.toLowerCase() == "hatstack")
+		{
+			hatIndex = Json.parse(File.getContent(Paths.modsJson("hats")));
+			for (i in 0...10)
+			{
+				var hat:FlxSprite = new FlxSprite(Paths.image("hats/Hat" + (i + 1)));
+				hat.antialiasing = true;
+				hat.setGraphicSize(Std.int(hat.width * 0.9));
+				hat.updateHitbox();
+				hat.ID = i;
+				hat.cameras = [camGame];
+				hat.alpha = 0;
+				add(hat);
+				hats.push(hat);
+			}
+		
+			for (i in 0...hats.length)
+			{
+				hats[i].setPosition(hatIndex.index[0].positions[i][0][0], hatIndex.index[0].positions[i][0][1]);
+			}
+		}
+
 		strumLineNotes = new FlxTypedGroup<StrumNote>();
 		add(strumLineNotes);
 		add(grpNoteSplashes);
@@ -1217,7 +1279,7 @@ class PlayState extends MusicBeatState
 			trace("health bar skin doesnt exist");
 		}
 
-		if (SONG.song.toLowerCase() == 'smol')
+		if (SONG.song.toLowerCase() == 'smol' || SONG.song.toLowerCase() == 'grandprix')
 			flippedInterface = true;
 		healthLeftOutline = new FlxSprite(0, 0, Paths.image("health" + healthBarFolder + "/Bar_Outside"));
 		healthLeftOutline.scale.set(0.65, 0.65);
@@ -1302,6 +1364,29 @@ class PlayState extends MusicBeatState
 			botplayTxt.y = timeBarBG.y - 78;
 		}
 
+		if (SONG.song.toLowerCase() == 'smiling thief')
+		{
+			for (i in 1...4)
+			{
+				var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720, true, false);
+				backgroundCutscene.alpha = 0;
+				backgroundCutscene.playVideo(Paths.video("STCutscene" + i));
+				new FlxTimer().start(2, function(preload:FlxTimer){
+					backgroundCutscene.pause();
+				});
+			}
+		}
+
+		if (SONG.song.toLowerCase() == 'geistesmadchen')
+		{
+			var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720, true, false);
+			backgroundCutscene.alpha = 0;
+			backgroundCutscene.playVideo(Paths.video("end_song2"));
+			new FlxTimer().start(2, function(preload:FlxTimer){
+				backgroundCutscene.pause();
+			});
+		}
+
 		grpNoteSplashes.cameras = [camHUD];
 	//	healthBar.cameras = [camHUD];
 	//	healthBarBG.cameras = [camHUD];
@@ -1321,6 +1406,7 @@ class PlayState extends MusicBeatState
 		timeBarBG.cameras = [camHUD];
 		timeTxt.cameras = (SONG.song.toLowerCase() == 'mistr00s') ? [camOther] : [camHUD];
 		doof.cameras = [camHUD];
+
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1479,6 +1565,78 @@ class PlayState extends MusicBeatState
 				case 'ugh' | 'guns' | 'stress':
 					tankIntro();
 
+				case 'flashy-beats':					
+					inWalfasPanels = true;
+					if (!playedSong(SONG.song))
+					{
+						startCirnoGimmick(Paths.image("Cirno Stuff/" + SONG.song), function(){
+							startCountdown();
+						});
+						cirnoBackground.alpha = 0;
+						cirnoIsVisible = false;
+					}
+					else
+					{
+						cirnoBlankBackground = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, 0xFF000000);
+						cirnoBlankBackground.scrollFactor.set();
+						cirnoBlankBackground.clipRect = new FlxRect(0, 0, cirnoBlankBackground.width, cirnoBlankBackground.height);
+						cirnoBlankBackground.cameras = [camOther];
+				
+						add(cirnoBlankBackground);
+					}
+
+					cutscene = new FlxSprite(0, 0);
+					cutscene.frames = Paths.getSparrowAtlas("Cutscenes/Flashy Beats");
+					cutscene.animation.addByPrefix("Frame 1", "Frame1", 24, false);
+					cutscene.animation.addByPrefix("Frame 2", "Frame2", 24, false);
+					cutscene.animation.addByPrefix("Frame 3", "Frame3", 24, false);
+					cutscene.animation.addByPrefix("Frame 4", "Frame4", 24, false);
+					cutscene.animation.play("Frame 1", true);
+					cutscene.camera = camOther;
+					cutscene.setGraphicSize(1280);
+					cutscene.updateHitbox();
+					cutscene.screenCenter();
+					cutscene.antialiasing = !ClientPrefs.lowQuality;
+					cutscene.clipRect = new FlxRect(0, 0, FlxG.width, FlxG.height);
+					add(cutscene);
+
+					cutsceneMusic = FlxG.sound.load(Paths.music("breakfast", "shared"), 0.5, true);
+					cutsceneMusic.volume = 0;
+					cutsceneMusic.play();
+					cutsceneMusic.fadeIn(1, 0, 0.5);
+
+					canPause = false;
+
+				case "adventuring" | "geistesmadchen" | "mind-breaker":
+					inWalfasPanels = true;
+
+					cutscene = new FlxSprite(0, 0);
+					cutscene.loadGraphic(Paths.image("Cutscenes/" + daSong + "/drawing1"));
+					cutscene.setGraphicSize(1280);
+					cutscene.updateHitbox();
+					cutscene.screenCenter();
+					cutscene.antialiasing = !ClientPrefs.lowQuality;
+					cutscene.camera = camOther;
+					add(cutscene);
+
+					cutsceneMusic = FlxG.sound.load(Paths.music("KKHTAbackground", "shared"), 0.5, true);
+					cutsceneMusic.volume = 0;
+					cutsceneMusic.play();
+					cutsceneMusic.pause();
+					cutsceneMusic.time = GlobalFreeplayStuff.kooshThemePlayback;
+					cutsceneMusic.resume();
+					cutsceneMusic.fadeIn(1, 0, 0.5);
+
+					pressEscape = new FlxText(25, FlxG.height - 50, 0, "(Press ESC to skip this cutscene)", 16);
+					pressEscape.font = Paths.font("KKHTA.ttf");
+					pressEscape.camera = camOther;
+					add(pressEscape);
+
+					whichCutscene = 1;
+					cutscenes = FileSystem.readDirectory(Sys.getCwd() + "/mods/images/Cutscenes/" + daSong + "/").length;
+
+					canPause = false;
+
 				default:
 				//	startCountdown();
 					if (!alreadySeenClass)
@@ -1610,7 +1768,7 @@ class PlayState extends MusicBeatState
 		if (SONG.song.toLowerCase() == 'ayaya')
 		{
 			camHUD.alpha = 0;
-			canPause = false;
+		//	canPause = false;
 		}
 		
 	//	trace(SONG.song);
@@ -1625,7 +1783,7 @@ class PlayState extends MusicBeatState
 
 		if (SONG.song.toLowerCase() == 'ayaya')
 		{
-			initLuaShader("Ayaya Glitch Shader");
+			initLuaShader("Ayaya Glitch Shader");	
 			healthLeft.alpha = 0;
 			iconContainerLeft.alpha = 0;
 			healthLeftOutline.alpha = 0;
@@ -1641,6 +1799,14 @@ class PlayState extends MusicBeatState
 					Application.current.window.onClose.cancel();
 				}
 			});
+		}
+
+		if (SONG.song.toLowerCase() == 'reawakening')
+		{
+			healthLeft.alpha = 0;
+			iconContainerLeft.alpha = 0;
+			healthLeftOutline.alpha = 0;
+			iconP2.alpha = 0;
 		}
 
 		cacheCountdown();
@@ -2383,7 +2549,7 @@ class PlayState extends MusicBeatState
 				positions.push(opponentStrums.members[i].x);
 			}
 						
-			if (!ClientPrefs.middleScroll && SONG.song.toLowerCase() == 'smol')
+			if (!ClientPrefs.middleScroll && (SONG.song.toLowerCase() == 'smol' || SONG.song.toLowerCase() == 'grandprix'))
 			{
 				for (i in 0...playerStrums.length)
 				{
@@ -2767,7 +2933,7 @@ class PlayState extends MusicBeatState
 						{
 							sustainNote.x += FlxG.width / 2; // general offset
 						}
-						else if(ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red')
+						else if(ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red' || SONG.song.toLowerCase() == 'donation-frustration' || SONG.song.toLowerCase() == 'reawakening')
 						{
 							sustainNote.x += 310;
 							if(daNoteData > 1) //Up and Right
@@ -2782,7 +2948,7 @@ class PlayState extends MusicBeatState
 				{
 					swagNote.x += FlxG.width / 2; // general offset
 				}
-				else if(ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red')
+				else if(ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red' || SONG.song.toLowerCase() == 'donation-frustration' || SONG.song.toLowerCase() == 'reawakening')
 				{
 					swagNote.x += 310;
 					if(daNoteData > 1) //Up and Right
@@ -2897,6 +3063,18 @@ class PlayState extends MusicBeatState
 				phillyGlowParticles = new FlxTypedGroup<PhillyGlow.PhillyGlowParticle>();
 				phillyGlowParticles.visible = false;
 				insert(members.indexOf(phillyGlowGradient) + 1, phillyGlowParticles);
+
+			case 'Shameimaru Camera':
+				callOnLuas("initCameraShader", []);
+				cameraFlash = new FlxSprite().makeGraphic(FlxG.width, FlxG.height);
+				cameraFlash.cameras = [camOther];
+				cameraFlash.alpha = 0;
+				add(cameraFlash);
+
+				mousePlaceholderSprite = new FlxSprite().makeGraphic(1, 1);
+				mousePlaceholderSprite.cameras = [camOther];
+				mousePlaceholderSprite.alpha = 0.1;
+				add(mousePlaceholderSprite);
 		}
 
 		if(!eventPushedMap.exists(event.event)) {
@@ -2936,11 +3114,11 @@ class PlayState extends MusicBeatState
 			var targetAlpha:Float = 1;
 			if (player < 1)
 			{
-				if(!ClientPrefs.opponentStrums || SONG.song.toLowerCase() == 'calling in red') targetAlpha = 0;
+				if(!ClientPrefs.opponentStrums || SONG.song.toLowerCase() == 'calling in red' || SONG.song.toLowerCase() == 'donation-frustration' || SONG.song.toLowerCase() == 'reawakening') targetAlpha = 0;
 				else if(ClientPrefs.middleScroll) targetAlpha = 0.35;
 			}
 
-			var babyArrow:StrumNote = new StrumNote((ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red') ? STRUM_X_MIDDLESCROLL : STRUM_X, strumLine.y, i, player);
+			var babyArrow:StrumNote = new StrumNote((ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red' || SONG.song.toLowerCase() == 'donation-frustration' || SONG.song.toLowerCase() == 'reawakening') ? STRUM_X_MIDDLESCROLL : STRUM_X, strumLine.y, i, player);
 			babyArrow.downScroll = ClientPrefs.downScroll;
 			if (!isStoryMode && !skipArrowStartTween)
 			{
@@ -2959,7 +3137,7 @@ class PlayState extends MusicBeatState
 			}
 			else
 			{
-				if(ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red')
+				if(ClientPrefs.middleScroll || SONG.song.toLowerCase() == 'calling in red' || SONG.song.toLowerCase() == 'donation-frustration' || SONG.song.toLowerCase() == 'reawakening')
 				{
 					babyArrow.x += 310;
 					if(i > 1) { //Up and Right
@@ -3055,6 +3233,11 @@ class PlayState extends MusicBeatState
 				DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 			}
 			#end
+
+			for (vid in backgroundCutscenes)
+			{
+				vid.resume();
+			}
 		}
 
 		super.closeSubState();
@@ -3124,6 +3307,51 @@ class PlayState extends MusicBeatState
 		}*/
 		callOnLuas('onUpdate', [elapsed]);
 
+		if (mousePlaceholderSprite != null)
+		{
+			mousePlaceholderSprite.setPosition(FlxG.mouse.getScreenPosition(camOther).x, FlxG.mouse.getScreenPosition(camOther).y);
+		//	trace(FlxG.mouse.screenX + ", " + FlxG.mouse.screenY);
+		}
+		var camerasToCheck:Array<ShameimaruCamera> = [];
+
+		for (camera in cameraGroup)
+		{
+			if (FlxG.pixelPerfectOverlap(mousePlaceholderSprite, camera, 10, camOther) && FlxG.mouse.justPressed)
+			{
+				camerasToCheck.push(camera);
+			}
+		}
+
+		for (camera in camerasToCheck)
+		{
+			if (camera.arrayPosition == camerasToCheck[camerasToCheck.length - 1].arrayPosition)
+			{
+				camera.clicked = true;
+				FlxTween.cancelTweensOf(camera);
+			}
+		}
+
+
+		for (camera in cameraGroup)
+		{
+			if (camera.clicked)
+			{
+				camera.scale.x = FlxMath.lerp(camera.scale.x, 0, 0.15);
+				camera.scale.y = FlxMath.lerp(camera.scale.y, 0, 0.15);
+				camera.angle = FlxMath.lerp(camera.angle, 10, 0.075);
+				if (camera.scale.x <= 0.002)
+				{
+					cameraGroup.remove(camera);
+					camera.destroy();
+				}
+			}
+			else
+			{
+				camera.scale.x = FlxMath.lerp(camera.scale.x, camera.initialScale, 0.075);
+				camera.scale.y = FlxMath.lerp(camera.scale.y, camera.initialScale, 0.075);
+			}
+		}
+
 	//	Application.current.window.title = "Step: " + curStep + ", Beat: " + curBeat;
 
 		healthOpponent = 2 - health;
@@ -3144,10 +3372,132 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		if (FlxG.keys.anyJustPressed([SPACE, ENTER, ESCAPE]) && inCirnosGimmickClass)
+		if (cutsceneSlowdown)
 		{
-		//	remove(cirnoBackground);
-		//	remove(cirnoBlankBackground);
+			cutscenePitch -= 1.75 * elapsed;
+			if (cutscenePitch >= 0.05)
+				cutsceneMusic.pitch = cutscenePitch;
+			else
+			{
+				cutsceneMusic.stop();
+				cutsceneSlowdown = false;
+			}
+		}
+
+		if (inWalfasPanels)
+		{
+			if (controls.ACCEPT && SONG.song.toLowerCase() == 'flashy beats' && whichCutscene <= 4)
+			{
+				whichCutscene++;
+
+				cutscene.screenCenter(Y);
+
+				if (whichCutscene == 3)
+				{
+					cutsceneSlowdown = true;
+				}
+
+				if (whichCutscene >= 4)
+					cutscene.y -= 85;
+
+				if (Paths.sound("Cutscenes/" + SONG.song + "/" + whichCutscene) != null)
+				{
+					cutsceneSound = FlxG.sound.load(Paths.sound("Cutscenes/" + SONG.song + "/" + whichCutscene));
+					cutsceneSound.play();
+				}
+
+				if (whichCutscene == 5)
+				{
+					trace("Going to Cirno's Gimmick Class");
+					FlxTween.tween(cutscene.clipRect, {x: cutscene.width * -1.45}, 0.5, {ease:FlxEase.cubeOut, onComplete:function(bruh:FlxTween){
+						inWalfasPanels = false;
+						if (playedSong(SONG.song)) {
+							FlxTween.tween(cirnoBlankBackground.clipRect, {x: cirnoBlankBackground.width * -1.45}, 0.5, {ease:FlxEase.cubeOut, onComplete:function(bruh2:FlxTween){
+								cutscene.alpha = 0;
+								cirnoIsVisible = false;
+							}});
+							canPause = true;
+							startCountdown();
+						}
+						else {
+							cirnoBackground.alpha = 1;
+							FlxTween.tween(cirnoBackground.clipRect, {x: 0}, 0.5, {ease:FlxEase.cubeOut, onComplete:function(bruh2:FlxTween){
+								cutscene.alpha = 0;
+								inWalfasPanels = false;
+							}});
+							FlxTween.tween(cirnoBlankBackground.clipRect, {x: 0}, 0.5, {ease:FlxEase.cubeOut, onComplete:function(bruh2:FlxTween){
+								cirnoIsVisible = true;
+							}});
+						}
+					}});
+				}
+				else cutscene.animation.play('Frame $whichCutscene', true);
+			}
+			else if (controls.ACCEPT && SONG.song.toLowerCase() == 'incident solvers' && whichCutscene <= 4)
+			{
+				whichCutscene++;
+
+				cutscene.screenCenter(Y);
+
+				if (Paths.sound("Cutscenes/" + SONG.song + "/" + whichCutscene) != null)
+				{
+					cutsceneSound = FlxG.sound.load(Paths.sound("Cutscenes/" + SONG.song + "/" + whichCutscene));
+					cutsceneSound.play();
+				}
+
+				if (whichCutscene == 4)
+				{
+					trace("Going to Story Mode");
+					cutsceneMusic.fadeOut(0.5, 0);
+					FlxTween.tween(cutscene.clipRect, {x: cutscene.width * -1.45}, 0.5, {ease:FlxEase.cubeOut, onComplete:function(bruh:FlxTween){
+						inWalfasPanels = false;
+						getToStoryMenu();
+					}});
+				}
+				else cutscene.animation.play('Frame $whichCutscene', true);
+			}
+			else if (controls.ACCEPT && SONG.song.toLowerCase() != 'flashy beats')
+			{
+				if (whichCutscene < cutscenes)
+				{
+					whichCutscene++;
+					cutscene.loadGraphic(Paths.image("Cutscenes/" + Paths.formatToSongPath(curSong) + "/drawing" + whichCutscene));
+					cutscene.setGraphicSize(1280);
+					cutscene.updateHitbox();
+					cutscene.screenCenter();
+
+					trace(whichCutscene);
+					trace(cutscenes);
+				}
+				else
+				{
+					remove(pressEscape);
+					remove(cutscene);
+					inWalfasPanels = false;
+					canPause = true;
+					cutsceneSlowdown = true;
+					startCountdown();
+					GlobalFreeplayStuff.kooshThemePlayback = cutsceneMusic.time;
+				}
+			}
+
+			if (FlxG.keys.justPressed.ESCAPE && cutscenes != 0)
+			{
+				inWalfasPanels = false;
+				new FlxTimer().start(0.01, function(pause:FlxTimer){
+					remove(pressEscape);
+					remove(cutscene);
+					startCountdown();
+					cutsceneSlowdown = true;
+					GlobalFreeplayStuff.kooshThemePlayback = cutsceneMusic.time;
+				});
+			}
+		}
+
+	//	if (FlxG.keys.justPressed.L) endSong();
+
+		if (FlxG.keys.anyJustPressed([SPACE, ENTER, ESCAPE]) && inCirnosGimmickClass && !inWalfasPanels && cirnoIsVisible)
+		{
 			if (cirnoFinishCallback != null)
 				cirnoFinishCallback();
 			FlxTween.tween(cirnoBackground.clipRect, {x: cirnoBackground.width * -1.45}, 0.5, {ease:FlxEase.cubeOut, onComplete:function(bruh:FlxTween){
@@ -3165,8 +3515,11 @@ class PlayState extends MusicBeatState
 			trace("exited the room");
 		}
 		try {
-			cirnoBackground.clipRect = cirnoBackground.clipRect;
-			cirnoBlankBackground.clipRect = cirnoBlankBackground.clipRect;
+			if (cirnoBlankBackground != null)
+				cirnoBlankBackground.clipRect = cirnoBlankBackground.clipRect;
+			if (cirnoBackground != null)
+				cirnoBackground.clipRect = cirnoBackground.clipRect;
+			cutscene.clipRect = cutscene.clipRect;
 		}
 		catch (e)
 		{
@@ -3323,6 +3676,13 @@ class PlayState extends MusicBeatState
 
 		setOnLuas('curDecStep', curDecStep);
 		setOnLuas('curDecBeat', curDecBeat);
+
+		if (SONG.song.toLowerCase() == "hatstack")
+			for (hat in hats)
+			{
+				hat.setPosition(hatIndex.index[boyfriend.animationIndex].positions[hat.ID][boyfriend.animation.curAnim.curFrame][0] + boyfriend.x, hatIndex.index[boyfriend.animationIndex].positions[hat.ID][boyfriend.animation.curAnim.curFrame][1] + boyfriend.y);
+				hat.angle = hatIndex.index[boyfriend.animationIndex].positions[hat.ID][boyfriend.animation.curAnim.curFrame][2];
+			}
 
 		if(botplayTxt.visible) {
 			botplaySine += 180 * elapsed;
@@ -3671,6 +4031,10 @@ class PlayState extends MusicBeatState
 			FlxG.sound.music.pause();
 			vocals.pause();
 		}
+		for (vid in backgroundCutscenes)
+		{
+			vid.pause();
+		}
 		openSubState(new PauseSubState(boyfriend.getScreenPosition().x, boyfriend.getScreenPosition().y));
 		//}
 
@@ -3715,7 +4079,7 @@ class PlayState extends MusicBeatState
 					timer.active = true;
 				}
 				if (SONG.song.toLowerCase() != 'ayaya')
-					openSubState(new GameOverSubstate(boyfriend.getScreenPosition().x - boyfriend.positionArray[0], boyfriend.getScreenPosition().y - boyfriend.positionArray[1], camFollowPos.x, camFollowPos.y));
+					openSubState(new GameOverSubstate(boyfriend.getScreenPosition().x - boyfriend.positionArray[0], boyfriend.getScreenPosition().y - boyfriend.positionArray[1], camFollowPos.x, camFollowPos.y, SONG.song.toLowerCase() == 'smiling thief'));
 				else
 				{
 					Application.current.window.alert("GameOverSubstate.hx (line 53)
@@ -4166,6 +4530,36 @@ Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-
 				} else {
 					FunkinLua.setVarInArray(this, value1, value2);
 				}
+
+			case 'Shameimaru Camera':
+				ayayaCameras++;
+				var camera:ShameimaruCamera = new ShameimaruCamera(curStep + 16);
+				camera.camera = camOther;
+				camera.scale.set(0, 0);
+				camera.angle = 15;
+				camera.arrayPosition = ayayaCameras;
+				FlxTween.tween(camera, {angle: -5}, 0.5, {ease:FlxEase.cubeOut});
+				add(camera);
+				FlxG.mouse.visible = true;
+				cameraGroup.push(camera);
+
+			case 'Hat Stack Appear':
+				if (hatToAppear != 10 && SONG.song.toLowerCase() == 'hatstack')
+				{
+					hats[hatToAppear].alpha = 1;
+					switch (hatToAppear)
+					{
+						case 1:
+							hatToAppear = 3;
+						case 3:
+							hatToAppear = 2;
+						case 2:
+							hatToAppear = 4;
+						default:
+							hatToAppear++;
+					}
+				}
+
 		}
 		callOnLuas('onEvent', [eventName, value1, value2]);
 	}
@@ -4348,30 +4742,42 @@ Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-
 
 				if (storyPlaylist.length <= 0 || SONG.song.toLowerCase() == 'ayaya')
 				{
-					WeekData.loadTheFirstEnabledMod();
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
-					FlxG.sound.music.loopTime = 9410;
-					FlxG.sound.music.time = 9410;
+					if (SONG.song.toLowerCase() == 'incident solvers')
+					{
+						// Cutscene loading goes here
+						camGame.alpha = 0;
+						camHUD.alpha = 0;
 
-					cancelMusicFadeTween();
-					if(FlxTransitionableState.skipNextTransIn) {
-						CustomFadeTransition.nextCamera = null;
-					}
-					MusicBeatState.switchState(new StoryMenuState());
-					songNumber = 0;
-					// if ()
-					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
-						StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+						cutscene = new FlxSprite(0, 0);
+						cutscene.frames = Paths.getSparrowAtlas("Cutscenes/Incident Solvers");
+						cutscene.animation.addByPrefix("Frame 1", "Frame1", 24, false);
+						cutscene.animation.addByPrefix("Frame 2", "Frame2", 24, false);
+						cutscene.animation.addByPrefix("Frame 3", "Frame3", 24, false);
+						cutscene.animation.addByPrefix("Frame 4", "Frame4", 24, false);
+						cutscene.animation.play("Frame 1", true);
+						cutscene.camera = camOther;
+						cutscene.setGraphicSize(1280);
+						cutscene.updateHitbox();
+						cutscene.screenCenter();
+						cutscene.antialiasing = !ClientPrefs.lowQuality;
+						cutscene.clipRect = new FlxRect(0, 0, FlxG.width, FlxG.height);
+						add(cutscene);
 
-						if (SONG.validScore)
+						inWalfasPanels = true;
+
+						if (Paths.sound("Cutscenes/" + SONG.song + "/" + whichCutscene) != null)
 						{
-							Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
+							cutsceneSound = FlxG.sound.load(Paths.sound("Cutscenes/" + SONG.song + "/" + whichCutscene));
+							cutsceneSound.play();
 						}
-
-						FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
-						FlxG.save.flush();
+						camOther.alpha = 1;
+						cutsceneMusic = FlxG.sound.load(Paths.music("breakfast", "shared"), 0.5, true);
+						cutsceneMusic.volume = 0;
+						cutsceneMusic.play();
+						cutsceneMusic.fadeIn(1, 0, 0.5);
 					}
-					changedDifficulty = false;
+					else
+						getToStoryMenu();
 					if (FlxG.save.data.ayaya == 'Not Yet' && SONG.song.toLowerCase() != "ayaya")
 						ayayaIntensifies(songsToCheck);
 				}
@@ -5401,6 +5807,38 @@ Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-
 		}
 
 		lastStepHit = curStep;
+
+		for (camera in cameraGroup)
+		{
+			if (curStep >= camera.stepToTrigger && !camera.clicked)
+			{
+				FlxG.sound.play(Paths.sound("Lightning"));
+				callOnLuas("trigger", []);
+				cameraGroup.remove(camera);
+				camera.destroy();
+				FlxTween.cancelTweensOf(cameraFlash);
+				cameraFlash.alpha = 1;
+				FlxTween.tween(cameraFlash, {alpha: 0}, 0.35, {ease:FlxEase.cubeOut});
+				for (member in opponentStrums)
+				{
+					FlxTween.cancelTweensOf(member);
+					member.alpha = 0.1;
+					FlxTween.tween(member, {alpha: 1}, 5, {ease:FlxEase.sineInOut});
+				}
+				for (member in playerStrums)
+				{
+					FlxTween.cancelTweensOf(member);
+					member.alpha = 0.1;
+					FlxTween.tween(member, {alpha: 1}, 5, {ease:FlxEase.sineInOut});
+				}
+			}
+		}
+
+		if (SONG.song.toLowerCase() == 'mukyu' && curStep == 670)
+		{
+			remove(boyfriend);
+			add(boyfriend);
+		}
 		setOnLuas('curStep', curStep);
 		callOnLuas('onStepHit', []);
 	}
@@ -5569,6 +6007,91 @@ Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-
 					});
 					trace(ohno);
 				}
+			}
+		}
+
+		if (SONG.song.toLowerCase() == 'smiling thief')
+		{
+			switch (curBeat)
+			{
+				case 64: // Cutscene 1
+					var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720, true, false);
+					backgroundCutscene.readyCallback = function(){
+						backgroundCutscene.setGraphicSize(1280);
+						backgroundCutscene.updateHitbox();
+					};
+					backgroundCutscene.alpha = 1;
+					backgroundCutscene.playVideo(Paths.video("STCutscene1"));
+					backgroundCutscene.cameras = [camCutscene];
+					add(backgroundCutscene);
+
+					backgroundCutscenes.push(backgroundCutscene);
+					
+			//	case 200: // Cutscene 2 preload
+			//		var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720);
+			//		backgroundCutscene.alpha = 0;
+			//		backgroundCutscene.playVideo(Paths.video("STCutscene2"));
+			//		backgroundCutscene.cameras = [camCutscene];
+			//		add(backgroundCutscene);
+
+				case 288: // Cutscene 2
+					var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720, true, false);
+					backgroundCutscene.readyCallback = function(){
+						backgroundCutscene.setGraphicSize(1280);
+						backgroundCutscene.updateHitbox();
+					};
+					backgroundCutscene.alpha = 1;
+					backgroundCutscene.playVideo(Paths.video("STCutscene2"));
+					backgroundCutscene.cameras = [camCutscene];
+					add(backgroundCutscene);
+
+					backgroundCutscenes.push(backgroundCutscene);
+
+			//	case 400: // Cutscene 3 preload
+			//		var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720);
+			//		backgroundCutscene.alpha = 0;
+			//		backgroundCutscene.playVideo(Paths.video("STCutscene3"));
+			//		backgroundCutscene.cameras = [camCutscene];
+			//		add(backgroundCutscene);
+
+				case 485: // Cutscene 3
+					var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720, true, false);
+					backgroundCutscene.readyCallback = function(){
+						backgroundCutscene.setGraphicSize(1280);
+						backgroundCutscene.updateHitbox();
+					};
+					backgroundCutscene.alpha = 1;
+					backgroundCutscene.playVideo(Paths.video("STCutscene3"));
+					backgroundCutscene.cameras = [camCutscene];
+					add(backgroundCutscene);
+
+					backgroundCutscenes.push(backgroundCutscene);
+			}
+		}
+
+		if (SONG.song.toLowerCase() == 'geistesmadchen')
+		{
+			switch (curBeat)
+			{
+				case 412:
+					camGame.alpha = 0;
+					var backgroundCutscene = new MP4Sprite(0, 0, 1280, 720, true, false);
+					backgroundCutscene.readyCallback = function(){
+						backgroundCutscene.setGraphicSize(1280);
+						backgroundCutscene.updateHitbox();
+					};
+					backgroundCutscene.alpha = 1;
+					backgroundCutscene.playVideo(Paths.video("end_song2"));
+					backgroundCutscene.cameras = [camCutscene];
+					backgroundCutscene.antialiasing = true;
+					add(backgroundCutscene);
+
+					backgroundCutscenes.push(backgroundCutscene);
+
+				case 416:
+					camHUD.alpha = 0;
+				case 420:
+					vocals.volume = 1;
 			}
 		}
 
@@ -5876,7 +6399,7 @@ https://www.youtube.com/watch?v=iW3MAA5Q80U"); // shiver me timbers
 			FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2])]);
 		}
 	}
-	var cirnoActualImage:FlxSprite;
+	var cirnoActualImage:FlxSprite; // Unused variable LOL
 	var cirnoBlankBackground:FlxSprite;
 	var cirnoBackground:FlxSprite;
 	var cirnoFinishCallback:Void->Void;
@@ -5894,6 +6417,8 @@ https://www.youtube.com/watch?v=iW3MAA5Q80U"); // shiver me timbers
 		cirnoBackground.updateHitbox();
 		cirnoBackground.screenCenter();
 		cirnoBackground.antialiasing = !ClientPrefs.lowQuality;
+		if (inWalfasPanels)
+			cirnoBackground.clipRect.x = cirnoBackground.width * 1.45;
 
 		cirnoBlankBackground = new FlxSprite().makeGraphic(Std.int(cirnoBackground.width), Std.int(cirnoBackground.height * 1.5), 0xFF000000);
         cirnoBlankBackground.scrollFactor.set();
@@ -5907,4 +6432,43 @@ https://www.youtube.com/watch?v=iW3MAA5Q80U"); // shiver me timbers
 	}
 	var curLight:Int = -1;
 	var curLightEvent:Int = -1;
+
+	function getToStoryMenu() // A section of the mode made into a seperate function for convenience regarding the Incident Solvers thing.
+	{
+		WeekData.loadTheFirstEnabledMod();
+		if (SONG.song.toLowerCase() != "crimson-eclipse")
+		{
+			FlxG.sound.playMusic(Paths.music('freakyMenu'));
+			FlxG.sound.music.loopTime = 9410;
+			FlxG.sound.music.time = 9410;
+		}
+
+		cancelMusicFadeTween();
+		if(FlxTransitionableState.skipNextTransIn) {
+			CustomFadeTransition.nextCamera = null;
+		}
+		MusicBeatState.switchState((SONG.song.toLowerCase() == "crimson-eclipse") ? new FinalDialog() : new StoryMenuState());
+		songNumber = 0;
+		// if ()
+		if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
+			StoryMenuState.weekCompleted.set(WeekData.weeksList[storyWeek], true);
+
+			if (SONG.validScore)
+			{
+				Highscore.saveWeekScore(WeekData.getWeekFileName(), campaignScore, storyDifficulty);
+			}
+
+			FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
+			FlxG.save.flush();
+		}
+		changedDifficulty = false;
+	}
+}
+
+typedef PlacementIndex = {
+	var index:Array<Hats>; // index[animationIndex]
+}
+
+typedef Hats = {
+	var positions:Array<Array<Array<Int>>>; // positions[hat][frame][x], positions[hat][frame][y], positions[hat][frame][angle], 0, 1, 2
 }

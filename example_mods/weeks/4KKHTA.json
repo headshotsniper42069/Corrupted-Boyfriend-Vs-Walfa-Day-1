@@ -1,0 +1,88 @@
+{
+	"storyName": "Koishi Smile...",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBefore": "3Fumo",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"storyNameSettings": [
+		30,
+		30,
+		40
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Adventuring",
+			"KKHTAKoishi",
+			[
+				83,
+				114,
+				53
+			],
+			"",
+			0,
+			"KKHTA1",
+			[
+				150,
+				0,
+				0.4
+			],
+			"",
+			"This is based on Koishi Komeiji Hearthtrobbing Adventure,\na cursed animation series starring a psychologically damaged Koishi.",
+			"kkhta"
+		],
+		[
+			"Geistesmadchen",
+			"kkhtakoishi",
+			[
+				83,
+				114,
+				53
+			],
+			"",
+			[
+				-40,
+				-2
+			],
+			"KKHTA2",
+			[
+				150,
+				0,
+				0.4
+			],
+			"",
+			"This is based on Koishi Komeiji Hearthtrobbing Adventure,\na cursed animation series starring a psychologically damaged Koishi.",
+			"kkhta"
+		],
+		[
+			"Mind Breaker",
+			"KKHTAFlan",
+			[
+				255,
+				232,
+				45
+			],
+			"",
+			[
+				0,
+				0
+			],
+			"KKHTA3",
+			[
+				150,
+				0,
+				0.4
+			],
+			"",
+			"This is based on Koishi Komeiji Hearthtrobbing Adventure,\na cursed animation series starring a psychologically damaged Koishi.",
+			"kkhta"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "KKHTA"
+}

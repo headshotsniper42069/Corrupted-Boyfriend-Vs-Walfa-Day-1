@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				40
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "Elly_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				21,
+				34
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Elly_Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				28
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Elly_Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				58
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Elly_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-21,
+				28
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Elly_Right0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/elly",
+	"position": [
+		150,
+		575
+	],
+	"healthicon": "elly",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		150,
+		-250
+	],
+	"sing_duration": 4,
+	"scale": 5.99999999999999
+}

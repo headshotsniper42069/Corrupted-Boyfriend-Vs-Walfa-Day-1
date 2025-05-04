@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				50
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Kaguya_Idle"
+			"fps": 24,
+			"name": "Kaguya_Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-1,
+				59,
 				47
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Kaguya_Left"
+			"fps": 24,
+			"name": "Kaguya_Left",
+			"indices": []
 		},
 		{
-			"offsets": [
-				7,
-				14
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-3,
+				-26
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Kaguya_Down"
+			"fps": 24,
+			"name": "Kaguya_Down",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-5,
-				113
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				45,
+				104
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "Kaguya_Up"
+			"fps": 24,
+			"name": "Kaguya_Up",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-14,
-				52
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-213,
+				63
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Kaguya_Right"
+			"fps": 24,
+			"name": "Kaguya_Right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/kaguya",
 	"position": [
 		0,
-		30
+		-150
 	],
 	"healthicon": "kaguya",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		244
 	],
 	"camera_position": [
-		50,
-		0
+		200,
+		100
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 0.7
 }

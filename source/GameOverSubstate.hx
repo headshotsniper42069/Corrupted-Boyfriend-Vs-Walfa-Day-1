@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxSprite;
 import flixel.FlxG;
 import flixel.FlxObject;
 import flixel.FlxSubState;
@@ -27,6 +28,10 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	public static var instance:GameOverSubstate;
 
+	var smilingThief:Bool = false;
+	var marisa:FlxSprite;
+	var retry:FlxSprite;
+
 	public static function resetVariables() {
 		characterName = 'bf-dead';
 		deathSoundName = 'fnf_loss_sfx';
@@ -42,7 +47,7 @@ class GameOverSubstate extends MusicBeatSubstate
 		super.create();
 	}
 
-	public function new(x:Float, y:Float, camX:Float, camY:Float)
+	public function new(x:Float, y:Float, camX:Float, camY:Float, smilingThief:Bool = false)
 	{
 		super();
 
@@ -50,25 +55,61 @@ class GameOverSubstate extends MusicBeatSubstate
 
 		Conductor.songPosition = 0;
 
-		boyfriend = new Boyfriend(x, y, characterName);
-		boyfriend.x += boyfriend.positionArray[0];
-		boyfriend.y += boyfriend.positionArray[1];
-		add(boyfriend);
+		this.smilingThief = smilingThief;
 
-		camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
+		if (smilingThief)
+		{
+			marisa = new FlxSprite(0, 0);
+			marisa.frames = Paths.getSparrowAtlas("Smiling Thief/marisa_death", "shared");
+			marisa.animation.addByPrefix("Accept", "Accept", 24, true);
+			marisa.animation.addByPrefix("Loop", "Loop", 1, true);
+			marisa.animation.play("Loop");
+			add(marisa);
+
+			retry = new FlxSprite(1000, 100);
+			retry.frames = Paths.getSparrowAtlas("Smiling Thief/marisa_retry", "shared");
+			retry.animation.addByPrefix("Retry", "Retry", 7, true);
+			retry.alpha = 0;
+			retry.animation.play("Retry");
+			retry.setGraphicSize(Std.int(retry.width * 0.65));
+			retry.updateHitbox();
+			add(retry);
+
+			new FlxTimer().start(1.5, function(game:FlxTimer){
+				if (!isEnding)
+					coolStartDeath();
+			});
+
+			loopSoundName = "gameOverMarisa";
+			
+			FlxG.camera.zoom = 1;
+
+			FlxG.camera.scroll.set();
+			FlxG.camera.target = null;
+		}
+		else {
+			boyfriend = new Boyfriend(x, y, characterName);
+			boyfriend.x += boyfriend.positionArray[0];
+			boyfriend.y += boyfriend.positionArray[1];
+			add(boyfriend);
+	
+			camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
+
+			// FlxG.camera.followLerp = 1;
+			// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
+
+			boyfriend.playAnim('firstDeath');
+
+			FlxG.camera.scroll.set();
+			FlxG.camera.target = null;
+
+			camFollowPos = new FlxObject(0, 0, 1, 1);
+			camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
+			add(camFollowPos);
+		}
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
 		Conductor.changeBPM(100);
-		// FlxG.camera.followLerp = 1;
-		// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
-		FlxG.camera.scroll.set();
-		FlxG.camera.target = null;
-
-		boyfriend.playAnim('firstDeath');
-
-		camFollowPos = new FlxObject(0, 0, 1, 1);
-		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
-		add(camFollowPos);
 	}
 
 	var isFollowingAlready:Bool = false;
@@ -106,7 +147,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			PlayState.instance.callOnLuas('onGameOverConfirm', [false]);
 		}
 
-		if (boyfriend.animation.curAnim != null && boyfriend.animation.curAnim.name == 'firstDeath')
+		if (!smilingThief) if (boyfriend.animation.curAnim != null && boyfriend.animation.curAnim.name == 'firstDeath')
 		{
 			if(boyfriend.animation.curAnim.curFrame >= 12 && !isFollowingAlready)
 			{
@@ -158,7 +199,9 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	function coolStartDeath(?volume:Float = 1):Void
 	{
-		FlxG.sound.playMusic(Paths.music(loopSoundName), volume);
+		FlxG.sound.playMusic(Paths.music(loopSoundName, "shared"), volume);
+		if (smilingThief)
+			FlxTween.tween(retry, {alpha: 1}, 0.5, {ease:FlxEase.cubeOut});
 	}
 
 	function endBullshit():Void
@@ -166,7 +209,14 @@ class GameOverSubstate extends MusicBeatSubstate
 		if (!isEnding)
 		{
 			isEnding = true;
-			boyfriend.playAnim('deathConfirm', true);
+
+			if (smilingThief) {
+				FlxTween.cancelTweensOf(retry);
+				retry.alpha = 0;
+				marisa.animation.play('Accept', true);
+			}
+
+			else boyfriend.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
 			FlxG.sound.play(Paths.music(endSoundName));
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)

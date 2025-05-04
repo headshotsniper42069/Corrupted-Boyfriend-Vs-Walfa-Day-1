@@ -1,89 +1,89 @@
 {
-	"dialogue_pos": "left",
 	"position": [
 		0,
 		50
 	],
+	"dialogue_pos": "left",
 	"scale": 1.25,
+	"image": "walfamarisa",
 	"animations": [
 		{
-			"loop_name": "Marisa_Normal0",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
-				-3
+				0
 			],
-			"idle_name": "Marisa_Normal_Done",
 			"anim": "Normal",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "Marisa_Normal0",
+			"idle_name": "Marisa_Normal_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "Marisa_Happy0",
-			"idle_offsets": [
-				0,
-				-3
 			],
-			"idle_name": "Marisa_Happy_Done",
 			"anim": "Happy",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "Marisa_Happy0",
+			"idle_name": "Marisa_Happy_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "Marisa_Sad0",
-			"idle_offsets": [
-				0,
-				-3
 			],
-			"idle_name": "Marisa_Sad_Done",
 			"anim": "Sad",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "Marisa_Sad0",
+			"idle_name": "Marisa_Sad_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "Marisa_Thinking0",
-			"idle_offsets": [
-				0,
-				-3
 			],
-			"idle_name": "Marisa_Thinking_Done",
 			"anim": "Thinking",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "Marisa_Thinking0",
+			"idle_name": "Marisa_Thinking_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "Marisa_Mic0",
-			"idle_offsets": [
-				0,
-				-3
 			],
-			"idle_name": "Marisa_Mic_Done",
 			"anim": "Mic",
-			"loop_offsets": [
-				0,
-				0
-			]
-		},
-		{
-			"loop_name": "Marisa_Mic_Happy0",
 			"idle_offsets": [
 				0,
-				-3
+				-4
 			],
-			"idle_name": "Marisa_Mic_Happy_Done",
-			"anim": "Mic_Happy",
+			"loop_name": "Marisa_Mic0",
+			"idle_name": "Marisa_Mic_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
+			],
+			"anim": "Mic_Happy",
+			"idle_offsets": [
+				0,
+				-4
+			],
+			"loop_name": "Marisa_Mic_Happy0",
+			"idle_name": "Marisa_Mic_Happy_Done"
 		}
-	],
-	"image": "walfamarisa"
+	]
 }

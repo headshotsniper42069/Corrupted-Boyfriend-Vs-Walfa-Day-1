@@ -137,11 +137,10 @@
 				140,
 				21
 			],
-			"anim": "danceLeft",
+			"anim": "danceRight",
 			"fps": 24,
 			"name": "Dayousei_Dance",
 			"indices": [
-				30,
 				0,
 				1,
 				2,
@@ -152,11 +151,7 @@
 				7,
 				8,
 				9,
-				10,
-				11,
-				12,
-				13,
-				14
+				10
 			]
 		},
 		{
@@ -165,33 +160,28 @@
 				140,
 				21
 			],
-			"anim": "danceRight",
+			"anim": "danceLeft",
 			"fps": 24,
 			"name": "Dayousei_Dance",
 			"indices": [
+				11,
+				12,
+				13,
+				14,
 				15,
 				16,
 				17,
 				18,
 				19,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29
+				0
 			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/dayousei_gf",
 	"position": [
-		0,
-		0
+		130,
+		-100
 	],
 	"healthicon": "dayousei",
 	"flip_x": false,
@@ -205,5 +195,5 @@
 		100
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.8
 }

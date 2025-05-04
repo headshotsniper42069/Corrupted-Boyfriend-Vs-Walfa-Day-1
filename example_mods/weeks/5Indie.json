@@ -1,0 +1,88 @@
+{
+	"storyName": "Pixel Fun",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBefore": "4KKHTA",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"storyNameSettings": [
+		15,
+		15,
+		65
+	],
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Bnuuy Blast",
+			"reisen",
+			[
+				190,
+				28,
+				193
+			],
+			"",
+			0,
+			"BUNNY_BLASTER_2",
+			[
+				340,
+				40,
+				0.3
+			],
+			"",
+			"This is based on UDUNGEIN X",
+			"pixel"
+		],
+		[
+			"Kugutsunette",
+			"elly",
+			[
+				255,
+				0,
+				0
+			],
+			"",
+			[
+				-10,
+				0
+			],
+			"98",
+			[
+				290,
+				-60,
+				0.35
+			],
+			"",
+			"This is based on Puppet Dance Performance",
+			"pixel"
+		],
+		[
+			"Crimson Eclipse",
+			"crimsonsakuya",
+			[
+				255,
+				255,
+				255
+			],
+			"",
+			[
+				-40,
+				-4
+			],
+			"sakuya",
+			[
+				330,
+				-60,
+				0.35
+			],
+			"",
+			"This is based on Touhouvania",
+			"pixel"
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Indie"
+}

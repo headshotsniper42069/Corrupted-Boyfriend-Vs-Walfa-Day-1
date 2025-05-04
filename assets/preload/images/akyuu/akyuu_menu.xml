@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="akyuu_menu.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Akyuu_Idle0000" x="100" y="100" width="585" height="633" frameX="0" frameY="-1" frameWidth="585" frameHeight="634"/>
+	<SubTexture name="Akyuu_Idle0001" x="100" y="100" width="585" height="633" frameX="0" frameY="-1" frameWidth="585" frameHeight="634"/>
+	<SubTexture name="Akyuu_Idle0002" x="785" y="100" width="585" height="632" frameX="0" frameY="-2" frameWidth="585" frameHeight="634"/>
+	<SubTexture name="Akyuu_Idle0003" x="785" y="100" width="585" height="632" frameX="0" frameY="-2" frameWidth="585" frameHeight="634"/>
+	<SubTexture name="Akyuu_Idle0004" x="1470" y="100" width="585" height="633" frameX="0" frameY="-1" frameWidth="585" frameHeight="634"/>
+	<SubTexture name="Akyuu_Idle0005" x="1470" y="100" width="585" height="633" frameX="0" frameY="-1" frameWidth="585" frameHeight="634"/>
+	<SubTexture name="Akyuu_Idle0006" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Idle0007" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Idle0008" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Idle0009" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Idle0010" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Idle0011" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Idle0012" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Idle0013" x="2155" y="100" width="585" height="634"/>
+	<SubTexture name="Akyuu_Talk0000" x="2840" y="100" width="585" height="633"/>
+	<SubTexture name="Akyuu_Talk0001" x="100" y="834" width="585" height="633"/>
+	<SubTexture name="Akyuu_Talk0002" x="785" y="834" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0003" x="1470" y="834" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0004" x="2155" y="834" width="585" height="632" frameX="0" frameY="-1" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0005" x="2840" y="834" width="585" height="632" frameX="0" frameY="-1" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0006" x="100" y="1567" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0007" x="785" y="1567" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0008" x="1470" y="1567" width="585" height="632" frameX="0" frameY="-1" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0009" x="2155" y="1567" width="585" height="632" frameX="0" frameY="-1" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0010" x="2840" y="1567" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0011" x="100" y="2299" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0012" x="785" y="2299" width="585" height="632" frameX="0" frameY="-1" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0013" x="1470" y="2299" width="585" height="632" frameX="0" frameY="-1" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0014" x="2155" y="2299" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+	<SubTexture name="Akyuu_Talk0015" x="2840" y="2299" width="585" height="630" frameX="0" frameY="-3" frameWidth="585" frameHeight="633"/>
+</TextureAtlas>

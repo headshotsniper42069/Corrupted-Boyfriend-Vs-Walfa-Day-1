@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Soga_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				60,
+				-4
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Soga_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				-23
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Soga_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				-2
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Soga_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				-14
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Soga_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soga",
+	"position": [
+		100,
+		300
+	],
+	"healthicon": "soga",
+	"flip_x": false,
+	"healthbar_colors": [
+		226,
+		246,
+		185
+	],
+	"camera_position": [
+		50,
+		-250
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

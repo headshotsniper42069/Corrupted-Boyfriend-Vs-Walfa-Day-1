@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				45,
+				65
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Aya_Left"
+		},
+		{
+			"offsets": [
+				-32,
+				-65
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Aya_Down"
+		},
+		{
+			"offsets": [
+				58,
+				61
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Aya_Up"
+		},
+		{
+			"offsets": [
+				31,
+				-11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Aya_Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Aya_Idle"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/ayapixel",
+	"position": [
+		150,
+		450
+	],
+	"healthicon": "pixelaya",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		-50,
+		-200
+	],
+	"sing_duration": 6.1,
+	"scale": 10
+}

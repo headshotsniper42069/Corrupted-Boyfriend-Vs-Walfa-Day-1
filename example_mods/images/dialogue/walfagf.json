@@ -1,50 +1,50 @@
 {
-	"dialogue_pos": "center",
 	"position": [
 		-20,
 		30
 	],
+	"dialogue_pos": "center",
 	"scale": 1.25,
+	"image": "walfagf",
 	"animations": [
 		{
-			"loop_name": "GF_Normal0",
-			"idle_offsets": [
-				-3,
-				-3
+			"loop_offsets": [
+				0,
+				0
 			],
-			"idle_name": "GF_Normal_Done",
 			"anim": "Normal",
+			"idle_offsets": [
+				-1,
+				-2
+			],
+			"loop_name": "GF_Normal0",
+			"idle_name": "GF_Normal_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "GF_Worried0",
-			"idle_offsets": [
-				-3,
-				-3
 			],
-			"idle_name": "GF_Worried_Done",
 			"anim": "Worried",
-			"loop_offsets": [
-				0,
-				0
-			]
+			"idle_offsets": [
+				-1,
+				-2
+			],
+			"loop_name": "GF_Worried0",
+			"idle_name": "GF_Worried_Done"
 		},
 		{
-			"loop_name": "GF_Angry0",
-			"idle_offsets": [
-				-3,
-				0
-			],
-			"idle_name": "GF_Angry_Done",
-			"anim": "Angry",
 			"loop_offsets": [
 				0,
 				0
-			]
+			],
+			"anim": "Angry",
+			"idle_offsets": [
+				-1,
+				-2
+			],
+			"loop_name": "GF_Angry0",
+			"idle_name": "GF_Angry_Done"
 		}
-	],
-	"image": "walfagf"
+	]
 }

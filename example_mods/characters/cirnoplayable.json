@@ -1,131 +1,131 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
-				-48,
-				-199
+				-30,
+				-90
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Cirno_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				16
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Cirno_Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				16
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Cirno_Up_Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-64,
+				-76
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Cirno_Right0"
+			"name": "Cirno_Left0"
 		},
 		{
 			"offsets": [
-				-20,
-				-190
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Cirno_Idle"
-		},
-		{
-			"offsets": [
-				14,
-				-183
+				54,
+				-96
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "Cirno_Left0"
+			"name": "Cirno_Right0"
 		},
 		{
 			"offsets": [
-				14,
-				-183
+				56,
+				-94
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFTmiss",
 			"indices": [],
-			"name": "Cirno_Left_Miss"
+			"name": "Cirno_Right_Miss"
 		},
 		{
 			"offsets": [
-				-16,
-				-224
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Cirno_Down0"
-		},
-		{
-			"offsets": [
-				-16,
-				-211
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "Cirno_Down_Miss"
-		},
-		{
-			"offsets": [
-				-10,
-				-165
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Cirno_Up0"
-		},
-		{
-			"offsets": [
-				-10,
-				-174
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUPmiss",
-			"indices": [],
-			"name": "Cirno_Up_Miss"
-		},
-		{
-			"offsets": [
-				-44,
-				-199
+				-65,
+				-74
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHTmiss",
 			"indices": [],
-			"name": "Cirno_Right_Miss"
+			"name": "Cirno_Left_Miss"
 		},
 		{
 			"offsets": [
 				-20,
-				-190
+				-83
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "shot",
+			"indices": [],
+			"name": "Cirno_Hurt"
+		},
+		{
+			"offsets": [
+				3,
+				-142
+			],
 			"loop": false,
-			"name": "Cirno_Hit"
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Cirno_Down"
+		},
+		{
+			"offsets": [
+				4,
+				-139
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Cirno_Down_Miss"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/cirno_playable",
+	"image": "characters/cirno",
 	"position": [
 		0,
-		0
+		-40
 	],
 	"healthicon": "cirnoplayable",
-	"flip_x": true,
+	"flip_x": false,
 	"healthbar_colors": [
 		138,
 		240,
 		255
 	],
 	"camera_position": [
-		150,
+		100,
 		200
 	],
 	"sing_duration": 6.1,

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				402,
+				522
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Marisa_Left"
+		},
+		{
+			"offsets": [
+				-38,
+				674
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Marisa_Up"
+		},
+		{
+			"offsets": [
+				-118,
+				118
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Marisa_Down"
+		},
+		{
+			"offsets": [
+				-178,
+				272
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Marisa_Right"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-28,
+				192
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Marisa_Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/marisapov",
+	"position": [
+		-250,
+		0
+	],
+	"healthicon": "marisaangry",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		-250,
+		-320
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

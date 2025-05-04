@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Meiling_Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				12
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Meiling_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				-9
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Meiling_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				37
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Meiling_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				13
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Meiling_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/kkhtameilingworried",
+	"position": [
+		-160,
+		-780
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		170,
+		320
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

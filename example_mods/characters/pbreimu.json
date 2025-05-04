@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-223
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Reimu_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				77,
+				-214
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Reimu_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				32,
+				-254
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Reimu_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-21,
+				-196
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Reimu_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-24,
+				-206
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Reimu_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/pbreimu",
+	"position": [
+		0,
+		-150
+	],
+	"healthicon": "pb",
+	"flip_x": false,
+	"healthbar_colors": [
+		231,
+		50,
+		58
+	],
+	"camera_position": [
+		-300,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="scroll.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Scroll_Closed0000" x="100" y="100" width="406" height="105"/>
+	<SubTexture name="Scroll_Open0000" x="606" y="100" width="406" height="142" frameX="0" frameY="-195" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0001" x="1112" y="100" width="406" height="134" frameX="0" frameY="-199" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0002" x="100" y="342" width="406" height="128" frameX="0" frameY="-203" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0003" x="606" y="342" width="406" height="136" frameX="0" frameY="-199" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0004" x="1112" y="342" width="406" height="185" frameX="0" frameY="-173" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0005" x="100" y="627" width="406" height="330" frameX="0" frameY="-100" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0006" x="606" y="627" width="406" height="463" frameX="0" frameY="-36" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0007" x="1112" y="627" width="406" height="528" frameX="0" frameY="-2" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0008" x="100" y="1255" width="406" height="533"/>
+	<SubTexture name="Scroll_Open0009" x="606" y="1255" width="406" height="517" frameX="0" frameY="-10" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0010" x="1112" y="1255" width="406" height="496" frameX="0" frameY="-25" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0011" x="1112" y="1255" width="406" height="496" frameX="0" frameY="-25" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0012" x="1112" y="1255" width="406" height="496" frameX="0" frameY="-25" frameWidth="406" frameHeight="533"/>
+	<SubTexture name="Scroll_Open0013" x="1112" y="1255" width="406" height="496" frameX="0" frameY="-25" frameWidth="406" frameHeight="533"/>
+</TextureAtlas>

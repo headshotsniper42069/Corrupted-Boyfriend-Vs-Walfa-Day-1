@@ -2,18 +2,12 @@ local part2 = false
 
 function onCreate()
 
-	makeLuaSprite('Mountains', 'Backgrounds/Yukkuri/Mountains', -1300, -900);
-	addLuaSprite('Mountains', false);
-  	setProperty('Mountains.antialiasing', true)
-  	scaleObject('Mountains', 0.8, 0.8);
-  	  	setLuaSpriteScrollFactor('Mountains',0.8,0.9)
-
-	makeLuaSprite('BG', 'Backgrounds/Yukkuri/ground', -1600, -200);
+	makeLuaSprite('BG', 'Backgrounds/Yukkuri/BG', -1400, -1900);
 	addLuaSprite('BG', false);
   	setProperty('BG.antialiasing', true)
   	scaleObject('BG', 1, 1);
 
-  	 	makeAnimatedLuaSprite('Sakuya','Backgrounds/Yukkuri/S_N',-300, 200)
+  	 	makeAnimatedLuaSprite('Sakuya','Backgrounds/Yukkuri/S_N',-600, 200)
   	addAnimationByPrefix('Sakuya','idle','Sakuya',24, false)
   	addLuaSprite('Sakuya', true);
   	scaleObject('Sakuya', 1, 1);

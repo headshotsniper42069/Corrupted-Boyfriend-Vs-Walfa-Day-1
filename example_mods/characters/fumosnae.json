@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-90,
+				-530
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Sanae_Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-78,
+				-381
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sanae_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-112,
+				-382
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sanae_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-87,
+				-366
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sanae_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-127,
+				-379
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sanae_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/fumosnay",
+	"position": [
+		10,
+		-230
+	],
+	"healthicon": "meiling",
+	"flip_x": false,
+	"healthbar_colors": [
+		44,
+		156,
+		0
+	],
+	"camera_position": [
+		400,
+		350
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

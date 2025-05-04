@@ -1,0 +1,148 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				285,
+				243
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mistr00s_Left"
+		},
+		{
+			"offsets": [
+				-47,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Mistr00s_Down"
+		},
+		{
+			"offsets": [
+				205,
+				371
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mistr00s_Up"
+		},
+		{
+			"offsets": [
+				-70,
+				168
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mistr00s_Right"
+		},
+		{
+			"offsets": [
+				-100,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				-100,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				-100,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				-100,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				90,
+				160
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "appear",
+			"loop": false,
+			"name": "Mistr00s_Appear"
+		},
+		{
+			"offsets": [
+				90,
+				262
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "shoot",
+			"loop": false,
+			"name": "Mistr00s_Shoot"
+		},
+		{
+			"offsets": [
+				90,
+				160
+			],
+			"indices": [
+				10,
+				11,
+				12
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Mistr00s_Appear"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mistr00s_shoot",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mistr00s",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		300,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

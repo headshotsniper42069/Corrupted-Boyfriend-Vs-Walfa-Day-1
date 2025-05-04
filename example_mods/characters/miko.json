@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Miko_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				20
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Miko_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				16,
+				-26
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Miko_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				-42
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Miko_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-4
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Miko_Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				32,
+				-2
+			],
+			"anim": "firstDeath",
+			"fps": 20,
+			"name": "Miko_Death",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				42,
+				-8
+			],
+			"anim": "firstLoop",
+			"fps": 14,
+			"name": "Miko_Loop",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				42,
+				-8
+			],
+			"anim": "DeathConfirm",
+			"fps": 14,
+			"name": "Miko_Loop",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				42,
+				-8
+			],
+			"anim": "deathLoop",
+			"fps": 14,
+			"name": "Miko_Loop",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/miko",
+	"position": [
+		200,
+		300
+	],
+	"healthicon": "miko",
+	"flip_x": true,
+	"healthbar_colors": [
+		215,
+		191,
+		165
+	],
+	"camera_position": [
+		220,
+		-260
+	],
+	"sing_duration": 6.1,
+	"scale": 2
+}

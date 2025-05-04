@@ -28,7 +28,7 @@ function onUpdate(elapsed)
     if shaderIsEnabled then
         setShaderFloat("think fast chucklenuts", "iTime", os.clock())
         if size > 0 then
-            size = size - elapsed * 4
+            size = size - elapsed * 20
         else
             shaderQuality = 0
         end
@@ -38,7 +38,7 @@ function onUpdate(elapsed)
 end
 
 function trigger()
-    size = 14 -- that wasnt so hard was it?
+    size = 72 -- that wasnt so hard was it?
     shaderQuality = 4
 end
 

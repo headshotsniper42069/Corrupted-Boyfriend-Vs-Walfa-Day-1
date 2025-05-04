@@ -188,6 +188,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var curCharacter:String = "";
 	//var charPositionList:Array<String> = ['left', 'center', 'right'];
 
+	var pressEscape:FlxText;
+
 	public function new(dialogueList:DialogueFile, ?song:String = null)
 	{
 		super();
@@ -230,6 +232,11 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		daText.scaleX = 0.7;
 		daText.scaleY = 0.7;
 		add(daText);
+
+		pressEscape = new FlxText(25, FlxG.height - 40, 0, "(Press ESC to skip the dialogue)", 16);
+		pressEscape.font = Paths.font(dialogueList.font + ".ttf");
+		pressEscape.color = 0xFF000000;
+		add(pressEscape);
 
 		startNextDialog();
 	}
@@ -440,6 +447,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	function endDialog():Void
 	{
 		dialogueEnded = true;
+		remove(pressEscape);
 		for (i in 0...textBoxTypes.length) {
 			var checkArray:Array<String> = ['', 'center-'];
 			var animName:String = box.animation.curAnim.name;

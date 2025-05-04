@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Twerkchouli.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Patchy_Idle0000" x="100" y="100" width="128" height="128"/>
+	<SubTexture name="Patchy_Twerk0000" x="328" y="100" width="128" height="128" frameX="-3" frameY="0" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0001" x="328" y="100" width="128" height="128" frameX="-3" frameY="0" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0002" x="556" y="100" width="128" height="128" frameX="-2" frameY="-1" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0003" x="556" y="100" width="128" height="128" frameX="-2" frameY="-1" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0004" x="784" y="100" width="128" height="128" frameX="0" frameY="-1" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0005" x="784" y="100" width="128" height="128" frameX="0" frameY="-1" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0006" x="100" y="328" width="128" height="128" frameX="-4" frameY="-3" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0007" x="100" y="328" width="128" height="128" frameX="-4" frameY="-3" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0008" x="328" y="328" width="128" height="128" frameX="-11" frameY="-8" frameWidth="139" frameHeight="136"/>
+	<SubTexture name="Patchy_Twerk0009" x="328" y="328" width="128" height="128" frameX="-11" frameY="-8" frameWidth="139" frameHeight="136"/>
+</TextureAtlas>

@@ -1,63 +1,63 @@
 {
-	"dialogue_pos": "right",
 	"position": [
 		0,
 		50
 	],
+	"dialogue_pos": "right",
 	"scale": 1.25,
+	"image": "walfabf",
 	"animations": [
 		{
-			"loop_name": "BF_Normal0",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
-				-4
+				0
 			],
-			"idle_name": "BF_Normal_Done",
 			"anim": "Normal",
+			"idle_offsets": [
+				0,
+				-2
+			],
+			"loop_name": "BF_Normal0",
+			"idle_name": "BF_Normal_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "BF_Mic0",
-			"idle_offsets": [
-				0,
-				-4
 			],
-			"idle_name": "BF_Mic_Done",
 			"anim": "Mic",
+			"idle_offsets": [
+				0,
+				-2
+			],
+			"loop_name": "BF_Mic0",
+			"idle_name": "BF_Mic_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
-		},
-		{
-			"loop_name": "BF_Pose0",
-			"idle_offsets": [
-				0,
-				-4
 			],
-			"idle_name": "BF_Pose_Done",
 			"anim": "Pose",
-			"loop_offsets": [
-				0,
-				0
-			]
-		},
-		{
-			"loop_name": "BF_Worried0",
 			"idle_offsets": [
 				0,
-				-4
+				-2
 			],
-			"idle_name": "BF_Worried_Done",
-			"anim": "Worried",
+			"loop_name": "BF_Pose0",
+			"idle_name": "BF_Pose_Done"
+		},
+		{
 			"loop_offsets": [
 				0,
 				0
-			]
+			],
+			"anim": "Worried",
+			"idle_offsets": [
+				0,
+				-2
+			],
+			"loop_name": "BF_Worried0",
+			"idle_name": "BF_Worried_Done"
 		}
-	],
-	"image": "walfabf"
+	]
 }

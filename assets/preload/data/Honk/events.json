@@ -1,0 +1,36 @@
+{
+	"song": {
+		"events": [
+			[
+				22921.3483146067,
+				[
+					[
+						"Play Animation",
+						"honk",
+						"bkubchen"
+					]
+				]
+			],
+			[
+				134831.460674158,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"bkubchen_honk"
+					]
+				]
+			],
+			[
+				159101.123595506,
+				[
+					[
+						"Play Animation",
+						"honk",
+						"bkubkchen_honk"
+					]
+				]
+			]
+		]
+	}
+}

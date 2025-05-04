@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "Sakuya_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Sakuya_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				-13
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sakuya_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				51
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sakuya_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Sakuya_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/sakuyapixel",
+	"position": [
+		200,
+		540
+	],
+	"healthicon": "crimsonsakuya",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		40,
+		-200
+	],
+	"sing_duration": 6.1,
+	"scale": 6.4
+}

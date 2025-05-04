@@ -1,0 +1,4 @@
+Makes a character play a random pose animation
+
+Value 1: Character
+Value 2: Override animation

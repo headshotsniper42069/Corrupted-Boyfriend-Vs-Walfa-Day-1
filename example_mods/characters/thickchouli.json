@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Patchouli_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-91,
+				9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Patchouli_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-227,
+				1
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Patchouli_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-142,
+				22
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Patchouli_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-229,
+				6
+			],
+			"anim": "asthma",
+			"fps": 24,
+			"name": "Patchouli_Asthma",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-230,
+				6
+			],
+			"anim": "cough",
+			"fps": 24,
+			"name": "Patchouli_Cough",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-162,
+				13
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Patchouli_Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				40,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attack",
+			"loop": false,
+			"name": "Patchouli_Attack"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tchickchouly",
+	"position": [
+		-410,
+		-200
+	],
+	"healthicon": "thickchouli",
+	"flip_x": false,
+	"healthbar_colors": [
+		190,
+		76,
+		189
+	],
+	"camera_position": [
+		450,
+		200
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

@@ -1,0 +1,45 @@
+{
+	"storyName": "Koishi Smile...",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		231,
+		50,
+		58
+	],
+	"storyNameSettings": [
+		230,
+		30,
+		40
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Donation-Frustration",
+			"crossover",
+			[
+				231,
+				50,
+				58
+			],
+			"",
+			[
+				-150,
+				50
+			],
+			"Donation",
+			[
+				230,
+				0,
+				0.5
+			],
+			"",
+			"Crossover song featuring SM Reimu and PB Reimu.",
+			""
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Crossover"
+}

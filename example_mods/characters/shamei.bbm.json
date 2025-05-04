@@ -3,75 +3,75 @@
 		{
 			"loop": false,
 			"offsets": [
-				150,
-				-40
+				40,
+				90
 			],
 			"anim": "idle",
-			"fps": 12,
-			"name": "idle",
+			"fps": 24,
+			"name": "Aya_Idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				152,
-				-40
-			],
-			"anim": "singLEFT",
-			"fps": 12,
-			"name": "down",
-			"indices": [
-				0,
-				1,
-				2,
-				3
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				130,
-				-41
-			],
-			"anim": "singDOWN",
-			"fps": 12,
-			"name": "down",
-			"indices": [
-				4,
-				5,
-				6,
-				7,
-				8
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				150,
-				-41
+				140,
+				249
 			],
 			"anim": "singUP",
-			"fps": 12,
-			"name": "up",
+			"fps": 24,
+			"name": "Aya_Up",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				146,
-				-45
+				11,
+				74
 			],
 			"anim": "singRIGHT",
-			"fps": 12,
-			"name": "right",
+			"fps": 24,
+			"name": "Aya_Right",
 			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				36,
+				-72
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Aya_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				79
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Aya_Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				111,
+				91
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "Aya_Laugh"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/shamei.bbm",
 	"position": [
 		0,
-		0
+		260
 	],
 	"healthicon": "aya",
 	"flip_x": false,
@@ -81,9 +81,9 @@
 		60
 	],
 	"camera_position": [
-		0,
-		150
+		50,
+		100
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 0.9
 }

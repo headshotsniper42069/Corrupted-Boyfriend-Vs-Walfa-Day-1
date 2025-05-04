@@ -2,17 +2,7 @@
 	"song": {
 		"events": [
 			[
-				1558.44155844156,
-				[
-					[
-						"Play Animation",
-						"intro",
-						"yukkuri"
-					]
-				]
-			],
-			[
-				93843.5721581789,
+				117290.322580645,
 				[
 					[
 						"Play Animation",
@@ -22,7 +12,7 @@
 				]
 			],
 			[
-				94601.999124471,
+				118267.306995288,
 				[
 					[
 						"Easy Taker Transition",
@@ -32,7 +22,7 @@
 				]
 			],
 			[
-				94854.8081132351,
+				118435.846321131,
 				[
 					[
 						"Change Character",
@@ -42,7 +32,7 @@
 				]
 			],
 			[
-				95276.1564278418,
+				118688.655309895,
 				[
 					[
 						"Easy Taker Part 2",
@@ -68,31 +58,6 @@
 						"Play Animation",
 						"laugh",
 						"yukkuri"
-					]
-				]
-			],
-			[
-				271484.021596381,
-				[
-					[
-						"Change Character",
-						"GF",
-						"yukkuri_big_death"
-					],
-					[
-						"Play Animation",
-						"dies",
-						"GF"
-					]
-				]
-			],
-			[
-				275697.504742448,
-				[
-					[
-						"Change Character",
-						"GF",
-						"nogf"
 					]
 				]
 			]

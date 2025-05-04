@@ -1,0 +1,7 @@
+Makes the camera fade out...pretty simple
+
+Value 1: Duration
+
+Value 2: unused
+
+Made for Flanchan

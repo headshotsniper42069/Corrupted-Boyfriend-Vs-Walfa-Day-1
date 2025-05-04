@@ -1,124 +1,124 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-15,
 				40
 			],
+			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "BF_Idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				26,
-				39
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "BF_Left0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-20,
-				8
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "BF_Down0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-23,
-				68
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "BF_Up0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-27,
-				40
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "BF_Right0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				25,
-				39
-			],
-			"anim": "singLEFTmiss",
-			"fps": 24,
-			"name": "BF_Left_Miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-18,
-				13
-			],
-			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "BF_Down_Miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-21,
-				68
-			],
-			"anim": "singUPmiss",
-			"fps": 24,
-			"name": "BF_Up_Miss",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-26,
-				40
-			],
-			"anim": "singRIGHTmiss",
-			"fps": 24,
-			"name": "BF_Right_Miss",
-			"indices": []
-		},
-		{
-			"offsets": [
-				17,
-				37
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "dodge",
 			"indices": [],
-			"name": "BF_Dodge"
+			"name": "BF_Idle"
+		},
+		{
+			"offsets": [
+				-13,
+				42
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF_Left0"
+		},
+		{
+			"offsets": [
+				-42,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF_Down0"
+		},
+		{
+			"offsets": [
+				-50,
+				67
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF_Up0"
+		},
+		{
+			"offsets": [
+				-52,
+				41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF_Right0"
+		},
+		{
+			"offsets": [
+				-10,
+				43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "BF_Left_Miss"
+		},
+		{
+			"offsets": [
+				-41,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "BF_Down_Miss"
+		},
+		{
+			"offsets": [
+				-52,
+				69
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "BF_Up_Miss"
+		},
+		{
+			"offsets": [
+				-51,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "BF_Right_Miss"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-18,
-				40
+				36,
+				46
 			],
-			"anim": "explosion",
+			"anim": "dodge",
 			"fps": 24,
-			"name": "BF_Explosion",
+			"name": "BF_Dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				116,
+				46
+			],
+			"anim": "lel",
+			"fps": 24,
+			"name": "BF_Dodge",
 			"indices": []
 		}
 	],
@@ -126,7 +126,7 @@
 	"image": "characters/pelobf",
 	"position": [
 		0,
-		350
+		380
 	],
 	"healthicon": "pelobf",
 	"flip_x": true,
@@ -136,8 +136,8 @@
 		255
 	],
 	"camera_position": [
-		50,
-		-30
+		100,
+		-40
 	],
 	"sing_duration": 4,
 	"scale": 1

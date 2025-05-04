@@ -2,8 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				-20,
-				-325
+				50,
+				-245
 			],
 			"loop": false,
 			"fps": 24,
@@ -14,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				6,
-				-326
+				79,
+				-224
 			],
 			"anim": "singLEFT",
 			"fps": 24,
@@ -25,8 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-21,
-				-363
+				45,
+				-254
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -36,8 +36,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-4,
-				-293
+				50,
+				-181
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -47,31 +47,20 @@
 		{
 			"loop": false,
 			"offsets": [
-				-36,
-				-328
+				32,
+				-230
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "Okuu_Right",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-21,
-				-324
-			],
-			"anim": "shoot",
-			"fps": 24,
-			"name": "Okuu_Shoot",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/okuu",
 	"position": [
-		30,
-		50
+		-10,
+		20
 	],
 	"healthicon": "utsohu",
 	"flip_x": false,
@@ -81,8 +70,8 @@
 		58
 	],
 	"camera_position": [
-		120,
-		380
+		0,
+		300
 	],
 	"sing_duration": 6.1,
 	"scale": 1

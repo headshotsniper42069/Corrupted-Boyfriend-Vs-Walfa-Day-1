@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				76,
-				-173
+				122,
+				-155
 			],
 			"loop": false,
 			"fps": 24,
@@ -25,7 +25,7 @@
 		{
 			"offsets": [
 				-12,
-				-219
+				-199
 			],
 			"loop": false,
 			"fps": 24,
@@ -36,7 +36,7 @@
 		{
 			"offsets": [
 				18,
-				-120
+				0
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				-40,
-				-195
+				-68,
+				-180
 			],
 			"loop": false,
 			"fps": 24,
@@ -56,22 +56,33 @@
 			"name": "Reimu_Right"
 		},
 		{
-			"offsets": [
-				4,
-				-159
-			],
 			"loop": false,
+			"offsets": [
+				0,
+				-153
+			],
+			"anim": "shoot",
 			"fps": 24,
-			"anim": "granade",
+			"name": "Reimu_Shoot0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				3,
+				-160
+			],
 			"indices": [],
-			"name": "Reimu_Granade"
+			"fps": 24,
+			"anim": "shootFairy",
+			"loop": false,
+			"name": "Reimu_Shoot_Fairy"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/peloreimu",
 	"position": [
 		0,
-		10
+		50
 	],
 	"healthicon": "peloreimu",
 	"flip_x": false,

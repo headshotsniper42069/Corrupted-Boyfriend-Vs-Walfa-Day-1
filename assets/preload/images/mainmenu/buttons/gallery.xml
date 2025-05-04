@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="menu.png">
+<TextureAtlas imagePath="gallery.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="gallery basic0000" x="15" y="15" width="314" height="87"/>
-	<SubTexture name="gallery white0000" x="15" y="118" width="314" height="87"/>
+	<SubTexture name="gallery_basic0000" x="100" y="100" width="422" height="111"/>
+	<SubTexture name="gallery_white0000" x="100" y="311" width="424" height="113"/>
 </TextureAtlas>

@@ -1,0 +1,7 @@
+50 melee damage
+2% critical strike chance
+Insanely fast speed
+Very weak knockback
+Makes a train show up after two beats
+
+Made for Baddest Bitpch

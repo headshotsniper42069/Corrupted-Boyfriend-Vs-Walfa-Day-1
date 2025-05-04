@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Apple_Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				119,
+				-25
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Apple_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-60
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Apple_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-62,
+				69
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Apple_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-185,
+				-16
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Apple_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/apple",
+	"position": [
+		-350,
+		-250
+	],
+	"healthicon": "apple",
+	"flip_x": false,
+	"healthbar_colors": [
+		231,
+		255,
+		170
+	],
+	"camera_position": [
+		450,
+		400
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

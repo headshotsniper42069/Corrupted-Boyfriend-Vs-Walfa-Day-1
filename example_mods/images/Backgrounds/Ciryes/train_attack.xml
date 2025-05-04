@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Unbenannt-2.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Train_Attack0000" x="100" y="100" width="180" height="511" frameX="-3034" frameY="-449" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0001" x="380" y="100" width="350" height="847" frameX="-2949" frameY="-281" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0002" x="830" y="100" width="480" height="1215" frameX="-2884" frameY="-97" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0003" x="830" y="100" width="480" height="1215" frameX="-2884" frameY="-97" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0004" x="1410" y="100" width="1133" height="1409" frameX="-2279" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0005" x="1410" y="100" width="1133" height="1409" frameX="-2279" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0006" x="2643" y="100" width="1533" height="1409" frameX="-1879" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0007" x="2643" y="100" width="1533" height="1409" frameX="-1879" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0008" x="4276" y="100" width="1874" height="1409" frameX="-1538" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0009" x="4276" y="100" width="1874" height="1409" frameX="-1538" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0010" x="100" y="1609" width="2617" height="1409" frameX="-795" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0011" x="100" y="1609" width="2617" height="1409" frameX="-795" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0012" x="2817" y="1609" width="3412" height="1409"/>
+	<SubTexture name="Train_Attack0013" x="2817" y="1609" width="3412" height="1409"/>
+	<SubTexture name="Train_Attack0014" x="6329" y="1609" width="576" height="1409" frameX="-2836" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0015" x="6329" y="1609" width="576" height="1409" frameX="-2836" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0016" x="7005" y="1609" width="442" height="1105" frameX="-2903" frameY="-152" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0017" x="7005" y="1609" width="442" height="1105" frameX="-2903" frameY="-152" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0018" x="7547" y="1609" width="234" height="573" frameX="-3007" frameY="-418" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0019" x="7547" y="1609" width="234" height="573" frameX="-3007" frameY="-418" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0020" x="7881" y="1609" width="0" height="0" frameX="-1745" frameY="0" frameWidth="3412" frameHeight="1409"/>
+	<SubTexture name="Train_Attack0021" x="7881" y="1609" width="0" height="0" frameX="-1745" frameY="0" frameWidth="3412" frameHeight="1409"/>
+</TextureAtlas>

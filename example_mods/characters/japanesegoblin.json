@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "Suika_DanceLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Suika_DanceRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				-3
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Suika_Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				1
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Suika_Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				4
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Suika_Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-77,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Suika_Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/suika",
+	"position": [
+		-390,
+		0
+	],
+	"healthicon": "3ds",
+	"flip_x": false,
+	"healthbar_colors": [
+		240,
+		157,
+		137
+	],
+	"camera_position": [
+		-30,
+		80
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

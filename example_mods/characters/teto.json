@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-90,
+				-70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Teto_Idle"
+		},
+		{
+			"offsets": [
+				9,
+				-115
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Teto_Left"
+		},
+		{
+			"offsets": [
+				-140,
+				-260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Teto_Down"
+		},
+		{
+			"offsets": [
+				-82,
+				-21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Teto_Up"
+		},
+		{
+			"offsets": [
+				-145,
+				-166
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Teto_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/teto",
+	"position": [
+		-350,
+		-250
+	],
+	"healthicon": "apple",
+	"flip_x": false,
+	"healthbar_colors": [
+		231,
+		255,
+		170
+	],
+	"camera_position": [
+		450,
+		400
+	],
+	"sing_duration": 6.1,
+	"scale": 0.44
+}

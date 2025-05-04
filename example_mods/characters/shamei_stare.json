@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				170
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-240,
+				-190
+			],
 			"anim": "idle",
-			"indices": [],
-			"name": "Aya_Idle"
+			"fps": 24,
+			"name": "Aya_Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				20,
+				350,
 				170
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Aya_Left"
+			"fps": 24,
+			"name": "Aya_Left",
+			"indices": []
 		},
 		{
-			"offsets": [
-				0,
-				146
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				100,
+				56
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Aya_Down"
+			"fps": 24,
+			"name": "Aya_Down",
+			"indices": []
 		},
 		{
-			"offsets": [
-				0,
-				212
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				180,
+				412
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "Aya_Up"
+			"fps": 24,
+			"name": "Aya_Up",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-10,
-				170
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-20,
+				200
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Aya_Right"
+			"fps": 24,
+			"name": "Aya_Right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -70,8 +70,8 @@
 		0
 	],
 	"camera_position": [
-		-180,
-		-400
+		-330,
+		-100
 	],
 	"sing_duration": 6.1,
 	"scale": 1.3

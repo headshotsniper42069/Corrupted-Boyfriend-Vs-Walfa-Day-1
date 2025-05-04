@@ -1,61 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="Unbenannt-1.png">
+<TextureAtlas imagePath="Unbenannt-2.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Sakuya_Down0000" x="50" y="50" width="347" height="288" frameX="0" frameY="-112" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0001" x="50" y="50" width="347" height="288" frameX="0" frameY="-112" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0002" x="447" y="50" width="308" height="357" frameX="-19" frameY="-43" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0003" x="447" y="50" width="308" height="357" frameX="-19" frameY="-43" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0004" x="805" y="50" width="308" height="399" frameX="-19" frameY="0" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0005" x="805" y="50" width="308" height="399" frameX="-19" frameY="0" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0006" x="805" y="50" width="308" height="399" frameX="-19" frameY="0" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0007" x="805" y="50" width="308" height="399" frameX="-19" frameY="0" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0008" x="805" y="50" width="308" height="399" frameX="-19" frameY="0" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Down0009" x="805" y="50" width="308" height="399" frameX="-19" frameY="0" frameWidth="347" frameHeight="400"/>
-	<SubTexture name="Sakuya_Idle0000" x="1163" y="50" width="800" height="625" frameX="0" frameY="-96" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0001" x="1163" y="50" width="800" height="625" frameX="0" frameY="-96" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0002" x="2013" y="50" width="730" height="678" frameX="0" frameY="-42" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0003" x="2013" y="50" width="730" height="678" frameX="0" frameY="-42" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0004" x="2793" y="50" width="699" height="701" frameX="0" frameY="-19" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0005" x="2793" y="50" width="699" height="701" frameX="0" frameY="-19" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0006" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0007" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0008" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0009" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0010" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0011" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0012" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0013" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle0014" x="50" y="801" width="679" height="720" frameX="0" frameY="0" frameWidth="800" frameHeight="721"/>
-	<SubTexture name="Sakuya_Idle_Alt0000" x="779" y="801" width="647" height="757"/>
-	<SubTexture name="Sakuya_Left0000" x="1476" y="801" width="675" height="706"/>
-	<SubTexture name="Sakuya_Left0001" x="1476" y="801" width="675" height="706"/>
-	<SubTexture name="Sakuya_Left0002" x="2201" y="801" width="635" height="706" frameX="-40" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Left0003" x="2201" y="801" width="635" height="706" frameX="-40" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Left0004" x="2886" y="801" width="606" height="706" frameX="-69" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Left0005" x="2886" y="801" width="606" height="706" frameX="-69" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Left0006" x="2886" y="801" width="606" height="706" frameX="-69" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Left0007" x="2886" y="801" width="606" height="706" frameX="-69" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Left0008" x="2886" y="801" width="606" height="706" frameX="-69" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Left0009" x="2886" y="801" width="606" height="706" frameX="-69" frameY="0" frameWidth="675" frameHeight="706"/>
-	<SubTexture name="Sakuya_Right0000" x="50" y="1608" width="676" height="691"/>
-	<SubTexture name="Sakuya_Right0001" x="50" y="1608" width="676" height="691"/>
-	<SubTexture name="Sakuya_Right0002" x="776" y="1608" width="637" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Right0003" x="776" y="1608" width="637" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Right0004" x="1463" y="1608" width="611" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Right0005" x="1463" y="1608" width="611" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Right0006" x="1463" y="1608" width="611" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Right0007" x="1463" y="1608" width="611" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Right0008" x="1463" y="1608" width="611" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Right0009" x="1463" y="1608" width="611" height="691" frameX="0" frameY="0" frameWidth="676" frameHeight="691"/>
-	<SubTexture name="Sakuya_Up0000" x="2124" y="1608" width="279" height="849" frameX="-35" frameY="0" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0001" x="2124" y="1608" width="279" height="849" frameX="-35" frameY="0" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0002" x="2453" y="1608" width="349" height="787" frameX="0" frameY="-62" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0003" x="2453" y="1608" width="349" height="787" frameX="0" frameY="-62" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0004" x="2852" y="1608" width="349" height="732" frameX="0" frameY="-117" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0005" x="2852" y="1608" width="349" height="732" frameX="0" frameY="-117" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0006" x="2852" y="1608" width="349" height="732" frameX="0" frameY="-117" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0007" x="2852" y="1608" width="349" height="732" frameX="0" frameY="-117" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0008" x="2852" y="1608" width="349" height="732" frameX="0" frameY="-117" frameWidth="349" frameHeight="849"/>
-	<SubTexture name="Sakuya_Up0009" x="2852" y="1608" width="349" height="732" frameX="0" frameY="-117" frameWidth="349" frameHeight="849"/>
+	<SubTexture name="Sakooya_Down0000" x="100" y="100" width="426" height="462" frameX="0" frameY="-36" frameWidth="426" frameHeight="498"/>
+	<SubTexture name="Sakooya_Down0001" x="626" y="100" width="426" height="473" frameX="0" frameY="-25" frameWidth="426" frameHeight="498"/>
+	<SubTexture name="Sakooya_Down0002" x="1152" y="100" width="426" height="484" frameX="0" frameY="-14" frameWidth="426" frameHeight="498"/>
+	<SubTexture name="Sakooya_Down0003" x="1678" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0004" x="1678" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0005" x="2204" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0006" x="2730" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0007" x="2730" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0008" x="2730" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0009" x="2730" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0010" x="3256" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0011" x="1678" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0012" x="1678" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0013" x="2204" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0014" x="2730" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Down0015" x="2730" y="100" width="426" height="498"/>
+	<SubTexture name="Sakooya_Idle0000" x="100" y="698" width="632" height="632" frameX="0" frameY="-40" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0001" x="100" y="698" width="632" height="632" frameX="0" frameY="-40" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0002" x="832" y="698" width="615" height="641" frameX="-9" frameY="-31" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0003" x="832" y="698" width="615" height="641" frameX="-9" frameY="-31" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0004" x="1547" y="698" width="596" height="657" frameX="-18" frameY="-15" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0005" x="1547" y="698" width="596" height="657" frameX="-18" frameY="-15" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0006" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0007" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0008" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0009" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0010" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0011" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0012" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle0013" x="2243" y="698" width="596" height="672" frameX="-18" frameY="0" frameWidth="632" frameHeight="672"/>
+	<SubTexture name="Sakooya_Idle_Alt0000" x="2939" y="698" width="582" height="642"/>
+	<SubTexture name="Sakooya_Left0000" x="100" y="1470" width="637" height="662" frameX="0" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0001" x="837" y="1470" width="585" height="662" frameX="-53" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0002" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0003" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0004" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0005" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0006" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0007" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0008" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0009" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0010" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0011" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0012" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Left0013" x="1522" y="1470" width="567" height="662" frameX="-70" frameY="0" frameWidth="638" frameHeight="662"/>
+	<SubTexture name="Sakooya_Right0000" x="2189" y="1470" width="549" height="602"/>
+	<SubTexture name="Sakooya_Right0001" x="2838" y="1470" width="532" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0002" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0003" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0004" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0005" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0006" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0007" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0008" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0009" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0010" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0011" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0012" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Right0013" x="3470" y="1470" width="521" height="602" frameX="0" frameY="0" frameWidth="549" frameHeight="602"/>
+	<SubTexture name="Sakooya_Up0000" x="100" y="2232" width="553" height="495" frameX="-94" frameY="-369" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0001" x="753" y="2232" width="541" height="495" frameX="-100" frameY="-358" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0002" x="1394" y="2232" width="629" height="605" frameX="-56" frameY="-251" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0003" x="1394" y="2232" width="629" height="605" frameX="-56" frameY="-251" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0004" x="2123" y="2232" width="636" height="674" frameX="-53" frameY="-110" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0005" x="2123" y="2232" width="636" height="674" frameX="-53" frameY="-110" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0006" x="2859" y="2232" width="725" height="737" frameX="-8" frameY="0" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0007" x="2859" y="2232" width="725" height="737" frameX="-8" frameY="0" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0008" x="100" y="3069" width="741" height="740" frameX="0" frameY="-74" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0009" x="100" y="3069" width="741" height="740" frameX="0" frameY="-74" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0010" x="941" y="3069" width="556" height="499" frameX="-92" frameY="-342" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0011" x="941" y="3069" width="556" height="499" frameX="-92" frameY="-342" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0012" x="100" y="2232" width="553" height="495" frameX="-94" frameY="-369" frameWidth="741" frameHeight="864"/>
+	<SubTexture name="Sakooya_Up0013" x="100" y="2232" width="553" height="495" frameX="-94" frameY="-369" frameWidth="741" frameHeight="864"/>
 </TextureAtlas>

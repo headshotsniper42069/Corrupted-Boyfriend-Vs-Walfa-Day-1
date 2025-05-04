@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				230,
+				160
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Flandre_Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				233,
+				128
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Flandre_Down"
+		},
+		{
+			"offsets": [
+				212,
+				212
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Flandre_Up"
+		},
+		{
+			"offsets": [
+				275,
+				151
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Flandre_Right"
+		},
+		{
+			"offsets": [
+				148,
+				154
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Flandre_Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/kkhtaflan",
+	"position": [
+		100,
+		230
+	],
+	"healthicon": "kkhtaflan",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		232,
+		45
+	],
+	"camera_position": [
+		0,
+		-140
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

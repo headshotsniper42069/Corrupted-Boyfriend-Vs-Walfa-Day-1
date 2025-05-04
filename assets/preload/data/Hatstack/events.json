@@ -1,0 +1,76 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Cinematics (With HUD)",
+						"0.2",
+						"90"
+					]
+				]
+			],
+			[
+				25600,
+				[
+					[
+						"Cinematics (With HUD)",
+						"0.2",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				83600,
+				[
+					[
+						"Cinematics (With HUD)",
+						"0.2",
+						"90"
+					]
+				]
+			],
+			[
+				89600,
+				[
+					[
+						"Cinematics (With HUD)",
+						"0.2",
+						"0"
+					],
+					[
+						"Flash Camera",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				115200,
+				[
+					[
+						"Change Scroll Speed",
+						"1.0740740741",
+						"1.6"
+					]
+				]
+			],
+			[
+				140800,
+				[
+					[
+						"Cinematics (With HUD)",
+						"0.2",
+						"90"
+					]
+				]
+			]
+		]
+	}
+}

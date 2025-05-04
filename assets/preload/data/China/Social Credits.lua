@@ -9,6 +9,12 @@ function onCreate()
     setGraphicSize("socials", 0, 720)
     setObjectCamera("socials", "hud")
 
+    makeLuaSprite("socialsMiss", "social-credit-miss", 0, 0)
+    addLuaSprite("socialsMiss")
+    setProperty("socialsMiss.alpha", 0)
+    setGraphicSize("socialsMiss", 0, 720)
+    setObjectCamera("socialsMiss", "hud")
+
     makeLuaText("socialBoyfriend", "Social Credits: "..credits, 0, 0)
     setTextAlignment("socialBoyfriend", "right")
     setTextFont("socialBoyfriend", "DFPOCOC.ttf")
@@ -28,9 +34,9 @@ end
 
 function onCreatePost()
     for i = 0, getProperty('unspawnNotes.length')-1 do
-		setPropertyFromGroup('unspawnNotes', i, 'missHealth', 0);
+        setPropertyFromGroup('unspawnNotes', i, 'missHealth', 0);
         setPropertyFromGroup('unspawnNotes', i, 'hitHealth', 0);
-	end
+    end
     setProperty("socialOpponent.y", getProperty("healthLeft.y"))
     setProperty("socialBoyfriend.y", getProperty("healthRight.y"))
 end
@@ -48,7 +54,7 @@ function onUpdate(elapsed)
 end
 
 function opponentNoteHit(id, direction, noteType, isSustainNote)
-	if not isSustainNote then
+    if not isSustainNote then
         opponentCredits = opponentCredits + 0.25 -- 1 credit every 4 notes
         setTextString("socialOpponent", "Social Credits: "..math.floor(opponentCredits))
     end
@@ -56,7 +62,13 @@ end
 
 function noteMiss(id, direction, noteType, isSustainNote)
     if not isSustainNote then
-        credits = credits - 5
+        setProperty("socialsMiss.alpha", 1)
+        doTweenAlpha("socialMissPopup", "socialsMiss", 0, 0.5)
+        if difficulty < 3 then
+            credits = credits - 5
+        else
+            credits = credits - 10
+        end
         setTextString("socialBoyfriend", "Social Credits: "..credits)
         setTextString("socialOpponent", "Social Credits: "..math.floor(opponentCredits))
         setProperty("socialBoyfriend.x", screenWidth - getProperty("socialBoyfriend.width") - 25)
@@ -64,7 +76,7 @@ function noteMiss(id, direction, noteType, isSustainNote)
 end
 
 function goodNoteHit(id, direction, noteType, isSustainNote)
-	if noteType == 'Credits' and not isSustainNote then
+    if noteType == 'Credits' and not isSustainNote then
         setProperty("socials.alpha", 1)
         doTweenAlpha("socialPopup", "socials", 0, 0.5)
         credits = credits + 5

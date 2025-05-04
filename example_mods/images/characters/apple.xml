@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="apple.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Apple_Down0000" x="100" y="100" width="953" height="1199" frameX="0" frameY="-28" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0001" x="100" y="100" width="953" height="1199" frameX="0" frameY="-28" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0002" x="1153" y="100" width="926" height="1209" frameX="-13" frameY="-18" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0003" x="1153" y="100" width="926" height="1209" frameX="-13" frameY="-18" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0004" x="2179" y="100" width="875" height="1225" frameX="-38" frameY="-1" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0005" x="2179" y="100" width="875" height="1225" frameX="-38" frameY="-1" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0006" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0007" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0008" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0009" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0010" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0011" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0012" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Down0013" x="3154" y="100" width="870" height="1226" frameX="-40" frameY="0" frameWidth="953" frameHeight="1227"/>
+	<SubTexture name="Apple_Idle0000" x="4124" y="100" width="933" height="1298" frameX="0" frameY="-44" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0001" x="4124" y="100" width="933" height="1298" frameX="0" frameY="-44" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0002" x="5157" y="100" width="891" height="1322" frameX="-66" frameY="-20" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0003" x="5157" y="100" width="891" height="1322" frameX="-66" frameY="-20" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0004" x="6148" y="100" width="872" height="1342" frameX="-64" frameY="0" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0005" x="6148" y="100" width="872" height="1342" frameX="-64" frameY="0" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0006" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0007" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0008" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0009" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0010" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0011" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0012" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Idle0013" x="7120" y="100" width="850" height="1336" frameX="-66" frameY="-6" frameWidth="957" frameHeight="1342"/>
+	<SubTexture name="Apple_Left0000" x="100" y="1542" width="995" height="1290" frameX="0" frameY="0" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0001" x="100" y="1542" width="995" height="1290" frameX="0" frameY="0" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0002" x="1195" y="1542" width="951" height="1286" frameX="-44" frameY="-4" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0003" x="1195" y="1542" width="951" height="1286" frameX="-44" frameY="-4" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0004" x="2246" y="1542" width="885" height="1279" frameX="-118" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0005" x="2246" y="1542" width="885" height="1279" frameX="-118" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0006" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0007" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0008" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0009" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0010" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0011" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0012" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Left0013" x="3231" y="1542" width="878" height="1278" frameX="-125" frameY="-12" frameWidth="1003" frameHeight="1291"/>
+	<SubTexture name="Apple_Right0000" x="4209" y="1542" width="953" height="1305" frameX="-7" frameY="0" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0001" x="4209" y="1542" width="953" height="1305" frameX="-7" frameY="0" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0002" x="5262" y="1542" width="889" height="1303" frameX="-2" frameY="-2" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0003" x="5262" y="1542" width="889" height="1303" frameX="-2" frameY="-2" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0004" x="6251" y="1542" width="775" height="1299" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0005" x="6251" y="1542" width="775" height="1299" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0006" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0007" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0008" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0009" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0010" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0011" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0012" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Right0013" x="7126" y="1542" width="749" height="1298" frameX="0" frameY="-7" frameWidth="960" frameHeight="1306"/>
+	<SubTexture name="Apple_Up0000" x="100" y="2947" width="869" height="1484"/>
+	<SubTexture name="Apple_Up0001" x="100" y="2947" width="869" height="1484"/>
+	<SubTexture name="Apple_Up0002" x="1069" y="2947" width="807" height="1418" frameX="-24" frameY="-66" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0003" x="1069" y="2947" width="807" height="1418" frameX="-24" frameY="-66" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0004" x="1976" y="2947" width="762" height="1372" frameX="-67" frameY="-112" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0005" x="1976" y="2947" width="762" height="1372" frameX="-67" frameY="-112" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0006" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0007" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0008" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0009" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0010" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0011" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0012" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+	<SubTexture name="Apple_Up0013" x="2838" y="2947" width="757" height="1370" frameX="-71" frameY="-114" frameWidth="869" frameHeight="1484"/>
+</TextureAtlas>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="soga.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Soga_Down0000" x="100" y="100" width="232" height="236" frameX="-3" frameY="-7" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0001" x="100" y="100" width="232" height="236" frameX="-3" frameY="-7" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0002" x="432" y="100" width="233" height="240" frameX="-1" frameY="-4" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0003" x="432" y="100" width="233" height="240" frameX="-1" frameY="-4" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0004" x="765" y="100" width="234" height="244" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0005" x="765" y="100" width="234" height="244" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0006" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0007" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0008" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0009" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0010" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0011" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0012" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Down0013" x="1099" y="100" width="233" height="243" frameX="0" frameY="0" frameWidth="235" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0000" x="1432" y="100" width="167" height="240" frameX="-4" frameY="-4" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0001" x="1432" y="100" width="167" height="240" frameX="-4" frameY="-4" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0002" x="1699" y="100" width="169" height="240" frameX="-2" frameY="-4" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0003" x="1699" y="100" width="169" height="240" frameX="-2" frameY="-4" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0004" x="100" y="444" width="165" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0005" x="100" y="444" width="165" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0006" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0007" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0008" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0009" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0010" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0011" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0012" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Idle0013" x="365" y="444" width="164" height="244" frameX="0" frameY="0" frameWidth="171" frameHeight="244"/>
+	<SubTexture name="Soga_Left0000" x="629" y="444" width="204" height="247" frameX="0" frameY="0" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0001" x="629" y="444" width="204" height="247" frameX="0" frameY="0" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0002" x="933" y="444" width="202" height="246" frameX="-3" frameY="-1" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0003" x="933" y="444" width="202" height="246" frameX="-3" frameY="-1" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0004" x="1235" y="444" width="198" height="245" frameX="-7" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0005" x="1235" y="444" width="198" height="245" frameX="-7" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0006" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0007" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0008" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0009" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0010" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0011" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0012" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Left0013" x="1235" y="444" width="198" height="245" frameX="-8" frameY="-2" frameWidth="205" frameHeight="247"/>
+	<SubTexture name="Soga_Right0000" x="1533" y="444" width="218" height="240" frameX="0" frameY="0" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0001" x="1533" y="444" width="218" height="240" frameX="0" frameY="0" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0002" x="100" y="791" width="217" height="240" frameX="0" frameY="-1" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0003" x="100" y="791" width="217" height="240" frameX="0" frameY="-1" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0004" x="417" y="791" width="216" height="240" frameX="0" frameY="-1" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0005" x="417" y="791" width="216" height="240" frameX="0" frameY="-1" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0006" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0007" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0008" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0009" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0010" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0011" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0012" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Right0013" x="733" y="791" width="215" height="238" frameX="0" frameY="-2" frameWidth="218" frameHeight="241"/>
+	<SubTexture name="Soga_Up0000" x="1048" y="791" width="196" height="244"/>
+	<SubTexture name="Soga_Up0001" x="1048" y="791" width="196" height="244"/>
+	<SubTexture name="Soga_Up0002" x="1344" y="791" width="195" height="243" frameX="-1" frameY="-1" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0003" x="1344" y="791" width="195" height="243" frameX="-1" frameY="-1" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0004" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-2" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0005" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-2" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0006" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0007" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0008" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0009" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0010" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0011" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0012" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+	<SubTexture name="Soga_Up0013" x="1639" y="791" width="195" height="241" frameX="-1" frameY="-3" frameWidth="196" frameHeight="244"/>
+</TextureAtlas>

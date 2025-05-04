@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Daiyousei.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dayiousei_Bounce0000" x="100" y="100" width="610" height="620" frameX="-50" frameY="-46" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0001" x="100" y="100" width="610" height="620" frameX="-50" frameY="-46" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0002" x="810" y="100" width="700" height="633" frameX="0" frameY="-30" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0003" x="810" y="100" width="700" height="633" frameX="0" frameY="-30" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0004" x="1610" y="100" width="592" height="657" frameX="-59" frameY="-2" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0005" x="1610" y="100" width="592" height="657" frameX="-59" frameY="-2" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0006" x="2302" y="100" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0007" x="2302" y="100" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0008" x="3088" y="100" width="591" height="658" frameX="-59" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0009" x="3088" y="100" width="591" height="658" frameX="-59" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0010" x="2302" y="100" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0011" x="2302" y="100" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0012" x="100" y="858" width="675" height="658" frameX="-13" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Bounce0013" x="100" y="858" width="675" height="658" frameX="-13" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0000" x="875" y="858" width="610" height="620" frameX="-50" frameY="-46" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0001" x="875" y="858" width="610" height="620" frameX="-50" frameY="-46" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0002" x="1585" y="858" width="700" height="633" frameX="0" frameY="-30" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0003" x="1585" y="858" width="700" height="633" frameX="0" frameY="-30" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0004" x="2385" y="858" width="592" height="657" frameX="-59" frameY="-2" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0005" x="2385" y="858" width="592" height="657" frameX="-59" frameY="-2" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0006" x="3077" y="858" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0007" x="3077" y="858" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0008" x="100" y="1616" width="591" height="658" frameX="-59" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0009" x="100" y="1616" width="591" height="658" frameX="-59" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0010" x="3077" y="858" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0011" x="3077" y="858" width="686" height="658" frameX="-7" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0012" x="791" y="1616" width="675" height="658" frameX="-13" frameY="0" frameWidth="700" frameHeight="666"/>
+	<SubTexture name="Dayiousei_Scared0013" x="791" y="1616" width="675" height="658" frameX="-13" frameY="0" frameWidth="700" frameHeight="666"/>
+</TextureAtlas>

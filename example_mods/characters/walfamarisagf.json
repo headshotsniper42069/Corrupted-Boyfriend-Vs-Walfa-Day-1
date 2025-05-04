@@ -1,77 +1,77 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				240,
 				-270
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Marisa_Idle"
+			"fps": 24,
+			"name": "Marisa_Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				280,
 				-280
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Marisa_Left"
+			"fps": 24,
+			"name": "Marisa_Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				240,
 				-311
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Marisa_Down"
+			"fps": 24,
+			"name": "Marisa_Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				220,
 				-230
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Marisa_Up"
+			"fps": 24,
+			"name": "Marisa_Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				180,
 				-270
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Marisa_Right"
+			"fps": 24,
+			"name": "Marisa_Right",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				224,
 				-270
 			],
-			"anim": "beam",
+			"loop": false,
 			"fps": 35,
-			"name": "Marisa_Beam",
-			"indices": []
+			"anim": "beam",
+			"indices": [],
+			"name": "Marisa_Beam"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/marisa_walfa",
 	"position": [
-		0,
-		0
+		50,
+		-50
 	],
 	"healthicon": "walfamarisa",
 	"flip_x": false,

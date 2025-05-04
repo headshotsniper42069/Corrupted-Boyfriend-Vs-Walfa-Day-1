@@ -1,110 +1,110 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-48,
-				91
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-24,
+				51
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Mokou_Right0"
+			"fps": 24,
+			"name": "Mokou_Right0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				84,
-				117
+				77
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Mokou_Left0"
+			"fps": 24,
+			"name": "Mokou_Left0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				84,
-				117
+				77
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "Mokou_Left_Miss"
+			"fps": 24,
+			"name": "Mokou_Left_Miss",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-19,
-				37
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				25,
+				58
+			],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Mokou_Down0"
+			"fps": 24,
+			"name": "Mokou_Down0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-19,
-				43
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				25,
+				59
+			],
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "Mokou_Down_Miss"
+			"fps": 24,
+			"name": "Mokou_Down_Miss",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-51,
-				164
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-18,
+				120
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "Mokou_Up0"
+			"fps": 24,
+			"name": "Mokou_Up0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-51,
-				164
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-18,
+				121
+			],
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "Mokou_Up_Miss"
-		},
-		{
-			"offsets": [
-				-19,
-				91
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "Mokou_Right_Miss"
+			"name": "Mokou_Up_Miss",
+			"indices": []
 		},
 		{
 			"loop": false,
+			"offsets": [
+				-3,
+				51
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Mokou_Right_Miss",
+			"indices": []
+		},
+		{
 			"offsets": [
 				-20,
 				80
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Mokou_Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Mokou_Idle"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/mokou",
 	"position": [
-		0,
-		50
+		-100,
+		-220
 	],
 	"healthicon": "mokou",
 	"flip_x": true,
@@ -114,9 +114,9 @@
 		0
 	],
 	"camera_position": [
-		220,
-		0
+		50,
+		100
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 0.7
 }

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Reimu_Idle"
+		},
+		{
+			"offsets": [
+				323,
+				41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Reimu_Left"
+		},
+		{
+			"offsets": [
+				19,
+				-19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Reimu_Down"
+		},
+		{
+			"offsets": [
+				-41,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Reimu_Up"
+		},
+		{
+			"offsets": [
+				-27,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Reimu_Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/osanareimulittle",
+	"position": [
+		0,
+		-240
+	],
+	"healthicon": "babyreimu",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		68,
+		54
+	],
+	"camera_position": [
+		100,
+		120
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

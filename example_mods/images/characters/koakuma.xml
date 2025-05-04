@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="koakuma.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Koakuma_Idle0000" x="100" y="100" width="553" height="1127" frameX="-11" frameY="-10" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0001" x="100" y="100" width="553" height="1127" frameX="-11" frameY="-10" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0002" x="753" y="100" width="563" height="1136" frameX="-7" frameY="0" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0003" x="753" y="100" width="563" height="1136" frameX="-7" frameY="0" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0004" x="1416" y="100" width="544" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0005" x="1416" y="100" width="544" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0006" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0007" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0008" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0009" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0010" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0011" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0012" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+	<SubTexture name="Koakuma_Idle0013" x="2060" y="100" width="542" height="1135" frameX="0" frameY="-1" frameWidth="570" frameHeight="1137"/>
+</TextureAtlas>

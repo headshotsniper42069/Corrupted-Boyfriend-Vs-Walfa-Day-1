@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Flandre_Idle0"
+		},
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Flandre_Idle_Alt"
+		},
+		{
+			"offsets": [
+				139,
+				34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Flandre_Left"
+		},
+		{
+			"offsets": [
+				6,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Flandre_Down"
+		},
+		{
+			"offsets": [
+				-11,
+				41
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Flandre_Up"
+		},
+		{
+			"offsets": [
+				-13,
+				-23
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Flandre_Right"
+		},
+		{
+			"offsets": [
+				23,
+				37
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "transition",
+			"loop": false,
+			"name": "Flandre_Transition"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/flan",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "hatstackflan",
+	"flip_x": false,
+	"healthbar_colors": [
+		124,
+		215,
+		255
+	],
+	"camera_position": [
+		100,
+		-50
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

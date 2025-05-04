@@ -10,8 +10,8 @@ Yes, you can use this in your mods. I don't know why I would upload it if you WE
 local curWord = 1
 local wordstuff = { -- The main meat of it all. Add text stuff here.
 	{
-		startStep = 1360, -- The step of which the words appear, you can check where the steps are in the chart editor.
-		endStep = 1381, -- The step of which the words vanish.
+		startStep = 1320, -- The step of which the words appear, you can check where the steps are in the chart editor.
+		endStep = 1344, -- The step of which the words vanish.
 		speaker = "Shamei.bbm", -- The person speaking.
 		speakerColor = "3C3C3C", -- The hex color code for the speaker text.
 		text = "grr im going serious mode!!" -- The actual text itself.

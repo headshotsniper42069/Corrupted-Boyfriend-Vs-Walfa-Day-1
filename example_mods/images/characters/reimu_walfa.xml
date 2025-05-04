@@ -1,76 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="walfa.png">
+<TextureAtlas imagePath="walfaredraw.png">
 	<!-- Created with Adobe Animate version 21.0.0.35450 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Reimu_Card0000" x="12" y="12" width="287" height="457" frameX="0" frameY="-2" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0001" x="12" y="12" width="287" height="457" frameX="0" frameY="-2" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0002" x="331" y="12" width="288" height="459" frameX="-5" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0003" x="331" y="12" width="288" height="459" frameX="-5" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0004" x="651" y="12" width="358" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0005" x="651" y="12" width="358" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0006" x="1041" y="12" width="530" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0007" x="1041" y="12" width="530" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0008" x="1603" y="12" width="694" height="479" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0009" x="1603" y="12" width="694" height="479" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0010" x="2329" y="12" width="291" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0011" x="2329" y="12" width="291" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0012" x="2329" y="12" width="291" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0013" x="2329" y="12" width="291" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0014" x="2329" y="12" width="291" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Card0015" x="2329" y="12" width="291" height="459" frameX="-20" frameY="0" frameWidth="714" frameHeight="479"/>
-	<SubTexture name="Reimu_Down0000" x="2652" y="12" width="295" height="420" frameX="0" frameY="-8" frameWidth="295" frameHeight="428"/>
-	<SubTexture name="Reimu_Down0001" x="2979" y="12" width="295" height="423" frameX="0" frameY="-5" frameWidth="295" frameHeight="428"/>
-	<SubTexture name="Reimu_Down0002" x="3306" y="12" width="295" height="426" frameX="0" frameY="-2" frameWidth="295" frameHeight="428"/>
-	<SubTexture name="Reimu_Down0003" x="3306" y="12" width="295" height="426" frameX="0" frameY="-2" frameWidth="295" frameHeight="428"/>
-	<SubTexture name="Reimu_Down0004" x="3633" y="12" width="295" height="428"/>
-	<SubTexture name="Reimu_Down0005" x="3633" y="12" width="295" height="428"/>
-	<SubTexture name="Reimu_Down0006" x="3633" y="12" width="295" height="428"/>
-	<SubTexture name="Reimu_Down0007" x="3633" y="12" width="295" height="428"/>
-	<SubTexture name="Reimu_Down0008" x="3633" y="12" width="295" height="428"/>
-	<SubTexture name="Reimu_Down0009" x="3633" y="12" width="295" height="428"/>
-	<SubTexture name="Reimu_Idle0000" x="12" y="523" width="289" height="450" frameX="-8" frameY="-11" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0001" x="12" y="523" width="289" height="450" frameX="-8" frameY="-11" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0002" x="333" y="523" width="295" height="442" frameX="0" frameY="-19" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0003" x="333" y="523" width="295" height="442" frameX="0" frameY="-19" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0004" x="660" y="523" width="292" height="454" frameX="-2" frameY="-7" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0005" x="660" y="523" width="292" height="454" frameX="-2" frameY="-7" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0006" x="984" y="523" width="290" height="461" frameX="-4" frameY="0" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0007" x="984" y="523" width="290" height="461" frameX="-4" frameY="0" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0008" x="1306" y="523" width="289" height="460" frameX="-3" frameY="-1" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0009" x="1306" y="523" width="289" height="460" frameX="-3" frameY="-1" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0010" x="1627" y="523" width="288" height="459" frameX="-2" frameY="-2" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0011" x="1627" y="523" width="288" height="459" frameX="-2" frameY="-2" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0012" x="1627" y="523" width="288" height="459" frameX="-2" frameY="-2" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0013" x="1627" y="523" width="288" height="459" frameX="-2" frameY="-2" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Idle0014" x="1627" y="523" width="288" height="459" frameX="-2" frameY="-2" frameWidth="297" frameHeight="461"/>
-	<SubTexture name="Reimu_Left0000" x="1947" y="523" width="377" height="468" frameX="-69" frameY="0" frameWidth="454" frameHeight="468"/>
-	<SubTexture name="Reimu_Left0001" x="2356" y="523" width="384" height="468" frameX="-65" frameY="0" frameWidth="454" frameHeight="468"/>
-	<SubTexture name="Reimu_Left0002" x="2772" y="523" width="384" height="468" frameX="-67" frameY="0" frameWidth="454" frameHeight="468"/>
-	<SubTexture name="Reimu_Left0003" x="3188" y="523" width="385" height="468" frameX="-66" frameY="0" frameWidth="454" frameHeight="468"/>
-	<SubTexture name="Reimu_Left0004" x="3605" y="523" width="454" height="468"/>
-	<SubTexture name="Reimu_Left0005" x="3605" y="523" width="454" height="468"/>
-	<SubTexture name="Reimu_Left0006" x="3605" y="523" width="454" height="468"/>
-	<SubTexture name="Reimu_Left0007" x="3605" y="523" width="454" height="468"/>
-	<SubTexture name="Reimu_Left0008" x="3605" y="523" width="454" height="468"/>
-	<SubTexture name="Reimu_Left0009" x="3605" y="523" width="454" height="468"/>
-	<SubTexture name="Reimu_Right0000" x="12" y="1023" width="307" height="457" frameX="-8" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0001" x="351" y="1023" width="307" height="457" frameX="-5" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0002" x="690" y="1023" width="306" height="457" frameX="-3" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0003" x="690" y="1023" width="306" height="457" frameX="-3" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0004" x="1028" y="1023" width="307" height="457" frameX="0" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0005" x="1028" y="1023" width="307" height="457" frameX="0" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0006" x="1028" y="1023" width="307" height="457" frameX="0" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0007" x="1028" y="1023" width="307" height="457" frameX="0" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0008" x="1028" y="1023" width="307" height="457" frameX="0" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Right0009" x="1028" y="1023" width="307" height="457" frameX="0" frameY="0" frameWidth="315" frameHeight="457"/>
-	<SubTexture name="Reimu_Up0000" x="1367" y="1023" width="291" height="488" frameX="0" frameY="0" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0001" x="1690" y="1023" width="291" height="487" frameX="-1" frameY="-1" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0002" x="2013" y="1023" width="291" height="483" frameX="-1" frameY="-5" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0003" x="2013" y="1023" width="291" height="483" frameX="-1" frameY="-5" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0004" x="2336" y="1023" width="291" height="479" frameX="-1" frameY="-9" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0005" x="2336" y="1023" width="291" height="479" frameX="-1" frameY="-9" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0006" x="2336" y="1023" width="291" height="479" frameX="-1" frameY="-9" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0007" x="2336" y="1023" width="291" height="479" frameX="-1" frameY="-9" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0008" x="2336" y="1023" width="291" height="479" frameX="-1" frameY="-9" frameWidth="292" frameHeight="488"/>
-	<SubTexture name="Reimu_Up0009" x="2336" y="1023" width="291" height="479" frameX="-1" frameY="-9" frameWidth="292" frameHeight="488"/>
+	<SubTexture name="Reimu_Down0000" x="100" y="100" width="400" height="447" frameX="0" frameY="-13" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0001" x="600" y="100" width="392" height="452" frameX="-4" frameY="-8" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0002" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0003" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0004" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0005" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0006" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0007" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0008" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0009" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0010" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0011" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0012" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Down0013" x="1092" y="100" width="383" height="460" frameX="-9" frameY="0" frameWidth="400" frameHeight="460"/>
+	<SubTexture name="Reimu_Idle0000" x="1575" y="100" width="367" height="465" frameX="-3" frameY="-9" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0001" x="1575" y="100" width="367" height="465" frameX="-3" frameY="-9" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0002" x="2042" y="100" width="380" height="464" frameX="0" frameY="-10" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0003" x="2042" y="100" width="380" height="464" frameX="0" frameY="-10" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0004" x="2522" y="100" width="366" height="473" frameX="-1" frameY="-1" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0005" x="2522" y="100" width="366" height="473" frameX="-1" frameY="-1" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0006" x="2988" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0007" x="2988" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0008" x="3453" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0009" x="3453" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0010" x="3453" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0011" x="3453" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0012" x="3453" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Idle0013" x="3453" y="100" width="365" height="474" frameX="-1" frameY="0" frameWidth="380" frameHeight="474"/>
+	<SubTexture name="Reimu_Left0000" x="100" y="674" width="430" height="477" frameX="-3" frameY="-2" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0001" x="630" y="674" width="437" height="478" frameX="0" frameY="-1" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0002" x="1167" y="674" width="423" height="479" frameX="-17" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0003" x="1690" y="674" width="429" height="479" frameX="-11" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0004" x="2219" y="674" width="431" height="479" frameX="-9" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0005" x="2750" y="674" width="429" height="479" frameX="-11" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0006" x="1167" y="674" width="423" height="479" frameX="-17" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0007" x="1690" y="674" width="429" height="479" frameX="-11" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0008" x="2219" y="674" width="431" height="479" frameX="-9" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0009" x="2750" y="674" width="429" height="479" frameX="-11" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0010" x="1167" y="674" width="423" height="479" frameX="-17" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0011" x="1690" y="674" width="429" height="479" frameX="-11" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0012" x="2219" y="674" width="431" height="479" frameX="-9" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Left0013" x="2750" y="674" width="429" height="479" frameX="-11" frameY="0" frameWidth="440" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0000" x="3279" y="674" width="391" height="479" frameX="-10" frameY="0" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0001" x="100" y="1253" width="390" height="477" frameX="-4" frameY="-2" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0002" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0003" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0004" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0005" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0006" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0007" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0008" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0009" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0010" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0011" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0012" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Right0013" x="590" y="1253" width="388" height="474" frameX="0" frameY="-5" frameWidth="401" frameHeight="479"/>
+	<SubTexture name="Reimu_Shoot0000" x="1078" y="1253" width="377" height="477" frameX="0" frameY="0" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0001" x="1078" y="1253" width="377" height="477" frameX="0" frameY="0" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0002" x="1555" y="1253" width="365" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0003" x="2020" y="1253" width="445" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0004" x="2020" y="1253" width="445" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0005" x="2565" y="1253" width="572" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0006" x="2565" y="1253" width="572" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0007" x="3237" y="1253" width="682" height="520" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0008" x="3237" y="1253" width="682" height="520" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0009" x="100" y="1873" width="936" height="594" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0010" x="100" y="1873" width="936" height="594" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0011" x="1136" y="1873" width="376" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0012" x="1136" y="1873" width="376" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Shoot0013" x="1136" y="1873" width="376" height="474" frameX="-19" frameY="-3" frameWidth="955" frameHeight="597"/>
+	<SubTexture name="Reimu_Up0000" x="1612" y="1873" width="377" height="504" frameX="-4" frameY="0" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0001" x="2089" y="1873" width="383" height="501" frameX="-2" frameY="-3" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0002" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0003" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0004" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0005" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0006" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0007" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0008" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0009" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0010" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0011" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0012" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
+	<SubTexture name="Reimu_Up0013" x="2572" y="1873" width="387" height="496" frameX="0" frameY="-8" frameWidth="387" frameHeight="504"/>
 </TextureAtlas>

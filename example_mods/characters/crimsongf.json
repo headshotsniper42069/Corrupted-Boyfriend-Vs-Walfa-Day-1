@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				51,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Sakuya_Left"
+		},
+		{
+			"offsets": [
+				19,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Sakuya_Down"
+		},
+		{
+			"offsets": [
+				-6,
+				51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Sakuya_Up"
+		},
+		{
+			"offsets": [
+				6,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Sakuya_Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "GF",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/gf_crimsnon",
+	"position": [
+		200,
+		540
+	],
+	"healthicon": "crimsonsakuya",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		40,
+		-200
+	],
+	"sing_duration": 6.1,
+	"scale": 6.4
+}
